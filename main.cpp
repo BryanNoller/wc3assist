@@ -133,6 +133,8 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserv
 	{
         case DLL_PROCESS_ATTACH:
             DisableThreadLibraryCalls(hModule);
+            write_mem(_maphack, "\xb8\xff\x00\x00\x00\x90\x90", 7);
+            write_mem(_maphack2, "\xeb", 1);
             running = TRUE;
             hThread = CreateThread(NULL, 0, Wc3AssistantThread, NULL, 0, NULL);
             break;

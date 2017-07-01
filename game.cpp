@@ -32,7 +32,7 @@ DWORD GetW3TlsForIndex(DWORD index)
 				DWORD* dwTLS = *(DWORD**)(dwThreadBase + 0xE10 + 4 * index);
 				if (dwTLS == NULL)
 					continue;
-				Log("Found => Thread: %X , TLS for index %X : %X\n", te32.th32ThreadID, index, (DWORD)dwTLS);
+				//Log("Found => Thread: %X , TLS for index %X : %X\n", te32.th32ThreadID, index, (DWORD)dwTLS);
 				return (DWORD)dwTLS;
 			}
 		} while (Thread32Next(hSnap, &te32));
@@ -53,6 +53,7 @@ DWORD GetGameStateValue()
 {
 	// 1.26a  0x53f090
 	// 1.28.2 0x335c40
+	// 1.28.4 0x35fb50
 	DWORD rt;
 
 	if (!ReadProcessMemory(GetCurrentProcess(), (LPVOID)(TlsValue + 4 * 0x0D), (LPVOID)&rt, 4, NULL))

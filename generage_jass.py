@@ -2,6 +2,7 @@ import winappdbg
 
 OFFSET = 0x9177D0 # 1.28.1
 OFFSET = 0x917950 # 1.28.2
+OFFSET = 0x8c1d40 # 1.28.4
 
 methods = []
 
@@ -239,7 +240,7 @@ with winappdbg.Debug(MyEventHandler(), bKillOnExit=True) as debug:
         f.write("#include \"stdafx.h\"\n")
         f.write("\n")
     try:
-        debug.execv( [r"C:\Program Files (x86)\Warcraft III\Frozen Throne.exe"], bFollow=True )
+        debug.execv( [r"C:\Program Files (x86)\Warcraft III\Warcraft III.exe"], bFollow=True )
         debug.loop()
     except KeyboardInterrupt:
         debug.stop()
