@@ -1,6 +1,6 @@
 #include "stdafx.h"
 
-// Deg2Rad 0022f420 (R)R
+// Deg2Rad 0022f5b0 (R)R
 DWORD Jass_Deg2Rad(DWORD arg_0_R)
 {
    DWORD rt = 0;
@@ -23,7 +23,7 @@ static PyObject* Deg2Rad(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// Rad2Deg 00242990 (R)R
+// Rad2Deg 00242b00 (R)R
 DWORD Jass_Rad2Deg(DWORD arg_0_R)
 {
    DWORD rt = 0;
@@ -46,7 +46,7 @@ static PyObject* Rad2Deg(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// Sin 00248210 (R)R
+// Sin 00248380 (R)R
 DWORD Jass_Sin(DWORD arg_0_R)
 {
    DWORD rt = 0;
@@ -69,7 +69,7 @@ static PyObject* Sin(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// Cos 0022bc00 (R)R
+// Cos 0022bd90 (R)R
 DWORD Jass_Cos(DWORD arg_0_R)
 {
    DWORD rt = 0;
@@ -92,7 +92,7 @@ static PyObject* Cos(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// Tan 00248c60 (R)R
+// Tan 00248dd0 (R)R
 DWORD Jass_Tan(DWORD arg_0_R)
 {
    DWORD rt = 0;
@@ -115,7 +115,7 @@ static PyObject* Tan(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// Asin 0022a8d0 (R)R
+// Asin 0022aa60 (R)R
 DWORD Jass_Asin(DWORD arg_0_R)
 {
    DWORD rt = 0;
@@ -138,7 +138,7 @@ static PyObject* Asin(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// Acos 00229c50 (R)R
+// Acos 00229de0 (R)R
 DWORD Jass_Acos(DWORD arg_0_R)
 {
    DWORD rt = 0;
@@ -161,7 +161,7 @@ static PyObject* Acos(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// Atan 0022a990 (R)R
+// Atan 0022ab20 (R)R
 DWORD Jass_Atan(DWORD arg_0_R)
 {
    DWORD rt = 0;
@@ -184,7 +184,7 @@ static PyObject* Atan(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// Atan2 0022a910 (RR)R
+// Atan2 0022aaa0 (RR)R
 DWORD Jass_Atan2(DWORD arg_0_R, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -210,7 +210,7 @@ static PyObject* Atan2(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SquareRoot 00248240 (R)R
+// SquareRoot 002483b0 (R)R
 DWORD Jass_SquareRoot(DWORD arg_0_R)
 {
    DWORD rt = 0;
@@ -233,7 +233,7 @@ static PyObject* SquareRoot(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// Pow 00242000 (RR)R
+// Pow 00242180 (RR)R
 DWORD Jass_Pow(DWORD arg_0_R, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -259,7 +259,7 @@ static PyObject* Pow(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// I2R 002372d0 (I)R
+// I2R 00237460 (I)R
 DWORD Jass_I2R(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -282,7 +282,7 @@ static PyObject* I2R(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// R2I 002428b0 (R)I
+// R2I 00242a20 (R)I
 DWORD Jass_R2I(DWORD arg_0_R)
 {
    DWORD rt = 0;
@@ -305,7 +305,7 @@ static PyObject* R2I(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// I2S 002372f0 (I)S
+// I2S 00237480 (I)S
 DWORD Jass_I2S(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -328,7 +328,7 @@ static PyObject* I2S(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// R2S 002428c0 (R)S
+// R2S 00242a30 (R)S
 DWORD Jass_R2S(DWORD arg_0_R)
 {
    DWORD rt = 0;
@@ -351,7 +351,7 @@ static PyObject* R2S(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// R2SW 00242900 (RII)S
+// R2SW 00242a70 (RII)S
 DWORD Jass_R2SW(DWORD arg_0_R, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -380,7 +380,7 @@ static PyObject* R2SW(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// S2I 00243560 (S)I
+// S2I 002436d0 (S)I
 DWORD Jass_S2I(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -403,7 +403,7 @@ static PyObject* S2I(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// S2R 00243590 (S)R
+// S2R 00243700 (S)R
 DWORD Jass_S2R(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -426,7 +426,7 @@ static PyObject* S2R(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetHandleId 00232840 (Hhandle;)I
+// GetHandleId 002329d0 (Hhandle;)I
 DWORD Jass_GetHandleId(DWORD arg_0_Hhandle)
 {
    DWORD rt = 0;
@@ -449,7 +449,7 @@ static PyObject* GetHandleId(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SubString 00248910 (SII)S
+// SubString 00248a80 (SII)S
 DWORD Jass_SubString(DWORD arg_0_S, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -478,7 +478,7 @@ static PyObject* SubString(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// StringLength 00248630 (S)I
+// StringLength 002487a0 (S)I
 DWORD Jass_StringLength(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -501,7 +501,7 @@ static PyObject* StringLength(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// StringCase 00248580 (SB)S
+// StringCase 002486f0 (SB)S
 DWORD Jass_StringCase(DWORD arg_0_S, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -527,7 +527,7 @@ static PyObject* StringCase(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// StringHash 00248610 (S)I
+// StringHash 00248780 (S)I
 DWORD Jass_StringHash(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -550,7 +550,7 @@ static PyObject* StringHash(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetLocalizedString 00233270 (S)S
+// GetLocalizedString 00233400 (S)S
 DWORD Jass_GetLocalizedString(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -573,7 +573,7 @@ static PyObject* GetLocalizedString(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// GetLocalizedHotkey 00233240 (S)I
+// GetLocalizedHotkey 002333d0 (S)I
 DWORD Jass_GetLocalizedHotkey(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -596,7 +596,7 @@ static PyObject* GetLocalizedHotkey(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertRace 0022b980 (I)Hrace;
+// ConvertRace 0022bb10 (I)Hrace;
 DWORD Jass_ConvertRace(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -619,7 +619,7 @@ static PyObject* ConvertRace(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertAllianceType 0022b7a0 (I)Halliancetype;
+// ConvertAllianceType 0022b930 (I)Halliancetype;
 DWORD Jass_ConvertAllianceType(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -642,7 +642,7 @@ static PyObject* ConvertAllianceType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertRacePref 0022b990 (I)Hracepreference;
+// ConvertRacePref 0022bb20 (I)Hracepreference;
 DWORD Jass_ConvertRacePref(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -665,7 +665,7 @@ static PyObject* ConvertRacePref(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertIGameState 0022b870 (I)Higamestate;
+// ConvertIGameState 0022ba00 (I)Higamestate;
 DWORD Jass_ConvertIGameState(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -688,7 +688,7 @@ static PyObject* ConvertIGameState(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertFGameState 0022b810 (I)Hfgamestate;
+// ConvertFGameState 0022b9a0 (I)Hfgamestate;
 DWORD Jass_ConvertFGameState(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -711,7 +711,7 @@ static PyObject* ConvertFGameState(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertPlayerState 0022b960 (I)Hplayerstate;
+// ConvertPlayerState 0022baf0 (I)Hplayerstate;
 DWORD Jass_ConvertPlayerState(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -734,7 +734,7 @@ static PyObject* ConvertPlayerState(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertPlayerScore 0022b940 (I)Hplayerscore;
+// ConvertPlayerScore 0022bad0 (I)Hplayerscore;
 DWORD Jass_ConvertPlayerScore(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -757,7 +757,7 @@ static PyObject* ConvertPlayerScore(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertStartLocPrio 0022b9d0 (I)Hstartlocprio;
+// ConvertStartLocPrio 0022bb60 (I)Hstartlocprio;
 DWORD Jass_ConvertStartLocPrio(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -780,7 +780,7 @@ static PyObject* ConvertStartLocPrio(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertPlayerGameResult 0022b930 (I)Hplayergameresult;
+// ConvertPlayerGameResult 0022bac0 (I)Hplayergameresult;
 DWORD Jass_ConvertPlayerGameResult(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -803,7 +803,7 @@ static PyObject* ConvertPlayerGameResult(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertUnitState 0022ba50 (I)Hunitstate;
+// ConvertUnitState 0022bbe0 (I)Hunitstate;
 DWORD Jass_ConvertUnitState(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -826,7 +826,7 @@ static PyObject* ConvertUnitState(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertAIDifficulty 0022b790 (I)Haidifficulty;
+// ConvertAIDifficulty 0022b920 (I)Haidifficulty;
 DWORD Jass_ConvertAIDifficulty(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -849,7 +849,7 @@ static PyObject* ConvertAIDifficulty(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertGameEvent 0022b840 (I)Hgameevent;
+// ConvertGameEvent 0022b9d0 (I)Hgameevent;
 DWORD Jass_ConvertGameEvent(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -872,7 +872,7 @@ static PyObject* ConvertGameEvent(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertPlayerEvent 0022b920 (I)Hplayerevent;
+// ConvertPlayerEvent 0022bab0 (I)Hplayerevent;
 DWORD Jass_ConvertPlayerEvent(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -895,7 +895,7 @@ static PyObject* ConvertPlayerEvent(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertPlayerUnitEvent 0022b970 (I)Hplayerunitevent;
+// ConvertPlayerUnitEvent 0022bb00 (I)Hplayerunitevent;
 DWORD Jass_ConvertPlayerUnitEvent(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -918,7 +918,7 @@ static PyObject* ConvertPlayerUnitEvent(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertUnitEvent 0022ba40 (I)Hunitevent;
+// ConvertUnitEvent 0022bbd0 (I)Hunitevent;
 DWORD Jass_ConvertUnitEvent(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -941,7 +941,7 @@ static PyObject* ConvertUnitEvent(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertWidgetEvent 0022baa0 (I)Hwidgetevent;
+// ConvertWidgetEvent 0022bc30 (I)Hwidgetevent;
 DWORD Jass_ConvertWidgetEvent(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -964,7 +964,7 @@ static PyObject* ConvertWidgetEvent(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertDialogEvent 0022b7f0 (I)Hdialogevent;
+// ConvertDialogEvent 0022b980 (I)Hdialogevent;
 DWORD Jass_ConvertDialogEvent(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -987,7 +987,7 @@ static PyObject* ConvertDialogEvent(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertLimitOp 0022b890 (I)Hlimitop;
+// ConvertLimitOp 0022ba20 (I)Hlimitop;
 DWORD Jass_ConvertLimitOp(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1010,7 +1010,7 @@ static PyObject* ConvertLimitOp(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertUnitType 0022ba60 (I)Hunittype;
+// ConvertUnitType 0022bbf0 (I)Hunittype;
 DWORD Jass_ConvertUnitType(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1033,7 +1033,7 @@ static PyObject* ConvertUnitType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertGameSpeed 0022b850 (I)Hgamespeed;
+// ConvertGameSpeed 0022b9e0 (I)Hgamespeed;
 DWORD Jass_ConvertGameSpeed(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1056,7 +1056,7 @@ static PyObject* ConvertGameSpeed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertPlacement 0022b900 (I)Hplacement;
+// ConvertPlacement 0022ba90 (I)Hplacement;
 DWORD Jass_ConvertPlacement(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1079,7 +1079,7 @@ static PyObject* ConvertPlacement(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertGameDifficulty 0022b830 (I)Hgamedifficulty;
+// ConvertGameDifficulty 0022b9c0 (I)Hgamedifficulty;
 DWORD Jass_ConvertGameDifficulty(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1102,7 +1102,7 @@ static PyObject* ConvertGameDifficulty(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertGameType 0022b860 (I)Hgametype;
+// ConvertGameType 0022b9f0 (I)Hgametype;
 DWORD Jass_ConvertGameType(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1125,7 +1125,7 @@ static PyObject* ConvertGameType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertMapFlag 0022b8c0 (I)Hmapflag;
+// ConvertMapFlag 0022ba50 (I)Hmapflag;
 DWORD Jass_ConvertMapFlag(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1148,7 +1148,7 @@ static PyObject* ConvertMapFlag(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertMapVisibility 0022b8e0 (I)Hmapvisibility;
+// ConvertMapVisibility 0022ba70 (I)Hmapvisibility;
 DWORD Jass_ConvertMapVisibility(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1171,7 +1171,7 @@ static PyObject* ConvertMapVisibility(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertMapSetting 0022b8d0 (I)Hmapsetting;
+// ConvertMapSetting 0022ba60 (I)Hmapsetting;
 DWORD Jass_ConvertMapSetting(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1194,7 +1194,7 @@ static PyObject* ConvertMapSetting(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertMapDensity 0022b8b0 (I)Hmapdensity;
+// ConvertMapDensity 0022ba40 (I)Hmapdensity;
 DWORD Jass_ConvertMapDensity(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1217,7 +1217,7 @@ static PyObject* ConvertMapDensity(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertMapControl 0022b8a0 (I)Hmapcontrol;
+// ConvertMapControl 0022ba30 (I)Hmapcontrol;
 DWORD Jass_ConvertMapControl(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1240,7 +1240,7 @@ static PyObject* ConvertMapControl(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertPlayerColor 0022b910 (I)Hplayercolor;
+// ConvertPlayerColor 0022baa0 (I)Hplayercolor;
 DWORD Jass_ConvertPlayerColor(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1263,7 +1263,7 @@ static PyObject* ConvertPlayerColor(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertPlayerSlotState 0022b950 (I)Hplayerslotstate;
+// ConvertPlayerSlotState 0022bae0 (I)Hplayerslotstate;
 DWORD Jass_ConvertPlayerSlotState(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1286,7 +1286,7 @@ static PyObject* ConvertPlayerSlotState(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertVolumeGroup 0022ba80 (I)Hvolumegroup;
+// ConvertVolumeGroup 0022bc10 (I)Hvolumegroup;
 DWORD Jass_ConvertVolumeGroup(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1309,7 +1309,7 @@ static PyObject* ConvertVolumeGroup(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertCameraField 0022b7d0 (I)Hcamerafield;
+// ConvertCameraField 0022b960 (I)Hcamerafield;
 DWORD Jass_ConvertCameraField(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1332,7 +1332,7 @@ static PyObject* ConvertCameraField(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertBlendMode 0022b7c0 (I)Hblendmode;
+// ConvertBlendMode 0022b950 (I)Hblendmode;
 DWORD Jass_ConvertBlendMode(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1355,7 +1355,7 @@ static PyObject* ConvertBlendMode(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertRarityControl 0022b9b0 (I)Hraritycontrol;
+// ConvertRarityControl 0022bb40 (I)Hraritycontrol;
 DWORD Jass_ConvertRarityControl(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1378,7 +1378,7 @@ static PyObject* ConvertRarityControl(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertTexMapFlags 0022b9e0 (I)Htexmapflags;
+// ConvertTexMapFlags 0022bb70 (I)Htexmapflags;
 DWORD Jass_ConvertTexMapFlags(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1401,7 +1401,7 @@ static PyObject* ConvertTexMapFlags(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertFogState 0022b820 (I)Hfogstate;
+// ConvertFogState 0022b9b0 (I)Hfogstate;
 DWORD Jass_ConvertFogState(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1424,7 +1424,7 @@ static PyObject* ConvertFogState(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertEffectType 0022b800 (I)Heffecttype;
+// ConvertEffectType 0022b990 (I)Heffecttype;
 DWORD Jass_ConvertEffectType(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1447,7 +1447,7 @@ static PyObject* ConvertEffectType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertVersion 0022ba70 (I)Hversion;
+// ConvertVersion 0022bc00 (I)Hversion;
 DWORD Jass_ConvertVersion(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1470,7 +1470,7 @@ static PyObject* ConvertVersion(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertItemType 0022b880 (I)Hitemtype;
+// ConvertItemType 0022ba10 (I)Hitemtype;
 DWORD Jass_ConvertItemType(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1493,7 +1493,7 @@ static PyObject* ConvertItemType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertAttackType 0022b7b0 (I)Hattacktype;
+// ConvertAttackType 0022b940 (I)Hattacktype;
 DWORD Jass_ConvertAttackType(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1516,7 +1516,7 @@ static PyObject* ConvertAttackType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertDamageType 0022b7e0 (I)Hdamagetype;
+// ConvertDamageType 0022b970 (I)Hdamagetype;
 DWORD Jass_ConvertDamageType(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1539,7 +1539,7 @@ static PyObject* ConvertDamageType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertWeaponType 0022ba90 (I)Hweapontype;
+// ConvertWeaponType 0022bc20 (I)Hweapontype;
 DWORD Jass_ConvertWeaponType(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1562,7 +1562,7 @@ static PyObject* ConvertWeaponType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertSoundType 0022b9c0 (I)Hsoundtype;
+// ConvertSoundType 0022bb50 (I)Hsoundtype;
 DWORD Jass_ConvertSoundType(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1585,7 +1585,7 @@ static PyObject* ConvertSoundType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertPathingType 0022b8f0 (I)Hpathingtype;
+// ConvertPathingType 0022ba80 (I)Hpathingtype;
 DWORD Jass_ConvertPathingType(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1608,7 +1608,7 @@ static PyObject* ConvertPathingType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetMapName 002460c0 (S)V
+// SetMapName 00246230 (S)V
 DWORD Jass_SetMapName(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -1631,7 +1631,7 @@ static PyObject* SetMapName(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetMapDescription 00246030 (S)V
+// SetMapDescription 002461a0 (S)V
 DWORD Jass_SetMapDescription(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -1654,7 +1654,7 @@ static PyObject* SetMapDescription(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetTeams 00246d10 (I)V
+// SetTeams 00246e80 (I)V
 DWORD Jass_SetTeams(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1677,7 +1677,7 @@ static PyObject* SetTeams(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetPlayers 00246640 (I)V
+// SetPlayers 002467b0 (I)V
 DWORD Jass_SetPlayers(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -1700,7 +1700,7 @@ static PyObject* SetPlayers(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetGameTypeSupported 00245880 (Hgametype;B)V
+// SetGameTypeSupported 002459f0 (Hgametype;B)V
 DWORD Jass_SetGameTypeSupported(DWORD arg_0_Hgametype, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -1726,7 +1726,7 @@ static PyObject* SetGameTypeSupported(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetMapFlag 00246060 (Hmapflag;B)V
+// SetMapFlag 002461d0 (Hmapflag;B)V
 DWORD Jass_SetMapFlag(DWORD arg_0_Hmapflag, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -1752,7 +1752,7 @@ static PyObject* SetMapFlag(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetGameSpeed 00245860 (Hgamespeed;)V
+// SetGameSpeed 002459d0 (Hgamespeed;)V
 DWORD Jass_SetGameSpeed(DWORD arg_0_Hgamespeed)
 {
    DWORD rt = 0;
@@ -1775,7 +1775,7 @@ static PyObject* SetGameSpeed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetGamePlacement 00245840 (Hplacement;)V
+// SetGamePlacement 002459b0 (Hplacement;)V
 DWORD Jass_SetGamePlacement(DWORD arg_0_Hplacement)
 {
    DWORD rt = 0;
@@ -1798,7 +1798,7 @@ static PyObject* SetGamePlacement(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetGameDifficulty 00245820 (Hgamedifficulty;)V
+// SetGameDifficulty 00245990 (Hgamedifficulty;)V
 DWORD Jass_SetGameDifficulty(DWORD arg_0_Hgamedifficulty)
 {
    DWORD rt = 0;
@@ -1821,7 +1821,7 @@ static PyObject* SetGameDifficulty(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetResourceDensity 002467d0 (Hmapdensity;)V
+// SetResourceDensity 00246940 (Hmapdensity;)V
 DWORD Jass_SetResourceDensity(DWORD arg_0_Hmapdensity)
 {
    DWORD rt = 0;
@@ -1844,7 +1844,7 @@ static PyObject* SetResourceDensity(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCreatureDensity 00244a60 (Hmapdensity;)V
+// SetCreatureDensity 00244bd0 (Hmapdensity;)V
 DWORD Jass_SetCreatureDensity(DWORD arg_0_Hmapdensity)
 {
    DWORD rt = 0;
@@ -1867,7 +1867,7 @@ static PyObject* SetCreatureDensity(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DefineStartLocation 0022f3c0 (IRR)V
+// DefineStartLocation 0022f550 (IRR)V
 DWORD Jass_DefineStartLocation(DWORD arg_0_I, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -1896,7 +1896,7 @@ static PyObject* DefineStartLocation(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DefineStartLocationLoc 0022f3e0 (IHlocation;)V
+// DefineStartLocationLoc 0022f570 (IHlocation;)V
 DWORD Jass_DefineStartLocationLoc(DWORD arg_0_I, DWORD arg_4_Hlocation)
 {
    DWORD rt = 0;
@@ -1922,7 +1922,7 @@ static PyObject* DefineStartLocationLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetStartLocPrioCount 00246ce0 (II)V
+// SetStartLocPrioCount 00246e50 (II)V
 DWORD Jass_SetStartLocPrioCount(DWORD arg_0_I, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -1948,7 +1948,7 @@ static PyObject* SetStartLocPrioCount(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetStartLocPrio 00246ca0 (IIIHstartlocprio;)V
+// SetStartLocPrio 00246e10 (IIIHstartlocprio;)V
 DWORD Jass_SetStartLocPrio(DWORD arg_0_I, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hstartlocprio)
 {
    DWORD rt = 0;
@@ -1980,7 +1980,7 @@ static PyObject* SetStartLocPrio(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetStartLocPrioSlot 00235670 (II)I
+// GetStartLocPrioSlot 00235800 (II)I
 DWORD Jass_GetStartLocPrioSlot(DWORD arg_0_I, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -2006,7 +2006,7 @@ static PyObject* GetStartLocPrioSlot(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetStartLocPrio 00235640 (II)Hstartlocprio;
+// GetStartLocPrio 002357d0 (II)Hstartlocprio;
 DWORD Jass_GetStartLocPrio(DWORD arg_0_I, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -2032,7 +2032,7 @@ static PyObject* GetStartLocPrio(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetTeams 002359b0 ()I
+// GetTeams 00235b40 ()I
 DWORD Jass_GetTeams()
 {
    DWORD rt = 0;
@@ -2049,7 +2049,7 @@ static PyObject* GetTeams(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetPlayers 002343f0 ()I
+// GetPlayers 00234580 ()I
 DWORD Jass_GetPlayers()
 {
    DWORD rt = 0;
@@ -2066,7 +2066,7 @@ static PyObject* GetPlayers(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsGameTypeSupported 00237b30 (Hgametype;)B
+// IsGameTypeSupported 00237cc0 (Hgametype;)B
 DWORD Jass_IsGameTypeSupported(DWORD arg_0_Hgametype)
 {
    DWORD rt = 0;
@@ -2089,7 +2089,7 @@ static PyObject* IsGameTypeSupported(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsMapFlagSet 00237ee0 (Hmapflag;)B
+// IsMapFlagSet 00238070 (Hmapflag;)B
 DWORD Jass_IsMapFlagSet(DWORD arg_0_Hmapflag)
 {
    DWORD rt = 0;
@@ -2112,7 +2112,7 @@ static PyObject* IsMapFlagSet(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetGameTypeSelected 00232830 ()Hgametype;
+// GetGameTypeSelected 002329c0 ()Hgametype;
 DWORD Jass_GetGameTypeSelected()
 {
    DWORD rt = 0;
@@ -2129,7 +2129,7 @@ static PyObject* GetGameTypeSelected(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetGamePlacement 00232810 ()Hplacement;
+// GetGamePlacement 002329a0 ()Hplacement;
 DWORD Jass_GetGamePlacement()
 {
    DWORD rt = 0;
@@ -2146,7 +2146,7 @@ static PyObject* GetGamePlacement(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetGameSpeed 00232820 ()Hgamespeed;
+// GetGameSpeed 002329b0 ()Hgamespeed;
 DWORD Jass_GetGameSpeed()
 {
    DWORD rt = 0;
@@ -2163,7 +2163,7 @@ static PyObject* GetGameSpeed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetGameDifficulty 00232800 ()Hgamedifficulty;
+// GetGameDifficulty 00232990 ()Hgamedifficulty;
 DWORD Jass_GetGameDifficulty()
 {
    DWORD rt = 0;
@@ -2180,7 +2180,7 @@ static PyObject* GetGameDifficulty(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetResourceDensity 002348a0 ()Hmapdensity;
+// GetResourceDensity 00234a30 ()Hmapdensity;
 DWORD Jass_GetResourceDensity()
 {
    DWORD rt = 0;
@@ -2197,7 +2197,7 @@ static PyObject* GetResourceDensity(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetCreatureDensity 00231f20 ()Hmapdensity;
+// GetCreatureDensity 002320b0 ()Hmapdensity;
 DWORD Jass_GetCreatureDensity()
 {
    DWORD rt = 0;
@@ -2214,7 +2214,7 @@ static PyObject* GetCreatureDensity(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetStartLocationX 002356f0 (I)R
+// GetStartLocationX 00235880 (I)R
 DWORD Jass_GetStartLocationX(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -2237,7 +2237,7 @@ static PyObject* GetStartLocationX(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetStartLocationY 00235710 (I)R
+// GetStartLocationY 002358a0 (I)R
 DWORD Jass_GetStartLocationY(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -2260,7 +2260,7 @@ static PyObject* GetStartLocationY(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetStartLocationLoc 002356a0 (I)Hlocation;
+// GetStartLocationLoc 00235830 (I)Hlocation;
 DWORD Jass_GetStartLocationLoc(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -2283,7 +2283,7 @@ static PyObject* GetStartLocationLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetPlayerTeam 00246580 (Hplayer;I)V
+// SetPlayerTeam 002466f0 (Hplayer;I)V
 DWORD Jass_SetPlayerTeam(DWORD arg_0_Hplayer, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -2309,7 +2309,7 @@ static PyObject* SetPlayerTeam(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetPlayerStartLocation 002464a0 (Hplayer;I)V
+// SetPlayerStartLocation 00246610 (Hplayer;I)V
 DWORD Jass_SetPlayerStartLocation(DWORD arg_0_Hplayer, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -2335,7 +2335,7 @@ static PyObject* SetPlayerStartLocation(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ForcePlayerStartLocation 00230eb0 (Hplayer;I)V
+// ForcePlayerStartLocation 00231040 (Hplayer;I)V
 DWORD Jass_ForcePlayerStartLocation(DWORD arg_0_Hplayer, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -2361,7 +2361,7 @@ static PyObject* ForcePlayerStartLocation(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetPlayerAlliance 002461d0 (Hplayer;Hplayer;Halliancetype;B)V
+// SetPlayerAlliance 00246340 (Hplayer;Hplayer;Halliancetype;B)V
 DWORD Jass_SetPlayerAlliance(DWORD arg_0_Hplayer, DWORD arg_4_Hplayer, DWORD arg_8_Halliancetype, DWORD arg_C_B)
 {
    DWORD rt = 0;
@@ -2393,7 +2393,7 @@ static PyObject* SetPlayerAlliance(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetPlayerTaxRate 00246520 (Hplayer;Hplayer;Hplayerstate;I)V
+// SetPlayerTaxRate 00246690 (Hplayer;Hplayer;Hplayerstate;I)V
 DWORD Jass_SetPlayerTaxRate(DWORD arg_0_Hplayer, DWORD arg_4_Hplayer, DWORD arg_8_Hplayerstate, DWORD arg_C_I)
 {
    DWORD rt = 0;
@@ -2425,7 +2425,7 @@ static PyObject* SetPlayerTaxRate(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetPlayerRacePreference 00246440 (Hplayer;Hracepreference;)V
+// SetPlayerRacePreference 002465b0 (Hplayer;Hracepreference;)V
 DWORD Jass_SetPlayerRacePreference(DWORD arg_0_Hplayer, DWORD arg_4_Hracepreference)
 {
    DWORD rt = 0;
@@ -2451,7 +2451,7 @@ static PyObject* SetPlayerRacePreference(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetPlayerRaceSelectable 00246470 (Hplayer;B)V
+// SetPlayerRaceSelectable 002465e0 (Hplayer;B)V
 DWORD Jass_SetPlayerRaceSelectable(DWORD arg_0_Hplayer, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -2477,7 +2477,7 @@ static PyObject* SetPlayerRaceSelectable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetPlayerController 00246290 (Hplayer;Hmapcontrol;)V
+// SetPlayerController 00246400 (Hplayer;Hmapcontrol;)V
 DWORD Jass_SetPlayerController(DWORD arg_0_Hplayer, DWORD arg_4_Hmapcontrol)
 {
    DWORD rt = 0;
@@ -2503,7 +2503,7 @@ static PyObject* SetPlayerController(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetPlayerColor 00246270 (Hplayer;Hplayercolor;)V
+// SetPlayerColor 002463e0 (Hplayer;Hplayercolor;)V
 DWORD Jass_SetPlayerColor(DWORD arg_0_Hplayer, DWORD arg_4_Hplayercolor)
 {
    DWORD rt = 0;
@@ -2529,7 +2529,7 @@ static PyObject* SetPlayerColor(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetPlayerOnScoreScreen 00246420 (Hplayer;B)V
+// SetPlayerOnScoreScreen 00246590 (Hplayer;B)V
 DWORD Jass_SetPlayerOnScoreScreen(DWORD arg_0_Hplayer, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -2555,7 +2555,7 @@ static PyObject* SetPlayerOnScoreScreen(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetPlayerName 002463e0 (Hplayer;S)V
+// SetPlayerName 00246550 (Hplayer;S)V
 DWORD Jass_SetPlayerName(DWORD arg_0_Hplayer, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -2581,7 +2581,7 @@ static PyObject* SetPlayerName(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetPlayerTeam 00234200 (Hplayer;)I
+// GetPlayerTeam 00234390 (Hplayer;)I
 DWORD Jass_GetPlayerTeam(DWORD arg_0_Hplayer)
 {
    DWORD rt = 0;
@@ -2604,7 +2604,7 @@ static PyObject* GetPlayerTeam(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetPlayerName 00233de0 (Hplayer;)S
+// GetPlayerName 00233f70 (Hplayer;)S
 DWORD Jass_GetPlayerName(DWORD arg_0_Hplayer)
 {
    DWORD rt = 0;
@@ -2627,7 +2627,7 @@ static PyObject* GetPlayerName(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// GetPlayerStartLocation 002340a0 (Hplayer;)I
+// GetPlayerStartLocation 00234230 (Hplayer;)I
 DWORD Jass_GetPlayerStartLocation(DWORD arg_0_Hplayer)
 {
    DWORD rt = 0;
@@ -2650,7 +2650,7 @@ static PyObject* GetPlayerStartLocation(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetPlayerStartLocationX 002340c0 (Hplayer;)R
+// GetPlayerStartLocationX 00234250 (Hplayer;)R
 DWORD Jass_GetPlayerStartLocationX(DWORD arg_0_Hplayer)
 {
    DWORD rt = 0;
@@ -2673,7 +2673,7 @@ static PyObject* GetPlayerStartLocationX(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetPlayerStartLocationY 002340f0 (Hplayer;)R
+// GetPlayerStartLocationY 00234280 (Hplayer;)R
 DWORD Jass_GetPlayerStartLocationY(DWORD arg_0_Hplayer)
 {
    DWORD rt = 0;
@@ -2696,7 +2696,7 @@ static PyObject* GetPlayerStartLocationY(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetPlayerColor 00233d40 (Hplayer;)Hplayercolor;
+// GetPlayerColor 00233ed0 (Hplayer;)Hplayercolor;
 DWORD Jass_GetPlayerColor(DWORD arg_0_Hplayer)
 {
    DWORD rt = 0;
@@ -2719,7 +2719,7 @@ static PyObject* GetPlayerColor(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetPlayerSelectable 00234060 (Hplayer;)B
+// GetPlayerSelectable 002341f0 (Hplayer;)B
 DWORD Jass_GetPlayerSelectable(DWORD arg_0_Hplayer)
 {
    DWORD rt = 0;
@@ -2742,7 +2742,7 @@ static PyObject* GetPlayerSelectable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetPlayerController 00233d60 (Hplayer;)Hmapcontrol;
+// GetPlayerController 00233ef0 (Hplayer;)Hmapcontrol;
 DWORD Jass_GetPlayerController(DWORD arg_0_Hplayer)
 {
    DWORD rt = 0;
@@ -2765,7 +2765,7 @@ static PyObject* GetPlayerController(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetPlayerSlotState 00234080 (Hplayer;)Hplayerslotstate;
+// GetPlayerSlotState 00234210 (Hplayer;)Hplayerslotstate;
 DWORD Jass_GetPlayerSlotState(DWORD arg_0_Hplayer)
 {
    DWORD rt = 0;
@@ -2788,7 +2788,7 @@ static PyObject* GetPlayerSlotState(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetPlayerTaxRate 002341b0 (Hplayer;Hplayer;Hplayerstate;)I
+// GetPlayerTaxRate 00234340 (Hplayer;Hplayer;Hplayerstate;)I
 DWORD Jass_GetPlayerTaxRate(DWORD arg_0_Hplayer, DWORD arg_4_Hplayer, DWORD arg_8_Hplayerstate)
 {
    DWORD rt = 0;
@@ -2817,7 +2817,7 @@ static PyObject* GetPlayerTaxRate(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsPlayerRacePrefSet 00238220 (Hplayer;Hracepreference;)B
+// IsPlayerRacePrefSet 002383b0 (Hplayer;Hracepreference;)B
 DWORD Jass_IsPlayerRacePrefSet(DWORD arg_0_Hplayer, DWORD arg_4_Hracepreference)
 {
    DWORD rt = 0;
@@ -2843,7 +2843,7 @@ static PyObject* IsPlayerRacePrefSet(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// Location 00240c90 (RR)Hlocation;
+// Location 00240e20 (RR)Hlocation;
 DWORD Jass_Location(DWORD arg_0_R, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -2869,7 +2869,7 @@ static PyObject* Location(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RemoveLocation 00242f20 (Hlocation;)V
+// RemoveLocation 00243090 (Hlocation;)V
 DWORD Jass_RemoveLocation(DWORD arg_0_Hlocation)
 {
    DWORD rt = 0;
@@ -2892,7 +2892,7 @@ static PyObject* RemoveLocation(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MoveLocation 00240f40 (Hlocation;RR)V
+// MoveLocation 002410d0 (Hlocation;RR)V
 DWORD Jass_MoveLocation(DWORD arg_0_Hlocation, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -2921,7 +2921,7 @@ static PyObject* MoveLocation(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetLocationX 002332e0 (Hlocation;)R
+// GetLocationX 00233470 (Hlocation;)R
 DWORD Jass_GetLocationX(DWORD arg_0_Hlocation)
 {
    DWORD rt = 0;
@@ -2944,7 +2944,7 @@ static PyObject* GetLocationX(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetLocationY 00233300 (Hlocation;)R
+// GetLocationY 00233490 (Hlocation;)R
 DWORD Jass_GetLocationY(DWORD arg_0_Hlocation)
 {
    DWORD rt = 0;
@@ -2967,7 +2967,7 @@ static PyObject* GetLocationY(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetLocationZ 00233320 (Hlocation;)R
+// GetLocationZ 002334b0 (Hlocation;)R
 DWORD Jass_GetLocationZ(DWORD arg_0_Hlocation)
 {
    DWORD rt = 0;
@@ -2990,7 +2990,7 @@ static PyObject* GetLocationZ(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateTimer 0022eb70 ()Htimer;
+// CreateTimer 0022ed00 ()Htimer;
 DWORD Jass_CreateTimer()
 {
    DWORD rt = 0;
@@ -3007,7 +3007,7 @@ static PyObject* CreateTimer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DestroyTimer 0022f850 (Htimer;)V
+// DestroyTimer 0022f9e0 (Htimer;)V
 DWORD Jass_DestroyTimer(DWORD arg_0_Htimer)
 {
    DWORD rt = 0;
@@ -3030,7 +3030,7 @@ static PyObject* DestroyTimer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TimerStart 00249180 (Htimer;RBC)V
+// TimerStart 002492f0 (Htimer;RBC)V
 DWORD Jass_TimerStart(DWORD arg_0_Htimer, DWORD arg_4_R, DWORD arg_8_B, DWORD arg_C_C)
 {
    DWORD rt = 0;
@@ -3062,7 +3062,7 @@ static PyObject* TimerStart(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TimerGetTimeout 00249150 (Htimer;)R
+// TimerGetTimeout 002492c0 (Htimer;)R
 DWORD Jass_TimerGetTimeout(DWORD arg_0_Htimer)
 {
    DWORD rt = 0;
@@ -3085,7 +3085,7 @@ static PyObject* TimerGetTimeout(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TimerGetElapsed 002490f0 (Htimer;)R
+// TimerGetElapsed 00249260 (Htimer;)R
 DWORD Jass_TimerGetElapsed(DWORD arg_0_Htimer)
 {
    DWORD rt = 0;
@@ -3108,7 +3108,7 @@ static PyObject* TimerGetElapsed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TimerGetRemaining 00249120 (Htimer;)R
+// TimerGetRemaining 00249290 (Htimer;)R
 DWORD Jass_TimerGetRemaining(DWORD arg_0_Htimer)
 {
    DWORD rt = 0;
@@ -3131,7 +3131,7 @@ static PyObject* TimerGetRemaining(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PauseTimer 00241b80 (Htimer;)V
+// PauseTimer 00241d10 (Htimer;)V
 DWORD Jass_PauseTimer(DWORD arg_0_Htimer)
 {
    DWORD rt = 0;
@@ -3154,7 +3154,7 @@ static PyObject* PauseTimer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ResumeTimer 00243480 (Htimer;)V
+// ResumeTimer 002435f0 (Htimer;)V
 DWORD Jass_ResumeTimer(DWORD arg_0_Htimer)
 {
    DWORD rt = 0;
@@ -3177,7 +3177,7 @@ static PyObject* ResumeTimer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetExpiredTimer 002324d0 ()Htimer;
+// GetExpiredTimer 00232660 ()Htimer;
 DWORD Jass_GetExpiredTimer()
 {
    DWORD rt = 0;
@@ -3194,7 +3194,7 @@ static PyObject* GetExpiredTimer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// Condition 0022b680 (C)Hconditionfunc;
+// Condition 0022b810 (C)Hconditionfunc;
 DWORD Jass_Condition(DWORD arg_0_C)
 {
    DWORD rt = 0;
@@ -3217,7 +3217,7 @@ static PyObject* Condition(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DestroyCondition 0022f5f0 (Hconditionfunc;)V
+// DestroyCondition 0022f780 (Hconditionfunc;)V
 DWORD Jass_DestroyCondition(DWORD arg_0_Hconditionfunc)
 {
    DWORD rt = 0;
@@ -3240,7 +3240,7 @@ static PyObject* DestroyCondition(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// Filter 002307e0 (C)Hfilterfunc;
+// Filter 00230970 (C)Hfilterfunc;
 DWORD Jass_Filter(DWORD arg_0_C)
 {
    DWORD rt = 0;
@@ -3263,7 +3263,7 @@ static PyObject* Filter(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DestroyFilter 0022f690 (Hfilterfunc;)V
+// DestroyFilter 0022f820 (Hfilterfunc;)V
 DWORD Jass_DestroyFilter(DWORD arg_0_Hfilterfunc)
 {
    DWORD rt = 0;
@@ -3286,7 +3286,7 @@ static PyObject* DestroyFilter(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DestroyBoolExpr 0022f5d0 (Hboolexpr;)V
+// DestroyBoolExpr 0022f760 (Hboolexpr;)V
 DWORD Jass_DestroyBoolExpr(DWORD arg_0_Hboolexpr)
 {
    DWORD rt = 0;
@@ -3309,7 +3309,7 @@ static PyObject* DestroyBoolExpr(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// And 0022a7c0 (Hboolexpr;Hboolexpr;)Hboolexpr;
+// And 0022a950 (Hboolexpr;Hboolexpr;)Hboolexpr;
 DWORD Jass_And(DWORD arg_0_Hboolexpr, DWORD arg_4_Hboolexpr)
 {
    DWORD rt = 0;
@@ -3335,7 +3335,7 @@ static PyObject* And(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// Or 00241820 (Hboolexpr;Hboolexpr;)Hboolexpr;
+// Or 002419b0 (Hboolexpr;Hboolexpr;)Hboolexpr;
 DWORD Jass_Or(DWORD arg_0_Hboolexpr, DWORD arg_4_Hboolexpr)
 {
    DWORD rt = 0;
@@ -3361,7 +3361,7 @@ static PyObject* Or(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// Not 00241680 (Hboolexpr;)Hboolexpr;
+// Not 00241810 (Hboolexpr;)Hboolexpr;
 DWORD Jass_Not(DWORD arg_0_Hboolexpr)
 {
    DWORD rt = 0;
@@ -3384,7 +3384,7 @@ static PyObject* Not(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateRegion 0022e720 ()Hregion;
+// CreateRegion 0022e8b0 ()Hregion;
 DWORD Jass_CreateRegion()
 {
    DWORD rt = 0;
@@ -3401,7 +3401,7 @@ static PyObject* CreateRegion(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RemoveRegion 00242f90 (Hregion;)V
+// RemoveRegion 00243100 (Hregion;)V
 DWORD Jass_RemoveRegion(DWORD arg_0_Hregion)
 {
    DWORD rt = 0;
@@ -3424,7 +3424,7 @@ static PyObject* RemoveRegion(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RegionAddRect 00242ba0 (Hregion;Hrect;)V
+// RegionAddRect 00242d10 (Hregion;Hrect;)V
 DWORD Jass_RegionAddRect(DWORD arg_0_Hregion, DWORD arg_4_Hrect)
 {
    DWORD rt = 0;
@@ -3450,7 +3450,7 @@ static PyObject* RegionAddRect(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RegionClearRect 00242c50 (Hregion;Hrect;)V
+// RegionClearRect 00242dc0 (Hregion;Hrect;)V
 DWORD Jass_RegionClearRect(DWORD arg_0_Hregion, DWORD arg_4_Hrect)
 {
    DWORD rt = 0;
@@ -3476,7 +3476,7 @@ static PyObject* RegionClearRect(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RegionAddCell 00242b40 (Hregion;RR)V
+// RegionAddCell 00242cb0 (Hregion;RR)V
 DWORD Jass_RegionAddCell(DWORD arg_0_Hregion, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -3505,7 +3505,7 @@ static PyObject* RegionAddCell(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RegionAddCellAtLoc 00242b60 (Hregion;Hlocation;)V
+// RegionAddCellAtLoc 00242cd0 (Hregion;Hlocation;)V
 DWORD Jass_RegionAddCellAtLoc(DWORD arg_0_Hregion, DWORD arg_4_Hlocation)
 {
    DWORD rt = 0;
@@ -3531,7 +3531,7 @@ static PyObject* RegionAddCellAtLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RegionClearCell 00242bf0 (Hregion;RR)V
+// RegionClearCell 00242d60 (Hregion;RR)V
 DWORD Jass_RegionClearCell(DWORD arg_0_Hregion, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -3560,7 +3560,7 @@ static PyObject* RegionClearCell(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RegionClearCellAtLoc 00242c10 (Hregion;Hlocation;)V
+// RegionClearCellAtLoc 00242d80 (Hregion;Hlocation;)V
 DWORD Jass_RegionClearCellAtLoc(DWORD arg_0_Hregion, DWORD arg_4_Hlocation)
 {
    DWORD rt = 0;
@@ -3586,7 +3586,7 @@ static PyObject* RegionClearCellAtLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsUnitInRegion 00238ac0 (Hregion;Hunit;)B
+// IsUnitInRegion 00238c50 (Hregion;Hunit;)B
 DWORD Jass_IsUnitInRegion(DWORD arg_0_Hregion, DWORD arg_4_Hunit)
 {
    DWORD rt = 0;
@@ -3612,7 +3612,7 @@ static PyObject* IsUnitInRegion(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsPointInRegion 00238300 (Hregion;RR)B
+// IsPointInRegion 00238490 (Hregion;RR)B
 DWORD Jass_IsPointInRegion(DWORD arg_0_Hregion, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -3641,7 +3641,7 @@ static PyObject* IsPointInRegion(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsLocationInRegion 00237df0 (Hregion;Hlocation;)B
+// IsLocationInRegion 00237f80 (Hregion;Hlocation;)B
 DWORD Jass_IsLocationInRegion(DWORD arg_0_Hregion, DWORD arg_4_Hlocation)
 {
    DWORD rt = 0;
@@ -3667,7 +3667,7 @@ static PyObject* IsLocationInRegion(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// Rect 0023f630 (RRRR)Hrect;
+// Rect 0023f7c0 (RRRR)Hrect;
 DWORD Jass_Rect(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -3699,7 +3699,7 @@ static PyObject* Rect(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RectFromLoc 002429c0 (Hlocation;Hlocation;)Hrect;
+// RectFromLoc 00242b30 (Hlocation;Hlocation;)Hrect;
 DWORD Jass_RectFromLoc(DWORD arg_0_Hlocation, DWORD arg_4_Hlocation)
 {
    DWORD rt = 0;
@@ -3725,7 +3725,7 @@ static PyObject* RectFromLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RemoveRect 00242f70 (Hrect;)V
+// RemoveRect 002430e0 (Hrect;)V
 DWORD Jass_RemoveRect(DWORD arg_0_Hrect)
 {
    DWORD rt = 0;
@@ -3748,7 +3748,7 @@ static PyObject* RemoveRect(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetRect 0023f7f0 (Hrect;RRRR)V
+// SetRect 0023f980 (Hrect;RRRR)V
 DWORD Jass_SetRect(DWORD arg_0_Hrect, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_R)
 {
    DWORD rt = 0;
@@ -3783,7 +3783,7 @@ static PyObject* SetRect(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetRectFromLoc 00246680 (Hrect;Hlocation;Hlocation;)V
+// SetRectFromLoc 002467f0 (Hrect;Hlocation;Hlocation;)V
 DWORD Jass_SetRectFromLoc(DWORD arg_0_Hrect, DWORD arg_4_Hlocation, DWORD arg_8_Hlocation)
 {
    DWORD rt = 0;
@@ -3812,7 +3812,7 @@ static PyObject* SetRectFromLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetRectCenterX 00234570 (Hrect;)R
+// GetRectCenterX 00234700 (Hrect;)R
 DWORD Jass_GetRectCenterX(DWORD arg_0_Hrect)
 {
    DWORD rt = 0;
@@ -3835,7 +3835,7 @@ static PyObject* GetRectCenterX(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetRectCenterY 002345d0 (Hrect;)R
+// GetRectCenterY 00234760 (Hrect;)R
 DWORD Jass_GetRectCenterY(DWORD arg_0_Hrect)
 {
    DWORD rt = 0;
@@ -3858,7 +3858,7 @@ static PyObject* GetRectCenterY(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MoveRectTo 00240f70 (Hrect;RR)V
+// MoveRectTo 00241100 (Hrect;RR)V
 DWORD Jass_MoveRectTo(DWORD arg_0_Hrect, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -3887,7 +3887,7 @@ static PyObject* MoveRectTo(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MoveRectToLoc 00240fa0 (Hrect;Hlocation;)V
+// MoveRectToLoc 00241130 (Hrect;Hlocation;)V
 DWORD Jass_MoveRectToLoc(DWORD arg_0_Hrect, DWORD arg_4_Hlocation)
 {
    DWORD rt = 0;
@@ -3913,7 +3913,7 @@ static PyObject* MoveRectToLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetRectMinX 00234670 (Hrect;)R
+// GetRectMinX 00234800 (Hrect;)R
 DWORD Jass_GetRectMinX(DWORD arg_0_Hrect)
 {
    DWORD rt = 0;
@@ -3936,7 +3936,7 @@ static PyObject* GetRectMinX(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetRectMinY 00234690 (Hrect;)R
+// GetRectMinY 00234820 (Hrect;)R
 DWORD Jass_GetRectMinY(DWORD arg_0_Hrect)
 {
    DWORD rt = 0;
@@ -3959,7 +3959,7 @@ static PyObject* GetRectMinY(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetRectMaxX 00234630 (Hrect;)R
+// GetRectMaxX 002347c0 (Hrect;)R
 DWORD Jass_GetRectMaxX(DWORD arg_0_Hrect)
 {
    DWORD rt = 0;
@@ -3982,7 +3982,7 @@ static PyObject* GetRectMaxX(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetRectMaxY 00234650 (Hrect;)R
+// GetRectMaxY 002347e0 (Hrect;)R
 DWORD Jass_GetRectMaxY(DWORD arg_0_Hrect)
 {
    DWORD rt = 0;
@@ -4005,7 +4005,7 @@ static PyObject* GetRectMaxY(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetWorldBounds 002368b0 ()Hrect;
+// GetWorldBounds 00236a40 ()Hrect;
 DWORD Jass_GetWorldBounds()
 {
    DWORD rt = 0;
@@ -4022,7 +4022,7 @@ static PyObject* GetWorldBounds(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetFogStateRect 00245740 (Hplayer;Hfogstate;Hrect;B)V
+// SetFogStateRect 002458b0 (Hplayer;Hfogstate;Hrect;B)V
 DWORD Jass_SetFogStateRect(DWORD arg_0_Hplayer, DWORD arg_4_Hfogstate, DWORD arg_8_Hrect, DWORD arg_C_B)
 {
    DWORD rt = 0;
@@ -4054,7 +4054,7 @@ static PyObject* SetFogStateRect(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetFogStateRadius 00245670 (Hplayer;Hfogstate;RRRB)V
+// SetFogStateRadius 002457e0 (Hplayer;Hfogstate;RRRB)V
 DWORD Jass_SetFogStateRadius(DWORD arg_0_Hplayer, DWORD arg_4_Hfogstate, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_R, DWORD arg_14_B)
 {
    DWORD rt = 0;
@@ -4092,7 +4092,7 @@ static PyObject* SetFogStateRadius(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetFogStateRadiusLoc 002456d0 (Hplayer;Hfogstate;Hlocation;RB)V
+// SetFogStateRadiusLoc 00245840 (Hplayer;Hfogstate;Hlocation;RB)V
 DWORD Jass_SetFogStateRadiusLoc(DWORD arg_0_Hplayer, DWORD arg_4_Hfogstate, DWORD arg_8_Hlocation, DWORD arg_C_R, DWORD arg_10_B)
 {
    DWORD rt = 0;
@@ -4127,7 +4127,7 @@ static PyObject* SetFogStateRadiusLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// FogMaskEnable 00230c60 (B)V
+// FogMaskEnable 00230df0 (B)V
 DWORD Jass_FogMaskEnable(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -4150,7 +4150,7 @@ static PyObject* FogMaskEnable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsFogMaskEnabled 00237a00 ()B
+// IsFogMaskEnabled 00237b90 ()B
 DWORD Jass_IsFogMaskEnabled()
 {
    DWORD rt = 0;
@@ -4167,7 +4167,7 @@ static PyObject* IsFogMaskEnabled(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// FogEnable 00230c30 (B)V
+// FogEnable 00230dc0 (B)V
 DWORD Jass_FogEnable(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -4190,7 +4190,7 @@ static PyObject* FogEnable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsFogEnabled 002379f0 ()B
+// IsFogEnabled 00237b80 ()B
 DWORD Jass_IsFogEnabled()
 {
    DWORD rt = 0;
@@ -4207,7 +4207,7 @@ static PyObject* IsFogEnabled(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateFogModifierRect 0022df70 (Hplayer;Hfogstate;Hrect;BB)Hfogmodifier;
+// CreateFogModifierRect 0022e100 (Hplayer;Hfogstate;Hrect;BB)Hfogmodifier;
 DWORD Jass_CreateFogModifierRect(DWORD arg_0_Hplayer, DWORD arg_4_Hfogstate, DWORD arg_8_Hrect, DWORD arg_C_B, DWORD arg_10_B)
 {
    DWORD rt = 0;
@@ -4242,7 +4242,7 @@ static PyObject* CreateFogModifierRect(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateFogModifierRadius 0022ddb0 (Hplayer;Hfogstate;RRRBB)Hfogmodifier;
+// CreateFogModifierRadius 0022df40 (Hplayer;Hfogstate;RRRBB)Hfogmodifier;
 DWORD Jass_CreateFogModifierRadius(DWORD arg_0_Hplayer, DWORD arg_4_Hfogstate, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_R, DWORD arg_14_B, DWORD arg_18_B)
 {
    DWORD rt = 0;
@@ -4283,7 +4283,7 @@ static PyObject* CreateFogModifierRadius(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateFogModifierRadiusLoc 0022de90 (Hplayer;Hfogstate;Hlocation;RBB)Hfogmodifier;
+// CreateFogModifierRadiusLoc 0022e020 (Hplayer;Hfogstate;Hlocation;RBB)Hfogmodifier;
 DWORD Jass_CreateFogModifierRadiusLoc(DWORD arg_0_Hplayer, DWORD arg_4_Hfogstate, DWORD arg_8_Hlocation, DWORD arg_C_R, DWORD arg_10_B, DWORD arg_14_B)
 {
    DWORD rt = 0;
@@ -4321,7 +4321,7 @@ static PyObject* CreateFogModifierRadiusLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DestroyFogModifier 0022f6c0 (Hfogmodifier;)V
+// DestroyFogModifier 0022f850 (Hfogmodifier;)V
 DWORD Jass_DestroyFogModifier(DWORD arg_0_Hfogmodifier)
 {
    DWORD rt = 0;
@@ -4344,7 +4344,7 @@ static PyObject* DestroyFogModifier(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// FogModifierStart 00230c80 (Hfogmodifier;)V
+// FogModifierStart 00230e10 (Hfogmodifier;)V
 DWORD Jass_FogModifierStart(DWORD arg_0_Hfogmodifier)
 {
    DWORD rt = 0;
@@ -4367,7 +4367,7 @@ static PyObject* FogModifierStart(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// FogModifierStop 00230ca0 (Hfogmodifier;)V
+// FogModifierStop 00230e30 (Hfogmodifier;)V
 DWORD Jass_FogModifierStop(DWORD arg_0_Hfogmodifier)
 {
    DWORD rt = 0;
@@ -4390,7 +4390,7 @@ static PyObject* FogModifierStop(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateTrigger 0022ee60 ()Htrigger;
+// CreateTrigger 0022eff0 ()Htrigger;
 DWORD Jass_CreateTrigger()
 {
    DWORD rt = 0;
@@ -4407,7 +4407,7 @@ static PyObject* CreateTrigger(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DestroyTrigger 0022f890 (Htrigger;)V
+// DestroyTrigger 0022fa20 (Htrigger;)V
 DWORD Jass_DestroyTrigger(DWORD arg_0_Htrigger)
 {
    DWORD rt = 0;
@@ -4430,7 +4430,7 @@ static PyObject* DestroyTrigger(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ResetTrigger 002432e0 (Htrigger;)V
+// ResetTrigger 00243450 (Htrigger;)V
 DWORD Jass_ResetTrigger(DWORD arg_0_Htrigger)
 {
    DWORD rt = 0;
@@ -4453,7 +4453,7 @@ static PyObject* ResetTrigger(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// EnableTrigger 002300d0 (Htrigger;)V
+// EnableTrigger 00230260 (Htrigger;)V
 DWORD Jass_EnableTrigger(DWORD arg_0_Htrigger)
 {
    DWORD rt = 0;
@@ -4476,7 +4476,7 @@ static PyObject* EnableTrigger(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DisableTrigger 0022fd10 (Htrigger;)V
+// DisableTrigger 0022fea0 (Htrigger;)V
 DWORD Jass_DisableTrigger(DWORD arg_0_Htrigger)
 {
    DWORD rt = 0;
@@ -4499,7 +4499,7 @@ static PyObject* DisableTrigger(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsTriggerEnabled 00238540 (Htrigger;)B
+// IsTriggerEnabled 002386d0 (Htrigger;)B
 DWORD Jass_IsTriggerEnabled(DWORD arg_0_Htrigger)
 {
    DWORD rt = 0;
@@ -4522,7 +4522,7 @@ static PyObject* IsTriggerEnabled(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerWaitOnSleeps 0024a690 (Htrigger;B)V
+// TriggerWaitOnSleeps 0024a800 (Htrigger;B)V
 DWORD Jass_TriggerWaitOnSleeps(DWORD arg_0_Htrigger, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -4548,7 +4548,7 @@ static PyObject* TriggerWaitOnSleeps(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsTriggerWaitOnSleeps 00238560 (Htrigger;)B
+// IsTriggerWaitOnSleeps 002386f0 (Htrigger;)B
 DWORD Jass_IsTriggerWaitOnSleeps(DWORD arg_0_Htrigger)
 {
    DWORD rt = 0;
@@ -4571,7 +4571,7 @@ static PyObject* IsTriggerWaitOnSleeps(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerRegisterVariableEvent 0024a4f0 (Htrigger;SHlimitop;R)Hevent;
+// TriggerRegisterVariableEvent 0024a660 (Htrigger;SHlimitop;R)Hevent;
 DWORD Jass_TriggerRegisterVariableEvent(DWORD arg_0_Htrigger, DWORD arg_4_S, DWORD arg_8_Hlimitop, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -4603,7 +4603,7 @@ static PyObject* TriggerRegisterVariableEvent(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerRegisterTimerEvent 00249f00 (Htrigger;RB)Hevent;
+// TriggerRegisterTimerEvent 0024a070 (Htrigger;RB)Hevent;
 DWORD Jass_TriggerRegisterTimerEvent(DWORD arg_0_Htrigger, DWORD arg_4_R, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -4632,7 +4632,7 @@ static PyObject* TriggerRegisterTimerEvent(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerRegisterTimerExpireEvent 00249fc0 (Htrigger;Htimer;)Hevent;
+// TriggerRegisterTimerExpireEvent 0024a130 (Htrigger;Htimer;)Hevent;
 DWORD Jass_TriggerRegisterTimerExpireEvent(DWORD arg_0_Htrigger, DWORD arg_4_Htimer)
 {
    DWORD rt = 0;
@@ -4658,7 +4658,7 @@ static PyObject* TriggerRegisterTimerExpireEvent(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerRegisterGameStateEvent 002497f0 (Htrigger;Hgamestate;Hlimitop;R)Hevent;
+// TriggerRegisterGameStateEvent 00249960 (Htrigger;Hgamestate;Hlimitop;R)Hevent;
 DWORD Jass_TriggerRegisterGameStateEvent(DWORD arg_0_Htrigger, DWORD arg_4_Hgamestate, DWORD arg_8_Hlimitop, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -4690,7 +4690,7 @@ static PyObject* TriggerRegisterGameStateEvent(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetEventGameState 00232370 ()Hgamestate;
+// GetEventGameState 00232500 ()Hgamestate;
 DWORD Jass_GetEventGameState()
 {
    DWORD rt = 0;
@@ -4707,7 +4707,7 @@ static PyObject* GetEventGameState(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerRegisterDialogEvent 00249470 (Htrigger;Hdialog;)Hevent;
+// TriggerRegisterDialogEvent 002495e0 (Htrigger;Hdialog;)Hevent;
 DWORD Jass_TriggerRegisterDialogEvent(DWORD arg_0_Htrigger, DWORD arg_4_Hdialog)
 {
    DWORD rt = 0;
@@ -4733,7 +4733,7 @@ static PyObject* TriggerRegisterDialogEvent(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerRegisterDialogButtonEvent 002493b0 (Htrigger;Hbutton;)Hevent;
+// TriggerRegisterDialogButtonEvent 00249520 (Htrigger;Hbutton;)Hevent;
 DWORD Jass_TriggerRegisterDialogButtonEvent(DWORD arg_0_Htrigger, DWORD arg_4_Hbutton)
 {
    DWORD rt = 0;
@@ -4759,7 +4759,7 @@ static PyObject* TriggerRegisterDialogButtonEvent(PyObject *self, PyObject *args
    return Py_BuildValue("I", rt);
 }
 
-// GetClickedButton 00231d90 ()Hbutton;
+// GetClickedButton 00231f20 ()Hbutton;
 DWORD Jass_GetClickedButton()
 {
    DWORD rt = 0;
@@ -4776,7 +4776,7 @@ static PyObject* GetClickedButton(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetClickedDialog 00231de0 ()Hdialog;
+// GetClickedDialog 00231f70 ()Hdialog;
 DWORD Jass_GetClickedDialog()
 {
    DWORD rt = 0;
@@ -4793,7 +4793,7 @@ static PyObject* GetClickedDialog(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetTournamentFinishSoonTimeRemaining 00235bb0 ()R;
+// GetTournamentFinishSoonTimeRemaining 00235d40 ()R;
 DWORD Jass_GetTournamentFinishSoonTimeRemaining()
 {
    DWORD rt = 0;
@@ -4810,7 +4810,7 @@ static PyObject* GetTournamentFinishSoonTimeRemaining(PyObject *self, PyObject *
    return Py_BuildValue("I", rt);
 }
 
-// GetTournamentFinishNowRule 00235b80 ()I;
+// GetTournamentFinishNowRule 00235d10 ()I;
 DWORD Jass_GetTournamentFinishNowRule()
 {
    DWORD rt = 0;
@@ -4827,7 +4827,7 @@ static PyObject* GetTournamentFinishNowRule(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetTournamentFinishNowPlayer 00235b20 ()Hplayer;
+// GetTournamentFinishNowPlayer 00235cb0 ()Hplayer;
 DWORD Jass_GetTournamentFinishNowPlayer()
 {
    DWORD rt = 0;
@@ -4844,7 +4844,7 @@ static PyObject* GetTournamentFinishNowPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetTournamentScore 00235be0 (Hplayer;)I
+// GetTournamentScore 00235d70 (Hplayer;)I
 DWORD Jass_GetTournamentScore(DWORD arg_0_Hplayer)
 {
    DWORD rt = 0;
@@ -4867,7 +4867,7 @@ static PyObject* GetTournamentScore(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetSaveBasicFilename 002349c0 ()S
+// GetSaveBasicFilename 00234b50 ()S
 DWORD Jass_GetSaveBasicFilename()
 {
    DWORD rt = 0;
@@ -4884,7 +4884,7 @@ static PyObject* GetSaveBasicFilename(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// TriggerRegisterGameEvent 00249710 (Htrigger;Hgameevent;)Hevent;
+// TriggerRegisterGameEvent 00249880 (Htrigger;Hgameevent;)Hevent;
 DWORD Jass_TriggerRegisterGameEvent(DWORD arg_0_Htrigger, DWORD arg_4_Hgameevent)
 {
    DWORD rt = 0;
@@ -4910,7 +4910,7 @@ static PyObject* TriggerRegisterGameEvent(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetWinningPlayer 00236880 ()Hplayer;
+// GetWinningPlayer 00236a10 ()Hplayer;
 DWORD Jass_GetWinningPlayer()
 {
    DWORD rt = 0;
@@ -4927,7 +4927,7 @@ static PyObject* GetWinningPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerRegisterPlayerStateEvent 00249ce0 (Htrigger;Hplayer;Hplayerstate;Hlimitop;R)Hevent;
+// TriggerRegisterPlayerStateEvent 00249e50 (Htrigger;Hplayer;Hplayerstate;Hlimitop;R)Hevent;
 DWORD Jass_TriggerRegisterPlayerStateEvent(DWORD arg_0_Htrigger, DWORD arg_4_Hplayer, DWORD arg_8_Hplayerstate, DWORD arg_C_Hlimitop, DWORD arg_10_R)
 {
    DWORD rt = 0;
@@ -4962,7 +4962,7 @@ static PyObject* TriggerRegisterPlayerStateEvent(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetEventPlayerState 00232410 ()Hplayerstate;
+// GetEventPlayerState 002325a0 ()Hplayerstate;
 DWORD Jass_GetEventPlayerState()
 {
    DWORD rt = 0;
@@ -4979,7 +4979,7 @@ static PyObject* GetEventPlayerState(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerRegisterPlayerEvent 00249bc0 (Htrigger;Hplayer;Hplayerevent;)Hevent;
+// TriggerRegisterPlayerEvent 00249d30 (Htrigger;Hplayer;Hplayerevent;)Hevent;
 DWORD Jass_TriggerRegisterPlayerEvent(DWORD arg_0_Htrigger, DWORD arg_4_Hplayer, DWORD arg_8_Hplayerevent)
 {
    DWORD rt = 0;
@@ -5008,7 +5008,7 @@ static PyObject* TriggerRegisterPlayerEvent(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerRegisterPlayerUnitEvent 00249e00 (Htrigger;Hplayer;Hplayerunitevent;Hboolexpr;)Hevent;
+// TriggerRegisterPlayerUnitEvent 00249f70 (Htrigger;Hplayer;Hplayerunitevent;Hboolexpr;)Hevent;
 DWORD Jass_TriggerRegisterPlayerUnitEvent(DWORD arg_0_Htrigger, DWORD arg_4_Hplayer, DWORD arg_8_Hplayerunitevent, DWORD arg_C_Hboolexpr)
 {
    DWORD rt = 0;
@@ -5040,7 +5040,7 @@ static PyObject* TriggerRegisterPlayerUnitEvent(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetAttacker 00231770 ()Hunit;
+// GetAttacker 00231900 ()Hunit;
 DWORD Jass_GetAttacker()
 {
    DWORD rt = 0;
@@ -5057,7 +5057,7 @@ static PyObject* GetAttacker(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetRescuer 002346d0 ()Hunit;
+// GetRescuer 00234860 ()Hunit;
 DWORD Jass_GetRescuer()
 {
    DWORD rt = 0;
@@ -5074,7 +5074,7 @@ static PyObject* GetRescuer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetDyingUnit 002321d0 ()Hunit;
+// GetDyingUnit 00232360 ()Hunit;
 DWORD Jass_GetDyingUnit()
 {
    DWORD rt = 0;
@@ -5091,7 +5091,7 @@ static PyObject* GetDyingUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetKillingUnit 00232e60 ()Hunit;
+// GetKillingUnit 00232ff0 ()Hunit;
 DWORD Jass_GetKillingUnit()
 {
    DWORD rt = 0;
@@ -5108,7 +5108,7 @@ static PyObject* GetKillingUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetDecayingUnit 00231f90 ()Hunit;
+// GetDecayingUnit 00232120 ()Hunit;
 DWORD Jass_GetDecayingUnit()
 {
    DWORD rt = 0;
@@ -5125,7 +5125,7 @@ static PyObject* GetDecayingUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetConstructingStructure 00231e70 ()Hunit;
+// GetConstructingStructure 00232000 ()Hunit;
 DWORD Jass_GetConstructingStructure()
 {
    DWORD rt = 0;
@@ -5142,7 +5142,7 @@ static PyObject* GetConstructingStructure(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetCancelledStructure 00231c60 ()Hunit;
+// GetCancelledStructure 00231df0 ()Hunit;
 DWORD Jass_GetCancelledStructure()
 {
    DWORD rt = 0;
@@ -5159,7 +5159,7 @@ static PyObject* GetCancelledStructure(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetConstructedStructure 00231e50 ()Hunit;
+// GetConstructedStructure 00231fe0 ()Hunit;
 DWORD Jass_GetConstructedStructure()
 {
    DWORD rt = 0;
@@ -5176,7 +5176,7 @@ static PyObject* GetConstructedStructure(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetTrainedUnitType 00235c90 ()I
+// GetTrainedUnitType 00235e20 ()I
 DWORD Jass_GetTrainedUnitType()
 {
    DWORD rt = 0;
@@ -5193,7 +5193,7 @@ static PyObject* GetTrainedUnitType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetResearchingUnit 002347f0 ()Hunit;
+// GetResearchingUnit 00234980 ()Hunit;
 DWORD Jass_GetResearchingUnit()
 {
    DWORD rt = 0;
@@ -5210,7 +5210,7 @@ static PyObject* GetResearchingUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetResearched 00234750 ()I
+// GetResearched 002348e0 ()I
 DWORD Jass_GetResearched()
 {
    DWORD rt = 0;
@@ -5227,7 +5227,7 @@ static PyObject* GetResearched(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetTrainedUnit 00235c10 ()Hunit;
+// GetTrainedUnit 00235da0 ()Hunit;
 DWORD Jass_GetTrainedUnit()
 {
    DWORD rt = 0;
@@ -5244,7 +5244,7 @@ static PyObject* GetTrainedUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetSellingUnit 00234a50 ()Hunit;
+// GetSellingUnit 00234be0 ()Hunit;
 DWORD Jass_GetSellingUnit()
 {
    DWORD rt = 0;
@@ -5261,7 +5261,7 @@ static PyObject* GetSellingUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetSoldUnit 00234c00 ()Hunit;
+// GetSoldUnit 00234d90 ()Hunit;
 DWORD Jass_GetSoldUnit()
 {
    DWORD rt = 0;
@@ -5278,7 +5278,7 @@ static PyObject* GetSoldUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetBuyingUnit 002317f0 ()Hunit;
+// GetBuyingUnit 00231980 ()Hunit;
 DWORD Jass_GetBuyingUnit()
 {
    DWORD rt = 0;
@@ -5295,7 +5295,7 @@ static PyObject* GetBuyingUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetSoldItem 00234b70 ()Hitem;
+// GetSoldItem 00234d00 ()Hitem;
 DWORD Jass_GetSoldItem()
 {
    DWORD rt = 0;
@@ -5312,7 +5312,7 @@ static PyObject* GetSoldItem(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetChangingUnit 00231c80 ()Hunit;
+// GetChangingUnit 00231e10 ()Hunit;
 DWORD Jass_GetChangingUnit()
 {
    DWORD rt = 0;
@@ -5329,7 +5329,7 @@ static PyObject* GetChangingUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetChangingUnitPrevOwner 00231d00 ()Hplayer;
+// GetChangingUnitPrevOwner 00231e90 ()Hplayer;
 DWORD Jass_GetChangingUnitPrevOwner()
 {
    DWORD rt = 0;
@@ -5346,7 +5346,7 @@ static PyObject* GetChangingUnitPrevOwner(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetDetectedUnit 00232190 ()Hunit;
+// GetDetectedUnit 00232320 ()Hunit;
 DWORD Jass_GetDetectedUnit()
 {
    DWORD rt = 0;
@@ -5363,7 +5363,7 @@ static PyObject* GetDetectedUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetOrderedUnit 00233bc0 ()Hunit;
+// GetOrderedUnit 00233d50 ()Hunit;
 DWORD Jass_GetOrderedUnit()
 {
    DWORD rt = 0;
@@ -5380,7 +5380,7 @@ static PyObject* GetOrderedUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// OrderId 00241950 (S)I
+// OrderId 00241ae0 (S)I
 DWORD Jass_OrderId(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -5403,7 +5403,7 @@ static PyObject* OrderId(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// OrderId2String 00241920 (I)S
+// OrderId2String 00241ab0 (I)S
 DWORD Jass_OrderId2String(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -5426,7 +5426,7 @@ static PyObject* OrderId2String(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// AbilityId 00229c20 (S)I
+// AbilityId 00229db0 (S)I
 DWORD Jass_AbilityId(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -5449,7 +5449,7 @@ static PyObject* AbilityId(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AbilityId2String 00229bf0 (I)S
+// AbilityId2String 00229d80 (I)S
 DWORD Jass_AbilityId2String(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -5472,7 +5472,7 @@ static PyObject* AbilityId2String(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// UnitId 0024afb0 (S)I
+// UnitId 0024b120 (S)I
 DWORD Jass_UnitId(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -5495,7 +5495,7 @@ static PyObject* UnitId(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitId2String 0024af80 (I)S
+// UnitId2String 0024b0f0 (I)S
 DWORD Jass_UnitId2String(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -5518,7 +5518,7 @@ static PyObject* UnitId2String(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// GetObjectName 00233540 (I)S
+// GetObjectName 002336d0 (I)S
 DWORD Jass_GetObjectName(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -5541,7 +5541,7 @@ static PyObject* GetObjectName(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// GetIssuedOrderId 00232c00 ()I
+// GetIssuedOrderId 00232d90 ()I
 DWORD Jass_GetIssuedOrderId()
 {
    DWORD rt = 0;
@@ -5558,7 +5558,7 @@ static PyObject* GetIssuedOrderId(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetOrderPointX 00233660 ()R
+// GetOrderPointX 002337f0 ()R
 DWORD Jass_GetOrderPointX()
 {
    DWORD rt = 0;
@@ -5575,7 +5575,7 @@ static PyObject* GetOrderPointX(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetOrderPointY 002336b0 ()R
+// GetOrderPointY 00233840 ()R
 DWORD Jass_GetOrderPointY()
 {
    DWORD rt = 0;
@@ -5592,7 +5592,7 @@ static PyObject* GetOrderPointY(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetOrderPointLoc 002335c0 ()Hlocation;
+// GetOrderPointLoc 00233750 ()Hlocation;
 DWORD Jass_GetOrderPointLoc()
 {
    DWORD rt = 0;
@@ -5609,7 +5609,7 @@ static PyObject* GetOrderPointLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetOrderTarget 00233700 ()Hwidget;
+// GetOrderTarget 00233890 ()Hwidget;
 DWORD Jass_GetOrderTarget()
 {
    DWORD rt = 0;
@@ -5626,7 +5626,7 @@ static PyObject* GetOrderTarget(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetOrderTargetDestructable 00233860 ()Hdestructable;
+// GetOrderTargetDestructable 002339f0 ()Hdestructable;
 DWORD Jass_GetOrderTargetDestructable()
 {
    DWORD rt = 0;
@@ -5643,7 +5643,7 @@ static PyObject* GetOrderTargetDestructable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetOrderTargetItem 00233980 ()Hitem;
+// GetOrderTargetItem 00233b10 ()Hitem;
 DWORD Jass_GetOrderTargetItem()
 {
    DWORD rt = 0;
@@ -5660,7 +5660,7 @@ static PyObject* GetOrderTargetItem(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetOrderTargetUnit 00233aa0 ()Hunit;
+// GetOrderTargetUnit 00233c30 ()Hunit;
 DWORD Jass_GetOrderTargetUnit()
 {
    DWORD rt = 0;
@@ -5677,7 +5677,7 @@ static PyObject* GetOrderTargetUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetSpellAbilityUnit 00234ee0 ()Hunit;
+// GetSpellAbilityUnit 00235070 ()Hunit;
 DWORD Jass_GetSpellAbilityUnit()
 {
    DWORD rt = 0;
@@ -5694,7 +5694,7 @@ static PyObject* GetSpellAbilityUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetSpellAbilityId 00234e70 ()I
+// GetSpellAbilityId 00235000 ()I
 DWORD Jass_GetSpellAbilityId()
 {
    DWORD rt = 0;
@@ -5711,7 +5711,7 @@ static PyObject* GetSpellAbilityId(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetSpellAbility 00234d20 ()Hability;
+// GetSpellAbility 00234eb0 ()Hability;
 DWORD Jass_GetSpellAbility()
 {
    DWORD rt = 0;
@@ -5728,7 +5728,7 @@ static PyObject* GetSpellAbility(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetSpellTargetLoc 00235260 ()Hlocation;
+// GetSpellTargetLoc 002353f0 ()Hlocation;
 DWORD Jass_GetSpellTargetLoc()
 {
    DWORD rt = 0;
@@ -5745,7 +5745,7 @@ static PyObject* GetSpellTargetLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetSpellTargetX 00235480 ()R
+// GetSpellTargetX 00235610 ()R
 DWORD Jass_GetSpellTargetX()
 {
    DWORD rt = 0;
@@ -5762,7 +5762,7 @@ static PyObject* GetSpellTargetX(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetSpellTargetY 00235560 ()R
+// GetSpellTargetY 002356f0 ()R
 DWORD Jass_GetSpellTargetY()
 {
    DWORD rt = 0;
@@ -5779,7 +5779,7 @@ static PyObject* GetSpellTargetY(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetSpellTargetDestructable 00235000 ()Hdestructable;
+// GetSpellTargetDestructable 00235190 ()Hdestructable;
 DWORD Jass_GetSpellTargetDestructable()
 {
    DWORD rt = 0;
@@ -5796,7 +5796,7 @@ static PyObject* GetSpellTargetDestructable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetSpellTargetItem 00235130 ()Hitem;
+// GetSpellTargetItem 002352c0 ()Hitem;
 DWORD Jass_GetSpellTargetItem()
 {
    DWORD rt = 0;
@@ -5813,7 +5813,7 @@ static PyObject* GetSpellTargetItem(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetSpellTargetUnit 00235350 ()Hunit;
+// GetSpellTargetUnit 002354e0 ()Hunit;
 DWORD Jass_GetSpellTargetUnit()
 {
    DWORD rt = 0;
@@ -5830,7 +5830,7 @@ static PyObject* GetSpellTargetUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetLevelingUnit 00232ff0 ()Hunit;
+// GetLevelingUnit 00233180 ()Hunit;
 DWORD Jass_GetLevelingUnit()
 {
    DWORD rt = 0;
@@ -5847,7 +5847,7 @@ static PyObject* GetLevelingUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetLearningUnit 00232f50 ()Hunit;
+// GetLearningUnit 002330e0 ()Hunit;
 DWORD Jass_GetLearningUnit()
 {
    DWORD rt = 0;
@@ -5864,7 +5864,7 @@ static PyObject* GetLearningUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetLearnedSkill 00232ed0 ()I
+// GetLearnedSkill 00233060 ()I
 DWORD Jass_GetLearnedSkill()
 {
    DWORD rt = 0;
@@ -5881,7 +5881,7 @@ static PyObject* GetLearnedSkill(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetLearnedSkillLevel 00232f10 ()I
+// GetLearnedSkillLevel 002330a0 ()I
 DWORD Jass_GetLearnedSkillLevel()
 {
    DWORD rt = 0;
@@ -5898,7 +5898,7 @@ static PyObject* GetLearnedSkillLevel(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetRevivableUnit 002348b0 ()Hunit;
+// GetRevivableUnit 00234a40 ()Hunit;
 DWORD Jass_GetRevivableUnit()
 {
    DWORD rt = 0;
@@ -5915,7 +5915,7 @@ static PyObject* GetRevivableUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetRevivingUnit 00234910 ()Hunit;
+// GetRevivingUnit 00234aa0 ()Hunit;
 DWORD Jass_GetRevivingUnit()
 {
    DWORD rt = 0;
@@ -5932,7 +5932,7 @@ static PyObject* GetRevivingUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetSummoningUnit 00235940 ()Hunit;
+// GetSummoningUnit 00235ad0 ()Hunit;
 DWORD Jass_GetSummoningUnit()
 {
    DWORD rt = 0;
@@ -5949,7 +5949,7 @@ static PyObject* GetSummoningUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetSummonedUnit 002358c0 ()Hunit;
+// GetSummonedUnit 00235a50 ()Hunit;
 DWORD Jass_GetSummonedUnit()
 {
    DWORD rt = 0;
@@ -5966,7 +5966,7 @@ static PyObject* GetSummonedUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetTransportUnit 00235d50 ()Hunit;
+// GetTransportUnit 00235ee0 ()Hunit;
 DWORD Jass_GetTransportUnit()
 {
    DWORD rt = 0;
@@ -5983,7 +5983,7 @@ static PyObject* GetTransportUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetLoadedUnit 00233190 ()Hunit;
+// GetLoadedUnit 00233320 ()Hunit;
 DWORD Jass_GetLoadedUnit()
 {
    DWORD rt = 0;
@@ -6000,7 +6000,7 @@ static PyObject* GetLoadedUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetManipulatingUnit 00233420 ()Hunit;
+// GetManipulatingUnit 002335b0 ()Hunit;
 DWORD Jass_GetManipulatingUnit()
 {
    DWORD rt = 0;
@@ -6017,7 +6017,7 @@ static PyObject* GetManipulatingUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetManipulatedItem 00233380 ()Hitem;
+// GetManipulatedItem 00233510 ()Hitem;
 DWORD Jass_GetManipulatedItem()
 {
    DWORD rt = 0;
@@ -6034,7 +6034,7 @@ static PyObject* GetManipulatedItem(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerRegisterPlayerAllianceChange 00249a20 (Htrigger;Hplayer;Halliancetype;)Hevent;
+// TriggerRegisterPlayerAllianceChange 00249b90 (Htrigger;Hplayer;Halliancetype;)Hevent;
 DWORD Jass_TriggerRegisterPlayerAllianceChange(DWORD arg_0_Htrigger, DWORD arg_4_Hplayer, DWORD arg_8_Halliancetype)
 {
    DWORD rt = 0;
@@ -6063,7 +6063,7 @@ static PyObject* TriggerRegisterPlayerAllianceChange(PyObject *self, PyObject *a
    return Py_BuildValue("I", rt);
 }
 
-// TriggerRegisterPlayerChatEvent 00249af0 (Htrigger;Hplayer;SB)Hevent;
+// TriggerRegisterPlayerChatEvent 00249c60 (Htrigger;Hplayer;SB)Hevent;
 DWORD Jass_TriggerRegisterPlayerChatEvent(DWORD arg_0_Htrigger, DWORD arg_4_Hplayer, DWORD arg_8_S, DWORD arg_C_B)
 {
    DWORD rt = 0;
@@ -6095,7 +6095,7 @@ static PyObject* TriggerRegisterPlayerChatEvent(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetEventPlayerChatString 002323a0 ()S
+// GetEventPlayerChatString 00232530 ()S
 DWORD Jass_GetEventPlayerChatString()
 {
    DWORD rt = 0;
@@ -6112,7 +6112,7 @@ static PyObject* GetEventPlayerChatString(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// GetEventPlayerChatStringMatched 002323e0 ()S
+// GetEventPlayerChatStringMatched 00232570 ()S
 DWORD Jass_GetEventPlayerChatStringMatched()
 {
    DWORD rt = 0;
@@ -6129,7 +6129,7 @@ static PyObject* GetEventPlayerChatStringMatched(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// TriggerRegisterUnitStateEvent 0024a400 (Htrigger;Hunit;Hunitstate;Hlimitop;R)Hevent;
+// TriggerRegisterUnitStateEvent 0024a570 (Htrigger;Hunit;Hunitstate;Hlimitop;R)Hevent;
 DWORD Jass_TriggerRegisterUnitStateEvent(DWORD arg_0_Htrigger, DWORD arg_4_Hunit, DWORD arg_8_Hunitstate, DWORD arg_C_Hlimitop, DWORD arg_10_R)
 {
    DWORD rt = 0;
@@ -6164,7 +6164,7 @@ static PyObject* TriggerRegisterUnitStateEvent(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetEventUnitState 00232490 ()Hunitstate;
+// GetEventUnitState 00232620 ()Hunitstate;
 DWORD Jass_GetEventUnitState()
 {
    DWORD rt = 0;
@@ -6181,7 +6181,7 @@ static PyObject* GetEventUnitState(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerRegisterDeathEvent 002492e0 (Htrigger;Hwidget;)Hevent;
+// TriggerRegisterDeathEvent 00249450 (Htrigger;Hwidget;)Hevent;
 DWORD Jass_TriggerRegisterDeathEvent(DWORD arg_0_Htrigger, DWORD arg_4_Hwidget)
 {
    DWORD rt = 0;
@@ -6207,7 +6207,7 @@ static PyObject* TriggerRegisterDeathEvent(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerRegisterUnitEvent 0024a200 (Htrigger;Hunit;Hunitevent;)Hevent;
+// TriggerRegisterUnitEvent 0024a370 (Htrigger;Hunit;Hunitevent;)Hevent;
 DWORD Jass_TriggerRegisterUnitEvent(DWORD arg_0_Htrigger, DWORD arg_4_Hunit, DWORD arg_8_Hunitevent)
 {
    DWORD rt = 0;
@@ -6236,7 +6236,7 @@ static PyObject* TriggerRegisterUnitEvent(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetEventDamage 00232290 ()R
+// GetEventDamage 00232420 ()R
 DWORD Jass_GetEventDamage()
 {
    DWORD rt = 0;
@@ -6253,7 +6253,7 @@ static PyObject* GetEventDamage(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetEventDamageSource 002322b0 ()Hunit;
+// GetEventDamageSource 00232440 ()Hunit;
 DWORD Jass_GetEventDamageSource()
 {
    DWORD rt = 0;
@@ -6270,7 +6270,7 @@ static PyObject* GetEventDamageSource(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetEventDetectingPlayer 00232320 ()Hplayer;
+// GetEventDetectingPlayer 002324b0 ()Hplayer;
 DWORD Jass_GetEventDetectingPlayer()
 {
    DWORD rt = 0;
@@ -6287,7 +6287,7 @@ static PyObject* GetEventDetectingPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetEventTargetUnit 00232440 ()Hunit;
+// GetEventTargetUnit 002325d0 ()Hunit;
 DWORD Jass_GetEventTargetUnit()
 {
    DWORD rt = 0;
@@ -6304,7 +6304,7 @@ static PyObject* GetEventTargetUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerRegisterFilterUnitEvent 00249610 (Htrigger;Hunit;Hunitevent;Hboolexpr;)Hevent;
+// TriggerRegisterFilterUnitEvent 00249780 (Htrigger;Hunit;Hunitevent;Hboolexpr;)Hevent;
 DWORD Jass_TriggerRegisterFilterUnitEvent(DWORD arg_0_Htrigger, DWORD arg_4_Hunit, DWORD arg_8_Hunitevent, DWORD arg_C_Hboolexpr)
 {
    DWORD rt = 0;
@@ -6336,7 +6336,7 @@ static PyObject* TriggerRegisterFilterUnitEvent(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerRegisterUnitInRange 0024a310 (Htrigger;Hunit;RHboolexpr;)Hevent;
+// TriggerRegisterUnitInRange 0024a480 (Htrigger;Hunit;RHboolexpr;)Hevent;
 DWORD Jass_TriggerRegisterUnitInRange(DWORD arg_0_Htrigger, DWORD arg_4_Hunit, DWORD arg_8_R, DWORD arg_C_Hboolexpr)
 {
    DWORD rt = 0;
@@ -6368,7 +6368,7 @@ static PyObject* TriggerRegisterUnitInRange(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerRegisterEnterRegion 00249530 (Htrigger;Hregion;Hboolexpr;)Hevent;
+// TriggerRegisterEnterRegion 002496a0 (Htrigger;Hregion;Hboolexpr;)Hevent;
 DWORD Jass_TriggerRegisterEnterRegion(DWORD arg_0_Htrigger, DWORD arg_4_Hregion, DWORD arg_8_Hboolexpr)
 {
    DWORD rt = 0;
@@ -6397,7 +6397,7 @@ static PyObject* TriggerRegisterEnterRegion(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerRegisterLeaveRegion 00249940 (Htrigger;Hregion;Hboolexpr;)Hevent;
+// TriggerRegisterLeaveRegion 00249ab0 (Htrigger;Hregion;Hboolexpr;)Hevent;
 DWORD Jass_TriggerRegisterLeaveRegion(DWORD arg_0_Htrigger, DWORD arg_4_Hregion, DWORD arg_8_Hboolexpr)
 {
    DWORD rt = 0;
@@ -6426,7 +6426,7 @@ static PyObject* TriggerRegisterLeaveRegion(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetTriggeringRegion 00235ef0 ()Hregion;
+// GetTriggeringRegion 00236080 ()Hregion;
 DWORD Jass_GetTriggeringRegion()
 {
    DWORD rt = 0;
@@ -6443,7 +6443,7 @@ static PyObject* GetTriggeringRegion(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetEnteringUnit 002321f0 ()Hunit;
+// GetEnteringUnit 00232380 ()Hunit;
 DWORD Jass_GetEnteringUnit()
 {
    DWORD rt = 0;
@@ -6460,7 +6460,7 @@ static PyObject* GetEnteringUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetLeavingUnit 00232fb0 ()Hunit;
+// GetLeavingUnit 00233140 ()Hunit;
 DWORD Jass_GetLeavingUnit()
 {
    DWORD rt = 0;
@@ -6477,7 +6477,7 @@ static PyObject* GetLeavingUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerAddCondition 002491f0 (Htrigger;Hboolexpr;)Htriggercondition;
+// TriggerAddCondition 00249360 (Htrigger;Hboolexpr;)Htriggercondition;
 DWORD Jass_TriggerAddCondition(DWORD arg_0_Htrigger, DWORD arg_4_Hboolexpr)
 {
    DWORD rt = 0;
@@ -6503,7 +6503,7 @@ static PyObject* TriggerAddCondition(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerRemoveCondition 0024a5f0 (Htrigger;Htriggercondition;)V
+// TriggerRemoveCondition 0024a760 (Htrigger;Htriggercondition;)V
 DWORD Jass_TriggerRemoveCondition(DWORD arg_0_Htrigger, DWORD arg_4_Htriggercondition)
 {
    DWORD rt = 0;
@@ -6529,7 +6529,7 @@ static PyObject* TriggerRemoveCondition(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerClearConditions 00249260 (Htrigger;)V
+// TriggerClearConditions 002493d0 (Htrigger;)V
 DWORD Jass_TriggerClearConditions(DWORD arg_0_Htrigger)
 {
    DWORD rt = 0;
@@ -6552,7 +6552,7 @@ static PyObject* TriggerClearConditions(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerAddAction 002491b0 (Htrigger;C)Htriggeraction;
+// TriggerAddAction 00249320 (Htrigger;C)Htriggeraction;
 DWORD Jass_TriggerAddAction(DWORD arg_0_Htrigger, DWORD arg_4_C)
 {
    DWORD rt = 0;
@@ -6578,7 +6578,7 @@ static PyObject* TriggerAddAction(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerRemoveAction 0024a5c0 (Htrigger;Htriggeraction;)V
+// TriggerRemoveAction 0024a730 (Htrigger;Htriggeraction;)V
 DWORD Jass_TriggerRemoveAction(DWORD arg_0_Htrigger, DWORD arg_4_Htriggeraction)
 {
    DWORD rt = 0;
@@ -6604,7 +6604,7 @@ static PyObject* TriggerRemoveAction(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerClearActions 00249240 (Htrigger;)V
+// TriggerClearActions 002493b0 (Htrigger;)V
 DWORD Jass_TriggerClearActions(DWORD arg_0_Htrigger)
 {
    DWORD rt = 0;
@@ -6627,7 +6627,7 @@ static PyObject* TriggerClearActions(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerSleepAction 0024a620 (R)V
+// TriggerSleepAction 0024a790 (R)V
 DWORD Jass_TriggerSleepAction(DWORD arg_0_R)
 {
    DWORD rt = 0;
@@ -6650,7 +6650,7 @@ static PyObject* TriggerSleepAction(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerWaitForSound 0024a670 (Hsound;R)V
+// TriggerWaitForSound 0024a7e0 (Hsound;R)V
 DWORD Jass_TriggerWaitForSound(DWORD arg_0_Hsound, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -6676,7 +6676,7 @@ static PyObject* TriggerWaitForSound(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerExecute 002492a0 (Htrigger;)V
+// TriggerExecute 00249410 (Htrigger;)V
 DWORD Jass_TriggerExecute(DWORD arg_0_Htrigger)
 {
    DWORD rt = 0;
@@ -6699,7 +6699,7 @@ static PyObject* TriggerExecute(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerExecuteWait 002492c0 (Htrigger;)V
+// TriggerExecuteWait 00249430 (Htrigger;)V
 DWORD Jass_TriggerExecuteWait(DWORD arg_0_Htrigger)
 {
    DWORD rt = 0;
@@ -6722,7 +6722,7 @@ static PyObject* TriggerExecuteWait(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerEvaluate 00249280 (Htrigger;)B
+// TriggerEvaluate 002493f0 (Htrigger;)B
 DWORD Jass_TriggerEvaluate(DWORD arg_0_Htrigger)
 {
    DWORD rt = 0;
@@ -6745,7 +6745,7 @@ static PyObject* TriggerEvaluate(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerSyncStart 0024a660 ()V
+// TriggerSyncStart 0024a7d0 ()V
 DWORD Jass_TriggerSyncStart()
 {
    DWORD rt = 0;
@@ -6762,7 +6762,7 @@ static PyObject* TriggerSyncStart(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerSyncReady 0024a630 ()V
+// TriggerSyncReady 0024a7a0 ()V
 DWORD Jass_TriggerSyncReady()
 {
    DWORD rt = 0;
@@ -6779,7 +6779,7 @@ static PyObject* TriggerSyncReady(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetTriggerWidget 00235ed0 ()Hwidget;
+// GetTriggerWidget 00236060 ()Hwidget;
 DWORD Jass_GetTriggerWidget()
 {
    DWORD rt = 0;
@@ -6796,7 +6796,7 @@ static PyObject* GetTriggerWidget(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetTriggerDestructable 00235dd0 ()Hdestructable;
+// GetTriggerDestructable 00235f60 ()Hdestructable;
 DWORD Jass_GetTriggerDestructable()
 {
    DWORD rt = 0;
@@ -6813,7 +6813,7 @@ static PyObject* GetTriggerDestructable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetTriggerUnit 00235eb0 ()Hunit;
+// GetTriggerUnit 00236040 ()Hunit;
 DWORD Jass_GetTriggerUnit()
 {
    DWORD rt = 0;
@@ -6830,7 +6830,7 @@ static PyObject* GetTriggerUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetTriggerPlayer 00235e90 ()Hplayer;
+// GetTriggerPlayer 00236020 ()Hplayer;
 DWORD Jass_GetTriggerPlayer()
 {
    DWORD rt = 0;
@@ -6847,7 +6847,7 @@ static PyObject* GetTriggerPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetTriggeringTrigger 00235f70 ()Htrigger;
+// GetTriggeringTrigger 00236100 ()Htrigger;
 DWORD Jass_GetTriggeringTrigger()
 {
    DWORD rt = 0;
@@ -6864,7 +6864,7 @@ static PyObject* GetTriggeringTrigger(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetTriggerEventId 00235e30 ()Heventid;
+// GetTriggerEventId 00235fc0 ()Heventid;
 DWORD Jass_GetTriggerEventId()
 {
    DWORD rt = 0;
@@ -6881,7 +6881,7 @@ static PyObject* GetTriggerEventId(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetTriggerEvalCount 00235df0 (Htrigger;)I
+// GetTriggerEvalCount 00235f80 (Htrigger;)I
 DWORD Jass_GetTriggerEvalCount(DWORD arg_0_Htrigger)
 {
    DWORD rt = 0;
@@ -6904,7 +6904,7 @@ static PyObject* GetTriggerEvalCount(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetTriggerExecCount 00235e70 (Htrigger;)I
+// GetTriggerExecCount 00236000 (Htrigger;)I
 DWORD Jass_GetTriggerExecCount(DWORD arg_0_Htrigger)
 {
    DWORD rt = 0;
@@ -6927,7 +6927,7 @@ static PyObject* GetTriggerExecCount(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetFilterUnit 00232590 ()Hunit;
+// GetFilterUnit 00232720 ()Hunit;
 DWORD Jass_GetFilterUnit()
 {
    DWORD rt = 0;
@@ -6944,7 +6944,7 @@ static PyObject* GetFilterUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetEnumUnit 00232270 ()Hunit;
+// GetEnumUnit 00232400 ()Hunit;
 DWORD Jass_GetEnumUnit()
 {
    DWORD rt = 0;
@@ -6961,7 +6961,7 @@ static PyObject* GetEnumUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetEnumPlayer 00232250 ()Hplayer;
+// GetEnumPlayer 002323e0 ()Hplayer;
 DWORD Jass_GetEnumPlayer()
 {
    DWORD rt = 0;
@@ -6978,7 +6978,7 @@ static PyObject* GetEnumPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetFilterPlayer 00232570 ()Hplayer;
+// GetFilterPlayer 00232700 ()Hplayer;
 DWORD Jass_GetFilterPlayer()
 {
    DWORD rt = 0;
@@ -6995,7 +6995,7 @@ static PyObject* GetFilterPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetFilterDestructable 00232530 ()Hdestructable;
+// GetFilterDestructable 002326c0 ()Hdestructable;
 DWORD Jass_GetFilterDestructable()
 {
    DWORD rt = 0;
@@ -7012,7 +7012,7 @@ static PyObject* GetFilterDestructable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetEnumDestructable 00232210 ()Hdestructable;
+// GetEnumDestructable 002323a0 ()Hdestructable;
 DWORD Jass_GetEnumDestructable()
 {
    DWORD rt = 0;
@@ -7029,7 +7029,7 @@ static PyObject* GetEnumDestructable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetFilterItem 00232550 ()Hitem;
+// GetFilterItem 002326e0 ()Hitem;
 DWORD Jass_GetFilterItem()
 {
    DWORD rt = 0;
@@ -7046,7 +7046,7 @@ static PyObject* GetFilterItem(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetEnumItem 00232230 ()Hitem;
+// GetEnumItem 002323c0 ()Hitem;
 DWORD Jass_GetEnumItem()
 {
    DWORD rt = 0;
@@ -7063,7 +7063,7 @@ static PyObject* GetEnumItem(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateGroup 0022e140 ()Hgroup;
+// CreateGroup 0022e2d0 ()Hgroup;
 DWORD Jass_CreateGroup()
 {
    DWORD rt = 0;
@@ -7080,7 +7080,7 @@ static PyObject* CreateGroup(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DestroyGroup 0022f700 (Hgroup;)V
+// DestroyGroup 0022f890 (Hgroup;)V
 DWORD Jass_DestroyGroup(DWORD arg_0_Hgroup)
 {
    DWORD rt = 0;
@@ -7103,7 +7103,7 @@ static PyObject* DestroyGroup(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GroupAddUnit 002369b0 (Hgroup;Hunit;)V
+// GroupAddUnit 00236b40 (Hgroup;Hunit;)V
 DWORD Jass_GroupAddUnit(DWORD arg_0_Hgroup, DWORD arg_4_Hunit)
 {
    DWORD rt = 0;
@@ -7129,7 +7129,7 @@ static PyObject* GroupAddUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GroupRemoveUnit 00236ed0 (Hgroup;Hunit;)V
+// GroupRemoveUnit 00237060 (Hgroup;Hunit;)V
 DWORD Jass_GroupRemoveUnit(DWORD arg_0_Hgroup, DWORD arg_4_Hunit)
 {
    DWORD rt = 0;
@@ -7155,7 +7155,7 @@ static PyObject* GroupRemoveUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GroupClear 002369e0 (Hgroup;)V
+// GroupClear 00236b70 (Hgroup;)V
 DWORD Jass_GroupClear(DWORD arg_0_Hgroup)
 {
    DWORD rt = 0;
@@ -7178,7 +7178,7 @@ static PyObject* GroupClear(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GroupEnumUnitsOfType 00236bf0 (Hgroup;SHboolexpr;)V
+// GroupEnumUnitsOfType 00236d80 (Hgroup;SHboolexpr;)V
 DWORD Jass_GroupEnumUnitsOfType(DWORD arg_0_Hgroup, DWORD arg_4_S, DWORD arg_8_Hboolexpr)
 {
    DWORD rt = 0;
@@ -7207,7 +7207,7 @@ static PyObject* GroupEnumUnitsOfType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GroupEnumUnitsOfTypeCounted 00236c40 (Hgroup;SHboolexpr;I)V
+// GroupEnumUnitsOfTypeCounted 00236dd0 (Hgroup;SHboolexpr;I)V
 DWORD Jass_GroupEnumUnitsOfTypeCounted(DWORD arg_0_Hgroup, DWORD arg_4_S, DWORD arg_8_Hboolexpr, DWORD arg_C_I)
 {
    DWORD rt = 0;
@@ -7239,7 +7239,7 @@ static PyObject* GroupEnumUnitsOfTypeCounted(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GroupEnumUnitsInRect 00236af0 (Hgroup;Hrect;Hboolexpr;)V
+// GroupEnumUnitsInRect 00236c80 (Hgroup;Hrect;Hboolexpr;)V
 DWORD Jass_GroupEnumUnitsInRect(DWORD arg_0_Hgroup, DWORD arg_4_Hrect, DWORD arg_8_Hboolexpr)
 {
    DWORD rt = 0;
@@ -7268,7 +7268,7 @@ static PyObject* GroupEnumUnitsInRect(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GroupEnumUnitsInRectCounted 00236b50 (Hgroup;Hrect;Hboolexpr;I)V
+// GroupEnumUnitsInRectCounted 00236ce0 (Hgroup;Hrect;Hboolexpr;I)V
 DWORD Jass_GroupEnumUnitsInRectCounted(DWORD arg_0_Hgroup, DWORD arg_4_Hrect, DWORD arg_8_Hboolexpr, DWORD arg_C_I)
 {
    DWORD rt = 0;
@@ -7300,7 +7300,7 @@ static PyObject* GroupEnumUnitsInRectCounted(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GroupEnumUnitsOfPlayer 00236bb0 (Hgroup;Hplayer;Hboolexpr;)V
+// GroupEnumUnitsOfPlayer 00236d40 (Hgroup;Hplayer;Hboolexpr;)V
 DWORD Jass_GroupEnumUnitsOfPlayer(DWORD arg_0_Hgroup, DWORD arg_4_Hplayer, DWORD arg_8_Hboolexpr)
 {
    DWORD rt = 0;
@@ -7329,7 +7329,7 @@ static PyObject* GroupEnumUnitsOfPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GroupEnumUnitsInRange 00236a00 (Hgroup;RRRHboolexpr;)V
+// GroupEnumUnitsInRange 00236b90 (Hgroup;RRRHboolexpr;)V
 DWORD Jass_GroupEnumUnitsInRange(DWORD arg_0_Hgroup, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_Hboolexpr)
 {
    DWORD rt = 0;
@@ -7364,7 +7364,7 @@ static PyObject* GroupEnumUnitsInRange(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GroupEnumUnitsInRangeOfLoc 00236a70 (Hgroup;Hlocation;RHboolexpr;)V
+// GroupEnumUnitsInRangeOfLoc 00236c00 (Hgroup;Hlocation;RHboolexpr;)V
 DWORD Jass_GroupEnumUnitsInRangeOfLoc(DWORD arg_0_Hgroup, DWORD arg_4_Hlocation, DWORD arg_8_R, DWORD arg_C_Hboolexpr)
 {
    DWORD rt = 0;
@@ -7396,7 +7396,7 @@ static PyObject* GroupEnumUnitsInRangeOfLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GroupEnumUnitsInRangeCounted 00236a30 (Hgroup;RRRHboolexpr;I)V
+// GroupEnumUnitsInRangeCounted 00236bc0 (Hgroup;RRRHboolexpr;I)V
 DWORD Jass_GroupEnumUnitsInRangeCounted(DWORD arg_0_Hgroup, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_Hboolexpr, DWORD arg_14_I)
 {
    DWORD rt = 0;
@@ -7434,7 +7434,7 @@ static PyObject* GroupEnumUnitsInRangeCounted(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GroupEnumUnitsInRangeOfLocCounted 00236ab0 (Hgroup;Hlocation;RHboolexpr;I)V
+// GroupEnumUnitsInRangeOfLocCounted 00236c40 (Hgroup;Hlocation;RHboolexpr;I)V
 DWORD Jass_GroupEnumUnitsInRangeOfLocCounted(DWORD arg_0_Hgroup, DWORD arg_4_Hlocation, DWORD arg_8_R, DWORD arg_C_Hboolexpr, DWORD arg_10_I)
 {
    DWORD rt = 0;
@@ -7469,7 +7469,7 @@ static PyObject* GroupEnumUnitsInRangeOfLocCounted(PyObject *self, PyObject *arg
    return Py_BuildValue("I", rt);
 }
 
-// GroupEnumUnitsSelected 00236c90 (Hgroup;Hplayer;Hboolexpr;)V
+// GroupEnumUnitsSelected 00236e20 (Hgroup;Hplayer;Hboolexpr;)V
 DWORD Jass_GroupEnumUnitsSelected(DWORD arg_0_Hgroup, DWORD arg_4_Hplayer, DWORD arg_8_Hboolexpr)
 {
    DWORD rt = 0;
@@ -7498,7 +7498,7 @@ static PyObject* GroupEnumUnitsSelected(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GroupImmediateOrder 00236de0 (Hgroup;S)B
+// GroupImmediateOrder 00236f70 (Hgroup;S)B
 DWORD Jass_GroupImmediateOrder(DWORD arg_0_Hgroup, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -7524,7 +7524,7 @@ static PyObject* GroupImmediateOrder(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GroupImmediateOrderById 00236e00 (Hgroup;I)B
+// GroupImmediateOrderById 00236f90 (Hgroup;I)B
 DWORD Jass_GroupImmediateOrderById(DWORD arg_0_Hgroup, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -7550,7 +7550,7 @@ static PyObject* GroupImmediateOrderById(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GroupPointOrder 00236e20 (Hgroup;SRR)B
+// GroupPointOrder 00236fb0 (Hgroup;SRR)B
 DWORD Jass_GroupPointOrder(DWORD arg_0_Hgroup, DWORD arg_4_S, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -7582,7 +7582,7 @@ static PyObject* GroupPointOrder(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GroupPointOrderLoc 00236eb0 (Hgroup;SHlocation;)B
+// GroupPointOrderLoc 00237040 (Hgroup;SHlocation;)B
 DWORD Jass_GroupPointOrderLoc(DWORD arg_0_Hgroup, DWORD arg_4_S, DWORD arg_8_Hlocation)
 {
    DWORD rt = 0;
@@ -7611,7 +7611,7 @@ static PyObject* GroupPointOrderLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GroupPointOrderById 00236e40 (Hgroup;IRR)B
+// GroupPointOrderById 00236fd0 (Hgroup;IRR)B
 DWORD Jass_GroupPointOrderById(DWORD arg_0_Hgroup, DWORD arg_4_I, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -7643,7 +7643,7 @@ static PyObject* GroupPointOrderById(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GroupPointOrderByIdLoc 00236e70 (Hgroup;IHlocation;)B
+// GroupPointOrderByIdLoc 00237000 (Hgroup;IHlocation;)B
 DWORD Jass_GroupPointOrderByIdLoc(DWORD arg_0_Hgroup, DWORD arg_4_I, DWORD arg_8_Hlocation)
 {
    DWORD rt = 0;
@@ -7672,7 +7672,7 @@ static PyObject* GroupPointOrderByIdLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GroupTargetOrder 00236f00 (Hgroup;SHwidget;)B
+// GroupTargetOrder 00237090 (Hgroup;SHwidget;)B
 DWORD Jass_GroupTargetOrder(DWORD arg_0_Hgroup, DWORD arg_4_S, DWORD arg_8_Hwidget)
 {
    DWORD rt = 0;
@@ -7701,7 +7701,7 @@ static PyObject* GroupTargetOrder(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GroupTargetOrderById 00236f20 (Hgroup;IHwidget;)B
+// GroupTargetOrderById 002370b0 (Hgroup;IHwidget;)B
 DWORD Jass_GroupTargetOrderById(DWORD arg_0_Hgroup, DWORD arg_4_I, DWORD arg_8_Hwidget)
 {
    DWORD rt = 0;
@@ -7730,7 +7730,7 @@ static PyObject* GroupTargetOrderById(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ForGroup 00230d10 (Hgroup;C)V
+// ForGroup 00230ea0 (Hgroup;C)V
 DWORD Jass_ForGroup(DWORD arg_0_Hgroup, DWORD arg_4_C)
 {
    DWORD rt = 0;
@@ -7756,7 +7756,7 @@ static PyObject* ForGroup(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// FirstOfGroup 00230910 (Hgroup;)Hunit;
+// FirstOfGroup 00230aa0 (Hgroup;)Hunit;
 DWORD Jass_FirstOfGroup(DWORD arg_0_Hgroup)
 {
    DWORD rt = 0;
@@ -7779,7 +7779,7 @@ static PyObject* FirstOfGroup(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateForce 0022e060 ()Hforce;
+// CreateForce 0022e1f0 ()Hforce;
 DWORD Jass_CreateForce()
 {
    DWORD rt = 0;
@@ -7796,7 +7796,7 @@ static PyObject* CreateForce(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DestroyForce 0022f6e0 (Hforce;)V
+// DestroyForce 0022f870 (Hforce;)V
 DWORD Jass_DestroyForce(DWORD arg_0_Hforce)
 {
    DWORD rt = 0;
@@ -7819,7 +7819,7 @@ static PyObject* DestroyForce(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ForceAddPlayer 00230d30 (Hforce;Hplayer;)V
+// ForceAddPlayer 00230ec0 (Hforce;Hplayer;)V
 DWORD Jass_ForceAddPlayer(DWORD arg_0_Hforce, DWORD arg_4_Hplayer)
 {
    DWORD rt = 0;
@@ -7845,7 +7845,7 @@ static PyObject* ForceAddPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ForceRemovePlayer 00230f10 (Hforce;Hplayer;)V
+// ForceRemovePlayer 002310a0 (Hforce;Hplayer;)V
 DWORD Jass_ForceRemovePlayer(DWORD arg_0_Hforce, DWORD arg_4_Hplayer)
 {
    DWORD rt = 0;
@@ -7871,7 +7871,7 @@ static PyObject* ForceRemovePlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ForceClear 00230db0 (Hforce;)V
+// ForceClear 00230f40 (Hforce;)V
 DWORD Jass_ForceClear(DWORD arg_0_Hforce)
 {
    DWORD rt = 0;
@@ -7894,7 +7894,7 @@ static PyObject* ForceClear(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ForceEnumPlayers 00230e50 (Hforce;Hboolexpr;)V
+// ForceEnumPlayers 00230fe0 (Hforce;Hboolexpr;)V
 DWORD Jass_ForceEnumPlayers(DWORD arg_0_Hforce, DWORD arg_4_Hboolexpr)
 {
    DWORD rt = 0;
@@ -7920,7 +7920,7 @@ static PyObject* ForceEnumPlayers(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ForceEnumPlayersCounted 00230e80 (Hforce;Hboolexpr;I)V
+// ForceEnumPlayersCounted 00231010 (Hforce;Hboolexpr;I)V
 DWORD Jass_ForceEnumPlayersCounted(DWORD arg_0_Hforce, DWORD arg_4_Hboolexpr, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -7949,7 +7949,7 @@ static PyObject* ForceEnumPlayersCounted(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ForceEnumAllies 00230dd0 (Hforce;Hplayer;Hboolexpr;)V
+// ForceEnumAllies 00230f60 (Hforce;Hplayer;Hboolexpr;)V
 DWORD Jass_ForceEnumAllies(DWORD arg_0_Hforce, DWORD arg_4_Hplayer, DWORD arg_8_Hboolexpr)
 {
    DWORD rt = 0;
@@ -7978,7 +7978,7 @@ static PyObject* ForceEnumAllies(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ForceEnumEnemies 00230e10 (Hforce;Hplayer;Hboolexpr;)V
+// ForceEnumEnemies 00230fa0 (Hforce;Hplayer;Hboolexpr;)V
 DWORD Jass_ForceEnumEnemies(DWORD arg_0_Hforce, DWORD arg_4_Hplayer, DWORD arg_8_Hboolexpr)
 {
    DWORD rt = 0;
@@ -8007,7 +8007,7 @@ static PyObject* ForceEnumEnemies(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ForForce 00230cf0 (Hforce;C)V
+// ForForce 00230e80 (Hforce;C)V
 DWORD Jass_ForForce(DWORD arg_0_Hforce, DWORD arg_4_C)
 {
    DWORD rt = 0;
@@ -8033,7 +8033,7 @@ static PyObject* ForForce(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetWidgetLife 002367d0 (Hwidget;)R
+// GetWidgetLife 00236960 (Hwidget;)R
 DWORD Jass_GetWidgetLife(DWORD arg_0_Hwidget)
 {
    DWORD rt = 0;
@@ -8056,7 +8056,7 @@ static PyObject* GetWidgetLife(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetWidgetLife 00247f50 (Hwidget;R)V
+// SetWidgetLife 002480c0 (Hwidget;R)V
 DWORD Jass_SetWidgetLife(DWORD arg_0_Hwidget, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -8082,7 +8082,7 @@ static PyObject* SetWidgetLife(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetWidgetX 00236800 (Hwidget;)R
+// GetWidgetX 00236990 (Hwidget;)R
 DWORD Jass_GetWidgetX(DWORD arg_0_Hwidget)
 {
    DWORD rt = 0;
@@ -8105,7 +8105,7 @@ static PyObject* GetWidgetX(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetWidgetY 00236840 (Hwidget;)R
+// GetWidgetY 002369d0 (Hwidget;)R
 DWORD Jass_GetWidgetY(DWORD arg_0_Hwidget)
 {
    DWORD rt = 0;
@@ -8128,7 +8128,7 @@ static PyObject* GetWidgetY(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateDestructable 0022dd10 (IRRRRI)Hdestructable;
+// CreateDestructable 0022dea0 (IRRRRI)Hdestructable;
 DWORD Jass_CreateDestructable(DWORD arg_0_I, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_R, DWORD arg_14_I)
 {
    DWORD rt = 0;
@@ -8166,7 +8166,7 @@ static PyObject* CreateDestructable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateDestructableZ 0022dd60 (IRRRRRI)Hdestructable;
+// CreateDestructableZ 0022def0 (IRRRRRI)Hdestructable;
 DWORD Jass_CreateDestructableZ(DWORD arg_0_I, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_R, DWORD arg_14_R, DWORD arg_18_I)
 {
    DWORD rt = 0;
@@ -8207,7 +8207,7 @@ static PyObject* CreateDestructableZ(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateDeadDestructable 0022dc20 (IRRRRI)Hdestructable;
+// CreateDeadDestructable 0022ddb0 (IRRRRI)Hdestructable;
 DWORD Jass_CreateDeadDestructable(DWORD arg_0_I, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_R, DWORD arg_14_I)
 {
    DWORD rt = 0;
@@ -8245,7 +8245,7 @@ static PyObject* CreateDeadDestructable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateDeadDestructableZ 0022dc70 (IRRRRRI)Hdestructable;
+// CreateDeadDestructableZ 0022de00 (IRRRRRI)Hdestructable;
 DWORD Jass_CreateDeadDestructableZ(DWORD arg_0_I, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_R, DWORD arg_14_R, DWORD arg_18_I)
 {
    DWORD rt = 0;
@@ -8286,7 +8286,7 @@ static PyObject* CreateDeadDestructableZ(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RemoveDestructable 00242e60 (Hdestructable;)V
+// RemoveDestructable 00242fd0 (Hdestructable;)V
 DWORD Jass_RemoveDestructable(DWORD arg_0_Hdestructable)
 {
    DWORD rt = 0;
@@ -8309,7 +8309,7 @@ static PyObject* RemoveDestructable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// KillDestructable 0023fd30 (Hdestructable;)V
+// KillDestructable 0023fec0 (Hdestructable;)V
 DWORD Jass_KillDestructable(DWORD arg_0_Hdestructable)
 {
    DWORD rt = 0;
@@ -8332,7 +8332,7 @@ static PyObject* KillDestructable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetDestructableInvulnerable 00244ca0 (Hdestructable;B)V
+// SetDestructableInvulnerable 00244e10 (Hdestructable;B)V
 DWORD Jass_SetDestructableInvulnerable(DWORD arg_0_Hdestructable, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -8358,7 +8358,7 @@ static PyObject* SetDestructableInvulnerable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsDestructableInvulnerable 00237900 (Hdestructable;)B
+// IsDestructableInvulnerable 00237a90 (Hdestructable;)B
 DWORD Jass_IsDestructableInvulnerable(DWORD arg_0_Hdestructable)
 {
    DWORD rt = 0;
@@ -8381,7 +8381,7 @@ static PyObject* IsDestructableInvulnerable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// EnumDestructablesInRect 00230200 (Hrect;Hboolexpr;C)V
+// EnumDestructablesInRect 00230390 (Hrect;Hboolexpr;C)V
 DWORD Jass_EnumDestructablesInRect(DWORD arg_0_Hrect, DWORD arg_4_Hboolexpr, DWORD arg_8_C)
 {
    DWORD rt = 0;
@@ -8410,7 +8410,7 @@ static PyObject* EnumDestructablesInRect(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetDestructableTypeId 002320f0 (Hdestructable;)I
+// GetDestructableTypeId 00232280 (Hdestructable;)I
 DWORD Jass_GetDestructableTypeId(DWORD arg_0_Hdestructable)
 {
    DWORD rt = 0;
@@ -8433,7 +8433,7 @@ static PyObject* GetDestructableTypeId(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetDestructableX 00232110 (Hdestructable;)R
+// GetDestructableX 002322a0 (Hdestructable;)R
 DWORD Jass_GetDestructableX(DWORD arg_0_Hdestructable)
 {
    DWORD rt = 0;
@@ -8456,7 +8456,7 @@ static PyObject* GetDestructableX(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetDestructableY 00232150 (Hdestructable;)R
+// GetDestructableY 002322e0 (Hdestructable;)R
 DWORD Jass_GetDestructableY(DWORD arg_0_Hdestructable)
 {
    DWORD rt = 0;
@@ -8479,7 +8479,7 @@ static PyObject* GetDestructableY(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetDestructableLife 00244cc0 (Hdestructable;R)V
+// SetDestructableLife 00244e30 (Hdestructable;R)V
 DWORD Jass_SetDestructableLife(DWORD arg_0_Hdestructable, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -8505,7 +8505,7 @@ static PyObject* SetDestructableLife(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetDestructableLife 00232030 (Hdestructable;)R
+// GetDestructableLife 002321c0 (Hdestructable;)R
 DWORD Jass_GetDestructableLife(DWORD arg_0_Hdestructable)
 {
    DWORD rt = 0;
@@ -8528,7 +8528,7 @@ static PyObject* GetDestructableLife(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetDestructableMaxLife 00244ce0 (Hdestructable;R)V
+// SetDestructableMaxLife 00244e50 (Hdestructable;R)V
 DWORD Jass_SetDestructableMaxLife(DWORD arg_0_Hdestructable, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -8554,7 +8554,7 @@ static PyObject* SetDestructableMaxLife(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetDestructableMaxLife 00232070 (Hdestructable;)R
+// GetDestructableMaxLife 00232200 (Hdestructable;)R
 DWORD Jass_GetDestructableMaxLife(DWORD arg_0_Hdestructable)
 {
    DWORD rt = 0;
@@ -8577,7 +8577,7 @@ static PyObject* GetDestructableMaxLife(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DestructableRestoreLife 0022fa40 (Hdestructable;RB)V
+// DestructableRestoreLife 0022fbd0 (Hdestructable;RB)V
 DWORD Jass_DestructableRestoreLife(DWORD arg_0_Hdestructable, DWORD arg_4_R, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -8606,7 +8606,7 @@ static PyObject* DestructableRestoreLife(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// QueueDestructableAnimation 00242870 (Hdestructable;S)V
+// QueueDestructableAnimation 002429e0 (Hdestructable;S)V
 DWORD Jass_QueueDestructableAnimation(DWORD arg_0_Hdestructable, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -8632,7 +8632,7 @@ static PyObject* QueueDestructableAnimation(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetDestructableAnimation 00244bb0 (Hdestructable;S)V
+// SetDestructableAnimation 00244d20 (Hdestructable;S)V
 DWORD Jass_SetDestructableAnimation(DWORD arg_0_Hdestructable, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -8658,7 +8658,7 @@ static PyObject* SetDestructableAnimation(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetDestructableAnimationSpeed 00244c70 (Hdestructable;R)V
+// SetDestructableAnimationSpeed 00244de0 (Hdestructable;R)V
 DWORD Jass_SetDestructableAnimationSpeed(DWORD arg_0_Hdestructable, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -8684,7 +8684,7 @@ static PyObject* SetDestructableAnimationSpeed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ShowDestructable 00247f70 (Hdestructable;B)V
+// ShowDestructable 002480e0 (Hdestructable;B)V
 DWORD Jass_ShowDestructable(DWORD arg_0_Hdestructable, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -8710,7 +8710,7 @@ static PyObject* ShowDestructable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetDestructableOccluderHeight 002320d0 (Hdestructable;)R
+// GetDestructableOccluderHeight 00232260 (Hdestructable;)R
 DWORD Jass_GetDestructableOccluderHeight(DWORD arg_0_Hdestructable)
 {
    DWORD rt = 0;
@@ -8733,7 +8733,7 @@ static PyObject* GetDestructableOccluderHeight(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetDestructableOccluderHeight 00244d30 (Hdestructable;R)V
+// SetDestructableOccluderHeight 00244ea0 (Hdestructable;R)V
 DWORD Jass_SetDestructableOccluderHeight(DWORD arg_0_Hdestructable, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -8759,7 +8759,7 @@ static PyObject* SetDestructableOccluderHeight(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetDestructableName 002320a0 (Hdestructable;)S
+// GetDestructableName 00232230 (Hdestructable;)S
 DWORD Jass_GetDestructableName(DWORD arg_0_Hdestructable)
 {
    DWORD rt = 0;
@@ -8782,7 +8782,7 @@ static PyObject* GetDestructableName(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// CreateUnit 0022efb0 (Hplayer;IRRR)Hunit;
+// CreateUnit 0022f140 (Hplayer;IRRR)Hunit;
 DWORD Jass_CreateUnit(DWORD arg_0_Hplayer, DWORD arg_4_I, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_R)
 {
    DWORD rt = 0;
@@ -8817,7 +8817,7 @@ static PyObject* CreateUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateUnitByName 0022f090 (Hplayer;SRRR)Hunit;
+// CreateUnitByName 0022f220 (Hplayer;SRRR)Hunit;
 DWORD Jass_CreateUnitByName(DWORD arg_0_Hplayer, DWORD arg_4_S, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_R)
 {
    DWORD rt = 0;
@@ -8852,7 +8852,7 @@ static PyObject* CreateUnitByName(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateUnitAtLoc 0022f010 (Hplayer;IHlocation;R)Hunit;
+// CreateUnitAtLoc 0022f1a0 (Hplayer;IHlocation;R)Hunit;
 DWORD Jass_CreateUnitAtLoc(DWORD arg_0_Hplayer, DWORD arg_4_I, DWORD arg_8_Hlocation, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -8884,7 +8884,7 @@ static PyObject* CreateUnitAtLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateUnitAtLocByName 0022f060 (Hplayer;SHlocation;R)Hunit;
+// CreateUnitAtLocByName 0022f1f0 (Hplayer;SHlocation;R)Hunit;
 DWORD Jass_CreateUnitAtLocByName(DWORD arg_0_Hplayer, DWORD arg_4_S, DWORD arg_8_Hlocation, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -8916,7 +8916,7 @@ static PyObject* CreateUnitAtLocByName(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateCorpse 0022db70 (Hplayer;IRRR)Hunit;
+// CreateCorpse 0022dd00 (Hplayer;IRRR)Hunit;
 DWORD Jass_CreateCorpse(DWORD arg_0_Hplayer, DWORD arg_4_I, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_R)
 {
    DWORD rt = 0;
@@ -8951,7 +8951,7 @@ static PyObject* CreateCorpse(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitState 002366a0 (Hunit;Hunitstate;)R
+// GetUnitState 00236830 (Hunit;Hunitstate;)R
 DWORD Jass_GetUnitState(DWORD arg_0_Hunit, DWORD arg_4_Hunitstate)
 {
    DWORD rt = 0;
@@ -8977,7 +8977,7 @@ static PyObject* GetUnitState(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitFoodUsed 00236280 (Hunit;)I
+// GetUnitFoodUsed 00236410 (Hunit;)I
 DWORD Jass_GetUnitFoodUsed(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -9000,7 +9000,7 @@ static PyObject* GetUnitFoodUsed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitFoodMade 00236260 (Hunit;)I
+// GetUnitFoodMade 002363f0 (Hunit;)I
 DWORD Jass_GetUnitFoodMade(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -9023,7 +9023,7 @@ static PyObject* GetUnitFoodMade(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetFoodMade 00232620 (I)I
+// GetFoodMade 002327b0 (I)I
 DWORD Jass_GetFoodMade(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -9046,7 +9046,7 @@ static PyObject* GetFoodMade(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetFoodUsed 00232630 (I)I
+// GetFoodUsed 002327c0 (I)I
 DWORD Jass_GetFoodUsed(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -9069,7 +9069,7 @@ static PyObject* GetFoodUsed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitUseFood 00247ce0 (Hunit;B)V
+// SetUnitUseFood 00247e50 (Hunit;B)V
 DWORD Jass_SetUnitUseFood(DWORD arg_0_Hunit, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -9095,7 +9095,7 @@ static PyObject* SetUnitUseFood(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitX 00236750 (Hunit;)R
+// GetUnitX 002368e0 (Hunit;)R
 DWORD Jass_GetUnitX(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -9118,7 +9118,7 @@ static PyObject* GetUnitX(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitY 00236790 (Hunit;)R
+// GetUnitY 00236920 (Hunit;)R
 DWORD Jass_GetUnitY(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -9141,7 +9141,7 @@ static PyObject* GetUnitY(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitLoc 00236320 (Hunit;)Hlocation;
+// GetUnitLoc 002364b0 (Hunit;)Hlocation;
 DWORD Jass_GetUnitLoc(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -9164,7 +9164,7 @@ static PyObject* GetUnitLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitRallyPoint 00236560 (Hunit;)Hlocation;
+// GetUnitRallyPoint 002366f0 (Hunit;)Hlocation;
 DWORD Jass_GetUnitRallyPoint(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -9187,7 +9187,7 @@ static PyObject* GetUnitRallyPoint(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitRallyUnit 002365d0 (Hunit;)Hunit;
+// GetUnitRallyUnit 00236760 (Hunit;)Hunit;
 DWORD Jass_GetUnitRallyUnit(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -9210,7 +9210,7 @@ static PyObject* GetUnitRallyUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitRallyDestructable 00236490 (Hunit;)Hdestructable;
+// GetUnitRallyDestructable 00236620 (Hunit;)Hdestructable;
 DWORD Jass_GetUnitRallyDestructable(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -9233,7 +9233,7 @@ static PyObject* GetUnitRallyDestructable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitFacing 002361d0 (Hunit;)R
+// GetUnitFacing 00236360 (Hunit;)R
 DWORD Jass_GetUnitFacing(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -9256,7 +9256,7 @@ static PyObject* GetUnitFacing(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitMoveSpeed 00236380 (Hunit;)R
+// GetUnitMoveSpeed 00236510 (Hunit;)R
 DWORD Jass_GetUnitMoveSpeed(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -9279,7 +9279,7 @@ static PyObject* GetUnitMoveSpeed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitDefaultMoveSpeed 002360e0 (Hunit;)R
+// GetUnitDefaultMoveSpeed 00236270 (Hunit;)R
 DWORD Jass_GetUnitDefaultMoveSpeed(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -9302,7 +9302,7 @@ static PyObject* GetUnitDefaultMoveSpeed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitTypeId 00236710 (Hunit;)I
+// GetUnitTypeId 002368a0 (Hunit;)I
 DWORD Jass_GetUnitTypeId(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -9325,7 +9325,7 @@ static PyObject* GetUnitTypeId(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitRace 00236470 (Hunit;)Hrace;
+// GetUnitRace 00236600 (Hunit;)Hrace;
 DWORD Jass_GetUnitRace(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -9348,7 +9348,7 @@ static PyObject* GetUnitRace(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitName 002363e0 (Hunit;)S
+// GetUnitName 00236570 (Hunit;)S
 DWORD Jass_GetUnitName(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -9371,7 +9371,7 @@ static PyObject* GetUnitName(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// GetUnitPointValue 00236410 (Hunit;)I
+// GetUnitPointValue 002365a0 (Hunit;)I
 DWORD Jass_GetUnitPointValue(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -9394,7 +9394,7 @@ static PyObject* GetUnitPointValue(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitPointValueByType 00236430 (I)I
+// GetUnitPointValueByType 002365c0 (I)I
 DWORD Jass_GetUnitPointValueByType(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -9417,7 +9417,7 @@ static PyObject* GetUnitPointValueByType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitX 00247e10 (Hunit;R)V
+// SetUnitX 00247f80 (Hunit;R)V
 DWORD Jass_SetUnitX(DWORD arg_0_Hunit, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -9443,7 +9443,7 @@ static PyObject* SetUnitX(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitY 00247e70 (Hunit;R)V
+// SetUnitY 00247fe0 (Hunit;R)V
 DWORD Jass_SetUnitY(DWORD arg_0_Hunit, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -9469,7 +9469,7 @@ static PyObject* SetUnitY(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitPosition 00247ad0 (Hunit;RR)V
+// SetUnitPosition 00247c40 (Hunit;RR)V
 DWORD Jass_SetUnitPosition(DWORD arg_0_Hunit, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -9498,7 +9498,7 @@ static PyObject* SetUnitPosition(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitPositionLoc 00247b30 (Hunit;Hlocation;)V
+// SetUnitPositionLoc 00247ca0 (Hunit;Hlocation;)V
 DWORD Jass_SetUnitPositionLoc(DWORD arg_0_Hunit, DWORD arg_4_Hlocation)
 {
    DWORD rt = 0;
@@ -9524,7 +9524,7 @@ static PyObject* SetUnitPositionLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitFacing 00247680 (Hunit;R)V
+// SetUnitFacing 002477f0 (Hunit;R)V
 DWORD Jass_SetUnitFacing(DWORD arg_0_Hunit, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -9550,7 +9550,7 @@ static PyObject* SetUnitFacing(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitFacingTimed 002476c0 (Hunit;RR)V
+// SetUnitFacingTimed 00247830 (Hunit;RR)V
 DWORD Jass_SetUnitFacingTimed(DWORD arg_0_Hunit, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -9579,7 +9579,7 @@ static PyObject* SetUnitFacingTimed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitFlyHeight 002477d0 (Hunit;RR)V
+// SetUnitFlyHeight 00247940 (Hunit;RR)V
 DWORD Jass_SetUnitFlyHeight(DWORD arg_0_Hunit, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -9608,7 +9608,7 @@ static PyObject* SetUnitFlyHeight(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitMoveSpeed 002479f0 (Hunit;R)V
+// SetUnitMoveSpeed 00247b60 (Hunit;R)V
 DWORD Jass_SetUnitMoveSpeed(DWORD arg_0_Hunit, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -9634,7 +9634,7 @@ static PyObject* SetUnitMoveSpeed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitTurnSpeed 00247c80 (Hunit;R)V
+// SetUnitTurnSpeed 00247df0 (Hunit;R)V
 DWORD Jass_SetUnitTurnSpeed(DWORD arg_0_Hunit, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -9660,7 +9660,7 @@ static PyObject* SetUnitTurnSpeed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitPropWindow 00247b70 (Hunit;R)V
+// SetUnitPropWindow 00247ce0 (Hunit;R)V
 DWORD Jass_SetUnitPropWindow(DWORD arg_0_Hunit, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -9686,7 +9686,7 @@ static PyObject* SetUnitPropWindow(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitCreepGuard 002475f0 (Hunit;B)V
+// SetUnitCreepGuard 00247760 (Hunit;B)V
 DWORD Jass_SetUnitCreepGuard(DWORD arg_0_Hunit, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -9712,7 +9712,7 @@ static PyObject* SetUnitCreepGuard(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitAcquireRange 00235ff0 (Hunit;)R
+// GetUnitAcquireRange 00236180 (Hunit;)R
 DWORD Jass_GetUnitAcquireRange(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -9735,7 +9735,7 @@ static PyObject* GetUnitAcquireRange(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitTurnSpeed 002366e0 (Hunit;)R
+// GetUnitTurnSpeed 00236870 (Hunit;)R
 DWORD Jass_GetUnitTurnSpeed(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -9758,7 +9758,7 @@ static PyObject* GetUnitTurnSpeed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitPropWindow 00236440 (Hunit;)R
+// GetUnitPropWindow 002365d0 (Hunit;)R
 DWORD Jass_GetUnitPropWindow(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -9781,7 +9781,7 @@ static PyObject* GetUnitPropWindow(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitFlyHeight 00236240 (Hunit;)R
+// GetUnitFlyHeight 002363d0 (Hunit;)R
 DWORD Jass_GetUnitFlyHeight(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -9804,7 +9804,7 @@ static PyObject* GetUnitFlyHeight(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitDefaultAcquireRange 00236080 (Hunit;)R
+// GetUnitDefaultAcquireRange 00236210 (Hunit;)R
 DWORD Jass_GetUnitDefaultAcquireRange(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -9827,7 +9827,7 @@ static PyObject* GetUnitDefaultAcquireRange(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitDefaultTurnSpeed 002361a0 (Hunit;)R
+// GetUnitDefaultTurnSpeed 00236330 (Hunit;)R
 DWORD Jass_GetUnitDefaultTurnSpeed(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -9850,7 +9850,7 @@ static PyObject* GetUnitDefaultTurnSpeed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitDefaultPropWindow 00236170 (Hunit;)R
+// GetUnitDefaultPropWindow 00236300 (Hunit;)R
 DWORD Jass_GetUnitDefaultPropWindow(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -9873,7 +9873,7 @@ static PyObject* GetUnitDefaultPropWindow(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitDefaultFlyHeight 002360b0 (Hunit;)R
+// GetUnitDefaultFlyHeight 00236240 (Hunit;)R
 DWORD Jass_GetUnitDefaultFlyHeight(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -9896,7 +9896,7 @@ static PyObject* GetUnitDefaultFlyHeight(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitAcquireRange 002473b0 (Hunit;R)V
+// SetUnitAcquireRange 00247520 (Hunit;R)V
 DWORD Jass_SetUnitAcquireRange(DWORD arg_0_Hunit, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -9922,7 +9922,7 @@ static PyObject* SetUnitAcquireRange(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitState 00247c20 (Hunit;Hunitstate;R)V
+// SetUnitState 00247d90 (Hunit;Hunitstate;R)V
 DWORD Jass_SetUnitState(DWORD arg_0_Hunit, DWORD arg_4_Hunitstate, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -9951,7 +9951,7 @@ static PyObject* SetUnitState(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitOwner 00247a10 (Hunit;Hplayer;B)V
+// SetUnitOwner 00247b80 (Hunit;Hplayer;B)V
 DWORD Jass_SetUnitOwner(DWORD arg_0_Hunit, DWORD arg_4_Hplayer, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -9980,7 +9980,7 @@ static PyObject* SetUnitOwner(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitRescuable 00247b90 (Hunit;Hplayer;B)V
+// SetUnitRescuable 00247d00 (Hunit;Hplayer;B)V
 DWORD Jass_SetUnitRescuable(DWORD arg_0_Hunit, DWORD arg_4_Hplayer, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -10009,7 +10009,7 @@ static PyObject* SetUnitRescuable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitRescueRange 00247bc0 (Hunit;R)V
+// SetUnitRescueRange 00247d30 (Hunit;R)V
 DWORD Jass_SetUnitRescueRange(DWORD arg_0_Hunit, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -10035,7 +10035,7 @@ static PyObject* SetUnitRescueRange(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitColor 002475b0 (Hunit;Hplayercolor;)V
+// SetUnitColor 00247720 (Hunit;Hplayercolor;)V
 DWORD Jass_SetUnitColor(DWORD arg_0_Hunit, DWORD arg_4_Hplayercolor)
 {
    DWORD rt = 0;
@@ -10061,7 +10061,7 @@ static PyObject* SetUnitColor(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// QueueUnitAnimation 00242890 (Hunit;S)V
+// QueueUnitAnimation 00242a00 (Hunit;S)V
 DWORD Jass_QueueUnitAnimation(DWORD arg_0_Hunit, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -10087,7 +10087,7 @@ static PyObject* QueueUnitAnimation(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitAnimation 002473d0 (Hunit;S)V
+// SetUnitAnimation 00247540 (Hunit;S)V
 DWORD Jass_SetUnitAnimation(DWORD arg_0_Hunit, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -10113,7 +10113,7 @@ static PyObject* SetUnitAnimation(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitAnimationWithRarity 00247560 (Hunit;SHraritycontrol;)V
+// SetUnitAnimationWithRarity 002476d0 (Hunit;SHraritycontrol;)V
 DWORD Jass_SetUnitAnimationWithRarity(DWORD arg_0_Hunit, DWORD arg_4_S, DWORD arg_8_Hraritycontrol)
 {
    DWORD rt = 0;
@@ -10142,7 +10142,7 @@ static PyObject* SetUnitAnimationWithRarity(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitAnimationByIndex 002473f0 (Hunit;I)V
+// SetUnitAnimationByIndex 00247560 (Hunit;I)V
 DWORD Jass_SetUnitAnimationByIndex(DWORD arg_0_Hunit, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -10168,7 +10168,7 @@ static PyObject* SetUnitAnimationByIndex(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AddUnitAnimationProperties 0022a600 (Hunit;SB)V
+// AddUnitAnimationProperties 0022a790 (Hunit;SB)V
 DWORD Jass_AddUnitAnimationProperties(DWORD arg_0_Hunit, DWORD arg_4_S, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -10197,7 +10197,7 @@ static PyObject* AddUnitAnimationProperties(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitScale 00247be0 (Hunit;RRR)V
+// SetUnitScale 00247d50 (Hunit;RRR)V
 DWORD Jass_SetUnitScale(DWORD arg_0_Hunit, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -10229,7 +10229,7 @@ static PyObject* SetUnitScale(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitTimeScale 00247c50 (Hunit;R)V
+// SetUnitTimeScale 00247dc0 (Hunit;R)V
 DWORD Jass_SetUnitTimeScale(DWORD arg_0_Hunit, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -10255,7 +10255,7 @@ static PyObject* SetUnitTimeScale(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitBlendTime 00247580 (Hunit;R)V
+// SetUnitBlendTime 002476f0 (Hunit;R)V
 DWORD Jass_SetUnitBlendTime(DWORD arg_0_Hunit, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -10281,7 +10281,7 @@ static PyObject* SetUnitBlendTime(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitVertexColor 00247d70 (Hunit;IIII)V
+// SetUnitVertexColor 00247ee0 (Hunit;IIII)V
 DWORD Jass_SetUnitVertexColor(DWORD arg_0_Hunit, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_I, DWORD arg_10_I)
 {
    DWORD rt = 0;
@@ -10316,7 +10316,7 @@ static PyObject* SetUnitVertexColor(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitLookAt 00247880 (Hunit;SHunit;RRR)V
+// SetUnitLookAt 002479f0 (Hunit;SHunit;RRR)V
 DWORD Jass_SetUnitLookAt(DWORD arg_0_Hunit, DWORD arg_4_S, DWORD arg_8_Hunit, DWORD arg_C_R, DWORD arg_10_R, DWORD arg_14_R)
 {
    DWORD rt = 0;
@@ -10354,7 +10354,7 @@ static PyObject* SetUnitLookAt(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitPathing 00247a50 (Hunit;B)V
+// SetUnitPathing 00247bc0 (Hunit;B)V
 DWORD Jass_SetUnitPathing(DWORD arg_0_Hunit, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -10380,7 +10380,7 @@ static PyObject* SetUnitPathing(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ResetUnitLookAt 00243320 (Hunit;)V
+// ResetUnitLookAt 00243490 (Hunit;)V
 DWORD Jass_ResetUnitLookAt(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -10403,7 +10403,7 @@ static PyObject* ResetUnitLookAt(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetHeroStr 00245a30 (Hunit;IB)V
+// SetHeroStr 00245ba0 (Hunit;IB)V
 DWORD Jass_SetHeroStr(DWORD arg_0_Hunit, DWORD arg_4_I, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -10432,7 +10432,7 @@ static PyObject* SetHeroStr(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetHeroAgi 002458c0 (Hunit;IB)V
+// SetHeroAgi 00245a30 (Hunit;IB)V
 DWORD Jass_SetHeroAgi(DWORD arg_0_Hunit, DWORD arg_4_I, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -10461,7 +10461,7 @@ static PyObject* SetHeroAgi(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetHeroInt 00245920 (Hunit;IB)V
+// SetHeroInt 00245a90 (Hunit;IB)V
 DWORD Jass_SetHeroInt(DWORD arg_0_Hunit, DWORD arg_4_I, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -10490,7 +10490,7 @@ static PyObject* SetHeroInt(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetHeroStr 00232a70 (Hunit;B)I
+// GetHeroStr 00232c00 (Hunit;B)I
 DWORD Jass_GetHeroStr(DWORD arg_0_Hunit, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -10516,7 +10516,7 @@ static PyObject* GetHeroStr(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetHeroAgi 00232850 (Hunit;B)I
+// GetHeroAgi 002329e0 (Hunit;B)I
 DWORD Jass_GetHeroAgi(DWORD arg_0_Hunit, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -10542,7 +10542,7 @@ static PyObject* GetHeroAgi(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetHeroInt 002328b0 (Hunit;B)I
+// GetHeroInt 00232a40 (Hunit;B)I
 DWORD Jass_GetHeroInt(DWORD arg_0_Hunit, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -10568,7 +10568,7 @@ static PyObject* GetHeroInt(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetHeroSkillPoints 00232a10 (Hunit;)I
+// GetHeroSkillPoints 00232ba0 (Hunit;)I
 DWORD Jass_GetHeroSkillPoints(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -10591,7 +10591,7 @@ static PyObject* GetHeroSkillPoints(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitStripHeroLevel 0024b510 (Hunit;I)B
+// UnitStripHeroLevel 0024b680 (Hunit;I)B
 DWORD Jass_UnitStripHeroLevel(DWORD arg_0_Hunit, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -10617,7 +10617,7 @@ static PyObject* UnitStripHeroLevel(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitModifySkillPoints 0024b190 (Hunit;I)B
+// UnitModifySkillPoints 0024b300 (Hunit;I)B
 DWORD Jass_UnitModifySkillPoints(DWORD arg_0_Hunit, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -10643,7 +10643,7 @@ static PyObject* UnitModifySkillPoints(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetHeroXP 00232ad0 (Hunit;)I
+// GetHeroXP 00232c60 (Hunit;)I
 DWORD Jass_GetHeroXP(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -10666,7 +10666,7 @@ static PyObject* GetHeroXP(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetHeroXP 00245a90 (Hunit;IB)V
+// SetHeroXP 00245c00 (Hunit;IB)V
 DWORD Jass_SetHeroXP(DWORD arg_0_Hunit, DWORD arg_4_I, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -10695,7 +10695,7 @@ static PyObject* SetHeroXP(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AddHeroXP 00229e60 (Hunit;IB)V
+// AddHeroXP 00229ff0 (Hunit;IB)V
 DWORD Jass_AddHeroXP(DWORD arg_0_Hunit, DWORD arg_4_I, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -10724,7 +10724,7 @@ static PyObject* AddHeroXP(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetHeroLevel 00245980 (Hunit;IB)V
+// SetHeroLevel 00245af0 (Hunit;IB)V
 DWORD Jass_SetHeroLevel(DWORD arg_0_Hunit, DWORD arg_4_I, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -10753,7 +10753,7 @@ static PyObject* SetHeroLevel(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetHeroLevel 00232910 (Hunit;)I
+// GetHeroLevel 00232aa0 (Hunit;)I
 DWORD Jass_GetHeroLevel(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -10776,7 +10776,7 @@ static PyObject* GetHeroLevel(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitLevel 002362b0 (Hunit;)I
+// GetUnitLevel 00236440 (Hunit;)I
 DWORD Jass_GetUnitLevel(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -10799,7 +10799,7 @@ static PyObject* GetUnitLevel(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetHeroProperName 00232970 (Hunit;)S
+// GetHeroProperName 00232b00 (Hunit;)S
 DWORD Jass_GetHeroProperName(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -10822,7 +10822,7 @@ static PyObject* GetHeroProperName(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// SuspendHeroXP 002489b0 (Hunit;B)V
+// SuspendHeroXP 00248b20 (Hunit;B)V
 DWORD Jass_SuspendHeroXP(DWORD arg_0_Hunit, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -10848,7 +10848,7 @@ static PyObject* SuspendHeroXP(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsSuspendedXP 00238470 (Hunit;)B
+// IsSuspendedXP 00238600 (Hunit;)B
 DWORD Jass_IsSuspendedXP(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -10871,7 +10871,7 @@ static PyObject* IsSuspendedXP(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SelectHeroSkill 00243e50 (Hunit;I)V
+// SelectHeroSkill 00243fc0 (Hunit;I)V
 DWORD Jass_SelectHeroSkill(DWORD arg_0_Hunit, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -10897,7 +10897,7 @@ static PyObject* SelectHeroSkill(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitAbilityLevel 00235f90 (Hunit;I)I
+// GetUnitAbilityLevel 00236120 (Hunit;I)I
 DWORD Jass_GetUnitAbilityLevel(DWORD arg_0_Hunit, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -10923,7 +10923,7 @@ static PyObject* GetUnitAbilityLevel(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ReviveHero 002434a0 (Hunit;RRB)B
+// ReviveHero 00243610 (Hunit;RRB)B
 DWORD Jass_ReviveHero(DWORD arg_0_Hunit, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_B)
 {
    DWORD rt = 0;
@@ -10955,7 +10955,7 @@ static PyObject* ReviveHero(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ReviveHeroLoc 00243520 (Hunit;Hlocation;B)B
+// ReviveHeroLoc 00243690 (Hunit;Hlocation;B)B
 DWORD Jass_ReviveHeroLoc(DWORD arg_0_Hunit, DWORD arg_4_Hlocation, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -10984,7 +10984,7 @@ static PyObject* ReviveHeroLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitExploded 00247620 (Hunit;B)V
+// SetUnitExploded 00247790 (Hunit;B)V
 DWORD Jass_SetUnitExploded(DWORD arg_0_Hunit, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -11010,7 +11010,7 @@ static PyObject* SetUnitExploded(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitInvulnerable 00247830 (Hunit;B)V
+// SetUnitInvulnerable 002479a0 (Hunit;B)V
 DWORD Jass_SetUnitInvulnerable(DWORD arg_0_Hunit, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -11036,7 +11036,7 @@ static PyObject* SetUnitInvulnerable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PauseUnit 00241ba0 (Hunit;B)V
+// PauseUnit 00241d30 (Hunit;B)V
 DWORD Jass_PauseUnit(DWORD arg_0_Hunit, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -11062,7 +11062,7 @@ static PyObject* PauseUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsUnitPaused 00238c50 (Hunit;)B
+// IsUnitPaused 00238de0 (Hunit;)B
 DWORD Jass_IsUnitPaused(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -11085,7 +11085,7 @@ static PyObject* IsUnitPaused(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitAddItem 0024a7b0 (Hunit;Hitem;)B
+// UnitAddItem 0024a920 (Hunit;Hitem;)B
 DWORD Jass_UnitAddItem(DWORD arg_0_Hunit, DWORD arg_4_Hitem)
 {
    DWORD rt = 0;
@@ -11111,7 +11111,7 @@ static PyObject* UnitAddItem(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitAddItemById 0024a8a0 (Hunit;I)Hitem;
+// UnitAddItemById 0024aa10 (Hunit;I)Hitem;
 DWORD Jass_UnitAddItemById(DWORD arg_0_Hunit, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -11137,7 +11137,7 @@ static PyObject* UnitAddItemById(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitAddItemToSlotById 0024a950 (Hunit;II)B
+// UnitAddItemToSlotById 0024aac0 (Hunit;II)B
 DWORD Jass_UnitAddItemToSlotById(DWORD arg_0_Hunit, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -11166,7 +11166,7 @@ static PyObject* UnitAddItemToSlotById(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitRemoveItem 0024b310 (Hunit;Hitem;)V
+// UnitRemoveItem 0024b480 (Hunit;Hitem;)V
 DWORD Jass_UnitRemoveItem(DWORD arg_0_Hunit, DWORD arg_4_Hitem)
 {
    DWORD rt = 0;
@@ -11192,7 +11192,7 @@ static PyObject* UnitRemoveItem(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitRemoveItemFromSlot 0024b350 (Hunit;I)Hitem;
+// UnitRemoveItemFromSlot 0024b4c0 (Hunit;I)Hitem;
 DWORD Jass_UnitRemoveItemFromSlot(DWORD arg_0_Hunit, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -11218,7 +11218,7 @@ static PyObject* UnitRemoveItemFromSlot(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitHasItem 0024af30 (Hunit;Hitem;)B
+// UnitHasItem 0024b0a0 (Hunit;Hitem;)B
 DWORD Jass_UnitHasItem(DWORD arg_0_Hunit, DWORD arg_4_Hitem)
 {
    DWORD rt = 0;
@@ -11244,7 +11244,7 @@ static PyObject* UnitHasItem(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitItemInSlot 0024b0f0 (Hunit;I)Hitem;
+// UnitItemInSlot 0024b260 (Hunit;I)Hitem;
 DWORD Jass_UnitItemInSlot(DWORD arg_0_Hunit, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -11270,7 +11270,7 @@ static PyObject* UnitItemInSlot(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitInventorySize 0024b080 (Hunit;)I
+// UnitInventorySize 0024b1f0 (Hunit;)I
 DWORD Jass_UnitInventorySize(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -11293,7 +11293,7 @@ static PyObject* UnitInventorySize(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitDropItemPoint 0024adc0 (Hunit;Hitem;RR)B
+// UnitDropItemPoint 0024af30 (Hunit;Hitem;RR)B
 DWORD Jass_UnitDropItemPoint(DWORD arg_0_Hunit, DWORD arg_4_Hitem, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -11325,7 +11325,7 @@ static PyObject* UnitDropItemPoint(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitDropItemSlot 0024ae20 (Hunit;Hitem;I)B
+// UnitDropItemSlot 0024af90 (Hunit;Hitem;I)B
 DWORD Jass_UnitDropItemSlot(DWORD arg_0_Hunit, DWORD arg_4_Hitem, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -11354,7 +11354,7 @@ static PyObject* UnitDropItemSlot(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitDropItemTarget 0024ae90 (Hunit;Hitem;Hwidget;)B
+// UnitDropItemTarget 0024b000 (Hunit;Hitem;Hwidget;)B
 DWORD Jass_UnitDropItemTarget(DWORD arg_0_Hunit, DWORD arg_4_Hitem, DWORD arg_8_Hwidget)
 {
    DWORD rt = 0;
@@ -11383,7 +11383,7 @@ static PyObject* UnitDropItemTarget(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitUseItem 0024b5d0 (Hunit;Hitem;)B
+// UnitUseItem 0024b740 (Hunit;Hitem;)B
 DWORD Jass_UnitUseItem(DWORD arg_0_Hunit, DWORD arg_4_Hitem)
 {
    DWORD rt = 0;
@@ -11409,7 +11409,7 @@ static PyObject* UnitUseItem(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitUseItemPoint 0024b640 (Hunit;Hitem;RR)B
+// UnitUseItemPoint 0024b7b0 (Hunit;Hitem;RR)B
 DWORD Jass_UnitUseItemPoint(DWORD arg_0_Hunit, DWORD arg_4_Hitem, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -11441,7 +11441,7 @@ static PyObject* UnitUseItemPoint(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitUseItemTarget 0024b6b0 (Hunit;Hitem;Hwidget;)B
+// UnitUseItemTarget 0024b820 (Hunit;Hitem;Hwidget;)B
 DWORD Jass_UnitUseItemTarget(DWORD arg_0_Hunit, DWORD arg_4_Hitem, DWORD arg_8_Hwidget)
 {
    DWORD rt = 0;
@@ -11470,7 +11470,7 @@ static PyObject* UnitUseItemTarget(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitCurrentOrder 00236020 (Hunit;)I
+// GetUnitCurrentOrder 002361b0 (Hunit;)I
 DWORD Jass_GetUnitCurrentOrder(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -11493,7 +11493,7 @@ static PyObject* GetUnitCurrentOrder(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetResourceAmount 00246780 (Hunit;I)V
+// SetResourceAmount 002468f0 (Hunit;I)V
 DWORD Jass_SetResourceAmount(DWORD arg_0_Hunit, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -11519,7 +11519,7 @@ static PyObject* SetResourceAmount(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AddResourceAmount 0022a2b0 (Hunit;I)V
+// AddResourceAmount 0022a440 (Hunit;I)V
 DWORD Jass_AddResourceAmount(DWORD arg_0_Hunit, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -11545,7 +11545,7 @@ static PyObject* AddResourceAmount(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetResourceAmount 00234850 (Hunit;)I
+// GetResourceAmount 002349e0 (Hunit;)I
 DWORD Jass_GetResourceAmount(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -11568,7 +11568,7 @@ static PyObject* GetResourceAmount(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SelectUnit 00243eb0 (Hunit;B)V
+// SelectUnit 00244020 (Hunit;B)V
 DWORD Jass_SelectUnit(DWORD arg_0_Hunit, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -11594,7 +11594,7 @@ static PyObject* SelectUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ClearSelection 0022b3d0 ()V
+// ClearSelection 0022b560 ()V
 DWORD Jass_ClearSelection()
 {
    DWORD rt = 0;
@@ -11611,7 +11611,7 @@ static PyObject* ClearSelection(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitAddIndicator 0024a720 (Hunit;IIII)V
+// UnitAddIndicator 0024a890 (Hunit;IIII)V
 DWORD Jass_UnitAddIndicator(DWORD arg_0_Hunit, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_I, DWORD arg_10_I)
 {
    DWORD rt = 0;
@@ -11646,7 +11646,7 @@ static PyObject* UnitAddIndicator(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AddIndicator 00229ed0 (Hwidget;IIII)V
+// AddIndicator 0022a060 (Hwidget;IIII)V
 DWORD Jass_AddIndicator(DWORD arg_0_Hwidget, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_I, DWORD arg_10_I)
 {
    DWORD rt = 0;
@@ -11681,7 +11681,7 @@ static PyObject* AddIndicator(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// KillUnit 0023fd70 (Hunit;)V
+// KillUnit 0023ff00 (Hunit;)V
 DWORD Jass_KillUnit(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -11704,7 +11704,7 @@ static PyObject* KillUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RemoveUnit 00243120 (Hunit;)V
+// RemoveUnit 00243290 (Hunit;)V
 DWORD Jass_RemoveUnit(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -11727,7 +11727,7 @@ static PyObject* RemoveUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ShowUnit 00248010 (Hunit;B)V
+// ShowUnit 00248180 (Hunit;B)V
 DWORD Jass_ShowUnit(DWORD arg_0_Hunit, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -11753,7 +11753,7 @@ static PyObject* ShowUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsUnitInForce 00238970 (Hunit;Hforce;)B
+// IsUnitInForce 00238b00 (Hunit;Hforce;)B
 DWORD Jass_IsUnitInForce(DWORD arg_0_Hunit, DWORD arg_4_Hforce)
 {
    DWORD rt = 0;
@@ -11779,7 +11779,7 @@ static PyObject* IsUnitInForce(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsUnitInGroup 002389b0 (Hunit;Hgroup;)B
+// IsUnitInGroup 00238b40 (Hunit;Hgroup;)B
 DWORD Jass_IsUnitInGroup(DWORD arg_0_Hunit, DWORD arg_4_Hgroup)
 {
    DWORD rt = 0;
@@ -11805,7 +11805,7 @@ static PyObject* IsUnitInGroup(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsUnitOwnedByPlayer 00238c10 (Hunit;Hplayer;)B
+// IsUnitOwnedByPlayer 00238da0 (Hunit;Hplayer;)B
 DWORD Jass_IsUnitOwnedByPlayer(DWORD arg_0_Hunit, DWORD arg_4_Hplayer)
 {
    DWORD rt = 0;
@@ -11831,7 +11831,7 @@ static PyObject* IsUnitOwnedByPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsUnitAlly 002385b0 (Hunit;Hplayer;)B
+// IsUnitAlly 00238740 (Hunit;Hplayer;)B
 DWORD Jass_IsUnitAlly(DWORD arg_0_Hunit, DWORD arg_4_Hplayer)
 {
    DWORD rt = 0;
@@ -11857,7 +11857,7 @@ static PyObject* IsUnitAlly(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsUnitEnemy 00238650 (Hunit;Hplayer;)B
+// IsUnitEnemy 002387e0 (Hunit;Hplayer;)B
 DWORD Jass_IsUnitEnemy(DWORD arg_0_Hunit, DWORD arg_4_Hplayer)
 {
    DWORD rt = 0;
@@ -11883,7 +11883,7 @@ static PyObject* IsUnitEnemy(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsUnitVisible 00238f10 (Hunit;Hplayer;)B
+// IsUnitVisible 002390a0 (Hunit;Hplayer;)B
 DWORD Jass_IsUnitVisible(DWORD arg_0_Hunit, DWORD arg_4_Hplayer)
 {
    DWORD rt = 0;
@@ -11909,7 +11909,7 @@ static PyObject* IsUnitVisible(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsUnitDetected 00238610 (Hunit;Hplayer;)B
+// IsUnitDetected 002387a0 (Hunit;Hplayer;)B
 DWORD Jass_IsUnitDetected(DWORD arg_0_Hunit, DWORD arg_4_Hplayer)
 {
    DWORD rt = 0;
@@ -11935,7 +11935,7 @@ static PyObject* IsUnitDetected(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsUnitInvisible 00238b30 (Hunit;Hplayer;)B
+// IsUnitInvisible 00238cc0 (Hunit;Hplayer;)B
 DWORD Jass_IsUnitInvisible(DWORD arg_0_Hunit, DWORD arg_4_Hplayer)
 {
    DWORD rt = 0;
@@ -11961,7 +11961,7 @@ static PyObject* IsUnitInvisible(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsUnitFogged 002386d0 (Hunit;Hplayer;)B
+// IsUnitFogged 00238860 (Hunit;Hplayer;)B
 DWORD Jass_IsUnitFogged(DWORD arg_0_Hunit, DWORD arg_4_Hplayer)
 {
    DWORD rt = 0;
@@ -11987,7 +11987,7 @@ static PyObject* IsUnitFogged(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsUnitMasked 00238b90 (Hunit;Hplayer;)B
+// IsUnitMasked 00238d20 (Hunit;Hplayer;)B
 DWORD Jass_IsUnitMasked(DWORD arg_0_Hunit, DWORD arg_4_Hplayer)
 {
    DWORD rt = 0;
@@ -12013,7 +12013,7 @@ static PyObject* IsUnitMasked(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsUnitSelected 00238cd0 (Hunit;Hplayer;)B
+// IsUnitSelected 00238e60 (Hunit;Hplayer;)B
 DWORD Jass_IsUnitSelected(DWORD arg_0_Hunit, DWORD arg_4_Hplayer)
 {
    DWORD rt = 0;
@@ -12039,7 +12039,7 @@ static PyObject* IsUnitSelected(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsUnitRace 00238ca0 (Hunit;Hrace;)B
+// IsUnitRace 00238e30 (Hunit;Hrace;)B
 DWORD Jass_IsUnitRace(DWORD arg_0_Hunit, DWORD arg_4_Hrace)
 {
    DWORD rt = 0;
@@ -12065,7 +12065,7 @@ static PyObject* IsUnitRace(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsUnitType 00238d50 (Hunit;Hunittype;)B
+// IsUnitType 00238ee0 (Hunit;Hunittype;)B
 DWORD Jass_IsUnitType(DWORD arg_0_Hunit, DWORD arg_4_Hunittype)
 {
    DWORD rt = 0;
@@ -12091,7 +12091,7 @@ static PyObject* IsUnitType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsUnit 00238580 (Hunit;Hunit;)B
+// IsUnit 00238710 (Hunit;Hunit;)B
 DWORD Jass_IsUnit(DWORD arg_0_Hunit, DWORD arg_4_Hunit)
 {
    DWORD rt = 0;
@@ -12117,7 +12117,7 @@ static PyObject* IsUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsUnitInRange 002389e0 (Hunit;Hunit;R)B
+// IsUnitInRange 00238b70 (Hunit;Hunit;R)B
 DWORD Jass_IsUnitInRange(DWORD arg_0_Hunit, DWORD arg_4_Hunit, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -12146,7 +12146,7 @@ static PyObject* IsUnitInRange(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsUnitInRangeXY 00238a70 (Hunit;RRR)B
+// IsUnitInRangeXY 00238c00 (Hunit;RRR)B
 DWORD Jass_IsUnitInRangeXY(DWORD arg_0_Hunit, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -12178,7 +12178,7 @@ static PyObject* IsUnitInRangeXY(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsUnitInRangeLoc 00238a30 (Hunit;Hlocation;R)B
+// IsUnitInRangeLoc 00238bc0 (Hunit;Hlocation;R)B
 DWORD Jass_IsUnitInRangeLoc(DWORD arg_0_Hunit, DWORD arg_4_Hlocation, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -12207,7 +12207,7 @@ static PyObject* IsUnitInRangeLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsUnitHidden 00238750 (Hunit;)B
+// IsUnitHidden 002388e0 (Hunit;)B
 DWORD Jass_IsUnitHidden(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -12230,7 +12230,7 @@ static PyObject* IsUnitHidden(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsUnitIllusion 00238950 (Hunit;)B
+// IsUnitIllusion 00238ae0 (Hunit;)B
 DWORD Jass_IsUnitIllusion(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -12253,7 +12253,7 @@ static PyObject* IsUnitIllusion(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsUnitInTransport 00238b00 (Hunit;Hunit;)B
+// IsUnitInTransport 00238c90 (Hunit;Hunit;)B
 DWORD Jass_IsUnitInTransport(DWORD arg_0_Hunit, DWORD arg_4_Hunit)
 {
    DWORD rt = 0;
@@ -12279,7 +12279,7 @@ static PyObject* IsUnitInTransport(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsUnitLoaded 00238b70 (Hunit;)B
+// IsUnitLoaded 00238d00 (Hunit;)B
 DWORD Jass_IsUnitLoaded(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -12302,7 +12302,7 @@ static PyObject* IsUnitLoaded(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsHeroUnitId 00237be0 (I)B
+// IsHeroUnitId 00237d70 (I)B
 DWORD Jass_IsHeroUnitId(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -12325,7 +12325,7 @@ static PyObject* IsHeroUnitId(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsUnitIdType 00238770 (IHunittype;)B
+// IsUnitIdType 00238900 (IHunittype;)B
 DWORD Jass_IsUnitIdType(DWORD arg_0_I, DWORD arg_4_Hunittype)
 {
    DWORD rt = 0;
@@ -12351,7 +12351,7 @@ static PyObject* IsUnitIdType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetOwningPlayer 00233c40 (Hunit;)Hplayer;
+// GetOwningPlayer 00233dd0 (Hunit;)Hplayer;
 DWORD Jass_GetOwningPlayer(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -12374,7 +12374,7 @@ static PyObject* GetOwningPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitShareVision 0024b4e0 (Hunit;Hplayer;B)V
+// UnitShareVision 0024b650 (Hunit;Hplayer;B)V
 DWORD Jass_UnitShareVision(DWORD arg_0_Hunit, DWORD arg_4_Hplayer, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -12403,7 +12403,7 @@ static PyObject* UnitShareVision(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitSuspendDecay 0024b570 (Hunit;B)V
+// UnitSuspendDecay 0024b6e0 (Hunit;B)V
 DWORD Jass_UnitSuspendDecay(DWORD arg_0_Hunit, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -12429,7 +12429,7 @@ static PyObject* UnitSuspendDecay(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitAddType 0024aa90 (Hunit;Hunittype;)B
+// UnitAddType 0024ac00 (Hunit;Hunittype;)B
 DWORD Jass_UnitAddType(DWORD arg_0_Hunit, DWORD arg_4_Hunittype)
 {
    DWORD rt = 0;
@@ -12455,7 +12455,7 @@ static PyObject* UnitAddType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitRemoveType 0024b3b0 (Hunit;Hunittype;)B
+// UnitRemoveType 0024b520 (Hunit;Hunittype;)B
 DWORD Jass_UnitRemoveType(DWORD arg_0_Hunit, DWORD arg_4_Hunittype)
 {
    DWORD rt = 0;
@@ -12481,7 +12481,7 @@ static PyObject* UnitRemoveType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitAddAbility 0024a6b0 (Hunit;I)B
+// UnitAddAbility 0024a820 (Hunit;I)B
 DWORD Jass_UnitAddAbility(DWORD arg_0_Hunit, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -12507,7 +12507,7 @@ static PyObject* UnitAddAbility(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitRemoveAbility 0024b250 (Hunit;I)B
+// UnitRemoveAbility 0024b3c0 (Hunit;I)B
 DWORD Jass_UnitRemoveAbility(DWORD arg_0_Hunit, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -12533,7 +12533,7 @@ static PyObject* UnitRemoveAbility(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitMakeAbilityPermanent 0024b140 (Hunit;BI)B
+// UnitMakeAbilityPermanent 0024b2b0 (Hunit;BI)B
 DWORD Jass_UnitMakeAbilityPermanent(DWORD arg_0_Hunit, DWORD arg_4_B, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -12562,7 +12562,7 @@ static PyObject* UnitMakeAbilityPermanent(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitHasBuffsEx 0024aef0 (Hunit;BBBBBBB)B
+// UnitHasBuffsEx 0024b060 (Hunit;BBBBBBB)B
 DWORD Jass_UnitHasBuffsEx(DWORD arg_0_Hunit, DWORD arg_4_B, DWORD arg_8_B, DWORD arg_C_B, DWORD arg_10_B, DWORD arg_14_B, DWORD arg_18_B, DWORD arg_1C_B)
 {
    DWORD rt = 0;
@@ -12606,7 +12606,7 @@ static PyObject* UnitHasBuffsEx(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitCountBuffsEx 0024abe0 (Hunit;BBBBBBB)I
+// UnitCountBuffsEx 0024ad50 (Hunit;BBBBBBB)I
 DWORD Jass_UnitCountBuffsEx(DWORD arg_0_Hunit, DWORD arg_4_B, DWORD arg_8_B, DWORD arg_C_B, DWORD arg_10_B, DWORD arg_14_B, DWORD arg_18_B, DWORD arg_1C_B)
 {
    DWORD rt = 0;
@@ -12650,7 +12650,7 @@ static PyObject* UnitCountBuffsEx(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitRemoveBuffs 0024b2a0 (Hunit;BB)V
+// UnitRemoveBuffs 0024b410 (Hunit;BB)V
 DWORD Jass_UnitRemoveBuffs(DWORD arg_0_Hunit, DWORD arg_4_B, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -12679,7 +12679,7 @@ static PyObject* UnitRemoveBuffs(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitRemoveBuffsEx 0024b2d0 (Hunit;BBBBBBB)V
+// UnitRemoveBuffsEx 0024b440 (Hunit;BBBBBBB)V
 DWORD Jass_UnitRemoveBuffsEx(DWORD arg_0_Hunit, DWORD arg_4_B, DWORD arg_8_B, DWORD arg_C_B, DWORD arg_10_B, DWORD arg_14_B, DWORD arg_18_B, DWORD arg_1C_B)
 {
    DWORD rt = 0;
@@ -12723,7 +12723,7 @@ static PyObject* UnitRemoveBuffsEx(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitAddSleep 0024a9f0 (Hunit;B)V
+// UnitAddSleep 0024ab60 (Hunit;B)V
 DWORD Jass_UnitAddSleep(DWORD arg_0_Hunit, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -12749,7 +12749,7 @@ static PyObject* UnitAddSleep(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitCanSleep 0024ab60 (Hunit;)B
+// UnitCanSleep 0024acd0 (Hunit;)B
 DWORD Jass_UnitCanSleep(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -12772,7 +12772,7 @@ static PyObject* UnitCanSleep(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitAddSleepPerm 0024aa40 (Hunit;B)V
+// UnitAddSleepPerm 0024abb0 (Hunit;B)V
 DWORD Jass_UnitAddSleepPerm(DWORD arg_0_Hunit, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -12798,7 +12798,7 @@ static PyObject* UnitAddSleepPerm(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitCanSleepPerm 0024aba0 (Hunit;)B
+// UnitCanSleepPerm 0024ad10 (Hunit;)B
 DWORD Jass_UnitCanSleepPerm(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -12821,7 +12821,7 @@ static PyObject* UnitCanSleepPerm(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitIsSleeping 0024b0b0 (Hunit;)B
+// UnitIsSleeping 0024b220 (Hunit;)B
 DWORD Jass_UnitIsSleeping(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -12844,7 +12844,7 @@ static PyObject* UnitIsSleeping(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitWakeUp 0024b730 (Hunit;)V
+// UnitWakeUp 0024b8a0 (Hunit;)V
 DWORD Jass_UnitWakeUp(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -12867,7 +12867,7 @@ static PyObject* UnitWakeUp(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitApplyTimedLife 0024aaf0 (Hunit;IR)V
+// UnitApplyTimedLife 0024ac60 (Hunit;IR)V
 DWORD Jass_UnitApplyTimedLife(DWORD arg_0_Hunit, DWORD arg_4_I, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -12896,7 +12896,7 @@ static PyObject* UnitApplyTimedLife(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitIgnoreAlarm 0024afe0 (Hunit;B)B
+// UnitIgnoreAlarm 0024b150 (Hunit;B)B
 DWORD Jass_UnitIgnoreAlarm(DWORD arg_0_Hunit, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -12922,7 +12922,7 @@ static PyObject* UnitIgnoreAlarm(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitIgnoreAlarmToggled 0024b040 (Hunit;)B
+// UnitIgnoreAlarmToggled 0024b1b0 (Hunit;)B
 DWORD Jass_UnitIgnoreAlarmToggled(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -12945,7 +12945,7 @@ static PyObject* UnitIgnoreAlarmToggled(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitDamagePoint 0024ac20 (Hunit;RRRRRBBHattacktype;Hdamagetype;Hweapontype;)B
+// UnitDamagePoint 0024ad90 (Hunit;RRRRRBBHattacktype;Hdamagetype;Hweapontype;)B
 DWORD Jass_UnitDamagePoint(DWORD arg_0_Hunit, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_R, DWORD arg_14_R, DWORD arg_18_B, DWORD arg_1C_B, DWORD arg_20_Hattacktype, DWORD arg_24_Hdamagetype, DWORD arg_28_Hweapontype)
 {
    DWORD rt = 0;
@@ -12998,7 +12998,7 @@ static PyObject* UnitDamagePoint(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitDamageTarget 0024ad10 (Hunit;Hwidget;RBBHattacktype;Hdamagetype;Hweapontype;)B
+// UnitDamageTarget 0024ae80 (Hunit;Hwidget;RBBHattacktype;Hdamagetype;Hweapontype;)B
 DWORD Jass_UnitDamageTarget(DWORD arg_0_Hunit, DWORD arg_4_Hwidget, DWORD arg_8_R, DWORD arg_C_B, DWORD arg_10_B, DWORD arg_14_Hattacktype, DWORD arg_18_Hdamagetype, DWORD arg_1C_Hweapontype)
 {
    DWORD rt = 0;
@@ -13042,7 +13042,7 @@ static PyObject* UnitDamageTarget(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DecUnitAbilityLevel 0022f270 (Hunit;I)I
+// DecUnitAbilityLevel 0022f400 (Hunit;I)I
 DWORD Jass_DecUnitAbilityLevel(DWORD arg_0_Hunit, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -13068,7 +13068,7 @@ static PyObject* DecUnitAbilityLevel(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IncUnitAbilityLevel 002373e0 (Hunit;I)I
+// IncUnitAbilityLevel 00237570 (Hunit;I)I
 DWORD Jass_IncUnitAbilityLevel(DWORD arg_0_Hunit, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -13094,7 +13094,7 @@ static PyObject* IncUnitAbilityLevel(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitAbilityLevel 002472e0 (Hunit;II)I
+// SetUnitAbilityLevel 00247450 (Hunit;II)I
 DWORD Jass_SetUnitAbilityLevel(DWORD arg_0_Hunit, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -13123,7 +13123,7 @@ static PyObject* SetUnitAbilityLevel(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitResetCooldown 0024b410 (Hunit;)V
+// UnitResetCooldown 0024b580 (Hunit;)V
 DWORD Jass_UnitResetCooldown(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -13146,7 +13146,7 @@ static PyObject* UnitResetCooldown(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitSetConstructionProgress 0024b430 (Hunit;I)V
+// UnitSetConstructionProgress 0024b5a0 (Hunit;I)V
 DWORD Jass_UnitSetConstructionProgress(DWORD arg_0_Hunit, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -13172,7 +13172,7 @@ static PyObject* UnitSetConstructionProgress(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitSetUpgradeProgress 0024b470 (Hunit;I)V
+// UnitSetUpgradeProgress 0024b5e0 (Hunit;I)V
 DWORD Jass_UnitSetUpgradeProgress(DWORD arg_0_Hunit, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -13198,7 +13198,7 @@ static PyObject* UnitSetUpgradeProgress(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitPauseTimedLife 0024b1f0 (Hunit;B)V
+// UnitPauseTimedLife 0024b360 (Hunit;B)V
 DWORD Jass_UnitPauseTimedLife(DWORD arg_0_Hunit, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -13224,7 +13224,7 @@ static PyObject* UnitPauseTimedLife(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitSetUsesAltIcon 0024b4b0 (Hunit;B)V
+// UnitSetUsesAltIcon 0024b620 (Hunit;B)V
 DWORD Jass_UnitSetUsesAltIcon(DWORD arg_0_Hunit, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -13250,7 +13250,7 @@ static PyObject* UnitSetUsesAltIcon(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IssueImmediateOrderById 00239130 (Hunit;I)B
+// IssueImmediateOrderById 002392c0 (Hunit;I)B
 DWORD Jass_IssueImmediateOrderById(DWORD arg_0_Hunit, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -13276,7 +13276,7 @@ static PyObject* IssueImmediateOrderById(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IssuePointOrderById 00239500 (Hunit;IRR)B
+// IssuePointOrderById 00239690 (Hunit;IRR)B
 DWORD Jass_IssuePointOrderById(DWORD arg_0_Hunit, DWORD arg_4_I, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -13308,7 +13308,7 @@ static PyObject* IssuePointOrderById(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IssuePointOrderByIdLoc 002396a0 (Hunit;IHlocation;)B
+// IssuePointOrderByIdLoc 00239830 (Hunit;IHlocation;)B
 DWORD Jass_IssuePointOrderByIdLoc(DWORD arg_0_Hunit, DWORD arg_4_I, DWORD arg_8_Hlocation)
 {
    DWORD rt = 0;
@@ -13337,7 +13337,7 @@ static PyObject* IssuePointOrderByIdLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IssueTargetOrderById 00239750 (Hunit;IHwidget;)B
+// IssueTargetOrderById 002398e0 (Hunit;IHwidget;)B
 DWORD Jass_IssueTargetOrderById(DWORD arg_0_Hunit, DWORD arg_4_I, DWORD arg_8_Hwidget)
 {
    DWORD rt = 0;
@@ -13366,7 +13366,7 @@ static PyObject* IssueTargetOrderById(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IssueInstantPointOrderById 002391d0 (Hunit;IRRHwidget;)B
+// IssueInstantPointOrderById 00239360 (Hunit;IRRHwidget;)B
 DWORD Jass_IssueInstantPointOrderById(DWORD arg_0_Hunit, DWORD arg_4_I, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_Hwidget)
 {
    DWORD rt = 0;
@@ -13401,7 +13401,7 @@ static PyObject* IssueInstantPointOrderById(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IssueInstantTargetOrderById 00239280 (Hunit;IHwidget;Hwidget;)B
+// IssueInstantTargetOrderById 00239410 (Hunit;IHwidget;Hwidget;)B
 DWORD Jass_IssueInstantTargetOrderById(DWORD arg_0_Hunit, DWORD arg_4_I, DWORD arg_8_Hwidget, DWORD arg_C_Hwidget)
 {
    DWORD rt = 0;
@@ -13433,7 +13433,7 @@ static PyObject* IssueInstantTargetOrderById(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IssueBuildOrderById 00239060 (Hunit;IRR)B
+// IssueBuildOrderById 002391f0 (Hunit;IRR)B
 DWORD Jass_IssueBuildOrderById(DWORD arg_0_Hunit, DWORD arg_4_I, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -13465,7 +13465,7 @@ static PyObject* IssueBuildOrderById(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IssueNeutralImmediateOrderById 002393c0 (Hplayer;Hunit;I)B
+// IssueNeutralImmediateOrderById 00239550 (Hplayer;Hunit;I)B
 DWORD Jass_IssueNeutralImmediateOrderById(DWORD arg_0_Hplayer, DWORD arg_4_Hunit, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -13494,7 +13494,7 @@ static PyObject* IssueNeutralImmediateOrderById(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IssueNeutralPointOrderById 00239420 (Hplayer;Hunit;IRR)B
+// IssueNeutralPointOrderById 002395b0 (Hplayer;Hunit;IRR)B
 DWORD Jass_IssueNeutralPointOrderById(DWORD arg_0_Hplayer, DWORD arg_4_Hunit, DWORD arg_8_I, DWORD arg_C_R, DWORD arg_10_R)
 {
    DWORD rt = 0;
@@ -13529,7 +13529,7 @@ static PyObject* IssueNeutralPointOrderById(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IssueNeutralTargetOrderById 00239490 (Hplayer;Hunit;IHwidget;)B
+// IssueNeutralTargetOrderById 00239620 (Hplayer;Hunit;IHwidget;)B
 DWORD Jass_IssueNeutralTargetOrderById(DWORD arg_0_Hplayer, DWORD arg_4_Hunit, DWORD arg_8_I, DWORD arg_C_Hwidget)
 {
    DWORD rt = 0;
@@ -13561,7 +13561,7 @@ static PyObject* IssueNeutralTargetOrderById(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IssueImmediateOrder 00239110 (Hunit;S)B
+// IssueImmediateOrder 002392a0 (Hunit;S)B
 DWORD Jass_IssueImmediateOrder(DWORD arg_0_Hunit, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -13587,7 +13587,7 @@ static PyObject* IssueImmediateOrder(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IssuePointOrder 002394e0 (Hunit;SRR)B
+// IssuePointOrder 00239670 (Hunit;SRR)B
 DWORD Jass_IssuePointOrder(DWORD arg_0_Hunit, DWORD arg_4_S, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -13619,7 +13619,7 @@ static PyObject* IssuePointOrder(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IssuePointOrderLoc 002396e0 (Hunit;SHlocation;)B
+// IssuePointOrderLoc 00239870 (Hunit;SHlocation;)B
 DWORD Jass_IssuePointOrderLoc(DWORD arg_0_Hunit, DWORD arg_4_S, DWORD arg_8_Hlocation)
 {
    DWORD rt = 0;
@@ -13648,7 +13648,7 @@ static PyObject* IssuePointOrderLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IssueTargetOrder 00239730 (Hunit;SHwidget;)B
+// IssueTargetOrder 002398c0 (Hunit;SHwidget;)B
 DWORD Jass_IssueTargetOrder(DWORD arg_0_Hunit, DWORD arg_4_S, DWORD arg_8_Hwidget)
 {
    DWORD rt = 0;
@@ -13677,7 +13677,7 @@ static PyObject* IssueTargetOrder(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IssueInstantPointOrder 002391b0 (Hunit;SRRHwidget;)B
+// IssueInstantPointOrder 00239340 (Hunit;SRRHwidget;)B
 DWORD Jass_IssueInstantPointOrder(DWORD arg_0_Hunit, DWORD arg_4_S, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_Hwidget)
 {
    DWORD rt = 0;
@@ -13712,7 +13712,7 @@ static PyObject* IssueInstantPointOrder(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IssueInstantTargetOrder 00239260 (Hunit;SHwidget;Hwidget;)B
+// IssueInstantTargetOrder 002393f0 (Hunit;SHwidget;Hwidget;)B
 DWORD Jass_IssueInstantTargetOrder(DWORD arg_0_Hunit, DWORD arg_4_S, DWORD arg_8_Hwidget, DWORD arg_C_Hwidget)
 {
    DWORD rt = 0;
@@ -13744,7 +13744,7 @@ static PyObject* IssueInstantTargetOrder(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IssueBuildOrder 00239040 (Hunit;SRR)B
+// IssueBuildOrder 002391d0 (Hunit;SRR)B
 DWORD Jass_IssueBuildOrder(DWORD arg_0_Hunit, DWORD arg_4_S, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -13776,7 +13776,7 @@ static PyObject* IssueBuildOrder(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IssueNeutralImmediateOrder 002393a0 (Hplayer;Hunit;S)B
+// IssueNeutralImmediateOrder 00239530 (Hplayer;Hunit;S)B
 DWORD Jass_IssueNeutralImmediateOrder(DWORD arg_0_Hplayer, DWORD arg_4_Hunit, DWORD arg_8_S)
 {
    DWORD rt = 0;
@@ -13805,7 +13805,7 @@ static PyObject* IssueNeutralImmediateOrder(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IssueNeutralPointOrder 00239400 (Hplayer;Hunit;SRR)B
+// IssueNeutralPointOrder 00239590 (Hplayer;Hunit;SRR)B
 DWORD Jass_IssueNeutralPointOrder(DWORD arg_0_Hplayer, DWORD arg_4_Hunit, DWORD arg_8_S, DWORD arg_C_R, DWORD arg_10_R)
 {
    DWORD rt = 0;
@@ -13840,7 +13840,7 @@ static PyObject* IssueNeutralPointOrder(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IssueNeutralTargetOrder 00239470 (Hplayer;Hunit;SHwidget;)B
+// IssueNeutralTargetOrder 00239600 (Hplayer;Hunit;SHwidget;)B
 DWORD Jass_IssueNeutralTargetOrder(DWORD arg_0_Hplayer, DWORD arg_4_Hunit, DWORD arg_8_S, DWORD arg_C_Hwidget)
 {
    DWORD rt = 0;
@@ -13872,7 +13872,7 @@ static PyObject* IssueNeutralTargetOrder(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// WaygateGetDestinationX 0024b930 (Hunit;)R
+// WaygateGetDestinationX 0024baa0 (Hunit;)R
 DWORD Jass_WaygateGetDestinationX(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -13895,7 +13895,7 @@ static PyObject* WaygateGetDestinationX(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// WaygateGetDestinationY 0024b980 (Hunit;)R
+// WaygateGetDestinationY 0024baf0 (Hunit;)R
 DWORD Jass_WaygateGetDestinationY(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -13918,7 +13918,7 @@ static PyObject* WaygateGetDestinationY(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// WaygateSetDestination 0024ba10 (Hunit;RR)V
+// WaygateSetDestination 0024bb80 (Hunit;RR)V
 DWORD Jass_WaygateSetDestination(DWORD arg_0_Hunit, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -13947,7 +13947,7 @@ static PyObject* WaygateSetDestination(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// WaygateActivate 0024b8f0 (Hunit;B)V
+// WaygateActivate 0024ba60 (Hunit;B)V
 DWORD Jass_WaygateActivate(DWORD arg_0_Hunit, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -13973,7 +13973,7 @@ static PyObject* WaygateActivate(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// WaygateIsActive 0024b9d0 (Hunit;)B
+// WaygateIsActive 0024bb40 (Hunit;)B
 DWORD Jass_WaygateIsActive(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -13996,7 +13996,7 @@ static PyObject* WaygateIsActive(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AddItemToAllStock 0022a070 (III)V
+// AddItemToAllStock 0022a200 (III)V
 DWORD Jass_AddItemToAllStock(DWORD arg_0_I, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -14025,7 +14025,7 @@ static PyObject* AddItemToAllStock(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AddItemToStock 0022a090 (Hunit;III)V
+// AddItemToStock 0022a220 (Hunit;III)V
 DWORD Jass_AddItemToStock(DWORD arg_0_Hunit, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_I)
 {
    DWORD rt = 0;
@@ -14057,7 +14057,7 @@ static PyObject* AddItemToStock(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AddUnitToAllStock 0022a6b0 (III)V
+// AddUnitToAllStock 0022a840 (III)V
 DWORD Jass_AddUnitToAllStock(DWORD arg_0_I, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -14086,7 +14086,7 @@ static PyObject* AddUnitToAllStock(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AddUnitToStock 0022a6d0 (Hunit;III)V
+// AddUnitToStock 0022a860 (Hunit;III)V
 DWORD Jass_AddUnitToStock(DWORD arg_0_Hunit, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_I)
 {
    DWORD rt = 0;
@@ -14118,7 +14118,7 @@ static PyObject* AddUnitToStock(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RemoveItemFromAllStock 00242ed0 (I)V
+// RemoveItemFromAllStock 00243040 (I)V
 DWORD Jass_RemoveItemFromAllStock(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -14141,7 +14141,7 @@ static PyObject* RemoveItemFromAllStock(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RemoveItemFromStock 00242ee0 (Hunit;I)V
+// RemoveItemFromStock 00243050 (Hunit;I)V
 DWORD Jass_RemoveItemFromStock(DWORD arg_0_Hunit, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -14167,7 +14167,7 @@ static PyObject* RemoveItemFromStock(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RemoveUnitFromAllStock 00243150 (I)V
+// RemoveUnitFromAllStock 002432c0 (I)V
 DWORD Jass_RemoveUnitFromAllStock(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -14190,7 +14190,7 @@ static PyObject* RemoveUnitFromAllStock(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RemoveUnitFromStock 00243160 (Hunit;I)V
+// RemoveUnitFromStock 002432d0 (Hunit;I)V
 DWORD Jass_RemoveUnitFromStock(DWORD arg_0_Hunit, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -14216,7 +14216,7 @@ static PyObject* RemoveUnitFromStock(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetAllItemTypeSlots 00244000 (I)V
+// SetAllItemTypeSlots 00244170 (I)V
 DWORD Jass_SetAllItemTypeSlots(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -14239,7 +14239,7 @@ static PyObject* SetAllItemTypeSlots(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetAllUnitTypeSlots 00244010 (I)V
+// SetAllUnitTypeSlots 00244180 (I)V
 DWORD Jass_SetAllUnitTypeSlots(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -14262,7 +14262,7 @@ static PyObject* SetAllUnitTypeSlots(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetItemTypeSlots 00245ed0 (Hunit;I)V
+// SetItemTypeSlots 00246040 (Hunit;I)V
 DWORD Jass_SetItemTypeSlots(DWORD arg_0_Hunit, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -14288,7 +14288,7 @@ static PyObject* SetItemTypeSlots(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitTypeSlots 00247ca0 (Hunit;I)V
+// SetUnitTypeSlots 00247e10 (Hunit;I)V
 DWORD Jass_SetUnitTypeSlots(DWORD arg_0_Hunit, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -14314,7 +14314,7 @@ static PyObject* SetUnitTypeSlots(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitUserData 00236730 (Hunit;)I
+// GetUnitUserData 002368c0 (Hunit;)I
 DWORD Jass_GetUnitUserData(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -14337,7 +14337,7 @@ static PyObject* GetUnitUserData(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitUserData 00247d50 (Hunit;I)V
+// SetUnitUserData 00247ec0 (Hunit;I)V
 DWORD Jass_SetUnitUserData(DWORD arg_0_Hunit, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -14363,7 +14363,7 @@ static PyObject* SetUnitUserData(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateItem 0022e2c0 (IRR)Hitem;
+// CreateItem 0022e450 (IRR)Hitem;
 DWORD Jass_CreateItem(DWORD arg_0_I, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -14392,7 +14392,7 @@ static PyObject* CreateItem(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RemoveItem 00242ea0 (Hitem;)V
+// RemoveItem 00243010 (Hitem;)V
 DWORD Jass_RemoveItem(DWORD arg_0_Hitem)
 {
    DWORD rt = 0;
@@ -14415,7 +14415,7 @@ static PyObject* RemoveItem(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetItemPlayer 00232cf0 (Hitem;)Hplayer;
+// GetItemPlayer 00232e80 (Hitem;)Hplayer;
 DWORD Jass_GetItemPlayer(DWORD arg_0_Hitem)
 {
    DWORD rt = 0;
@@ -14438,7 +14438,7 @@ static PyObject* GetItemPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetItemTypeId 00232d60 (Hitem;)I
+// GetItemTypeId 00232ef0 (Hitem;)I
 DWORD Jass_GetItemTypeId(DWORD arg_0_Hitem)
 {
    DWORD rt = 0;
@@ -14461,7 +14461,7 @@ static PyObject* GetItemTypeId(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetItemX 00232da0 (Hitem;)R
+// GetItemX 00232f30 (Hitem;)R
 DWORD Jass_GetItemX(DWORD arg_0_Hitem)
 {
    DWORD rt = 0;
@@ -14484,7 +14484,7 @@ static PyObject* GetItemX(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetItemY 00232de0 (Hitem;)R
+// GetItemY 00232f70 (Hitem;)R
 DWORD Jass_GetItemY(DWORD arg_0_Hitem)
 {
    DWORD rt = 0;
@@ -14507,7 +14507,7 @@ static PyObject* GetItemY(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetItemPosition 00245e50 (Hitem;RR)V
+// SetItemPosition 00245fc0 (Hitem;RR)V
 DWORD Jass_SetItemPosition(DWORD arg_0_Hitem, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -14536,7 +14536,7 @@ static PyObject* SetItemPosition(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetItemDropOnDeath 00245d70 (Hitem;B)V
+// SetItemDropOnDeath 00245ee0 (Hitem;B)V
 DWORD Jass_SetItemDropOnDeath(DWORD arg_0_Hitem, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -14562,7 +14562,7 @@ static PyObject* SetItemDropOnDeath(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetItemDroppable 00245da0 (Hitem;B)V
+// SetItemDroppable 00245f10 (Hitem;B)V
 DWORD Jass_SetItemDroppable(DWORD arg_0_Hitem, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -14588,7 +14588,7 @@ static PyObject* SetItemDroppable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetItemPawnable 00245df0 (Hitem;B)V
+// SetItemPawnable 00245f60 (Hitem;B)V
 DWORD Jass_SetItemPawnable(DWORD arg_0_Hitem, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -14614,7 +14614,7 @@ static PyObject* SetItemPawnable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetItemPlayer 00245e20 (Hitem;Hplayer;B)V
+// SetItemPlayer 00245f90 (Hitem;Hplayer;B)V
 DWORD Jass_SetItemPlayer(DWORD arg_0_Hitem, DWORD arg_4_Hplayer, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -14643,7 +14643,7 @@ static PyObject* SetItemPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetItemInvulnerable 00245dd0 (Hitem;B)V
+// SetItemInvulnerable 00245f40 (Hitem;B)V
 DWORD Jass_SetItemInvulnerable(DWORD arg_0_Hitem, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -14669,7 +14669,7 @@ static PyObject* SetItemInvulnerable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsItemInvulnerable 00237ca0 (Hitem;)B
+// IsItemInvulnerable 00237e30 (Hitem;)B
 DWORD Jass_IsItemInvulnerable(DWORD arg_0_Hitem)
 {
    DWORD rt = 0;
@@ -14692,7 +14692,7 @@ static PyObject* IsItemInvulnerable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetItemLevel 00232ca0 (Hitem;)I
+// GetItemLevel 00232e30 (Hitem;)I
 DWORD Jass_GetItemLevel(DWORD arg_0_Hitem)
 {
    DWORD rt = 0;
@@ -14715,7 +14715,7 @@ static PyObject* GetItemLevel(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetItemType 00232d40 (Hitem;)Hitemtype;
+// GetItemType 00232ed0 (Hitem;)Hitemtype;
 DWORD Jass_GetItemType(DWORD arg_0_Hitem)
 {
    DWORD rt = 0;
@@ -14738,7 +14738,7 @@ static PyObject* GetItemType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetItemVisible 00245f30 (Hitem;B)V
+// SetItemVisible 002460a0 (Hitem;B)V
 DWORD Jass_SetItemVisible(DWORD arg_0_Hitem, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -14764,7 +14764,7 @@ static PyObject* SetItemVisible(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsItemVisible 00237d60 (Hitem;)B
+// IsItemVisible 00237ef0 (Hitem;)B
 DWORD Jass_IsItemVisible(DWORD arg_0_Hitem)
 {
    DWORD rt = 0;
@@ -14787,7 +14787,7 @@ static PyObject* IsItemVisible(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// EnumItemsInRect 002302f0 (Hrect;Hboolexpr;C)V
+// EnumItemsInRect 00230480 (Hrect;Hboolexpr;C)V
 DWORD Jass_EnumItemsInRect(DWORD arg_0_Hrect, DWORD arg_4_Hboolexpr, DWORD arg_8_C)
 {
    DWORD rt = 0;
@@ -14816,7 +14816,7 @@ static PyObject* EnumItemsInRect(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsItemOwned 00237cc0 (Hitem;)B
+// IsItemOwned 00237e50 (Hitem;)B
 DWORD Jass_IsItemOwned(DWORD arg_0_Hitem)
 {
    DWORD rt = 0;
@@ -14839,7 +14839,7 @@ static PyObject* IsItemOwned(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsItemPowerup 00237d20 (Hitem;)B
+// IsItemPowerup 00237eb0 (Hitem;)B
 DWORD Jass_IsItemPowerup(DWORD arg_0_Hitem)
 {
    DWORD rt = 0;
@@ -14862,7 +14862,7 @@ static PyObject* IsItemPowerup(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsItemSellable 00237d40 (Hitem;)B
+// IsItemSellable 00237ed0 (Hitem;)B
 DWORD Jass_IsItemSellable(DWORD arg_0_Hitem)
 {
    DWORD rt = 0;
@@ -14885,7 +14885,7 @@ static PyObject* IsItemSellable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsItemPawnable 00237d00 (Hitem;)B
+// IsItemPawnable 00237e90 (Hitem;)B
 DWORD Jass_IsItemPawnable(DWORD arg_0_Hitem)
 {
    DWORD rt = 0;
@@ -14908,7 +14908,7 @@ static PyObject* IsItemPawnable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsItemIdPowerup 00237c80 (I)B
+// IsItemIdPowerup 00237e10 (I)B
 DWORD Jass_IsItemIdPowerup(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -14931,7 +14931,7 @@ static PyObject* IsItemIdPowerup(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsItemIdSellable 00237c90 (I)B
+// IsItemIdSellable 00237e20 (I)B
 DWORD Jass_IsItemIdSellable(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -14954,7 +14954,7 @@ static PyObject* IsItemIdSellable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsItemIdPawnable 00237c70 (I)B
+// IsItemIdPawnable 00237e00 (I)B
 DWORD Jass_IsItemIdPawnable(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -14977,7 +14977,7 @@ static PyObject* IsItemIdPawnable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetItemDropID 00245d50 (Hitem;I)V
+// SetItemDropID 00245ec0 (Hitem;I)V
 DWORD Jass_SetItemDropID(DWORD arg_0_Hitem, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -15003,7 +15003,7 @@ static PyObject* SetItemDropID(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetItemName 00232cc0 (Hitem;)S
+// GetItemName 00232e50 (Hitem;)S
 DWORD Jass_GetItemName(DWORD arg_0_Hitem)
 {
    DWORD rt = 0;
@@ -15026,7 +15026,7 @@ static PyObject* GetItemName(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// GetItemCharges 00232c80 (Hitem;)I
+// GetItemCharges 00232e10 (Hitem;)I
 DWORD Jass_GetItemCharges(DWORD arg_0_Hitem)
 {
    DWORD rt = 0;
@@ -15049,7 +15049,7 @@ static PyObject* GetItemCharges(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetItemCharges 00245cf0 (Hitem;I)V
+// SetItemCharges 00245e60 (Hitem;I)V
 DWORD Jass_SetItemCharges(DWORD arg_0_Hitem, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -15075,7 +15075,7 @@ static PyObject* SetItemCharges(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetItemUserData 00232d80 (Hitem;)I
+// GetItemUserData 00232f10 (Hitem;)I
 DWORD Jass_GetItemUserData(DWORD arg_0_Hitem)
 {
    DWORD rt = 0;
@@ -15098,7 +15098,7 @@ static PyObject* GetItemUserData(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetItemUserData 00245f10 (Hitem;I)V
+// SetItemUserData 00246080 (Hitem;I)V
 DWORD Jass_SetItemUserData(DWORD arg_0_Hitem, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -15124,7 +15124,7 @@ static PyObject* SetItemUserData(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// Player 00241ef0 (I)Hplayer;
+// Player 00242080 (I)Hplayer;
 DWORD Jass_Player(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -15147,7 +15147,7 @@ static PyObject* Player(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetLocalPlayer 002331f0 ()Hplayer;
+// GetLocalPlayer 00233380 ()Hplayer;
 DWORD Jass_GetLocalPlayer()
 {
    DWORD rt = 0;
@@ -15164,7 +15164,7 @@ static PyObject* GetLocalPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsPlayerAlly 002380d0 (Hplayer;Hplayer;)B
+// IsPlayerAlly 00238260 (Hplayer;Hplayer;)B
 DWORD Jass_IsPlayerAlly(DWORD arg_0_Hplayer, DWORD arg_4_Hplayer)
 {
    DWORD rt = 0;
@@ -15190,7 +15190,7 @@ static PyObject* IsPlayerAlly(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsPlayerEnemy 00238120 (Hplayer;Hplayer;)B
+// IsPlayerEnemy 002382b0 (Hplayer;Hplayer;)B
 DWORD Jass_IsPlayerEnemy(DWORD arg_0_Hplayer, DWORD arg_4_Hplayer)
 {
    DWORD rt = 0;
@@ -15216,7 +15216,7 @@ static PyObject* IsPlayerEnemy(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsPlayerInForce 002381d0 (Hplayer;Hforce;)B
+// IsPlayerInForce 00238360 (Hplayer;Hforce;)B
 DWORD Jass_IsPlayerInForce(DWORD arg_0_Hplayer, DWORD arg_4_Hforce)
 {
    DWORD rt = 0;
@@ -15242,7 +15242,7 @@ static PyObject* IsPlayerInForce(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsPlayerObserver 00238200 (Hplayer;)B
+// IsPlayerObserver 00238390 (Hplayer;)B
 DWORD Jass_IsPlayerObserver(DWORD arg_0_Hplayer)
 {
    DWORD rt = 0;
@@ -15265,7 +15265,7 @@ static PyObject* IsPlayerObserver(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetPlayerRace 00233e10 (Hplayer;)Hrace;
+// GetPlayerRace 00233fa0 (Hplayer;)Hrace;
 DWORD Jass_GetPlayerRace(DWORD arg_0_Hplayer)
 {
    DWORD rt = 0;
@@ -15288,7 +15288,7 @@ static PyObject* GetPlayerRace(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetPlayerId 00233dc0 (Hplayer;)I
+// GetPlayerId 00233f50 (Hplayer;)I
 DWORD Jass_GetPlayerId(DWORD arg_0_Hplayer)
 {
    DWORD rt = 0;
@@ -15311,7 +15311,7 @@ static PyObject* GetPlayerId(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetPlayerTechMaxAllowed 002465b0 (Hplayer;II)V
+// SetPlayerTechMaxAllowed 00246720 (Hplayer;II)V
 DWORD Jass_SetPlayerTechMaxAllowed(DWORD arg_0_Hplayer, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -15340,7 +15340,7 @@ static PyObject* SetPlayerTechMaxAllowed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetPlayerTechMaxAllowed 00234260 (Hplayer;I)I
+// GetPlayerTechMaxAllowed 002343f0 (Hplayer;I)I
 DWORD Jass_GetPlayerTechMaxAllowed(DWORD arg_0_Hplayer, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -15366,7 +15366,7 @@ static PyObject* GetPlayerTechMaxAllowed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AddPlayerTechResearched 0022a250 (Hplayer;II)V
+// AddPlayerTechResearched 0022a3e0 (Hplayer;II)V
 DWORD Jass_AddPlayerTechResearched(DWORD arg_0_Hplayer, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -15395,7 +15395,7 @@ static PyObject* AddPlayerTechResearched(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetPlayerTechResearched 002465e0 (Hplayer;II)V
+// SetPlayerTechResearched 00246750 (Hplayer;II)V
 DWORD Jass_SetPlayerTechResearched(DWORD arg_0_Hplayer, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -15424,7 +15424,7 @@ static PyObject* SetPlayerTechResearched(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetPlayerTechResearched 002342a0 (Hplayer;IB)B
+// GetPlayerTechResearched 00234430 (Hplayer;IB)B
 DWORD Jass_GetPlayerTechResearched(DWORD arg_0_Hplayer, DWORD arg_4_I, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -15453,7 +15453,7 @@ static PyObject* GetPlayerTechResearched(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetPlayerTechCount 00234230 (Hplayer;IB)I
+// GetPlayerTechCount 002343c0 (Hplayer;IB)I
 DWORD Jass_GetPlayerTechCount(DWORD arg_0_Hplayer, DWORD arg_4_I, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -15482,7 +15482,7 @@ static PyObject* GetPlayerTechCount(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetPlayerAbilityAvailable 002461a0 (Hplayer;IB)V
+// SetPlayerAbilityAvailable 00246310 (Hplayer;IB)V
 DWORD Jass_SetPlayerAbilityAvailable(DWORD arg_0_Hplayer, DWORD arg_4_I, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -15511,7 +15511,7 @@ static PyObject* SetPlayerAbilityAvailable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetPlayerUnitCount 00234340 (Hplayer;B)I
+// GetPlayerUnitCount 002344d0 (Hplayer;B)I
 DWORD Jass_GetPlayerUnitCount(DWORD arg_0_Hplayer, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -15537,7 +15537,7 @@ static PyObject* GetPlayerUnitCount(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetPlayerTypedUnitCount 002342d0 (Hplayer;SBB)I
+// GetPlayerTypedUnitCount 00234460 (Hplayer;SBB)I
 DWORD Jass_GetPlayerTypedUnitCount(DWORD arg_0_Hplayer, DWORD arg_4_S, DWORD arg_8_B, DWORD arg_C_B)
 {
    DWORD rt = 0;
@@ -15569,7 +15569,7 @@ static PyObject* GetPlayerTypedUnitCount(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetPlayerStructureCount 00234180 (Hplayer;B)I
+// GetPlayerStructureCount 00234310 (Hplayer;B)I
 DWORD Jass_GetPlayerStructureCount(DWORD arg_0_Hplayer, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -15595,7 +15595,7 @@ static PyObject* GetPlayerStructureCount(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsVisibleToPlayer 00238fe0 (RRHplayer;)B
+// IsVisibleToPlayer 00239170 (RRHplayer;)B
 DWORD Jass_IsVisibleToPlayer(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_Hplayer)
 {
    DWORD rt = 0;
@@ -15624,7 +15624,7 @@ static PyObject* IsVisibleToPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsLocationVisibleToPlayer 00237e70 (Hlocation;Hplayer;)B
+// IsLocationVisibleToPlayer 00238000 (Hlocation;Hplayer;)B
 DWORD Jass_IsLocationVisibleToPlayer(DWORD arg_0_Hlocation, DWORD arg_4_Hplayer)
 {
    DWORD rt = 0;
@@ -15650,7 +15650,7 @@ static PyObject* IsLocationVisibleToPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsFoggedToPlayer 00237aa0 (RRHplayer;)B
+// IsFoggedToPlayer 00237c30 (RRHplayer;)B
 DWORD Jass_IsFoggedToPlayer(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_Hplayer)
 {
    DWORD rt = 0;
@@ -15679,7 +15679,7 @@ static PyObject* IsFoggedToPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsLocationFoggedToPlayer 00237db0 (Hlocation;Hplayer;)B
+// IsLocationFoggedToPlayer 00237f40 (Hlocation;Hplayer;)B
 DWORD Jass_IsLocationFoggedToPlayer(DWORD arg_0_Hlocation, DWORD arg_4_Hplayer)
 {
    DWORD rt = 0;
@@ -15705,7 +15705,7 @@ static PyObject* IsLocationFoggedToPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsMaskedToPlayer 00237f80 (RRHplayer;)B
+// IsMaskedToPlayer 00238110 (RRHplayer;)B
 DWORD Jass_IsMaskedToPlayer(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_Hplayer)
 {
    DWORD rt = 0;
@@ -15734,7 +15734,7 @@ static PyObject* IsMaskedToPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsLocationMaskedToPlayer 00237e30 (Hlocation;Hplayer;)B
+// IsLocationMaskedToPlayer 00237fc0 (Hlocation;Hplayer;)B
 DWORD Jass_IsLocationMaskedToPlayer(DWORD arg_0_Hlocation, DWORD arg_4_Hplayer)
 {
    DWORD rt = 0;
@@ -15760,7 +15760,7 @@ static PyObject* IsLocationMaskedToPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetPlayerState 002464c0 (Hplayer;Hplayerstate;I)V
+// SetPlayerState 00246630 (Hplayer;Hplayerstate;I)V
 DWORD Jass_SetPlayerState(DWORD arg_0_Hplayer, DWORD arg_4_Hplayerstate, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -15789,7 +15789,7 @@ static PyObject* SetPlayerState(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetPlayerState 00234120 (Hplayer;Hplayerstate;)I
+// GetPlayerState 002342b0 (Hplayer;Hplayerstate;)I
 DWORD Jass_GetPlayerState(DWORD arg_0_Hplayer, DWORD arg_4_Hplayerstate)
 {
    DWORD rt = 0;
@@ -15815,7 +15815,7 @@ static PyObject* GetPlayerState(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetPlayerScore 00233e30 (Hplayer;Hplayerscore;)I
+// GetPlayerScore 00233fc0 (Hplayer;Hplayerscore;)I
 DWORD Jass_GetPlayerScore(DWORD arg_0_Hplayer, DWORD arg_4_Hplayerscore)
 {
    DWORD rt = 0;
@@ -15841,7 +15841,7 @@ static PyObject* GetPlayerScore(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetPlayerAlliance 00233cf0 (Hplayer;Hplayer;Halliancetype;)B
+// GetPlayerAlliance 00233e80 (Hplayer;Hplayer;Halliancetype;)B
 DWORD Jass_GetPlayerAlliance(DWORD arg_0_Hplayer, DWORD arg_4_Hplayer, DWORD arg_8_Halliancetype)
 {
    DWORD rt = 0;
@@ -15870,7 +15870,7 @@ static PyObject* GetPlayerAlliance(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RemovePlayer 00242f50 (Hplayer;Hplayergameresult;)V
+// RemovePlayer 002430c0 (Hplayer;Hplayergameresult;)V
 DWORD Jass_RemovePlayer(DWORD arg_0_Hplayer, DWORD arg_4_Hplayergameresult)
 {
    DWORD rt = 0;
@@ -15896,7 +15896,7 @@ static PyObject* RemovePlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CachePlayerHeroData 0022aa30 (Hplayer;)V
+// CachePlayerHeroData 0022abc0 (Hplayer;)V
 DWORD Jass_CachePlayerHeroData(DWORD arg_0_Hplayer)
 {
    DWORD rt = 0;
@@ -15919,7 +15919,7 @@ static PyObject* CachePlayerHeroData(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetPlayerHandicap 00233d80 (Hplayer;)R
+// GetPlayerHandicap 00233f10 (Hplayer;)R
 DWORD Jass_GetPlayerHandicap(DWORD arg_0_Hplayer)
 {
    DWORD rt = 0;
@@ -15942,7 +15942,7 @@ static PyObject* GetPlayerHandicap(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetPlayerHandicap 002462c0 (Hplayer;R)V
+// SetPlayerHandicap 00246430 (Hplayer;R)V
 DWORD Jass_SetPlayerHandicap(DWORD arg_0_Hplayer, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -15968,7 +15968,7 @@ static PyObject* SetPlayerHandicap(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetPlayerHandicapXP 00233da0 (Hplayer;)R
+// GetPlayerHandicapXP 00233f30 (Hplayer;)R
 DWORD Jass_GetPlayerHandicapXP(DWORD arg_0_Hplayer)
 {
    DWORD rt = 0;
@@ -15991,7 +15991,7 @@ static PyObject* GetPlayerHandicapXP(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetPlayerHandicapXP 00246380 (Hplayer;R)V
+// SetPlayerHandicapXP 002464f0 (Hplayer;R)V
 DWORD Jass_SetPlayerHandicapXP(DWORD arg_0_Hplayer, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -16017,7 +16017,7 @@ static PyObject* SetPlayerHandicapXP(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetPlayerUnitsOwner 00246620 (Hplayer;I)V
+// SetPlayerUnitsOwner 00246790 (Hplayer;I)V
 DWORD Jass_SetPlayerUnitsOwner(DWORD arg_0_Hplayer, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -16043,7 +16043,7 @@ static PyObject* SetPlayerUnitsOwner(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CripplePlayer 0022f1c0 (Hplayer;Hforce;B)V
+// CripplePlayer 0022f350 (Hplayer;Hforce;B)V
 DWORD Jass_CripplePlayer(DWORD arg_0_Hplayer, DWORD arg_4_Hforce, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -16072,7 +16072,7 @@ static PyObject* CripplePlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// VersionGet 0024b870 ()Hversion;
+// VersionGet 0024b9e0 ()Hversion;
 DWORD Jass_VersionGet()
 {
    DWORD rt = 0;
@@ -16089,7 +16089,7 @@ static PyObject* VersionGet(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// VersionCompatible 0024b860 (Hversion;)B
+// VersionCompatible 0024b9d0 (Hversion;)B
 DWORD Jass_VersionCompatible(DWORD arg_0_Hversion)
 {
    DWORD rt = 0;
@@ -16112,7 +16112,7 @@ static PyObject* VersionCompatible(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// VersionSupported 0024b880 (Hversion;)B
+// VersionSupported 0024b9f0 (Hversion;)B
 DWORD Jass_VersionSupported(DWORD arg_0_Hversion)
 {
    DWORD rt = 0;
@@ -16135,7 +16135,7 @@ static PyObject* VersionSupported(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// EndGame 002301c0 (B)V
+// EndGame 00230350 (B)V
 DWORD Jass_EndGame(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -16158,7 +16158,7 @@ static PyObject* EndGame(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ChangeLevel 0022b060 (SB)V
+// ChangeLevel 0022b1f0 (SB)V
 DWORD Jass_ChangeLevel(DWORD arg_0_S, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -16184,7 +16184,7 @@ static PyObject* ChangeLevel(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RestartGame 00243380 (B)V
+// RestartGame 002434f0 (B)V
 DWORD Jass_RestartGame(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -16207,7 +16207,7 @@ static PyObject* RestartGame(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ReloadGame 00242dc0 ()V
+// ReloadGame 00242f30 ()V
 DWORD Jass_ReloadGame()
 {
    DWORD rt = 0;
@@ -16224,7 +16224,7 @@ static PyObject* ReloadGame(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadGame 002406d0 (SB)V
+// LoadGame 00240860 (SB)V
 DWORD Jass_LoadGame(DWORD arg_0_S, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -16250,7 +16250,7 @@ static PyObject* LoadGame(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveGame 00243870 (S)V
+// SaveGame 002439e0 (S)V
 DWORD Jass_SaveGame(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -16273,7 +16273,7 @@ static PyObject* SaveGame(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RenameSaveDirectory 002431b0 (SS)B
+// RenameSaveDirectory 00243320 (SS)B
 DWORD Jass_RenameSaveDirectory(DWORD arg_0_S, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -16299,7 +16299,7 @@ static PyObject* RenameSaveDirectory(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RemoveSaveDirectory 00242fb0 (S)B
+// RemoveSaveDirectory 00243120 (S)B
 DWORD Jass_RemoveSaveDirectory(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -16322,7 +16322,7 @@ static PyObject* RemoveSaveDirectory(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CopySaveGame 0022bab0 (SS)B
+// CopySaveGame 0022bc40 (SS)B
 DWORD Jass_CopySaveGame(DWORD arg_0_S, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -16348,7 +16348,7 @@ static PyObject* CopySaveGame(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveGameExists 00243960 (S)B
+// SaveGameExists 00243ad0 (S)B
 DWORD Jass_SaveGameExists(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -16371,7 +16371,7 @@ static PyObject* SaveGameExists(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetFloatGameState 00244f40 (Hfgamestate;R)V
+// SetFloatGameState 002450b0 (Hfgamestate;R)V
 DWORD Jass_SetFloatGameState(DWORD arg_0_Hfgamestate, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -16397,7 +16397,7 @@ static PyObject* SetFloatGameState(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetFloatGameState 002325c0 (Hfgamestate;)R
+// GetFloatGameState 00232750 (Hfgamestate;)R
 DWORD Jass_GetFloatGameState(DWORD arg_0_Hfgamestate)
 {
    DWORD rt = 0;
@@ -16420,7 +16420,7 @@ static PyObject* GetFloatGameState(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetIntegerGameState 00245c60 (Higamestate;I)V
+// SetIntegerGameState 00245dd0 (Higamestate;I)V
 DWORD Jass_SetIntegerGameState(DWORD arg_0_Higamestate, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -16446,7 +16446,7 @@ static PyObject* SetIntegerGameState(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetIntegerGameState 00232bd0 (Higamestate;)I
+// GetIntegerGameState 00232d60 (Higamestate;)I
 DWORD Jass_GetIntegerGameState(DWORD arg_0_Higamestate)
 {
    DWORD rt = 0;
@@ -16469,7 +16469,7 @@ static PyObject* GetIntegerGameState(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SyncSelections 00248a40 ()V
+// SyncSelections 00248bb0 ()V
 DWORD Jass_SyncSelections()
 {
    DWORD rt = 0;
@@ -16486,7 +16486,7 @@ static PyObject* SyncSelections(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DialogCreate 0022fb20 ()Hdialog;
+// DialogCreate 0022fcb0 ()Hdialog;
 DWORD Jass_DialogCreate()
 {
    DWORD rt = 0;
@@ -16503,7 +16503,7 @@ static PyObject* DialogCreate(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DialogDestroy 0022fc10 (Hdialog;)V
+// DialogDestroy 0022fda0 (Hdialog;)V
 DWORD Jass_DialogDestroy(DWORD arg_0_Hdialog)
 {
    DWORD rt = 0;
@@ -16526,7 +16526,7 @@ static PyObject* DialogDestroy(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DialogSetAsync 0022fc80 (Hdialog;)V
+// DialogSetAsync 0022fe10 (Hdialog;)V
 DWORD Jass_DialogSetAsync(DWORD arg_0_Hdialog)
 {
    DWORD rt = 0;
@@ -16549,7 +16549,7 @@ static PyObject* DialogSetAsync(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DialogClear 0022fb00 (Hdialog;)V
+// DialogClear 0022fc90 (Hdialog;)V
 DWORD Jass_DialogClear(DWORD arg_0_Hdialog)
 {
    DWORD rt = 0;
@@ -16572,7 +16572,7 @@ static PyObject* DialogClear(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DialogSetMessage 0022fca0 (Hdialog;S)V
+// DialogSetMessage 0022fe30 (Hdialog;S)V
 DWORD Jass_DialogSetMessage(DWORD arg_0_Hdialog, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -16598,7 +16598,7 @@ static PyObject* DialogSetMessage(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DialogAddButton 0022fa60 (Hdialog;SI)Hbutton;
+// DialogAddButton 0022fbf0 (Hdialog;SI)Hbutton;
 DWORD Jass_DialogAddButton(DWORD arg_0_Hdialog, DWORD arg_4_S, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -16627,7 +16627,7 @@ static PyObject* DialogAddButton(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DialogAddQuitButton 0022fab0 (Hdialog;BSI)Hbutton;
+// DialogAddQuitButton 0022fc40 (Hdialog;BSI)Hbutton;
 DWORD Jass_DialogAddQuitButton(DWORD arg_0_Hdialog, DWORD arg_4_B, DWORD arg_8_S, DWORD arg_C_I)
 {
    DWORD rt = 0;
@@ -16659,7 +16659,7 @@ static PyObject* DialogAddQuitButton(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DialogDisplay 0022fc30 (Hplayer;Hdialog;B)V
+// DialogDisplay 0022fdc0 (Hplayer;Hdialog;B)V
 DWORD Jass_DialogDisplay(DWORD arg_0_Hplayer, DWORD arg_4_Hdialog, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -16688,7 +16688,7 @@ static PyObject* DialogDisplay(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetMissionAvailable 002460f0 (IIB)V
+// SetMissionAvailable 00246260 (IIB)V
 DWORD Jass_SetMissionAvailable(DWORD arg_0_I, DWORD arg_4_I, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -16717,7 +16717,7 @@ static PyObject* SetMissionAvailable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCampaignAvailable 002444f0 (IB)V
+// SetCampaignAvailable 00244660 (IB)V
 DWORD Jass_SetCampaignAvailable(DWORD arg_0_I, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -16743,7 +16743,7 @@ static PyObject* SetCampaignAvailable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCampaignMenuRace 00244520 (Hrace;)V
+// SetCampaignMenuRace 00244690 (Hrace;)V
 DWORD Jass_SetCampaignMenuRace(DWORD arg_0_Hrace)
 {
    DWORD rt = 0;
@@ -16766,7 +16766,7 @@ static PyObject* SetCampaignMenuRace(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCampaignMenuRaceEx 00244550 (I)V
+// SetCampaignMenuRaceEx 002446c0 (I)V
 DWORD Jass_SetCampaignMenuRaceEx(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -16789,7 +16789,7 @@ static PyObject* SetCampaignMenuRaceEx(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ForceCampaignSelectScreen 00230d60 ()V
+// ForceCampaignSelectScreen 00230ef0 ()V
 DWORD Jass_ForceCampaignSelectScreen()
 {
    DWORD rt = 0;
@@ -16806,7 +16806,7 @@ static PyObject* ForceCampaignSelectScreen(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetOpCinematicAvailable 00246170 (IB)V
+// SetOpCinematicAvailable 002462e0 (IB)V
 DWORD Jass_SetOpCinematicAvailable(DWORD arg_0_I, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -16832,7 +16832,7 @@ static PyObject* SetOpCinematicAvailable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetEdCinematicAvailable 00244e80 (IB)V
+// SetEdCinematicAvailable 00244ff0 (IB)V
 DWORD Jass_SetEdCinematicAvailable(DWORD arg_0_I, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -16858,7 +16858,7 @@ static PyObject* SetEdCinematicAvailable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetTutorialCleared 00247270 (B)V
+// SetTutorialCleared 002473e0 (B)V
 DWORD Jass_SetTutorialCleared(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -16881,7 +16881,7 @@ static PyObject* SetTutorialCleared(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetDefaultDifficulty 00231fd0 ()Hgamedifficulty;
+// GetDefaultDifficulty 00232160 ()Hgamedifficulty;
 DWORD Jass_GetDefaultDifficulty()
 {
    DWORD rt = 0;
@@ -16898,7 +16898,7 @@ static PyObject* GetDefaultDifficulty(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetDefaultDifficulty 00244b20 (Hgamedifficulty;)V
+// SetDefaultDifficulty 00244c90 (Hgamedifficulty;)V
 DWORD Jass_SetDefaultDifficulty(DWORD arg_0_Hgamedifficulty)
 {
    DWORD rt = 0;
@@ -16921,7 +16921,7 @@ static PyObject* SetDefaultDifficulty(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ReloadGameCachesFromDisk 00242de0 ()B
+// ReloadGameCachesFromDisk 00242f50 ()B
 DWORD Jass_ReloadGameCachesFromDisk()
 {
    DWORD rt = 0;
@@ -16938,7 +16938,7 @@ static PyObject* ReloadGameCachesFromDisk(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCustomCampaignButtonVisible 00244ac0 (IB)V
+// SetCustomCampaignButtonVisible 00244c30 (IB)V
 DWORD Jass_SetCustomCampaignButtonVisible(DWORD arg_0_I, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -16964,7 +16964,7 @@ static PyObject* SetCustomCampaignButtonVisible(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetCustomCampaignButtonVisible 00231f60 (I)B
+// GetCustomCampaignButtonVisible 002320f0 (I)B
 DWORD Jass_GetCustomCampaignButtonVisible(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -16987,7 +16987,7 @@ static PyObject* GetCustomCampaignButtonVisible(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DoNotSaveReplay 0022ffa0 ()V
+// DoNotSaveReplay 00230130 ()V
 DWORD Jass_DoNotSaveReplay()
 {
    DWORD rt = 0;
@@ -17004,7 +17004,7 @@ static PyObject* DoNotSaveReplay(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// InitGameCache 00237460 (S)Hgamecache;
+// InitGameCache 002375f0 (S)Hgamecache;
 DWORD Jass_InitGameCache(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -17027,7 +17027,7 @@ static PyObject* InitGameCache(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveGameCache 00243930 (Hgamecache;)B
+// SaveGameCache 00243aa0 (Hgamecache;)B
 DWORD Jass_SaveGameCache(DWORD arg_0_Hgamecache)
 {
    DWORD rt = 0;
@@ -17050,7 +17050,7 @@ static PyObject* SaveGameCache(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// StoreInteger 00248420 (Hgamecache;SSI)V
+// StoreInteger 00248590 (Hgamecache;SSI)V
 DWORD Jass_StoreInteger(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S, DWORD arg_C_I)
 {
    DWORD rt = 0;
@@ -17082,7 +17082,7 @@ static PyObject* StoreInteger(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// StoreReal 00248470 (Hgamecache;SSR)V
+// StoreReal 002485e0 (Hgamecache;SSR)V
 DWORD Jass_StoreReal(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -17114,7 +17114,7 @@ static PyObject* StoreReal(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// StoreBoolean 002483c0 (Hgamecache;SSB)V
+// StoreBoolean 00248530 (Hgamecache;SSB)V
 DWORD Jass_StoreBoolean(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S, DWORD arg_C_B)
 {
    DWORD rt = 0;
@@ -17146,7 +17146,7 @@ static PyObject* StoreBoolean(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// StoreUnit 00248520 (Hgamecache;SSHunit;)B
+// StoreUnit 00248690 (Hgamecache;SSHunit;)B
 DWORD Jass_StoreUnit(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S, DWORD arg_C_Hunit)
 {
    DWORD rt = 0;
@@ -17178,7 +17178,7 @@ static PyObject* StoreUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// StoreString 002484c0 (Hgamecache;SSS)B
+// StoreString 00248630 (Hgamecache;SSS)B
 DWORD Jass_StoreString(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S, DWORD arg_C_S)
 {
    DWORD rt = 0;
@@ -17210,7 +17210,7 @@ static PyObject* StoreString(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveInteger 00243a30 (Hhashtable;III)V
+// SaveInteger 00243ba0 (Hhashtable;III)V
 DWORD Jass_SaveInteger(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_I)
 {
    DWORD rt = 0;
@@ -17242,7 +17242,7 @@ static PyObject* SaveInteger(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveReal 00243bb0 (Hhashtable;IIR)V
+// SaveReal 00243d20 (Hhashtable;IIR)V
 DWORD Jass_SaveReal(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -17274,7 +17274,7 @@ static PyObject* SaveReal(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveBoolean 00243710 (Hhashtable;IIB)V
+// SaveBoolean 00243880 (Hhashtable;IIB)V
 DWORD Jass_SaveBoolean(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_B)
 {
    DWORD rt = 0;
@@ -17306,7 +17306,7 @@ static PyObject* SaveBoolean(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveStr 00243c90 (Hhashtable;IIS)B
+// SaveStr 00243e00 (Hhashtable;IIS)B
 DWORD Jass_SaveStr(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_S)
 {
    DWORD rt = 0;
@@ -17338,7 +17338,7 @@ static PyObject* SaveStr(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SavePlayerHandle 00243b50 (Hhashtable;IIHplayer;)B
+// SavePlayerHandle 00243cc0 (Hhashtable;IIHplayer;)B
 DWORD Jass_SavePlayerHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hplayer)
 {
    DWORD rt = 0;
@@ -17370,7 +17370,7 @@ static PyObject* SavePlayerHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveWidgetHandle 00243e30 (Hhashtable;IIHwidget;)B
+// SaveWidgetHandle 00243fa0 (Hhashtable;IIHwidget;)B
 DWORD Jass_SaveWidgetHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hwidget)
 {
    DWORD rt = 0;
@@ -17402,7 +17402,7 @@ static PyObject* SaveWidgetHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveDestructableHandle 002437b0 (Hhashtable;IIHdestructable;)B
+// SaveDestructableHandle 00243920 (Hhashtable;IIHdestructable;)B
 DWORD Jass_SaveDestructableHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hdestructable)
 {
    DWORD rt = 0;
@@ -17434,7 +17434,7 @@ static PyObject* SaveDestructableHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveItemHandle 00243a70 (Hhashtable;IIHitem;)B
+// SaveItemHandle 00243be0 (Hhashtable;IIHitem;)B
 DWORD Jass_SaveItemHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hitem)
 {
    DWORD rt = 0;
@@ -17466,7 +17466,7 @@ static PyObject* SaveItemHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveUnitHandle 00243df0 (Hhashtable;IIHunit;)B
+// SaveUnitHandle 00243f60 (Hhashtable;IIHunit;)B
 DWORD Jass_SaveUnitHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hunit)
 {
    DWORD rt = 0;
@@ -17498,7 +17498,7 @@ static PyObject* SaveUnitHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveAbilityHandle 002436d0 (Hhashtable;IIHability;)B
+// SaveAbilityHandle 00243840 (Hhashtable;IIHability;)B
 DWORD Jass_SaveAbilityHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hability)
 {
    DWORD rt = 0;
@@ -17530,7 +17530,7 @@ static PyObject* SaveAbilityHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveTimerHandle 00243d10 (Hhashtable;IIHtimer;)B
+// SaveTimerHandle 00243e80 (Hhashtable;IIHtimer;)B
 DWORD Jass_SaveTimerHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Htimer)
 {
    DWORD rt = 0;
@@ -17562,7 +17562,7 @@ static PyObject* SaveTimerHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveRegionHandle 00243c10 (Hhashtable;IIHregion;)B
+// SaveRegionHandle 00243d80 (Hhashtable;IIHregion;)B
 DWORD Jass_SaveRegionHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hregion)
 {
    DWORD rt = 0;
@@ -17594,7 +17594,7 @@ static PyObject* SaveRegionHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveTriggerHandle 00243db0 (Hhashtable;IIHtrigger;)B
+// SaveTriggerHandle 00243f20 (Hhashtable;IIHtrigger;)B
 DWORD Jass_SaveTriggerHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Htrigger)
 {
    DWORD rt = 0;
@@ -17626,7 +17626,7 @@ static PyObject* SaveTriggerHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveTriggerConditionHandle 00243d70 (Hhashtable;IIHtriggercondition;)B
+// SaveTriggerConditionHandle 00243ee0 (Hhashtable;IIHtriggercondition;)B
 DWORD Jass_SaveTriggerConditionHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Htriggercondition)
 {
    DWORD rt = 0;
@@ -17658,7 +17658,7 @@ static PyObject* SaveTriggerConditionHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveTriggerActionHandle 00243d50 (Hhashtable;IIHtriggeraction;)B
+// SaveTriggerActionHandle 00243ec0 (Hhashtable;IIHtriggeraction;)B
 DWORD Jass_SaveTriggerActionHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Htriggeraction)
 {
    DWORD rt = 0;
@@ -17690,7 +17690,7 @@ static PyObject* SaveTriggerActionHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveTriggerEventHandle 00243d90 (Hhashtable;IIHevent;)B
+// SaveTriggerEventHandle 00243f00 (Hhashtable;IIHevent;)B
 DWORD Jass_SaveTriggerEventHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hevent)
 {
    DWORD rt = 0;
@@ -17722,7 +17722,7 @@ static PyObject* SaveTriggerEventHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveForceHandle 00243850 (Hhashtable;IIHforce;)B
+// SaveForceHandle 002439c0 (Hhashtable;IIHforce;)B
 DWORD Jass_SaveForceHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hforce)
 {
    DWORD rt = 0;
@@ -17754,7 +17754,7 @@ static PyObject* SaveForceHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveGroupHandle 002439d0 (Hhashtable;IIHgroup;)B
+// SaveGroupHandle 00243b40 (Hhashtable;IIHgroup;)B
 DWORD Jass_SaveGroupHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hgroup)
 {
    DWORD rt = 0;
@@ -17786,7 +17786,7 @@ static PyObject* SaveGroupHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveLocationHandle 00243af0 (Hhashtable;IIHlocation;)B
+// SaveLocationHandle 00243c60 (Hhashtable;IIHlocation;)B
 DWORD Jass_SaveLocationHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hlocation)
 {
    DWORD rt = 0;
@@ -17818,7 +17818,7 @@ static PyObject* SaveLocationHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveRectHandle 00243bf0 (Hhashtable;IIHrect;)B
+// SaveRectHandle 00243d60 (Hhashtable;IIHrect;)B
 DWORD Jass_SaveRectHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hrect)
 {
    DWORD rt = 0;
@@ -17850,7 +17850,7 @@ static PyObject* SaveRectHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveBooleanExprHandle 00243750 (Hhashtable;IIHboolexpr;)B
+// SaveBooleanExprHandle 002438c0 (Hhashtable;IIHboolexpr;)B
 DWORD Jass_SaveBooleanExprHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hboolexpr)
 {
    DWORD rt = 0;
@@ -17882,7 +17882,7 @@ static PyObject* SaveBooleanExprHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveSoundHandle 00243c70 (Hhashtable;IIHsound;)B
+// SaveSoundHandle 00243de0 (Hhashtable;IIHsound;)B
 DWORD Jass_SaveSoundHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hsound)
 {
    DWORD rt = 0;
@@ -17914,7 +17914,7 @@ static PyObject* SaveSoundHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveEffectHandle 002437f0 (Hhashtable;IIHeffect;)B
+// SaveEffectHandle 00243960 (Hhashtable;IIHeffect;)B
 DWORD Jass_SaveEffectHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Heffect)
 {
    DWORD rt = 0;
@@ -17946,7 +17946,7 @@ static PyObject* SaveEffectHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveUnitPoolHandle 00243e10 (Hhashtable;IIHunitpool;)B
+// SaveUnitPoolHandle 00243f80 (Hhashtable;IIHunitpool;)B
 DWORD Jass_SaveUnitPoolHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hunitpool)
 {
    DWORD rt = 0;
@@ -17978,7 +17978,7 @@ static PyObject* SaveUnitPoolHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveItemPoolHandle 00243a90 (Hhashtable;IIHitempool;)B
+// SaveItemPoolHandle 00243c00 (Hhashtable;IIHitempool;)B
 DWORD Jass_SaveItemPoolHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hitempool)
 {
    DWORD rt = 0;
@@ -18010,7 +18010,7 @@ static PyObject* SaveItemPoolHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveQuestHandle 00243b70 (Hhashtable;IIHquest;)B
+// SaveQuestHandle 00243ce0 (Hhashtable;IIHquest;)B
 DWORD Jass_SaveQuestHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hquest)
 {
    DWORD rt = 0;
@@ -18042,7 +18042,7 @@ static PyObject* SaveQuestHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveQuestItemHandle 00243b90 (Hhashtable;IIHquestitem;)B
+// SaveQuestItemHandle 00243d00 (Hhashtable;IIHquestitem;)B
 DWORD Jass_SaveQuestItemHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hquestitem)
 {
    DWORD rt = 0;
@@ -18074,7 +18074,7 @@ static PyObject* SaveQuestItemHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveDefeatConditionHandle 00243790 (Hhashtable;IIHdefeatcondition;)B
+// SaveDefeatConditionHandle 00243900 (Hhashtable;IIHdefeatcondition;)B
 DWORD Jass_SaveDefeatConditionHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hdefeatcondition)
 {
    DWORD rt = 0;
@@ -18106,7 +18106,7 @@ static PyObject* SaveDefeatConditionHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveTimerDialogHandle 00243cf0 (Hhashtable;IIHtimerdialog;)B
+// SaveTimerDialogHandle 00243e60 (Hhashtable;IIHtimerdialog;)B
 DWORD Jass_SaveTimerDialogHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Htimerdialog)
 {
    DWORD rt = 0;
@@ -18138,7 +18138,7 @@ static PyObject* SaveTimerDialogHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveLeaderboardHandle 00243ab0 (Hhashtable;IIHleaderboard;)B
+// SaveLeaderboardHandle 00243c20 (Hhashtable;IIHleaderboard;)B
 DWORD Jass_SaveLeaderboardHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hleaderboard)
 {
    DWORD rt = 0;
@@ -18170,7 +18170,7 @@ static PyObject* SaveLeaderboardHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveMultiboardHandle 00243b10 (Hhashtable;IIHmultiboard;)B
+// SaveMultiboardHandle 00243c80 (Hhashtable;IIHmultiboard;)B
 DWORD Jass_SaveMultiboardHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hmultiboard)
 {
    DWORD rt = 0;
@@ -18202,7 +18202,7 @@ static PyObject* SaveMultiboardHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveMultiboardItemHandle 00243b30 (Hhashtable;IIHmultiboarditem;)B
+// SaveMultiboardItemHandle 00243ca0 (Hhashtable;IIHmultiboarditem;)B
 DWORD Jass_SaveMultiboardItemHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hmultiboarditem)
 {
    DWORD rt = 0;
@@ -18234,7 +18234,7 @@ static PyObject* SaveMultiboardItemHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveTrackableHandle 00243d30 (Hhashtable;IIHtrackable;)B
+// SaveTrackableHandle 00243ea0 (Hhashtable;IIHtrackable;)B
 DWORD Jass_SaveTrackableHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Htrackable)
 {
    DWORD rt = 0;
@@ -18266,7 +18266,7 @@ static PyObject* SaveTrackableHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveDialogHandle 002437d0 (Hhashtable;IIHdialog;)B
+// SaveDialogHandle 00243940 (Hhashtable;IIHdialog;)B
 DWORD Jass_SaveDialogHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hdialog)
 {
    DWORD rt = 0;
@@ -18298,7 +18298,7 @@ static PyObject* SaveDialogHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveButtonHandle 00243770 (Hhashtable;IIHbutton;)B
+// SaveButtonHandle 002438e0 (Hhashtable;IIHbutton;)B
 DWORD Jass_SaveButtonHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hbutton)
 {
    DWORD rt = 0;
@@ -18330,7 +18330,7 @@ static PyObject* SaveButtonHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveTextTagHandle 00243cd0 (Hhashtable;IIHtexttag;)B
+// SaveTextTagHandle 00243e40 (Hhashtable;IIHtexttag;)B
 DWORD Jass_SaveTextTagHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Htexttag)
 {
    DWORD rt = 0;
@@ -18362,7 +18362,7 @@ static PyObject* SaveTextTagHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveLightningHandle 00243ad0 (Hhashtable;IIHlightning;)B
+// SaveLightningHandle 00243c40 (Hhashtable;IIHlightning;)B
 DWORD Jass_SaveLightningHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hlightning)
 {
    DWORD rt = 0;
@@ -18394,7 +18394,7 @@ static PyObject* SaveLightningHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveImageHandle 00243a10 (Hhashtable;IIHimage;)B
+// SaveImageHandle 00243b80 (Hhashtable;IIHimage;)B
 DWORD Jass_SaveImageHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Himage)
 {
    DWORD rt = 0;
@@ -18426,7 +18426,7 @@ static PyObject* SaveImageHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveUbersplatHandle 00243dd0 (Hhashtable;IIHubersplat;)B
+// SaveUbersplatHandle 00243f40 (Hhashtable;IIHubersplat;)B
 DWORD Jass_SaveUbersplatHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hubersplat)
 {
    DWORD rt = 0;
@@ -18458,7 +18458,7 @@ static PyObject* SaveUbersplatHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveFogStateHandle 00243830 (Hhashtable;IIHfogstate;)B
+// SaveFogStateHandle 002439a0 (Hhashtable;IIHfogstate;)B
 DWORD Jass_SaveFogStateHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hfogstate)
 {
    DWORD rt = 0;
@@ -18490,7 +18490,7 @@ static PyObject* SaveFogStateHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveFogModifierHandle 00243810 (Hhashtable;IIHfogmodifier;)B
+// SaveFogModifierHandle 00243980 (Hhashtable;IIHfogmodifier;)B
 DWORD Jass_SaveFogModifierHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hfogmodifier)
 {
    DWORD rt = 0;
@@ -18522,7 +18522,7 @@ static PyObject* SaveFogModifierHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveAgentHandle 002436f0 (Hhashtable;IIHagent;)B
+// SaveAgentHandle 00243860 (Hhashtable;IIHagent;)B
 DWORD Jass_SaveAgentHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hagent)
 {
    DWORD rt = 0;
@@ -18554,7 +18554,7 @@ static PyObject* SaveAgentHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SaveHashtableHandle 002439f0 (Hhashtable;IIHhashtable;)B
+// SaveHashtableHandle 00243b60 (Hhashtable;IIHhashtable;)B
 DWORD Jass_SaveHashtableHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_Hhashtable)
 {
    DWORD rt = 0;
@@ -18586,7 +18586,7 @@ static PyObject* SaveHashtableHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SyncStoredInteger 00248ae0 (Hgamecache;SS)V
+// SyncStoredInteger 00248c50 (Hgamecache;SS)V
 DWORD Jass_SyncStoredInteger(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S)
 {
    DWORD rt = 0;
@@ -18615,7 +18615,7 @@ static PyObject* SyncStoredInteger(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SyncStoredReal 00248b40 (Hgamecache;SS)V
+// SyncStoredReal 00248cb0 (Hgamecache;SS)V
 DWORD Jass_SyncStoredReal(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S)
 {
    DWORD rt = 0;
@@ -18644,7 +18644,7 @@ static PyObject* SyncStoredReal(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SyncStoredBoolean 00248a80 (Hgamecache;SS)V
+// SyncStoredBoolean 00248bf0 (Hgamecache;SS)V
 DWORD Jass_SyncStoredBoolean(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S)
 {
    DWORD rt = 0;
@@ -18673,7 +18673,7 @@ static PyObject* SyncStoredBoolean(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SyncStoredUnit 00248c00 (Hgamecache;SS)V
+// SyncStoredUnit 00248d70 (Hgamecache;SS)V
 DWORD Jass_SyncStoredUnit(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S)
 {
    DWORD rt = 0;
@@ -18702,7 +18702,7 @@ static PyObject* SyncStoredUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SyncStoredString 00248ba0 (Hgamecache;SS)V
+// SyncStoredString 00248d10 (Hgamecache;SS)V
 DWORD Jass_SyncStoredString(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S)
 {
    DWORD rt = 0;
@@ -18731,7 +18731,7 @@ static PyObject* SyncStoredString(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetStoredInteger 002357b0 (Hgamecache;SS)I
+// GetStoredInteger 00235940 (Hgamecache;SS)I
 DWORD Jass_GetStoredInteger(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S)
 {
    DWORD rt = 0;
@@ -18760,7 +18760,7 @@ static PyObject* GetStoredInteger(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetStoredReal 00235800 (Hgamecache;SS)R
+// GetStoredReal 00235990 (Hgamecache;SS)R
 DWORD Jass_GetStoredReal(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S)
 {
    DWORD rt = 0;
@@ -18789,7 +18789,7 @@ static PyObject* GetStoredReal(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetStoredBoolean 00235760 (Hgamecache;SS)B
+// GetStoredBoolean 002358f0 (Hgamecache;SS)B
 DWORD Jass_GetStoredBoolean(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S)
 {
    DWORD rt = 0;
@@ -18818,7 +18818,7 @@ static PyObject* GetStoredBoolean(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RestoreUnit 002433b0 (Hgamecache;SSHplayer;RRR)Hunit;
+// RestoreUnit 00243520 (Hgamecache;SSHplayer;RRR)Hunit;
 DWORD Jass_RestoreUnit(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S, DWORD arg_C_Hplayer, DWORD arg_10_R, DWORD arg_14_R, DWORD arg_18_R)
 {
    DWORD rt = 0;
@@ -18859,7 +18859,7 @@ static PyObject* RestoreUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetStoredString 00235860 (Hgamecache;SS)S
+// GetStoredString 002359f0 (Hgamecache;SS)S
 DWORD Jass_GetStoredString(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S)
 {
    DWORD rt = 0;
@@ -18888,7 +18888,7 @@ static PyObject* GetStoredString(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// HaveStoredInteger 00237190 (Hgamecache;SS)B
+// HaveStoredInteger 00237320 (Hgamecache;SS)B
 DWORD Jass_HaveStoredInteger(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S)
 {
    DWORD rt = 0;
@@ -18917,7 +18917,7 @@ static PyObject* HaveStoredInteger(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// HaveStoredReal 002371e0 (Hgamecache;SS)B
+// HaveStoredReal 00237370 (Hgamecache;SS)B
 DWORD Jass_HaveStoredReal(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S)
 {
    DWORD rt = 0;
@@ -18946,7 +18946,7 @@ static PyObject* HaveStoredReal(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// HaveStoredBoolean 00237140 (Hgamecache;SS)B
+// HaveStoredBoolean 002372d0 (Hgamecache;SS)B
 DWORD Jass_HaveStoredBoolean(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S)
 {
    DWORD rt = 0;
@@ -18975,7 +18975,7 @@ static PyObject* HaveStoredBoolean(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// HaveStoredUnit 00237280 (Hgamecache;SS)B
+// HaveStoredUnit 00237410 (Hgamecache;SS)B
 DWORD Jass_HaveStoredUnit(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S)
 {
    DWORD rt = 0;
@@ -19004,7 +19004,7 @@ static PyObject* HaveStoredUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// HaveStoredString 00237230 (Hgamecache;SS)B
+// HaveStoredString 002373c0 (Hgamecache;SS)B
 DWORD Jass_HaveStoredString(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S)
 {
    DWORD rt = 0;
@@ -19033,7 +19033,7 @@ static PyObject* HaveStoredString(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// FlushGameCache 002309e0 (Hgamecache;)V
+// FlushGameCache 00230b70 (Hgamecache;)V
 DWORD Jass_FlushGameCache(DWORD arg_0_Hgamecache)
 {
    DWORD rt = 0;
@@ -19056,7 +19056,7 @@ static PyObject* FlushGameCache(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// FlushStoredMission 00230b00 (Hgamecache;S)V
+// FlushStoredMission 00230c90 (Hgamecache;S)V
 DWORD Jass_FlushStoredMission(DWORD arg_0_Hgamecache, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -19082,7 +19082,7 @@ static PyObject* FlushStoredMission(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// FlushStoredInteger 00230ab0 (Hgamecache;SS)V
+// FlushStoredInteger 00230c40 (Hgamecache;SS)V
 DWORD Jass_FlushStoredInteger(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S)
 {
    DWORD rt = 0;
@@ -19111,7 +19111,7 @@ static PyObject* FlushStoredInteger(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// FlushStoredReal 00230b40 (Hgamecache;SS)V
+// FlushStoredReal 00230cd0 (Hgamecache;SS)V
 DWORD Jass_FlushStoredReal(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S)
 {
    DWORD rt = 0;
@@ -19140,7 +19140,7 @@ static PyObject* FlushStoredReal(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// FlushStoredBoolean 00230a60 (Hgamecache;SS)V
+// FlushStoredBoolean 00230bf0 (Hgamecache;SS)V
 DWORD Jass_FlushStoredBoolean(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S)
 {
    DWORD rt = 0;
@@ -19169,7 +19169,7 @@ static PyObject* FlushStoredBoolean(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// FlushStoredUnit 00230be0 (Hgamecache;SS)V
+// FlushStoredUnit 00230d70 (Hgamecache;SS)V
 DWORD Jass_FlushStoredUnit(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S)
 {
    DWORD rt = 0;
@@ -19198,7 +19198,7 @@ static PyObject* FlushStoredUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// FlushStoredString 00230b90 (Hgamecache;SS)V
+// FlushStoredString 00230d20 (Hgamecache;SS)V
 DWORD Jass_FlushStoredString(DWORD arg_0_Hgamecache, DWORD arg_4_S, DWORD arg_8_S)
 {
    DWORD rt = 0;
@@ -19227,7 +19227,7 @@ static PyObject* FlushStoredString(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// InitHashtable 00237570 ()Hhashtable;
+// InitHashtable 00237700 ()Hhashtable;
 DWORD Jass_InitHashtable()
 {
    DWORD rt = 0;
@@ -19244,7 +19244,7 @@ static PyObject* InitHashtable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadInteger 002407b0 (Hhashtable;II)I;
+// LoadInteger 00240940 (Hhashtable;II)I;
 DWORD Jass_LoadInteger(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19273,7 +19273,7 @@ static PyObject* LoadInteger(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadReal 00240930 (Hhashtable;II)R;
+// LoadReal 00240ac0 (Hhashtable;II)R;
 DWORD Jass_LoadReal(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19302,7 +19302,7 @@ static PyObject* LoadReal(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadBoolean 00240570 (Hhashtable;II)B;
+// LoadBoolean 00240700 (Hhashtable;II)B;
 DWORD Jass_LoadBoolean(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19331,7 +19331,7 @@ static PyObject* LoadBoolean(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadStr 00240ad0 (Hhashtable;II)S;
+// LoadStr 00240c60 (Hhashtable;II)S;
 DWORD Jass_LoadStr(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19360,7 +19360,7 @@ static PyObject* LoadStr(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// LoadPlayerHandle 002408d0 (Hhashtable;II)Hplayer;
+// LoadPlayerHandle 00240a60 (Hhashtable;II)Hplayer;
 DWORD Jass_LoadPlayerHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19389,7 +19389,7 @@ static PyObject* LoadPlayerHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadWidgetHandle 00240c70 (Hhashtable;II)Hwidget;
+// LoadWidgetHandle 00240e00 (Hhashtable;II)Hwidget;
 DWORD Jass_LoadWidgetHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19418,7 +19418,7 @@ static PyObject* LoadWidgetHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadDestructableHandle 00240610 (Hhashtable;II)Hdestructable;
+// LoadDestructableHandle 002407a0 (Hhashtable;II)Hdestructable;
 DWORD Jass_LoadDestructableHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19447,7 +19447,7 @@ static PyObject* LoadDestructableHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadItemHandle 002407f0 (Hhashtable;II)Hitem;
+// LoadItemHandle 00240980 (Hhashtable;II)Hitem;
 DWORD Jass_LoadItemHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19476,7 +19476,7 @@ static PyObject* LoadItemHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadUnitHandle 00240c30 (Hhashtable;II)Hunit;
+// LoadUnitHandle 00240dc0 (Hhashtable;II)Hunit;
 DWORD Jass_LoadUnitHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19505,7 +19505,7 @@ static PyObject* LoadUnitHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadAbilityHandle 00240550 (Hhashtable;II)Hability;
+// LoadAbilityHandle 002406e0 (Hhashtable;II)Hability;
 DWORD Jass_LoadAbilityHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19534,7 +19534,7 @@ static PyObject* LoadAbilityHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadTimerHandle 00240b50 (Hhashtable;II)Htimer;
+// LoadTimerHandle 00240ce0 (Hhashtable;II)Htimer;
 DWORD Jass_LoadTimerHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19563,7 +19563,7 @@ static PyObject* LoadTimerHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadRegionHandle 00240990 (Hhashtable;II)Hregion;
+// LoadRegionHandle 00240b20 (Hhashtable;II)Hregion;
 DWORD Jass_LoadRegionHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19592,7 +19592,7 @@ static PyObject* LoadRegionHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadTriggerHandle 00240bf0 (Hhashtable;II)Htrigger;
+// LoadTriggerHandle 00240d80 (Hhashtable;II)Htrigger;
 DWORD Jass_LoadTriggerHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19621,7 +19621,7 @@ static PyObject* LoadTriggerHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadTriggerConditionHandle 00240bb0 (Hhashtable;II)Htriggercondition;
+// LoadTriggerConditionHandle 00240d40 (Hhashtable;II)Htriggercondition;
 DWORD Jass_LoadTriggerConditionHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19650,7 +19650,7 @@ static PyObject* LoadTriggerConditionHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadTriggerActionHandle 00240b90 (Hhashtable;II)Htriggeraction;
+// LoadTriggerActionHandle 00240d20 (Hhashtable;II)Htriggeraction;
 DWORD Jass_LoadTriggerActionHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19679,7 +19679,7 @@ static PyObject* LoadTriggerActionHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadTriggerEventHandle 00240bd0 (Hhashtable;II)Hevent;
+// LoadTriggerEventHandle 00240d60 (Hhashtable;II)Hevent;
 DWORD Jass_LoadTriggerEventHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19708,7 +19708,7 @@ static PyObject* LoadTriggerEventHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadForceHandle 002406b0 (Hhashtable;II)Hforce;
+// LoadForceHandle 00240840 (Hhashtable;II)Hforce;
 DWORD Jass_LoadForceHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19737,7 +19737,7 @@ static PyObject* LoadForceHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadGroupHandle 00240750 (Hhashtable;II)Hgroup;
+// LoadGroupHandle 002408e0 (Hhashtable;II)Hgroup;
 DWORD Jass_LoadGroupHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19766,7 +19766,7 @@ static PyObject* LoadGroupHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadLocationHandle 00240870 (Hhashtable;II)Hlocation;
+// LoadLocationHandle 00240a00 (Hhashtable;II)Hlocation;
 DWORD Jass_LoadLocationHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19795,7 +19795,7 @@ static PyObject* LoadLocationHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadRectHandle 00240970 (Hhashtable;II)Hrect;
+// LoadRectHandle 00240b00 (Hhashtable;II)Hrect;
 DWORD Jass_LoadRectHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19824,7 +19824,7 @@ static PyObject* LoadRectHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadBooleanExprHandle 002405b0 (Hhashtable;II)Hboolexpr;
+// LoadBooleanExprHandle 00240740 (Hhashtable;II)Hboolexpr;
 DWORD Jass_LoadBooleanExprHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19853,7 +19853,7 @@ static PyObject* LoadBooleanExprHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadSoundHandle 00240ab0 (Hhashtable;II)Hsound;
+// LoadSoundHandle 00240c40 (Hhashtable;II)Hsound;
 DWORD Jass_LoadSoundHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19882,7 +19882,7 @@ static PyObject* LoadSoundHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadEffectHandle 00240650 (Hhashtable;II)Heffect;
+// LoadEffectHandle 002407e0 (Hhashtable;II)Heffect;
 DWORD Jass_LoadEffectHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19911,7 +19911,7 @@ static PyObject* LoadEffectHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadUnitPoolHandle 00240c50 (Hhashtable;II)Hunitpool;
+// LoadUnitPoolHandle 00240de0 (Hhashtable;II)Hunitpool;
 DWORD Jass_LoadUnitPoolHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19940,7 +19940,7 @@ static PyObject* LoadUnitPoolHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadItemPoolHandle 00240810 (Hhashtable;II)Hitempool;
+// LoadItemPoolHandle 002409a0 (Hhashtable;II)Hitempool;
 DWORD Jass_LoadItemPoolHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19969,7 +19969,7 @@ static PyObject* LoadItemPoolHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadQuestHandle 002408f0 (Hhashtable;II)Hquest;
+// LoadQuestHandle 00240a80 (Hhashtable;II)Hquest;
 DWORD Jass_LoadQuestHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -19998,7 +19998,7 @@ static PyObject* LoadQuestHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadQuestItemHandle 00240910 (Hhashtable;II)Hquestitem;
+// LoadQuestItemHandle 00240aa0 (Hhashtable;II)Hquestitem;
 DWORD Jass_LoadQuestItemHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20027,7 +20027,7 @@ static PyObject* LoadQuestItemHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadDefeatConditionHandle 002405f0 (Hhashtable;II)Hdefeatcondition;
+// LoadDefeatConditionHandle 00240780 (Hhashtable;II)Hdefeatcondition;
 DWORD Jass_LoadDefeatConditionHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20056,7 +20056,7 @@ static PyObject* LoadDefeatConditionHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadTimerDialogHandle 00240b30 (Hhashtable;II)Htimerdialog;
+// LoadTimerDialogHandle 00240cc0 (Hhashtable;II)Htimerdialog;
 DWORD Jass_LoadTimerDialogHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20085,7 +20085,7 @@ static PyObject* LoadTimerDialogHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadLeaderboardHandle 00240830 (Hhashtable;II)Hleaderboard;
+// LoadLeaderboardHandle 002409c0 (Hhashtable;II)Hleaderboard;
 DWORD Jass_LoadLeaderboardHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20114,7 +20114,7 @@ static PyObject* LoadLeaderboardHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadMultiboardHandle 00240890 (Hhashtable;II)Hmultiboard;
+// LoadMultiboardHandle 00240a20 (Hhashtable;II)Hmultiboard;
 DWORD Jass_LoadMultiboardHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20143,7 +20143,7 @@ static PyObject* LoadMultiboardHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadMultiboardItemHandle 002408b0 (Hhashtable;II)Hmultiboarditem;
+// LoadMultiboardItemHandle 00240a40 (Hhashtable;II)Hmultiboarditem;
 DWORD Jass_LoadMultiboardItemHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20172,7 +20172,7 @@ static PyObject* LoadMultiboardItemHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadTrackableHandle 00240b70 (Hhashtable;II)Htrackable;
+// LoadTrackableHandle 00240d00 (Hhashtable;II)Htrackable;
 DWORD Jass_LoadTrackableHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20201,7 +20201,7 @@ static PyObject* LoadTrackableHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadDialogHandle 00240630 (Hhashtable;II)Hdialog;
+// LoadDialogHandle 002407c0 (Hhashtable;II)Hdialog;
 DWORD Jass_LoadDialogHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20230,7 +20230,7 @@ static PyObject* LoadDialogHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadButtonHandle 002405d0 (Hhashtable;II)Hbutton;
+// LoadButtonHandle 00240760 (Hhashtable;II)Hbutton;
 DWORD Jass_LoadButtonHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20259,7 +20259,7 @@ static PyObject* LoadButtonHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadTextTagHandle 00240b10 (Hhashtable;II)Htexttag;
+// LoadTextTagHandle 00240ca0 (Hhashtable;II)Htexttag;
 DWORD Jass_LoadTextTagHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20288,7 +20288,7 @@ static PyObject* LoadTextTagHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadLightningHandle 00240850 (Hhashtable;II)Hlightning;
+// LoadLightningHandle 002409e0 (Hhashtable;II)Hlightning;
 DWORD Jass_LoadLightningHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20317,7 +20317,7 @@ static PyObject* LoadLightningHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadImageHandle 00240790 (Hhashtable;II)Himage;
+// LoadImageHandle 00240920 (Hhashtable;II)Himage;
 DWORD Jass_LoadImageHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20346,7 +20346,7 @@ static PyObject* LoadImageHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadUbersplatHandle 00240c10 (Hhashtable;II)Hubersplat;
+// LoadUbersplatHandle 00240da0 (Hhashtable;II)Hubersplat;
 DWORD Jass_LoadUbersplatHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20375,7 +20375,7 @@ static PyObject* LoadUbersplatHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadFogStateHandle 00240690 (Hhashtable;II)Hfogstate;
+// LoadFogStateHandle 00240820 (Hhashtable;II)Hfogstate;
 DWORD Jass_LoadFogStateHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20404,7 +20404,7 @@ static PyObject* LoadFogStateHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadFogModifierHandle 00240670 (Hhashtable;II)Hfogmodifier;
+// LoadFogModifierHandle 00240800 (Hhashtable;II)Hfogmodifier;
 DWORD Jass_LoadFogModifierHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20433,7 +20433,7 @@ static PyObject* LoadFogModifierHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadHashtableHandle 00240770 (Hhashtable;II)Hhashtable;
+// LoadHashtableHandle 00240900 (Hhashtable;II)Hhashtable;
 DWORD Jass_LoadHashtableHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20462,7 +20462,7 @@ static PyObject* LoadHashtableHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// HaveSavedInteger 00237080 (Hhashtable;II)B
+// HaveSavedInteger 00237210 (Hhashtable;II)B
 DWORD Jass_HaveSavedInteger(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20491,7 +20491,7 @@ static PyObject* HaveSavedInteger(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// HaveSavedReal 002370c0 (Hhashtable;II)B
+// HaveSavedReal 00237250 (Hhashtable;II)B
 DWORD Jass_HaveSavedReal(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20520,7 +20520,7 @@ static PyObject* HaveSavedReal(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// HaveSavedBoolean 00237000 (Hhashtable;II)B
+// HaveSavedBoolean 00237190 (Hhashtable;II)B
 DWORD Jass_HaveSavedBoolean(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20549,7 +20549,7 @@ static PyObject* HaveSavedBoolean(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// HaveSavedString 00237100 (Hhashtable;II)B
+// HaveSavedString 00237290 (Hhashtable;II)B
 DWORD Jass_HaveSavedString(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20578,7 +20578,7 @@ static PyObject* HaveSavedString(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// HaveSavedHandle 00237040 (Hhashtable;II)B
+// HaveSavedHandle 002371d0 (Hhashtable;II)B
 DWORD Jass_HaveSavedHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20607,7 +20607,7 @@ static PyObject* HaveSavedHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RemoveSavedInteger 00243090 (Hhashtable;II)V
+// RemoveSavedInteger 00243200 (Hhashtable;II)V
 DWORD Jass_RemoveSavedInteger(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20636,7 +20636,7 @@ static PyObject* RemoveSavedInteger(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RemoveSavedReal 002430c0 (Hhashtable;II)V
+// RemoveSavedReal 00243230 (Hhashtable;II)V
 DWORD Jass_RemoveSavedReal(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20665,7 +20665,7 @@ static PyObject* RemoveSavedReal(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RemoveSavedBoolean 00243030 (Hhashtable;II)V
+// RemoveSavedBoolean 002431a0 (Hhashtable;II)V
 DWORD Jass_RemoveSavedBoolean(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20694,7 +20694,7 @@ static PyObject* RemoveSavedBoolean(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RemoveSavedString 002430f0 (Hhashtable;II)V
+// RemoveSavedString 00243260 (Hhashtable;II)V
 DWORD Jass_RemoveSavedString(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20723,7 +20723,7 @@ static PyObject* RemoveSavedString(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RemoveSavedHandle 00243060 (Hhashtable;II)V
+// RemoveSavedHandle 002431d0 (Hhashtable;II)V
 DWORD Jass_RemoveSavedHandle(DWORD arg_0_Hhashtable, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -20752,7 +20752,7 @@ static PyObject* RemoveSavedHandle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// FlushParentHashtable 00230a20 (Hhashtable;)V
+// FlushParentHashtable 00230bb0 (Hhashtable;)V
 DWORD Jass_FlushParentHashtable(DWORD arg_0_Hhashtable)
 {
    DWORD rt = 0;
@@ -20775,7 +20775,7 @@ static PyObject* FlushParentHashtable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// FlushChildHashtable 002309b0 (Hhashtable;I)V
+// FlushChildHashtable 00230b40 (Hhashtable;I)V
 DWORD Jass_FlushChildHashtable(DWORD arg_0_Hhashtable, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -20801,7 +20801,7 @@ static PyObject* FlushChildHashtable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetRandomInt 00234480 (II)I
+// GetRandomInt 00234610 (II)I
 DWORD Jass_GetRandomInt(DWORD arg_0_I, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -20827,7 +20827,7 @@ static PyObject* GetRandomInt(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetRandomReal 002344c0 (RR)R
+// GetRandomReal 00234650 (RR)R
 DWORD Jass_GetRandomReal(DWORD arg_0_R, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -20853,7 +20853,7 @@ static PyObject* GetRandomReal(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateUnitPool 0022f0c0 ()Hunitpool;
+// CreateUnitPool 0022f250 ()Hunitpool;
 DWORD Jass_CreateUnitPool()
 {
    DWORD rt = 0;
@@ -20870,7 +20870,7 @@ static PyObject* CreateUnitPool(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DestroyUnitPool 0022f8d0 (Hunitpool;)V
+// DestroyUnitPool 0022fa60 (Hunitpool;)V
 DWORD Jass_DestroyUnitPool(DWORD arg_0_Hunitpool)
 {
    DWORD rt = 0;
@@ -20893,7 +20893,7 @@ static PyObject* DestroyUnitPool(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitPoolAddUnitType 0024b210 (Hunitpool;IR)V
+// UnitPoolAddUnitType 0024b380 (Hunitpool;IR)V
 DWORD Jass_UnitPoolAddUnitType(DWORD arg_0_Hunitpool, DWORD arg_4_I, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -20922,7 +20922,7 @@ static PyObject* UnitPoolAddUnitType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitPoolRemoveUnitType 0024b230 (Hunitpool;I)V
+// UnitPoolRemoveUnitType 0024b3a0 (Hunitpool;I)V
 DWORD Jass_UnitPoolRemoveUnitType(DWORD arg_0_Hunitpool, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -20948,7 +20948,7 @@ static PyObject* UnitPoolRemoveUnitType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PlaceRandomUnit 00241d80 (Hunitpool;Hplayer;RRR)Hunit;
+// PlaceRandomUnit 00241f10 (Hunitpool;Hplayer;RRR)Hunit;
 DWORD Jass_PlaceRandomUnit(DWORD arg_0_Hunitpool, DWORD arg_4_Hplayer, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_R)
 {
    DWORD rt = 0;
@@ -20983,7 +20983,7 @@ static PyObject* PlaceRandomUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateItemPool 0022e2f0 ()Hitempool;
+// CreateItemPool 0022e480 ()Hitempool;
 DWORD Jass_CreateItemPool()
 {
    DWORD rt = 0;
@@ -21000,7 +21000,7 @@ static PyObject* CreateItemPool(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DestroyItemPool 0022f740 (Hitempool;)V
+// DestroyItemPool 0022f8d0 (Hitempool;)V
 DWORD Jass_DestroyItemPool(DWORD arg_0_Hitempool)
 {
    DWORD rt = 0;
@@ -21023,7 +21023,7 @@ static PyObject* DestroyItemPool(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ItemPoolAddItemType 00239a10 (Hitempool;IR)V
+// ItemPoolAddItemType 00239ba0 (Hitempool;IR)V
 DWORD Jass_ItemPoolAddItemType(DWORD arg_0_Hitempool, DWORD arg_4_I, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -21052,7 +21052,7 @@ static PyObject* ItemPoolAddItemType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ItemPoolRemoveItemType 00239a30 (Hitempool;I)V
+// ItemPoolRemoveItemType 00239bc0 (Hitempool;I)V
 DWORD Jass_ItemPoolRemoveItemType(DWORD arg_0_Hitempool, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -21078,7 +21078,7 @@ static PyObject* ItemPoolRemoveItemType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PlaceRandomItem 00241d40 (Hitempool;RR)Hitem;
+// PlaceRandomItem 00241ed0 (Hitempool;RR)Hitem;
 DWORD Jass_PlaceRandomItem(DWORD arg_0_Hitempool, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -21107,7 +21107,7 @@ static PyObject* PlaceRandomItem(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ChooseRandomCreep 0022b160 (I)I
+// ChooseRandomCreep 0022b2f0 (I)I
 DWORD Jass_ChooseRandomCreep(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -21130,7 +21130,7 @@ static PyObject* ChooseRandomCreep(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ChooseRandomNPBuilding 0022b1c0 ()I
+// ChooseRandomNPBuilding 0022b350 ()I
 DWORD Jass_ChooseRandomNPBuilding()
 {
    DWORD rt = 0;
@@ -21147,7 +21147,7 @@ static PyObject* ChooseRandomNPBuilding(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ChooseRandomItem 0022b180 (I)I
+// ChooseRandomItem 0022b310 (I)I
 DWORD Jass_ChooseRandomItem(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -21170,7 +21170,7 @@ static PyObject* ChooseRandomItem(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ChooseRandomItemEx 0022b1a0 (Hitemtype;I)I
+// ChooseRandomItemEx 0022b330 (Hitemtype;I)I
 DWORD Jass_ChooseRandomItemEx(DWORD arg_0_Hitemtype, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -21196,7 +21196,7 @@ static PyObject* ChooseRandomItemEx(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetRandomSeed 00246650 (I)V
+// SetRandomSeed 002467c0 (I)V
 DWORD Jass_SetRandomSeed(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -21219,7 +21219,7 @@ static PyObject* SetRandomSeed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DisplayTextToPlayer 0022fda0 (Hplayer;RRS)V
+// DisplayTextToPlayer 0022ff30 (Hplayer;RRS)V
 DWORD Jass_DisplayTextToPlayer(DWORD arg_0_Hplayer, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_S)
 {
    DWORD rt = 0;
@@ -21251,7 +21251,7 @@ static PyObject* DisplayTextToPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DisplayTimedTextToPlayer 0022ff30 (Hplayer;RRRS)V
+// DisplayTimedTextToPlayer 002300c0 (Hplayer;RRRS)V
 DWORD Jass_DisplayTimedTextToPlayer(DWORD arg_0_Hplayer, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_S)
 {
    DWORD rt = 0;
@@ -21286,7 +21286,7 @@ static PyObject* DisplayTimedTextToPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DisplayTimedTextFromPlayer 0022fe50 (Hplayer;RRRS)V
+// DisplayTimedTextFromPlayer 0022ffe0 (Hplayer;RRRS)V
 DWORD Jass_DisplayTimedTextFromPlayer(DWORD arg_0_Hplayer, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_S)
 {
    DWORD rt = 0;
@@ -21321,7 +21321,7 @@ static PyObject* DisplayTimedTextFromPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ClearTextMessages 0022b5e0 ()V
+// ClearTextMessages 0022b770 ()V
 DWORD Jass_ClearTextMessages()
 {
    DWORD rt = 0;
@@ -21338,7 +21338,7 @@ static PyObject* ClearTextMessages(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// EnableUserControl 002300f0 (B)V
+// EnableUserControl 00230280 (B)V
 DWORD Jass_EnableUserControl(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -21361,7 +21361,7 @@ static PyObject* EnableUserControl(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// EnableUserUI 00230120 (B)V
+// EnableUserUI 002302b0 (B)V
 DWORD Jass_EnableUserUI(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -21384,7 +21384,7 @@ static PyObject* EnableUserUI(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DisableRestartMission 0022fcf0 (B)V
+// DisableRestartMission 0022fe80 (B)V
 DWORD Jass_DisableRestartMission(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -21407,7 +21407,7 @@ static PyObject* DisableRestartMission(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ForceUIKey 00230fc0 (S)V
+// ForceUIKey 00231150 (S)V
 DWORD Jass_ForceUIKey(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -21430,7 +21430,7 @@ static PyObject* ForceUIKey(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ForceUICancel 00230f40 ()V
+// ForceUICancel 002310d0 ()V
 DWORD Jass_ForceUICancel()
 {
    DWORD rt = 0;
@@ -21447,7 +21447,7 @@ static PyObject* ForceUICancel(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DisplayLoadDialog 0022fd80 ()V
+// DisplayLoadDialog 0022ff10 ()V
 DWORD Jass_DisplayLoadDialog()
 {
    DWORD rt = 0;
@@ -21464,7 +21464,7 @@ static PyObject* DisplayLoadDialog(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetTerrainFog 00246d40 (RRRRR)V
+// SetTerrainFog 00246eb0 (RRRRR)V
 DWORD Jass_SetTerrainFog(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_R)
 {
    DWORD rt = 0;
@@ -21499,7 +21499,7 @@ static PyObject* SetTerrainFog(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitFog 00247820 (RRRRR)V
+// SetUnitFog 00247990 (RRRRR)V
 DWORD Jass_SetUnitFog(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_R)
 {
    DWORD rt = 0;
@@ -21534,7 +21534,7 @@ static PyObject* SetUnitFog(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetTerrainFogEx 00246d50 (IRRRRRR)V
+// SetTerrainFogEx 00246ec0 (IRRRRRR)V
 DWORD Jass_SetTerrainFogEx(DWORD arg_0_I, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_R, DWORD arg_14_R, DWORD arg_18_R)
 {
    DWORD rt = 0;
@@ -21575,7 +21575,7 @@ static PyObject* SetTerrainFogEx(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ResetTerrainFog 00243290 ()V
+// ResetTerrainFog 00243400 ()V
 DWORD Jass_ResetTerrainFog()
 {
    DWORD rt = 0;
@@ -21592,7 +21592,7 @@ static PyObject* ResetTerrainFog(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetDayNightModels 00244ae0 (SS)V
+// SetDayNightModels 00244c50 (SS)V
 DWORD Jass_SetDayNightModels(DWORD arg_0_S, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -21618,7 +21618,7 @@ static PyObject* SetDayNightModels(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetSkyModel 002467f0 (S)V
+// SetSkyModel 00246960 (S)V
 DWORD Jass_SetSkyModel(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -21641,7 +21641,7 @@ static PyObject* SetSkyModel(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SuspendTimeOfDay 00248a10 (B)V
+// SuspendTimeOfDay 00248b80 (B)V
 DWORD Jass_SuspendTimeOfDay(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -21664,7 +21664,7 @@ static PyObject* SuspendTimeOfDay(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetTimeOfDayScale 00247200 (R)V
+// SetTimeOfDayScale 00247370 (R)V
 DWORD Jass_SetTimeOfDayScale(DWORD arg_0_R)
 {
    DWORD rt = 0;
@@ -21687,7 +21687,7 @@ static PyObject* SetTimeOfDayScale(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetTimeOfDayScale 00235af0 ()R
+// GetTimeOfDayScale 00235c80 ()R
 DWORD Jass_GetTimeOfDayScale()
 {
    DWORD rt = 0;
@@ -21704,7 +21704,7 @@ static PyObject* GetTimeOfDayScale(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ShowInterface 00247fc0 (BR)V
+// ShowInterface 00248130 (BR)V
 DWORD Jass_ShowInterface(DWORD arg_0_B, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -21730,7 +21730,7 @@ static PyObject* ShowInterface(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PauseGame 00241b50 (B)V
+// PauseGame 00241ce0 (B)V
 DWORD Jass_PauseGame(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -21753,7 +21753,7 @@ static PyObject* PauseGame(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PingMinimap 00241c50 (RRR)V
+// PingMinimap 00241de0 (RRR)V
 DWORD Jass_PingMinimap(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -21782,7 +21782,7 @@ static PyObject* PingMinimap(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PingMinimapEx 00241cb0 (RRRIIIB)V
+// PingMinimapEx 00241e40 (RRRIIIB)V
 DWORD Jass_PingMinimapEx(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_I, DWORD arg_10_I, DWORD arg_14_I, DWORD arg_18_B)
 {
    DWORD rt = 0;
@@ -21823,7 +21823,7 @@ static PyObject* PingMinimapEx(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetIntroShotText 00245cc0 (S)V
+// SetIntroShotText 00245e30 (S)V
 DWORD Jass_SetIntroShotText(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -21846,7 +21846,7 @@ static PyObject* SetIntroShotText(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetIntroShotModel 00245ca0 (S)V
+// SetIntroShotModel 00245e10 (S)V
 DWORD Jass_SetIntroShotModel(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -21869,7 +21869,7 @@ static PyObject* SetIntroShotModel(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// EnableOcclusion 00230060 (B)V
+// EnableOcclusion 002301f0 (B)V
 DWORD Jass_EnableOcclusion(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -21892,7 +21892,7 @@ static PyObject* EnableOcclusion(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// EnableWorldFogBoundary 00230160 (B)V
+// EnableWorldFogBoundary 002302f0 (B)V
 DWORD Jass_EnableWorldFogBoundary(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -21915,7 +21915,7 @@ static PyObject* EnableWorldFogBoundary(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PlayModelCinematic 00241e30 (S)V
+// PlayModelCinematic 00241fc0 (S)V
 DWORD Jass_PlayModelCinematic(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -21938,7 +21938,7 @@ static PyObject* PlayModelCinematic(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PlayCinematic 00241e10 (S)V
+// PlayCinematic 00241fa0 (S)V
 DWORD Jass_PlayCinematic(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -21961,7 +21961,7 @@ static PyObject* PlayCinematic(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetAltMinimapIcon 00244050 (S)V
+// SetAltMinimapIcon 002441c0 (S)V
 DWORD Jass_SetAltMinimapIcon(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -21984,7 +21984,7 @@ static PyObject* SetAltMinimapIcon(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateTextTag 0022eb50 ()Htexttag;
+// CreateTextTag 0022ece0 ()Htexttag;
 DWORD Jass_CreateTextTag()
 {
    DWORD rt = 0;
@@ -22001,7 +22001,7 @@ static PyObject* CreateTextTag(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DestroyTextTag 0022f820 (Htexttag;)V
+// DestroyTextTag 0022f9b0 (Htexttag;)V
 DWORD Jass_DestroyTextTag(DWORD arg_0_Htexttag)
 {
    DWORD rt = 0;
@@ -22024,7 +22024,7 @@ static PyObject* DestroyTextTag(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetTextTagText 00247110 (Htexttag;SR)V
+// SetTextTagText 00247280 (Htexttag;SR)V
 DWORD Jass_SetTextTagText(DWORD arg_0_Htexttag, DWORD arg_4_S, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -22053,7 +22053,7 @@ static PyObject* SetTextTagText(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetTextTagPos 00246fd0 (Htexttag;RRR)V
+// SetTextTagPos 00247140 (Htexttag;RRR)V
 DWORD Jass_SetTextTagPos(DWORD arg_0_Htexttag, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -22085,7 +22085,7 @@ static PyObject* SetTextTagPos(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetTextTagPosUnit 00247070 (Htexttag;Hunit;R)V
+// SetTextTagPosUnit 002471e0 (Htexttag;Hunit;R)V
 DWORD Jass_SetTextTagPosUnit(DWORD arg_0_Htexttag, DWORD arg_4_Hunit, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -22114,7 +22114,7 @@ static PyObject* SetTextTagPosUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetTextTagColor 00246ed0 (Htexttag;IIII)V
+// SetTextTagColor 00247040 (Htexttag;IIII)V
 DWORD Jass_SetTextTagColor(DWORD arg_0_Htexttag, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_I, DWORD arg_10_I)
 {
    DWORD rt = 0;
@@ -22149,7 +22149,7 @@ static PyObject* SetTextTagColor(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetTextTagVelocity 00247160 (Htexttag;RR)V
+// SetTextTagVelocity 002472d0 (Htexttag;RR)V
 DWORD Jass_SetTextTagVelocity(DWORD arg_0_Htexttag, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -22178,7 +22178,7 @@ static PyObject* SetTextTagVelocity(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetTextTagVisibility 002471c0 (Htexttag;B)V
+// SetTextTagVisibility 00247330 (Htexttag;B)V
 DWORD Jass_SetTextTagVisibility(DWORD arg_0_Htexttag, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -22204,7 +22204,7 @@ static PyObject* SetTextTagVisibility(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetTextTagSuspended 002470e0 (Htexttag;B)V
+// SetTextTagSuspended 00247250 (Htexttag;B)V
 DWORD Jass_SetTextTagSuspended(DWORD arg_0_Htexttag, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -22230,7 +22230,7 @@ static PyObject* SetTextTagSuspended(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetTextTagPermanent 00246fa0 (Htexttag;B)V
+// SetTextTagPermanent 00247110 (Htexttag;B)V
 DWORD Jass_SetTextTagPermanent(DWORD arg_0_Htexttag, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -22256,7 +22256,7 @@ static PyObject* SetTextTagPermanent(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetTextTagAge 00246e90 (Htexttag;R)V
+// SetTextTagAge 00247000 (Htexttag;R)V
 DWORD Jass_SetTextTagAge(DWORD arg_0_Htexttag, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -22282,7 +22282,7 @@ static PyObject* SetTextTagAge(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetTextTagLifespan 00246f60 (Htexttag;R)V
+// SetTextTagLifespan 002470d0 (Htexttag;R)V
 DWORD Jass_SetTextTagLifespan(DWORD arg_0_Htexttag, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -22308,7 +22308,7 @@ static PyObject* SetTextTagLifespan(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetTextTagFadepoint 00246f20 (Htexttag;R)V
+// SetTextTagFadepoint 00247090 (Htexttag;R)V
 DWORD Jass_SetTextTagFadepoint(DWORD arg_0_Htexttag, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -22334,7 +22334,7 @@ static PyObject* SetTextTagFadepoint(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetReservedLocalHeroButtons 00246760 (I)V
+// SetReservedLocalHeroButtons 002468d0 (I)V
 DWORD Jass_SetReservedLocalHeroButtons(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -22357,7 +22357,7 @@ static PyObject* SetReservedLocalHeroButtons(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetAllyColorFilterState 00231740 ()I
+// GetAllyColorFilterState 002318d0 ()I
 DWORD Jass_GetAllyColorFilterState()
 {
    DWORD rt = 0;
@@ -22374,7 +22374,7 @@ static PyObject* GetAllyColorFilterState(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetAllyColorFilterState 00244020 (I)V
+// SetAllyColorFilterState 00244190 (I)V
 DWORD Jass_SetAllyColorFilterState(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -22397,7 +22397,7 @@ static PyObject* SetAllyColorFilterState(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetCreepCampFilterState 00231f30 ()B
+// GetCreepCampFilterState 002320c0 ()B
 DWORD Jass_GetCreepCampFilterState()
 {
    DWORD rt = 0;
@@ -22414,7 +22414,7 @@ static PyObject* GetCreepCampFilterState(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCreepCampFilterState 00244a80 (B)V
+// SetCreepCampFilterState 00244bf0 (B)V
 DWORD Jass_SetCreepCampFilterState(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -22437,7 +22437,7 @@ static PyObject* SetCreepCampFilterState(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// EnableMinimapFilterButtons 00230020 (BB)V
+// EnableMinimapFilterButtons 002301b0 (BB)V
 DWORD Jass_EnableMinimapFilterButtons(DWORD arg_0_B, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -22463,7 +22463,7 @@ static PyObject* EnableMinimapFilterButtons(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// EnableDragSelect 00230000 (BB)V
+// EnableDragSelect 00230190 (BB)V
 DWORD Jass_EnableDragSelect(DWORD arg_0_B, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -22489,7 +22489,7 @@ static PyObject* EnableDragSelect(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// EnablePreSelect 00230090 (BB)V
+// EnablePreSelect 00230220 (BB)V
 DWORD Jass_EnablePreSelect(DWORD arg_0_B, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -22515,7 +22515,7 @@ static PyObject* EnablePreSelect(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// EnableSelect 002300b0 (BB)V
+// EnableSelect 00230240 (BB)V
 DWORD Jass_EnableSelect(DWORD arg_0_B, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -22541,7 +22541,7 @@ static PyObject* EnableSelect(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateTrackable 0022ed50 (SRRR)Htrackable;
+// CreateTrackable 0022eee0 (SRRR)Htrackable;
 DWORD Jass_CreateTrackable(DWORD arg_0_S, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -22573,7 +22573,7 @@ static PyObject* CreateTrackable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TriggerRegisterTrackableHitEvent 0024a080 (Htrigger;Htrackable;)Hevent;
+// TriggerRegisterTrackableHitEvent 0024a1f0 (Htrigger;Htrackable;)Hevent;
 DWORD Jass_TriggerRegisterTrackableHitEvent(DWORD arg_0_Htrigger, DWORD arg_4_Htrackable)
 {
    DWORD rt = 0;
@@ -22599,7 +22599,7 @@ static PyObject* TriggerRegisterTrackableHitEvent(PyObject *self, PyObject *args
    return Py_BuildValue("I", rt);
 }
 
-// TriggerRegisterTrackableTrackEvent 0024a140 (Htrigger;Htrackable;)Hevent;
+// TriggerRegisterTrackableTrackEvent 0024a2b0 (Htrigger;Htrackable;)Hevent;
 DWORD Jass_TriggerRegisterTrackableTrackEvent(DWORD arg_0_Htrigger, DWORD arg_4_Htrackable)
 {
    DWORD rt = 0;
@@ -22625,7 +22625,7 @@ static PyObject* TriggerRegisterTrackableTrackEvent(PyObject *self, PyObject *ar
    return Py_BuildValue("I", rt);
 }
 
-// GetTriggeringTrackable 00235f30 ()Htrackable;
+// GetTriggeringTrackable 002360c0 ()Htrackable;
 DWORD Jass_GetTriggeringTrackable()
 {
    DWORD rt = 0;
@@ -22642,7 +22642,7 @@ static PyObject* GetTriggeringTrackable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateQuest 0022e6b0 ()Hquest;
+// CreateQuest 0022e840 ()Hquest;
 DWORD Jass_CreateQuest()
 {
    DWORD rt = 0;
@@ -22659,7 +22659,7 @@ static PyObject* CreateQuest(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DestroyQuest 0022f7d0 (Hquest;)V
+// DestroyQuest 0022f960 (Hquest;)V
 DWORD Jass_DestroyQuest(DWORD arg_0_Hquest)
 {
    DWORD rt = 0;
@@ -22682,7 +22682,7 @@ static PyObject* DestroyQuest(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// QuestSetTitle 00242840 (Hquest;S)V
+// QuestSetTitle 002429b0 (Hquest;S)V
 DWORD Jass_QuestSetTitle(DWORD arg_0_Hquest, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -22708,7 +22708,7 @@ static PyObject* QuestSetTitle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// QuestSetDescription 00242720 (Hquest;S)V
+// QuestSetDescription 00242890 (Hquest;S)V
 DWORD Jass_QuestSetDescription(DWORD arg_0_Hquest, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -22734,7 +22734,7 @@ static PyObject* QuestSetDescription(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// QuestSetIconPath 002427e0 (Hquest;S)V
+// QuestSetIconPath 00242950 (Hquest;S)V
 DWORD Jass_QuestSetIconPath(DWORD arg_0_Hquest, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -22760,7 +22760,7 @@ static PyObject* QuestSetIconPath(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// QuestSetRequired 00242810 (Hquest;B)V
+// QuestSetRequired 00242980 (Hquest;B)V
 DWORD Jass_QuestSetRequired(DWORD arg_0_Hquest, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -22786,7 +22786,7 @@ static PyObject* QuestSetRequired(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// QuestSetCompleted 002426f0 (Hquest;B)V
+// QuestSetCompleted 00242860 (Hquest;B)V
 DWORD Jass_QuestSetCompleted(DWORD arg_0_Hquest, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -22812,7 +22812,7 @@ static PyObject* QuestSetCompleted(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// QuestSetDiscovered 00242750 (Hquest;B)V
+// QuestSetDiscovered 002428c0 (Hquest;B)V
 DWORD Jass_QuestSetDiscovered(DWORD arg_0_Hquest, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -22838,7 +22838,7 @@ static PyObject* QuestSetDiscovered(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// QuestSetFailed 002427b0 (Hquest;B)V
+// QuestSetFailed 00242920 (Hquest;B)V
 DWORD Jass_QuestSetFailed(DWORD arg_0_Hquest, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -22864,7 +22864,7 @@ static PyObject* QuestSetFailed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// QuestSetEnabled 00242780 (Hquest;B)V
+// QuestSetEnabled 002428f0 (Hquest;B)V
 DWORD Jass_QuestSetEnabled(DWORD arg_0_Hquest, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -22890,7 +22890,7 @@ static PyObject* QuestSetEnabled(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsQuestRequired 002383c0 (Hquest;)B
+// IsQuestRequired 00238550 (Hquest;)B
 DWORD Jass_IsQuestRequired(DWORD arg_0_Hquest)
 {
    DWORD rt = 0;
@@ -22913,7 +22913,7 @@ static PyObject* IsQuestRequired(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsQuestCompleted 00238320 (Hquest;)B
+// IsQuestCompleted 002384b0 (Hquest;)B
 DWORD Jass_IsQuestCompleted(DWORD arg_0_Hquest)
 {
    DWORD rt = 0;
@@ -22936,7 +22936,7 @@ static PyObject* IsQuestCompleted(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsQuestDiscovered 00238340 (Hquest;)B
+// IsQuestDiscovered 002384d0 (Hquest;)B
 DWORD Jass_IsQuestDiscovered(DWORD arg_0_Hquest)
 {
    DWORD rt = 0;
@@ -22959,7 +22959,7 @@ static PyObject* IsQuestDiscovered(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsQuestFailed 00238380 (Hquest;)B
+// IsQuestFailed 00238510 (Hquest;)B
 DWORD Jass_IsQuestFailed(DWORD arg_0_Hquest)
 {
    DWORD rt = 0;
@@ -22982,7 +22982,7 @@ static PyObject* IsQuestFailed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsQuestEnabled 00238360 (Hquest;)B
+// IsQuestEnabled 002384f0 (Hquest;)B
 DWORD Jass_IsQuestEnabled(DWORD arg_0_Hquest)
 {
    DWORD rt = 0;
@@ -23005,7 +23005,7 @@ static PyObject* IsQuestEnabled(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// QuestCreateItem 002425c0 (Hquest;)Hquestitem;
+// QuestCreateItem 00242730 (Hquest;)Hquestitem;
 DWORD Jass_QuestCreateItem(DWORD arg_0_Hquest)
 {
    DWORD rt = 0;
@@ -23028,7 +23028,7 @@ static PyObject* QuestCreateItem(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// QuestItemSetDescription 002426a0 (Hquestitem;S)V
+// QuestItemSetDescription 00242810 (Hquestitem;S)V
 DWORD Jass_QuestItemSetDescription(DWORD arg_0_Hquestitem, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -23054,7 +23054,7 @@ static PyObject* QuestItemSetDescription(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// QuestItemSetCompleted 00242670 (Hquestitem;B)V
+// QuestItemSetCompleted 002427e0 (Hquestitem;B)V
 DWORD Jass_QuestItemSetCompleted(DWORD arg_0_Hquestitem, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -23080,7 +23080,7 @@ static PyObject* QuestItemSetCompleted(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsQuestItemCompleted 002383a0 (Hquestitem;)B
+// IsQuestItemCompleted 00238530 (Hquestitem;)B
 DWORD Jass_IsQuestItemCompleted(DWORD arg_0_Hquestitem)
 {
    DWORD rt = 0;
@@ -23103,7 +23103,7 @@ static PyObject* IsQuestItemCompleted(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateDefeatCondition 0022dcc0 ()Hdefeatcondition;
+// CreateDefeatCondition 0022de50 ()Hdefeatcondition;
 DWORD Jass_CreateDefeatCondition()
 {
    DWORD rt = 0;
@@ -23120,7 +23120,7 @@ static PyObject* CreateDefeatCondition(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DestroyDefeatCondition 0022f620 (Hdefeatcondition;)V
+// DestroyDefeatCondition 0022f7b0 (Hdefeatcondition;)V
 DWORD Jass_DestroyDefeatCondition(DWORD arg_0_Hdefeatcondition)
 {
    DWORD rt = 0;
@@ -23143,7 +23143,7 @@ static PyObject* DestroyDefeatCondition(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DefeatConditionSetDescription 0022f390 (Hdefeatcondition;S)V
+// DefeatConditionSetDescription 0022f520 (Hdefeatcondition;S)V
 DWORD Jass_DefeatConditionSetDescription(DWORD arg_0_Hdefeatcondition, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -23169,7 +23169,7 @@ static PyObject* DefeatConditionSetDescription(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// FlashQuestDialogButton 00230960 ()V
+// FlashQuestDialogButton 00230af0 ()V
 DWORD Jass_FlashQuestDialogButton()
 {
    DWORD rt = 0;
@@ -23186,7 +23186,7 @@ static PyObject* FlashQuestDialogButton(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ForceQuestDialogUpdate 00230ee0 ()V
+// ForceQuestDialogUpdate 00231070 ()V
 DWORD Jass_ForceQuestDialogUpdate()
 {
    DWORD rt = 0;
@@ -23203,7 +23203,7 @@ static PyObject* ForceQuestDialogUpdate(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateTimerDialog 0022ec50 (Htimer;)Htimerdialog;
+// CreateTimerDialog 0022ede0 (Htimer;)Htimerdialog;
 DWORD Jass_CreateTimerDialog(DWORD arg_0_Htimer)
 {
    DWORD rt = 0;
@@ -23226,7 +23226,7 @@ static PyObject* CreateTimerDialog(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DestroyTimerDialog 0022f870 (Htimerdialog;)V
+// DestroyTimerDialog 0022fa00 (Htimerdialog;)V
 DWORD Jass_DestroyTimerDialog(DWORD arg_0_Htimerdialog)
 {
    DWORD rt = 0;
@@ -23249,7 +23249,7 @@ static PyObject* DestroyTimerDialog(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TimerDialogSetTitle 00249060 (Htimerdialog;S)V
+// TimerDialogSetTitle 002491d0 (Htimerdialog;S)V
 DWORD Jass_TimerDialogSetTitle(DWORD arg_0_Htimerdialog, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -23275,7 +23275,7 @@ static PyObject* TimerDialogSetTitle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TimerDialogSetTitleColor 00249090 (Htimerdialog;IIII)V
+// TimerDialogSetTitleColor 00249200 (Htimerdialog;IIII)V
 DWORD Jass_TimerDialogSetTitleColor(DWORD arg_0_Htimerdialog, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_I, DWORD arg_10_I)
 {
    DWORD rt = 0;
@@ -23310,7 +23310,7 @@ static PyObject* TimerDialogSetTitleColor(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TimerDialogSetTimeColor 00249000 (Htimerdialog;IIII)V
+// TimerDialogSetTimeColor 00249170 (Htimerdialog;IIII)V
 DWORD Jass_TimerDialogSetTimeColor(DWORD arg_0_Htimerdialog, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_I, DWORD arg_10_I)
 {
    DWORD rt = 0;
@@ -23345,7 +23345,7 @@ static PyObject* TimerDialogSetTimeColor(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TimerDialogSetSpeed 00248fd0 (Htimerdialog;R)V
+// TimerDialogSetSpeed 00249140 (Htimerdialog;R)V
 DWORD Jass_TimerDialogSetSpeed(DWORD arg_0_Htimerdialog, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -23371,7 +23371,7 @@ static PyObject* TimerDialogSetSpeed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TimerDialogDisplay 00248f80 (Htimerdialog;B)V
+// TimerDialogDisplay 002490f0 (Htimerdialog;B)V
 DWORD Jass_TimerDialogDisplay(DWORD arg_0_Htimerdialog, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -23397,7 +23397,7 @@ static PyObject* TimerDialogDisplay(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsTimerDialogDisplayed 00238500 (Htimerdialog;)B
+// IsTimerDialogDisplayed 00238690 (Htimerdialog;)B
 DWORD Jass_IsTimerDialogDisplayed(DWORD arg_0_Htimerdialog)
 {
    DWORD rt = 0;
@@ -23420,7 +23420,7 @@ static PyObject* IsTimerDialogDisplayed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TimerDialogSetRealTimeRemaining 00248fa0 (Htimerdialog;R)V
+// TimerDialogSetRealTimeRemaining 00249110 (Htimerdialog;R)V
 DWORD Jass_TimerDialogSetRealTimeRemaining(DWORD arg_0_Htimerdialog, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -23446,7 +23446,7 @@ static PyObject* TimerDialogSetRealTimeRemaining(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateLeaderboard 0022e3d0 ()Hleaderboard;
+// CreateLeaderboard 0022e560 ()Hleaderboard;
 DWORD Jass_CreateLeaderboard()
 {
    DWORD rt = 0;
@@ -23463,7 +23463,7 @@ static PyObject* CreateLeaderboard(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DestroyLeaderboard 0022f760 (Hleaderboard;)V
+// DestroyLeaderboard 0022f8f0 (Hleaderboard;)V
 DWORD Jass_DestroyLeaderboard(DWORD arg_0_Hleaderboard)
 {
    DWORD rt = 0;
@@ -23486,7 +23486,7 @@ static PyObject* DestroyLeaderboard(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LeaderboardGetItemCount 0023fe60 (Hleaderboard;)I
+// LeaderboardGetItemCount 0023fff0 (Hleaderboard;)I
 DWORD Jass_LeaderboardGetItemCount(DWORD arg_0_Hleaderboard)
 {
    DWORD rt = 0;
@@ -23509,7 +23509,7 @@ static PyObject* LeaderboardGetItemCount(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LeaderboardSetSizeByItemCount 00240200 (Hleaderboard;I)V
+// LeaderboardSetSizeByItemCount 00240390 (Hleaderboard;I)V
 DWORD Jass_LeaderboardSetSizeByItemCount(DWORD arg_0_Hleaderboard, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -23535,7 +23535,7 @@ static PyObject* LeaderboardSetSizeByItemCount(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LeaderboardAddItem 0023fd90 (Hleaderboard;SIHplayer;)V
+// LeaderboardAddItem 0023ff20 (Hleaderboard;SIHplayer;)V
 DWORD Jass_LeaderboardAddItem(DWORD arg_0_Hleaderboard, DWORD arg_4_S, DWORD arg_8_I, DWORD arg_C_Hplayer)
 {
    DWORD rt = 0;
@@ -23567,7 +23567,7 @@ static PyObject* LeaderboardAddItem(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LeaderboardRemoveItem 0023ff80 (Hleaderboard;I)V
+// LeaderboardRemoveItem 00240110 (Hleaderboard;I)V
 DWORD Jass_LeaderboardRemoveItem(DWORD arg_0_Hleaderboard, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -23593,7 +23593,7 @@ static PyObject* LeaderboardRemoveItem(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LeaderboardRemovePlayerItem 0023ffb0 (Hleaderboard;Hplayer;)V
+// LeaderboardRemovePlayerItem 00240140 (Hleaderboard;Hplayer;)V
 DWORD Jass_LeaderboardRemovePlayerItem(DWORD arg_0_Hleaderboard, DWORD arg_4_Hplayer)
 {
    DWORD rt = 0;
@@ -23619,7 +23619,7 @@ static PyObject* LeaderboardRemovePlayerItem(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LeaderboardSortItemsByValue 00240340 (Hleaderboard;B)V
+// LeaderboardSortItemsByValue 002404d0 (Hleaderboard;B)V
 DWORD Jass_LeaderboardSortItemsByValue(DWORD arg_0_Hleaderboard, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -23645,7 +23645,7 @@ static PyObject* LeaderboardSortItemsByValue(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LeaderboardSortItemsByPlayer 00240310 (Hleaderboard;B)V
+// LeaderboardSortItemsByPlayer 002404a0 (Hleaderboard;B)V
 DWORD Jass_LeaderboardSortItemsByPlayer(DWORD arg_0_Hleaderboard, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -23671,7 +23671,7 @@ static PyObject* LeaderboardSortItemsByPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LeaderboardSortItemsByLabel 002402e0 (Hleaderboard;B)V
+// LeaderboardSortItemsByLabel 00240470 (Hleaderboard;B)V
 DWORD Jass_LeaderboardSortItemsByLabel(DWORD arg_0_Hleaderboard, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -23697,7 +23697,7 @@ static PyObject* LeaderboardSortItemsByLabel(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LeaderboardClear 0023fde0 (Hleaderboard;)V
+// LeaderboardClear 0023ff70 (Hleaderboard;)V
 DWORD Jass_LeaderboardClear(DWORD arg_0_Hleaderboard)
 {
    DWORD rt = 0;
@@ -23720,7 +23720,7 @@ static PyObject* LeaderboardClear(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LeaderboardDisplay 0023fe10 (Hleaderboard;B)V
+// LeaderboardDisplay 0023ffa0 (Hleaderboard;B)V
 DWORD Jass_LeaderboardDisplay(DWORD arg_0_Hleaderboard, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -23746,7 +23746,7 @@ static PyObject* LeaderboardDisplay(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsLeaderboardDisplayed 00237d80 (Hleaderboard;)B
+// IsLeaderboardDisplayed 00237f10 (Hleaderboard;)B
 DWORD Jass_IsLeaderboardDisplayed(DWORD arg_0_Hleaderboard)
 {
    DWORD rt = 0;
@@ -23769,7 +23769,7 @@ static PyObject* IsLeaderboardDisplayed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LeaderboardGetLabelText 0023fe90 (Hleaderboard;)S
+// LeaderboardGetLabelText 00240020 (Hleaderboard;)S
 DWORD Jass_LeaderboardGetLabelText(DWORD arg_0_Hleaderboard)
 {
    DWORD rt = 0;
@@ -23792,7 +23792,7 @@ static PyObject* LeaderboardGetLabelText(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// PlayerSetLeaderboard 00241f80 (Hplayer;Hleaderboard;)V
+// PlayerSetLeaderboard 00242110 (Hplayer;Hleaderboard;)V
 DWORD Jass_PlayerSetLeaderboard(DWORD arg_0_Hplayer, DWORD arg_4_Hleaderboard)
 {
    DWORD rt = 0;
@@ -23818,7 +23818,7 @@ static PyObject* PlayerSetLeaderboard(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PlayerGetLeaderboard 00241f20 (Hplayer;)Hleaderboard;
+// PlayerGetLeaderboard 002420b0 (Hplayer;)Hleaderboard;
 DWORD Jass_PlayerGetLeaderboard(DWORD arg_0_Hplayer)
 {
    DWORD rt = 0;
@@ -23841,7 +23841,7 @@ static PyObject* PlayerGetLeaderboard(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LeaderboardHasPlayerItem 0023ff30 (Hleaderboard;Hplayer;)B
+// LeaderboardHasPlayerItem 002400c0 (Hleaderboard;Hplayer;)B
 DWORD Jass_LeaderboardHasPlayerItem(DWORD arg_0_Hleaderboard, DWORD arg_4_Hplayer)
 {
    DWORD rt = 0;
@@ -23867,7 +23867,7 @@ static PyObject* LeaderboardHasPlayerItem(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LeaderboardGetPlayerIndex 0023fee0 (Hleaderboard;Hplayer;)I
+// LeaderboardGetPlayerIndex 00240070 (Hleaderboard;Hplayer;)I
 DWORD Jass_LeaderboardGetPlayerIndex(DWORD arg_0_Hleaderboard, DWORD arg_4_Hplayer)
 {
    DWORD rt = 0;
@@ -23893,7 +23893,7 @@ static PyObject* LeaderboardGetPlayerIndex(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LeaderboardSetLabel 00240170 (Hleaderboard;S)V
+// LeaderboardSetLabel 00240300 (Hleaderboard;S)V
 DWORD Jass_LeaderboardSetLabel(DWORD arg_0_Hleaderboard, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -23919,7 +23919,7 @@ static PyObject* LeaderboardSetLabel(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LeaderboardSetLabelColor 002401a0 (Hleaderboard;IIII)V
+// LeaderboardSetLabelColor 00240330 (Hleaderboard;IIII)V
 DWORD Jass_LeaderboardSetLabelColor(DWORD arg_0_Hleaderboard, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_I, DWORD arg_10_I)
 {
    DWORD rt = 0;
@@ -23954,7 +23954,7 @@ static PyObject* LeaderboardSetLabelColor(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LeaderboardSetValueColor 00240280 (Hleaderboard;IIII)V
+// LeaderboardSetValueColor 00240410 (Hleaderboard;IIII)V
 DWORD Jass_LeaderboardSetValueColor(DWORD arg_0_Hleaderboard, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_I, DWORD arg_10_I)
 {
    DWORD rt = 0;
@@ -23989,7 +23989,7 @@ static PyObject* LeaderboardSetValueColor(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LeaderboardSetStyle 00240230 (Hleaderboard;BBBB)V
+// LeaderboardSetStyle 002403c0 (Hleaderboard;BBBB)V
 DWORD Jass_LeaderboardSetStyle(DWORD arg_0_Hleaderboard, DWORD arg_4_B, DWORD arg_8_B, DWORD arg_C_B, DWORD arg_10_B)
 {
    DWORD rt = 0;
@@ -24024,7 +24024,7 @@ static PyObject* LeaderboardSetStyle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LeaderboardSetItemValue 002400e0 (Hleaderboard;II)V
+// LeaderboardSetItemValue 00240270 (Hleaderboard;II)V
 DWORD Jass_LeaderboardSetItemValue(DWORD arg_0_Hleaderboard, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -24053,7 +24053,7 @@ static PyObject* LeaderboardSetItemValue(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LeaderboardSetItemLabel 0023fff0 (Hleaderboard;IS)V
+// LeaderboardSetItemLabel 00240180 (Hleaderboard;IS)V
 DWORD Jass_LeaderboardSetItemLabel(DWORD arg_0_Hleaderboard, DWORD arg_4_I, DWORD arg_8_S)
 {
    DWORD rt = 0;
@@ -24082,7 +24082,7 @@ static PyObject* LeaderboardSetItemLabel(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LeaderboardSetItemStyle 00240090 (Hleaderboard;IBBB)V
+// LeaderboardSetItemStyle 00240220 (Hleaderboard;IBBB)V
 DWORD Jass_LeaderboardSetItemStyle(DWORD arg_0_Hleaderboard, DWORD arg_4_I, DWORD arg_8_B, DWORD arg_C_B, DWORD arg_10_B)
 {
    DWORD rt = 0;
@@ -24117,7 +24117,7 @@ static PyObject* LeaderboardSetItemStyle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LeaderboardSetItemLabelColor 00240030 (Hleaderboard;IIIII)V
+// LeaderboardSetItemLabelColor 002401c0 (Hleaderboard;IIIII)V
 DWORD Jass_LeaderboardSetItemLabelColor(DWORD arg_0_Hleaderboard, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_I, DWORD arg_10_I, DWORD arg_14_I)
 {
    DWORD rt = 0;
@@ -24155,7 +24155,7 @@ static PyObject* LeaderboardSetItemLabelColor(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LeaderboardSetItemValueColor 00240110 (Hleaderboard;IIIII)V
+// LeaderboardSetItemValueColor 002402a0 (Hleaderboard;IIIII)V
 DWORD Jass_LeaderboardSetItemValueColor(DWORD arg_0_Hleaderboard, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_I, DWORD arg_10_I, DWORD arg_14_I)
 {
    DWORD rt = 0;
@@ -24193,7 +24193,7 @@ static PyObject* LeaderboardSetItemValueColor(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateMultiboard 0022e5c0 ()Hmultiboard;
+// CreateMultiboard 0022e750 ()Hmultiboard;
 DWORD Jass_CreateMultiboard()
 {
    DWORD rt = 0;
@@ -24210,7 +24210,7 @@ static PyObject* CreateMultiboard(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DestroyMultiboard 0022f7b0 (Hmultiboard;)V
+// DestroyMultiboard 0022f940 (Hmultiboard;)V
 DWORD Jass_DestroyMultiboard(DWORD arg_0_Hmultiboard)
 {
    DWORD rt = 0;
@@ -24233,7 +24233,7 @@ static PyObject* DestroyMultiboard(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MultiboardDisplay 002410e0 (Hmultiboard;B)V
+// MultiboardDisplay 00241270 (Hmultiboard;B)V
 DWORD Jass_MultiboardDisplay(DWORD arg_0_Hmultiboard, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -24259,7 +24259,7 @@ static PyObject* MultiboardDisplay(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MultiboardMinimize 00241220 (Hmultiboard;B)V
+// MultiboardMinimize 002413b0 (Hmultiboard;B)V
 DWORD Jass_MultiboardMinimize(DWORD arg_0_Hmultiboard, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -24285,7 +24285,7 @@ static PyObject* MultiboardMinimize(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsMultiboardDisplayed 00238000 (Hmultiboard;)B
+// IsMultiboardDisplayed 00238190 (Hmultiboard;)B
 DWORD Jass_IsMultiboardDisplayed(DWORD arg_0_Hmultiboard)
 {
    DWORD rt = 0;
@@ -24308,7 +24308,7 @@ static PyObject* IsMultiboardDisplayed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsMultiboardMinimized 00238020 (Hmultiboard;)B
+// IsMultiboardMinimized 002381b0 (Hmultiboard;)B
 DWORD Jass_IsMultiboardMinimized(DWORD arg_0_Hmultiboard)
 {
    DWORD rt = 0;
@@ -24331,7 +24331,7 @@ static PyObject* IsMultiboardMinimized(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MultiboardClear 002410b0 (Hmultiboard;)V
+// MultiboardClear 00241240 (Hmultiboard;)V
 DWORD Jass_MultiboardClear(DWORD arg_0_Hmultiboard)
 {
    DWORD rt = 0;
@@ -24354,7 +24354,7 @@ static PyObject* MultiboardClear(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MultiboardSetTitleText 002414d0 (Hmultiboard;S)V
+// MultiboardSetTitleText 00241660 (Hmultiboard;S)V
 DWORD Jass_MultiboardSetTitleText(DWORD arg_0_Hmultiboard, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -24380,7 +24380,7 @@ static PyObject* MultiboardSetTitleText(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MultiboardGetTitleText 00241200 (Hmultiboard;)S
+// MultiboardGetTitleText 00241390 (Hmultiboard;)S
 DWORD Jass_MultiboardGetTitleText(DWORD arg_0_Hmultiboard)
 {
    DWORD rt = 0;
@@ -24403,7 +24403,7 @@ static PyObject* MultiboardGetTitleText(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// MultiboardSetTitleTextColor 00241500 (Hmultiboard;IIII)V
+// MultiboardSetTitleTextColor 00241690 (Hmultiboard;IIII)V
 DWORD Jass_MultiboardSetTitleTextColor(DWORD arg_0_Hmultiboard, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_I, DWORD arg_10_I)
 {
    DWORD rt = 0;
@@ -24438,7 +24438,7 @@ static PyObject* MultiboardSetTitleTextColor(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MultiboardGetRowCount 002411e0 (Hmultiboard;)I
+// MultiboardGetRowCount 00241370 (Hmultiboard;)I
 DWORD Jass_MultiboardGetRowCount(DWORD arg_0_Hmultiboard)
 {
    DWORD rt = 0;
@@ -24461,7 +24461,7 @@ static PyObject* MultiboardGetRowCount(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MultiboardGetColumnCount 00241100 (Hmultiboard;)I
+// MultiboardGetColumnCount 00241290 (Hmultiboard;)I
 DWORD Jass_MultiboardGetColumnCount(DWORD arg_0_Hmultiboard)
 {
    DWORD rt = 0;
@@ -24484,7 +24484,7 @@ static PyObject* MultiboardGetColumnCount(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MultiboardSetColumnCount 00241260 (Hmultiboard;I)V
+// MultiboardSetColumnCount 002413f0 (Hmultiboard;I)V
 DWORD Jass_MultiboardSetColumnCount(DWORD arg_0_Hmultiboard, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -24510,7 +24510,7 @@ static PyObject* MultiboardSetColumnCount(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MultiboardSetRowCount 002414b0 (Hmultiboard;I)V
+// MultiboardSetRowCount 00241640 (Hmultiboard;I)V
 DWORD Jass_MultiboardSetRowCount(DWORD arg_0_Hmultiboard, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -24536,7 +24536,7 @@ static PyObject* MultiboardSetRowCount(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MultiboardSetItemsStyle 002413b0 (Hmultiboard;BB)V
+// MultiboardSetItemsStyle 00241540 (Hmultiboard;BB)V
 DWORD Jass_MultiboardSetItemsStyle(DWORD arg_0_Hmultiboard, DWORD arg_4_B, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -24565,7 +24565,7 @@ static PyObject* MultiboardSetItemsStyle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MultiboardSetItemsValueColor 00241420 (Hmultiboard;IIII)V
+// MultiboardSetItemsValueColor 002415b0 (Hmultiboard;IIII)V
 DWORD Jass_MultiboardSetItemsValueColor(DWORD arg_0_Hmultiboard, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_I, DWORD arg_10_I)
 {
    DWORD rt = 0;
@@ -24600,7 +24600,7 @@ static PyObject* MultiboardSetItemsValueColor(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MultiboardSetItemsValue 002413f0 (Hmultiboard;S)V
+// MultiboardSetItemsValue 00241580 (Hmultiboard;S)V
 DWORD Jass_MultiboardSetItemsValue(DWORD arg_0_Hmultiboard, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -24626,7 +24626,7 @@ static PyObject* MultiboardSetItemsValue(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MultiboardSetItemsWidth 00241480 (Hmultiboard;R)V
+// MultiboardSetItemsWidth 00241610 (Hmultiboard;R)V
 DWORD Jass_MultiboardSetItemsWidth(DWORD arg_0_Hmultiboard, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -24652,7 +24652,7 @@ static PyObject* MultiboardSetItemsWidth(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MultiboardSetItemsIcon 00241380 (Hmultiboard;S)V
+// MultiboardSetItemsIcon 00241510 (Hmultiboard;S)V
 DWORD Jass_MultiboardSetItemsIcon(DWORD arg_0_Hmultiboard, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -24678,7 +24678,7 @@ static PyObject* MultiboardSetItemsIcon(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MultiboardGetItem 00241120 (Hmultiboard;II)Hmultiboarditem;
+// MultiboardGetItem 002412b0 (Hmultiboard;II)Hmultiboarditem;
 DWORD Jass_MultiboardGetItem(DWORD arg_0_Hmultiboard, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -24707,7 +24707,7 @@ static PyObject* MultiboardGetItem(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MultiboardReleaseItem 00241240 (Hmultiboarditem;)V
+// MultiboardReleaseItem 002413d0 (Hmultiboarditem;)V
 DWORD Jass_MultiboardReleaseItem(DWORD arg_0_Hmultiboarditem)
 {
    DWORD rt = 0;
@@ -24730,7 +24730,7 @@ static PyObject* MultiboardReleaseItem(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MultiboardSetItemStyle 002412b0 (Hmultiboarditem;BB)V
+// MultiboardSetItemStyle 00241440 (Hmultiboarditem;BB)V
 DWORD Jass_MultiboardSetItemStyle(DWORD arg_0_Hmultiboarditem, DWORD arg_4_B, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -24759,7 +24759,7 @@ static PyObject* MultiboardSetItemStyle(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MultiboardSetItemValue 002412d0 (Hmultiboarditem;S)V
+// MultiboardSetItemValue 00241460 (Hmultiboarditem;S)V
 DWORD Jass_MultiboardSetItemValue(DWORD arg_0_Hmultiboarditem, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -24785,7 +24785,7 @@ static PyObject* MultiboardSetItemValue(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MultiboardSetItemValueColor 00241300 (Hmultiboarditem;IIII)V
+// MultiboardSetItemValueColor 00241490 (Hmultiboarditem;IIII)V
 DWORD Jass_MultiboardSetItemValueColor(DWORD arg_0_Hmultiboarditem, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_I, DWORD arg_10_I)
 {
    DWORD rt = 0;
@@ -24820,7 +24820,7 @@ static PyObject* MultiboardSetItemValueColor(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MultiboardSetItemWidth 00241350 (Hmultiboarditem;R)V
+// MultiboardSetItemWidth 002414e0 (Hmultiboarditem;R)V
 DWORD Jass_MultiboardSetItemWidth(DWORD arg_0_Hmultiboarditem, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -24846,7 +24846,7 @@ static PyObject* MultiboardSetItemWidth(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MultiboardSetItemIcon 00241280 (Hmultiboarditem;S)V
+// MultiboardSetItemIcon 00241410 (Hmultiboarditem;S)V
 DWORD Jass_MultiboardSetItemIcon(DWORD arg_0_Hmultiboarditem, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -24872,7 +24872,7 @@ static PyObject* MultiboardSetItemIcon(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MultiboardSuppressDisplay 00241550 (B)V
+// MultiboardSuppressDisplay 002416e0 (B)V
 DWORD Jass_MultiboardSuppressDisplay(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -24895,7 +24895,7 @@ static PyObject* MultiboardSuppressDisplay(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCameraBounds 00244230 (RRRRRRRR)V
+// SetCameraBounds 002443a0 (RRRRRRRR)V
 DWORD Jass_SetCameraBounds(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_R, DWORD arg_14_R, DWORD arg_18_R, DWORD arg_1C_R)
 {
    DWORD rt = 0;
@@ -24939,7 +24939,7 @@ static PyObject* SetCameraBounds(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCameraPosition 002443a0 (RR)V
+// SetCameraPosition 00244510 (RR)V
 DWORD Jass_SetCameraPosition(DWORD arg_0_R, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -24965,7 +24965,7 @@ static PyObject* SetCameraPosition(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCameraQuickPosition 002443f0 (RR)V
+// SetCameraQuickPosition 00244560 (RR)V
 DWORD Jass_SetCameraQuickPosition(DWORD arg_0_R, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -24991,7 +24991,7 @@ static PyObject* SetCameraQuickPosition(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ResetToGameCamera 002432b0 (R)V
+// ResetToGameCamera 00243420 (R)V
 DWORD Jass_ResetToGameCamera(DWORD arg_0_R)
 {
    DWORD rt = 0;
@@ -25014,7 +25014,7 @@ static PyObject* ResetToGameCamera(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// StopCamera 00248370 ()V
+// StopCamera 002484e0 ()V
 DWORD Jass_StopCamera()
 {
    DWORD rt = 0;
@@ -25031,7 +25031,7 @@ static PyObject* StopCamera(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PanCameraTo 002419d0 (RR)V
+// PanCameraTo 00241b60 (RR)V
 DWORD Jass_PanCameraTo(DWORD arg_0_R, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -25057,7 +25057,7 @@ static PyObject* PanCameraTo(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PanCameraToTimed 00241a20 (RRR)V
+// PanCameraToTimed 00241bb0 (RRR)V
 DWORD Jass_PanCameraToTimed(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -25086,7 +25086,7 @@ static PyObject* PanCameraToTimed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PanCameraToWithZ 00241ae0 (RRR)V
+// PanCameraToWithZ 00241c70 (RRR)V
 DWORD Jass_PanCameraToWithZ(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -25115,7 +25115,7 @@ static PyObject* PanCameraToWithZ(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PanCameraToTimedWithZ 00241a80 (RRRR)V
+// PanCameraToTimedWithZ 00241c10 (RRRR)V
 DWORD Jass_PanCameraToTimedWithZ(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -25147,7 +25147,7 @@ static PyObject* PanCameraToTimedWithZ(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCinematicCamera 002449c0 (S)V
+// SetCinematicCamera 00244b30 (S)V
 DWORD Jass_SetCinematicCamera(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -25170,7 +25170,7 @@ static PyObject* SetCinematicCamera(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCameraField 00244310 (Hcamerafield;RR)V
+// SetCameraField 00244480 (Hcamerafield;RR)V
 DWORD Jass_SetCameraField(DWORD arg_0_Hcamerafield, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -25199,7 +25199,7 @@ static PyObject* SetCameraField(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AdjustCameraField 0022a780 (Hcamerafield;RR)V
+// AdjustCameraField 0022a910 (Hcamerafield;RR)V
 DWORD Jass_AdjustCameraField(DWORD arg_0_Hcamerafield, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -25228,7 +25228,7 @@ static PyObject* AdjustCameraField(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCameraTargetController 00244490 (Hunit;RRB)V
+// SetCameraTargetController 00244600 (Hunit;RRB)V
 DWORD Jass_SetCameraTargetController(DWORD arg_0_Hunit, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_B)
 {
    DWORD rt = 0;
@@ -25260,7 +25260,7 @@ static PyObject* SetCameraTargetController(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCameraOrientController 00244350 (Hunit;RR)V
+// SetCameraOrientController 002444c0 (Hunit;RR)V
 DWORD Jass_SetCameraOrientController(DWORD arg_0_Hunit, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -25289,7 +25289,7 @@ static PyObject* SetCameraOrientController(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCameraRotateMode 00244430 (RRRR)V
+// SetCameraRotateMode 002445a0 (RRRR)V
 DWORD Jass_SetCameraRotateMode(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -25321,7 +25321,7 @@ static PyObject* SetCameraRotateMode(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateCameraSetup 0022da80 ()Hcamerasetup;
+// CreateCameraSetup 0022dc10 ()Hcamerasetup;
 DWORD Jass_CreateCameraSetup()
 {
    DWORD rt = 0;
@@ -25338,7 +25338,7 @@ static PyObject* CreateCameraSetup(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CameraSetupSetField 0022afe0 (Hcamerasetup;Hcamerafield;RR)V
+// CameraSetupSetField 0022b170 (Hcamerasetup;Hcamerafield;RR)V
 DWORD Jass_CameraSetupSetField(DWORD arg_0_Hcamerasetup, DWORD arg_4_Hcamerafield, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -25370,7 +25370,7 @@ static PyObject* CameraSetupSetField(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CameraSetupGetField 0022af50 (Hcamerasetup;Hcamerafield;)R
+// CameraSetupGetField 0022b0e0 (Hcamerasetup;Hcamerafield;)R
 DWORD Jass_CameraSetupGetField(DWORD arg_0_Hcamerasetup, DWORD arg_4_Hcamerafield)
 {
    DWORD rt = 0;
@@ -25396,7 +25396,7 @@ static PyObject* CameraSetupGetField(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CameraSetupSetDestPosition 0022af90 (Hcamerasetup;RRR)V
+// CameraSetupSetDestPosition 0022b120 (Hcamerasetup;RRR)V
 DWORD Jass_CameraSetupSetDestPosition(DWORD arg_0_Hcamerasetup, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -25428,7 +25428,7 @@ static PyObject* CameraSetupSetDestPosition(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CameraSetupGetDestPositionLoc 0022aeb0 (Hcamerasetup;)Hlocation;
+// CameraSetupGetDestPositionLoc 0022b040 (Hcamerasetup;)Hlocation;
 DWORD Jass_CameraSetupGetDestPositionLoc(DWORD arg_0_Hcamerasetup)
 {
    DWORD rt = 0;
@@ -25451,7 +25451,7 @@ static PyObject* CameraSetupGetDestPositionLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CameraSetupGetDestPositionX 0022af00 (Hcamerasetup;)R
+// CameraSetupGetDestPositionX 0022b090 (Hcamerasetup;)R
 DWORD Jass_CameraSetupGetDestPositionX(DWORD arg_0_Hcamerasetup)
 {
    DWORD rt = 0;
@@ -25474,7 +25474,7 @@ static PyObject* CameraSetupGetDestPositionX(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CameraSetupGetDestPositionY 0022af30 (Hcamerasetup;)R
+// CameraSetupGetDestPositionY 0022b0c0 (Hcamerasetup;)R
 DWORD Jass_CameraSetupGetDestPositionY(DWORD arg_0_Hcamerasetup)
 {
    DWORD rt = 0;
@@ -25497,7 +25497,7 @@ static PyObject* CameraSetupGetDestPositionY(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CameraSetupApply 0022adf0 (Hcamerasetup;BB)V
+// CameraSetupApply 0022af80 (Hcamerasetup;BB)V
 DWORD Jass_CameraSetupApply(DWORD arg_0_Hcamerasetup, DWORD arg_4_B, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -25526,7 +25526,7 @@ static PyObject* CameraSetupApply(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CameraSetupApplyWithZ 0022ae80 (Hcamerasetup;R)V
+// CameraSetupApplyWithZ 0022b010 (Hcamerasetup;R)V
 DWORD Jass_CameraSetupApplyWithZ(DWORD arg_0_Hcamerasetup, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -25552,7 +25552,7 @@ static PyObject* CameraSetupApplyWithZ(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CameraSetupApplyForceDuration 0022ae20 (Hcamerasetup;BR)V
+// CameraSetupApplyForceDuration 0022afb0 (Hcamerasetup;BR)V
 DWORD Jass_CameraSetupApplyForceDuration(DWORD arg_0_Hcamerasetup, DWORD arg_4_B, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -25581,7 +25581,7 @@ static PyObject* CameraSetupApplyForceDuration(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CameraSetupApplyForceDurationWithZ 0022ae50 (Hcamerasetup;RR)V
+// CameraSetupApplyForceDurationWithZ 0022afe0 (Hcamerasetup;RR)V
 DWORD Jass_CameraSetupApplyForceDurationWithZ(DWORD arg_0_Hcamerasetup, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -25610,7 +25610,7 @@ static PyObject* CameraSetupApplyForceDurationWithZ(PyObject *self, PyObject *ar
    return Py_BuildValue("I", rt);
 }
 
-// CameraSetTargetNoise 0022ac90 (RR)V
+// CameraSetTargetNoise 0022ae20 (RR)V
 DWORD Jass_CameraSetTargetNoise(DWORD arg_0_R, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -25636,7 +25636,7 @@ static PyObject* CameraSetTargetNoise(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CameraSetSourceNoise 0022ab50 (RR)V
+// CameraSetSourceNoise 0022ace0 (RR)V
 DWORD Jass_CameraSetSourceNoise(DWORD arg_0_R, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -25662,7 +25662,7 @@ static PyObject* CameraSetSourceNoise(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CameraSetTargetNoiseEx 0022ad40 (RRB)V
+// CameraSetTargetNoiseEx 0022aed0 (RRB)V
 DWORD Jass_CameraSetTargetNoiseEx(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -25691,7 +25691,7 @@ static PyObject* CameraSetTargetNoiseEx(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CameraSetSourceNoiseEx 0022abf0 (RRB)V
+// CameraSetSourceNoiseEx 0022ad80 (RRB)V
 DWORD Jass_CameraSetSourceNoiseEx(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -25720,7 +25720,7 @@ static PyObject* CameraSetSourceNoiseEx(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CameraSetSmoothingFactor 0022ab20 (R)V
+// CameraSetSmoothingFactor 0022acb0 (R)V
 DWORD Jass_CameraSetSmoothingFactor(DWORD arg_0_R)
 {
    DWORD rt = 0;
@@ -25743,7 +25743,7 @@ static PyObject* CameraSetSmoothingFactor(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetCameraMargin 00231ae0 (I)R
+// GetCameraMargin 00231c70 (I)R
 DWORD Jass_GetCameraMargin(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -25766,7 +25766,7 @@ static PyObject* GetCameraMargin(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetCameraBoundMinX 00231930 ()R
+// GetCameraBoundMinX 00231ac0 ()R
 DWORD Jass_GetCameraBoundMinX()
 {
    DWORD rt = 0;
@@ -25783,7 +25783,7 @@ static PyObject* GetCameraBoundMinX(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetCameraBoundMinY 00231960 ()R
+// GetCameraBoundMinY 00231af0 ()R
 DWORD Jass_GetCameraBoundMinY()
 {
    DWORD rt = 0;
@@ -25800,7 +25800,7 @@ static PyObject* GetCameraBoundMinY(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetCameraBoundMaxX 002318d0 ()R
+// GetCameraBoundMaxX 00231a60 ()R
 DWORD Jass_GetCameraBoundMaxX()
 {
    DWORD rt = 0;
@@ -25817,7 +25817,7 @@ static PyObject* GetCameraBoundMaxX(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetCameraBoundMaxY 00231900 ()R
+// GetCameraBoundMaxY 00231a90 ()R
 DWORD Jass_GetCameraBoundMaxY()
 {
    DWORD rt = 0;
@@ -25834,7 +25834,7 @@ static PyObject* GetCameraBoundMaxY(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetCameraField 00231ab0 (Hcamerafield;)R
+// GetCameraField 00231c40 (Hcamerafield;)R
 DWORD Jass_GetCameraField(DWORD arg_0_Hcamerafield)
 {
    DWORD rt = 0;
@@ -25857,7 +25857,7 @@ static PyObject* GetCameraField(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetCameraTargetPositionX 00231ba0 ()R
+// GetCameraTargetPositionX 00231d30 ()R
 DWORD Jass_GetCameraTargetPositionX()
 {
    DWORD rt = 0;
@@ -25874,7 +25874,7 @@ static PyObject* GetCameraTargetPositionX(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetCameraTargetPositionY 00231be0 ()R
+// GetCameraTargetPositionY 00231d70 ()R
 DWORD Jass_GetCameraTargetPositionY()
 {
    DWORD rt = 0;
@@ -25891,7 +25891,7 @@ static PyObject* GetCameraTargetPositionY(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetCameraTargetPositionZ 00231c20 ()R
+// GetCameraTargetPositionZ 00231db0 ()R
 DWORD Jass_GetCameraTargetPositionZ()
 {
    DWORD rt = 0;
@@ -25908,7 +25908,7 @@ static PyObject* GetCameraTargetPositionZ(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetCameraTargetPositionLoc 00231b50 ()Hlocation;
+// GetCameraTargetPositionLoc 00231ce0 ()Hlocation;
 DWORD Jass_GetCameraTargetPositionLoc()
 {
    DWORD rt = 0;
@@ -25925,7 +25925,7 @@ static PyObject* GetCameraTargetPositionLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetCameraEyePositionX 002319f0 ()R
+// GetCameraEyePositionX 00231b80 ()R
 DWORD Jass_GetCameraEyePositionX()
 {
    DWORD rt = 0;
@@ -25942,7 +25942,7 @@ static PyObject* GetCameraEyePositionX(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetCameraEyePositionY 00231a30 ()R
+// GetCameraEyePositionY 00231bc0 ()R
 DWORD Jass_GetCameraEyePositionY()
 {
    DWORD rt = 0;
@@ -25959,7 +25959,7 @@ static PyObject* GetCameraEyePositionY(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetCameraEyePositionZ 00231a70 ()R
+// GetCameraEyePositionZ 00231c00 ()R
 DWORD Jass_GetCameraEyePositionZ()
 {
    DWORD rt = 0;
@@ -25976,7 +25976,7 @@ static PyObject* GetCameraEyePositionZ(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetCameraEyePositionLoc 002319a0 ()Hlocation;
+// GetCameraEyePositionLoc 00231b30 ()Hlocation;
 DWORD Jass_GetCameraEyePositionLoc()
 {
    DWORD rt = 0;
@@ -25993,7 +25993,7 @@ static PyObject* GetCameraEyePositionLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCineFilterTexture 00244990 (S)V
+// SetCineFilterTexture 00244b00 (S)V
 DWORD Jass_SetCineFilterTexture(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -26016,7 +26016,7 @@ static PyObject* SetCineFilterTexture(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCineFilterBlendMode 00244570 (Hblendmode;)V
+// SetCineFilterBlendMode 002446e0 (Hblendmode;)V
 DWORD Jass_SetCineFilterBlendMode(DWORD arg_0_Hblendmode)
 {
    DWORD rt = 0;
@@ -26039,7 +26039,7 @@ static PyObject* SetCineFilterBlendMode(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCineFilterTexMapFlags 00244950 (Htexmapflags;)V
+// SetCineFilterTexMapFlags 00244ac0 (Htexmapflags;)V
 DWORD Jass_SetCineFilterTexMapFlags(DWORD arg_0_Htexmapflags)
 {
    DWORD rt = 0;
@@ -26062,7 +26062,7 @@ static PyObject* SetCineFilterTexMapFlags(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCineFilterStartUV 002448c0 (RRRR)V
+// SetCineFilterStartUV 00244a30 (RRRR)V
 DWORD Jass_SetCineFilterStartUV(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -26094,7 +26094,7 @@ static PyObject* SetCineFilterStartUV(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCineFilterEndUV 00244730 (RRRR)V
+// SetCineFilterEndUV 002448a0 (RRRR)V
 DWORD Jass_SetCineFilterEndUV(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -26126,7 +26126,7 @@ static PyObject* SetCineFilterEndUV(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCineFilterStartColor 002447c0 (IIII)V
+// SetCineFilterStartColor 00244930 (IIII)V
 DWORD Jass_SetCineFilterStartColor(DWORD arg_0_I, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_I)
 {
    DWORD rt = 0;
@@ -26158,7 +26158,7 @@ static PyObject* SetCineFilterStartColor(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCineFilterEndColor 00244630 (IIII)V
+// SetCineFilterEndColor 002447a0 (IIII)V
 DWORD Jass_SetCineFilterEndColor(DWORD arg_0_I, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_I)
 {
    DWORD rt = 0;
@@ -26190,7 +26190,7 @@ static PyObject* SetCineFilterEndColor(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCineFilterDuration 00244610 (R)V
+// SetCineFilterDuration 00244780 (R)V
 DWORD Jass_SetCineFilterDuration(DWORD arg_0_R)
 {
    DWORD rt = 0;
@@ -26213,7 +26213,7 @@ static PyObject* SetCineFilterDuration(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DisplayCineFilter 0022fd50 (B)V
+// DisplayCineFilter 0022fee0 (B)V
 DWORD Jass_DisplayCineFilter(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -26236,7 +26236,7 @@ static PyObject* DisplayCineFilter(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsCineFilterDisplayed 002378b0 ()B
+// IsCineFilterDisplayed 00237a40 ()B
 DWORD Jass_IsCineFilterDisplayed()
 {
    DWORD rt = 0;
@@ -26253,7 +26253,7 @@ static PyObject* IsCineFilterDisplayed(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCinematicScene 00244a00 (IHplayercolor;SSRR)V
+// SetCinematicScene 00244b70 (IHplayercolor;SSRR)V
 DWORD Jass_SetCinematicScene(DWORD arg_0_I, DWORD arg_4_Hplayercolor, DWORD arg_8_S, DWORD arg_C_S, DWORD arg_10_R, DWORD arg_14_R)
 {
    DWORD rt = 0;
@@ -26291,7 +26291,7 @@ static PyObject* SetCinematicScene(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// EndCinematicScene 002301a0 ()V
+// EndCinematicScene 00230330 ()V
 DWORD Jass_EndCinematicScene()
 {
    DWORD rt = 0;
@@ -26308,7 +26308,7 @@ static PyObject* EndCinematicScene(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ForceCinematicSubtitles 00230d90 (B)V
+// ForceCinematicSubtitles 00230f20 (B)V
 DWORD Jass_ForceCinematicSubtitles(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -26331,7 +26331,7 @@ static PyObject* ForceCinematicSubtitles(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// NewSoundEnvironment 00241630 (S)V
+// NewSoundEnvironment 002417c0 (S)V
 DWORD Jass_NewSoundEnvironment(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -26354,7 +26354,7 @@ static PyObject* NewSoundEnvironment(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateSound 0022e800 (SBBBIIS)Hsound;
+// CreateSound 0022e990 (SBBBIIS)Hsound;
 DWORD Jass_CreateSound(DWORD arg_0_S, DWORD arg_4_B, DWORD arg_8_B, DWORD arg_C_B, DWORD arg_10_I, DWORD arg_14_I, DWORD arg_18_S)
 {
    DWORD rt = 0;
@@ -26395,7 +26395,7 @@ static PyObject* CreateSound(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateSoundFilenameWithLabel 0022e920 (SBBBIIS)Hsound;
+// CreateSoundFilenameWithLabel 0022eab0 (SBBBIIS)Hsound;
 DWORD Jass_CreateSoundFilenameWithLabel(DWORD arg_0_S, DWORD arg_4_B, DWORD arg_8_B, DWORD arg_C_B, DWORD arg_10_I, DWORD arg_14_I, DWORD arg_18_S)
 {
    DWORD rt = 0;
@@ -26436,7 +26436,7 @@ static PyObject* CreateSoundFilenameWithLabel(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateSoundFromLabel 0022ea40 (SBBBII)Hsound;
+// CreateSoundFromLabel 0022ebd0 (SBBBII)Hsound;
 DWORD Jass_CreateSoundFromLabel(DWORD arg_0_S, DWORD arg_4_B, DWORD arg_8_B, DWORD arg_C_B, DWORD arg_10_I, DWORD arg_14_I)
 {
    DWORD rt = 0;
@@ -26474,7 +26474,7 @@ static PyObject* CreateSoundFromLabel(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateMIDISound 0022e4c0 (SII)Hsound;
+// CreateMIDISound 0022e650 (SII)Hsound;
 DWORD Jass_CreateMIDISound(DWORD arg_0_S, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -26503,7 +26503,7 @@ static PyObject* CreateMIDISound(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetStackedSound 00246b00 (SRR)V
+// SetStackedSound 00246c70 (SRR)V
 DWORD Jass_SetStackedSound(DWORD arg_0_S, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -26532,7 +26532,7 @@ static PyObject* SetStackedSound(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ClearStackedSound 0022b460 (SRR)V
+// ClearStackedSound 0022b5f0 (SRR)V
 DWORD Jass_ClearStackedSound(DWORD arg_0_S, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -26561,7 +26561,7 @@ static PyObject* ClearStackedSound(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetStackedSoundRect 00246b60 (SHrect;)V
+// SetStackedSoundRect 00246cd0 (SHrect;)V
 DWORD Jass_SetStackedSoundRect(DWORD arg_0_S, DWORD arg_4_Hrect)
 {
    DWORD rt = 0;
@@ -26587,7 +26587,7 @@ static PyObject* SetStackedSoundRect(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ClearStackedSoundRect 0022b4b0 (SHrect;)V
+// ClearStackedSoundRect 0022b640 (SHrect;)V
 DWORD Jass_ClearStackedSoundRect(DWORD arg_0_S, DWORD arg_4_Hrect)
 {
    DWORD rt = 0;
@@ -26613,7 +26613,7 @@ static PyObject* ClearStackedSoundRect(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetSoundParamsFromLabel 002469a0 (Hsound;S)V
+// SetSoundParamsFromLabel 00246b10 (Hsound;S)V
 DWORD Jass_SetSoundParamsFromLabel(DWORD arg_0_Hsound, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -26639,7 +26639,7 @@ static PyObject* SetSoundParamsFromLabel(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetSoundChannel 00246830 (Hsound;I)V
+// SetSoundChannel 002469a0 (Hsound;I)V
 DWORD Jass_SetSoundChannel(DWORD arg_0_Hsound, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -26665,7 +26665,7 @@ static PyObject* SetSoundChannel(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetSoundVolume 00246ae0 (Hsound;I)V
+// SetSoundVolume 00246c50 (Hsound;I)V
 DWORD Jass_SetSoundVolume(DWORD arg_0_Hsound, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -26691,7 +26691,7 @@ static PyObject* SetSoundVolume(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetSoundPitch 002469d0 (Hsound;R)V
+// SetSoundPitch 00246b40 (Hsound;R)V
 DWORD Jass_SetSoundPitch(DWORD arg_0_Hsound, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -26717,7 +26717,7 @@ static PyObject* SetSoundPitch(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetSoundPlayPosition 00246a00 (Hsound;I)V
+// SetSoundPlayPosition 00246b70 (Hsound;I)V
 DWORD Jass_SetSoundPlayPosition(DWORD arg_0_Hsound, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -26743,7 +26743,7 @@ static PyObject* SetSoundPlayPosition(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetSoundDistances 00246930 (Hsound;RR)V
+// SetSoundDistances 00246aa0 (Hsound;RR)V
 DWORD Jass_SetSoundDistances(DWORD arg_0_Hsound, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -26772,7 +26772,7 @@ static PyObject* SetSoundDistances(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetSoundDistanceCutoff 00246900 (Hsound;R)V
+// SetSoundDistanceCutoff 00246a70 (Hsound;R)V
 DWORD Jass_SetSoundDistanceCutoff(DWORD arg_0_Hsound, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -26798,7 +26798,7 @@ static PyObject* SetSoundDistanceCutoff(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetSoundConeAngles 00246850 (Hsound;RRI)V
+// SetSoundConeAngles 002469c0 (Hsound;RRI)V
 DWORD Jass_SetSoundConeAngles(DWORD arg_0_Hsound, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_I)
 {
    DWORD rt = 0;
@@ -26830,7 +26830,7 @@ static PyObject* SetSoundConeAngles(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetSoundConeOrientation 002468a0 (Hsound;RRR)V
+// SetSoundConeOrientation 00246a10 (Hsound;RRR)V
 DWORD Jass_SetSoundConeOrientation(DWORD arg_0_Hsound, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -26862,7 +26862,7 @@ static PyObject* SetSoundConeOrientation(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetSoundPosition 00246a20 (Hsound;RRR)V
+// SetSoundPosition 00246b90 (Hsound;RRR)V
 DWORD Jass_SetSoundPosition(DWORD arg_0_Hsound, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -26894,7 +26894,7 @@ static PyObject* SetSoundPosition(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetSoundVelocity 00246a80 (Hsound;RRR)V
+// SetSoundVelocity 00246bf0 (Hsound;RRR)V
 DWORD Jass_SetSoundVelocity(DWORD arg_0_Hsound, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -26926,7 +26926,7 @@ static PyObject* SetSoundVelocity(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AttachSoundToUnit 0022a9b0 (Hsound;Hunit;)V
+// AttachSoundToUnit 0022ab40 (Hsound;Hunit;)V
 DWORD Jass_AttachSoundToUnit(DWORD arg_0_Hsound, DWORD arg_4_Hunit)
 {
    DWORD rt = 0;
@@ -26952,7 +26952,7 @@ static PyObject* AttachSoundToUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// StartSound 00248320 (Hsound;)V
+// StartSound 00248490 (Hsound;)V
 DWORD Jass_StartSound(DWORD arg_0_Hsound)
 {
    DWORD rt = 0;
@@ -26975,7 +26975,7 @@ static PyObject* StartSound(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// StopSound 002483a0 (Hsound;BB)V
+// StopSound 00248510 (Hsound;BB)V
 DWORD Jass_StopSound(DWORD arg_0_Hsound, DWORD arg_4_B, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -27004,7 +27004,7 @@ static PyObject* StopSound(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// KillSoundWhenDone 0023fd50 (Hsound;)V
+// KillSoundWhenDone 0023fee0 (Hsound;)V
 DWORD Jass_KillSoundWhenDone(DWORD arg_0_Hsound)
 {
    DWORD rt = 0;
@@ -27027,7 +27027,7 @@ static PyObject* KillSoundWhenDone(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetMapMusic 00246090 (SBI)V
+// SetMapMusic 00246200 (SBI)V
 DWORD Jass_SetMapMusic(DWORD arg_0_S, DWORD arg_4_B, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -27056,7 +27056,7 @@ static PyObject* SetMapMusic(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ClearMapMusic 0022b2e0 ()V
+// ClearMapMusic 0022b470 ()V
 DWORD Jass_ClearMapMusic()
 {
    DWORD rt = 0;
@@ -27073,7 +27073,7 @@ static PyObject* ClearMapMusic(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PlayMusic 00241e50 (S)V
+// PlayMusic 00241fe0 (S)V
 DWORD Jass_PlayMusic(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -27096,7 +27096,7 @@ static PyObject* PlayMusic(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PlayMusicEx 00241e80 (SII)V
+// PlayMusicEx 00242010 (SII)V
 DWORD Jass_PlayMusicEx(DWORD arg_0_S, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -27125,7 +27125,7 @@ static PyObject* PlayMusicEx(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// StopMusic 00248390 (B)V
+// StopMusic 00248500 (B)V
 DWORD Jass_StopMusic(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -27148,7 +27148,7 @@ static PyObject* StopMusic(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ResumeMusic 00243470 ()V
+// ResumeMusic 002435e0 ()V
 DWORD Jass_ResumeMusic()
 {
    DWORD rt = 0;
@@ -27165,7 +27165,7 @@ static PyObject* ResumeMusic(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PlayThematicMusic 00241eb0 (S)V
+// PlayThematicMusic 00242040 (S)V
 DWORD Jass_PlayThematicMusic(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -27188,7 +27188,7 @@ static PyObject* PlayThematicMusic(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PlayThematicMusicEx 00241ed0 (SI)V
+// PlayThematicMusicEx 00242060 (SI)V
 DWORD Jass_PlayThematicMusicEx(DWORD arg_0_S, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -27214,7 +27214,7 @@ static PyObject* PlayThematicMusicEx(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// EndThematicMusic 002301f0 ()V
+// EndThematicMusic 00230380 ()V
 DWORD Jass_EndThematicMusic()
 {
    DWORD rt = 0;
@@ -27231,7 +27231,7 @@ static PyObject* EndThematicMusic(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetMusicVolume 00246130 (I)V
+// SetMusicVolume 002462a0 (I)V
 DWORD Jass_SetMusicVolume(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -27254,7 +27254,7 @@ static PyObject* SetMusicVolume(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetMusicPlayPosition 00246120 (I)V
+// SetMusicPlayPosition 00246290 (I)V
 DWORD Jass_SetMusicPlayPosition(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -27277,7 +27277,7 @@ static PyObject* SetMusicPlayPosition(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetThematicMusicPlayPosition 002471f0 (I)V
+// SetThematicMusicPlayPosition 00247360 (I)V
 DWORD Jass_SetThematicMusicPlayPosition(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -27300,7 +27300,7 @@ static PyObject* SetThematicMusicPlayPosition(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetSoundDuration 00246970 (Hsound;I)V
+// SetSoundDuration 00246ae0 (Hsound;I)V
 DWORD Jass_SetSoundDuration(DWORD arg_0_Hsound, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -27326,7 +27326,7 @@ static PyObject* SetSoundDuration(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetSoundDuration 00234c80 (Hsound;)I
+// GetSoundDuration 00234e10 (Hsound;)I
 DWORD Jass_GetSoundDuration(DWORD arg_0_Hsound)
 {
    DWORD rt = 0;
@@ -27349,7 +27349,7 @@ static PyObject* GetSoundDuration(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetSoundFileDuration 00234ca0 (S)I
+// GetSoundFileDuration 00234e30 (S)I
 DWORD Jass_GetSoundFileDuration(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -27372,7 +27372,7 @@ static PyObject* GetSoundFileDuration(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// VolumeGroupSetVolume 0024b8a0 (Hvolumegroup;R)V
+// VolumeGroupSetVolume 0024ba10 (Hvolumegroup;R)V
 DWORD Jass_VolumeGroupSetVolume(DWORD arg_0_Hvolumegroup, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -27398,7 +27398,7 @@ static PyObject* VolumeGroupSetVolume(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// VolumeGroupReset 0024b890 ()V
+// VolumeGroupReset 0024ba00 ()V
 DWORD Jass_VolumeGroupReset()
 {
    DWORD rt = 0;
@@ -27415,7 +27415,7 @@ static PyObject* VolumeGroupReset(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetSoundIsPlaying 00234ce0 (Hsound;)B
+// GetSoundIsPlaying 00234e70 (Hsound;)B
 DWORD Jass_GetSoundIsPlaying(DWORD arg_0_Hsound)
 {
    DWORD rt = 0;
@@ -27438,7 +27438,7 @@ static PyObject* GetSoundIsPlaying(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetSoundIsLoading 00234cc0 (Hsound;)B
+// GetSoundIsLoading 00234e50 (Hsound;)B
 DWORD Jass_GetSoundIsLoading(DWORD arg_0_Hsound)
 {
    DWORD rt = 0;
@@ -27461,7 +27461,7 @@ static PyObject* GetSoundIsLoading(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RegisterStackedSound 00242d80 (Hsound;BRR)V
+// RegisterStackedSound 00242ef0 (Hsound;BRR)V
 DWORD Jass_RegisterStackedSound(DWORD arg_0_Hsound, DWORD arg_4_B, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -27493,7 +27493,7 @@ static PyObject* RegisterStackedSound(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnregisterStackedSound 0024b820 (Hsound;BRR)V
+// UnregisterStackedSound 0024b990 (Hsound;BRR)V
 DWORD Jass_UnregisterStackedSound(DWORD arg_0_Hsound, DWORD arg_4_B, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -27525,7 +27525,7 @@ static PyObject* UnregisterStackedSound(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AddWeatherEffect 0022a710 (Hrect;I)Hweathereffect;
+// AddWeatherEffect 0022a8a0 (Hrect;I)Hweathereffect;
 DWORD Jass_AddWeatherEffect(DWORD arg_0_Hrect, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -27551,7 +27551,7 @@ static PyObject* AddWeatherEffect(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RemoveWeatherEffect 002431a0 (Hweathereffect;)V
+// RemoveWeatherEffect 00243310 (Hweathereffect;)V
 DWORD Jass_RemoveWeatherEffect(DWORD arg_0_Hweathereffect)
 {
    DWORD rt = 0;
@@ -27574,7 +27574,7 @@ static PyObject* RemoveWeatherEffect(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// EnableWeatherEffect 00230150 (Hweathereffect;B)V
+// EnableWeatherEffect 002302e0 (Hweathereffect;B)V
 DWORD Jass_EnableWeatherEffect(DWORD arg_0_Hweathereffect, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -27600,7 +27600,7 @@ static PyObject* EnableWeatherEffect(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TerrainDeformCrater 00248ca0 (RRRRIB)Hterraindeformation;
+// TerrainDeformCrater 00248e10 (RRRRIB)Hterraindeformation;
 DWORD Jass_TerrainDeformCrater(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_I, DWORD arg_14_B)
 {
    DWORD rt = 0;
@@ -27638,7 +27638,7 @@ static PyObject* TerrainDeformCrater(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TerrainDeformRipple 00248d60 (RRRRIIRRRB)Hterraindeformation;
+// TerrainDeformRipple 00248ed0 (RRRRIIRRRB)Hterraindeformation;
 DWORD Jass_TerrainDeformRipple(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_I, DWORD arg_14_I, DWORD arg_18_R, DWORD arg_1C_R, DWORD arg_20_R, DWORD arg_24_B)
 {
    DWORD rt = 0;
@@ -27688,7 +27688,7 @@ static PyObject* TerrainDeformRipple(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TerrainDeformWave 00248e00 (RRRRRRRRII)Hterraindeformation;
+// TerrainDeformWave 00248f70 (RRRRRRRRII)Hterraindeformation;
 DWORD Jass_TerrainDeformWave(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_R, DWORD arg_14_R, DWORD arg_18_R, DWORD arg_1C_R, DWORD arg_20_I, DWORD arg_24_I)
 {
    DWORD rt = 0;
@@ -27738,7 +27738,7 @@ static PyObject* TerrainDeformWave(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TerrainDeformRandom 00248d00 (RRRRRII)Hterraindeformation;
+// TerrainDeformRandom 00248e70 (RRRRRII)Hterraindeformation;
 DWORD Jass_TerrainDeformRandom(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_R, DWORD arg_14_I, DWORD arg_18_I)
 {
    DWORD rt = 0;
@@ -27779,7 +27779,7 @@ static PyObject* TerrainDeformRandom(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TerrainDeformStop 00248de0 (Hterraindeformation;I)V
+// TerrainDeformStop 00248f50 (Hterraindeformation;I)V
 DWORD Jass_TerrainDeformStop(DWORD arg_0_Hterraindeformation, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -27805,7 +27805,7 @@ static PyObject* TerrainDeformStop(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TerrainDeformStopAll 00248df0 ()V
+// TerrainDeformStopAll 00248f60 ()V
 DWORD Jass_TerrainDeformStopAll()
 {
    DWORD rt = 0;
@@ -27822,7 +27822,7 @@ static PyObject* TerrainDeformStopAll(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DestroyEffect 0022f670 (Heffect;)V
+// DestroyEffect 0022f800 (Heffect;)V
 DWORD Jass_DestroyEffect(DWORD arg_0_Heffect)
 {
    DWORD rt = 0;
@@ -27845,7 +27845,7 @@ static PyObject* DestroyEffect(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AddSpecialEffect 0022a300 (SRR)Heffect;
+// AddSpecialEffect 0022a490 (SRR)Heffect;
 DWORD Jass_AddSpecialEffect(DWORD arg_0_S, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -27874,7 +27874,7 @@ static PyObject* AddSpecialEffect(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AddSpecialEffectLoc 0022a320 (SHlocation;)Heffect;
+// AddSpecialEffectLoc 0022a4b0 (SHlocation;)Heffect;
 DWORD Jass_AddSpecialEffectLoc(DWORD arg_0_S, DWORD arg_4_Hlocation)
 {
    DWORD rt = 0;
@@ -27900,7 +27900,7 @@ static PyObject* AddSpecialEffectLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AddSpecialEffectTarget 0022a360 (SHwidget;S)Heffect;
+// AddSpecialEffectTarget 0022a4f0 (SHwidget;S)Heffect;
 DWORD Jass_AddSpecialEffectTarget(DWORD arg_0_S, DWORD arg_4_Hwidget, DWORD arg_8_S)
 {
    DWORD rt = 0;
@@ -27929,7 +27929,7 @@ static PyObject* AddSpecialEffectTarget(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AddSpellEffect 0022a390 (SHeffecttype;RR)Heffect;
+// AddSpellEffect 0022a520 (SHeffecttype;RR)Heffect;
 DWORD Jass_AddSpellEffect(DWORD arg_0_S, DWORD arg_4_Heffecttype, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -27961,7 +27961,7 @@ static PyObject* AddSpellEffect(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AddSpellEffectLoc 0022a420 (SHeffecttype;Hlocation;)Heffect;
+// AddSpellEffectLoc 0022a5b0 (SHeffecttype;Hlocation;)Heffect;
 DWORD Jass_AddSpellEffectLoc(DWORD arg_0_S, DWORD arg_4_Heffecttype, DWORD arg_8_Hlocation)
 {
    DWORD rt = 0;
@@ -27990,7 +27990,7 @@ static PyObject* AddSpellEffectLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AddSpellEffectById 0022a3b0 (IHeffecttype;RR)Heffect;
+// AddSpellEffectById 0022a540 (IHeffecttype;RR)Heffect;
 DWORD Jass_AddSpellEffectById(DWORD arg_0_I, DWORD arg_4_Heffecttype, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -28022,7 +28022,7 @@ static PyObject* AddSpellEffectById(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AddSpellEffectByIdLoc 0022a3e0 (IHeffecttype;Hlocation;)Heffect;
+// AddSpellEffectByIdLoc 0022a570 (IHeffecttype;Hlocation;)Heffect;
 DWORD Jass_AddSpellEffectByIdLoc(DWORD arg_0_I, DWORD arg_4_Heffecttype, DWORD arg_8_Hlocation)
 {
    DWORD rt = 0;
@@ -28051,7 +28051,7 @@ static PyObject* AddSpellEffectByIdLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AddSpellEffectTarget 0022a480 (SHeffecttype;Hwidget;S)Heffect;
+// AddSpellEffectTarget 0022a610 (SHeffecttype;Hwidget;S)Heffect;
 DWORD Jass_AddSpellEffectTarget(DWORD arg_0_S, DWORD arg_4_Heffecttype, DWORD arg_8_Hwidget, DWORD arg_C_S)
 {
    DWORD rt = 0;
@@ -28083,7 +28083,7 @@ static PyObject* AddSpellEffectTarget(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AddSpellEffectTargetById 0022a4a0 (IHeffecttype;Hwidget;S)Heffect;
+// AddSpellEffectTargetById 0022a630 (IHeffecttype;Hwidget;S)Heffect;
 DWORD Jass_AddSpellEffectTargetById(DWORD arg_0_I, DWORD arg_4_Heffecttype, DWORD arg_8_Hwidget, DWORD arg_C_S)
 {
    DWORD rt = 0;
@@ -28115,7 +28115,7 @@ static PyObject* AddSpellEffectTargetById(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AddLightning 0022a0d0 (SBRRRR)Hlightning;
+// AddLightning 0022a260 (SBRRRR)Hlightning;
 DWORD Jass_AddLightning(DWORD arg_0_S, DWORD arg_4_B, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_R, DWORD arg_14_R)
 {
    DWORD rt = 0;
@@ -28153,7 +28153,7 @@ static PyObject* AddLightning(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AddLightningEx 0022a150 (SBRRRRRR)Hlightning;
+// AddLightningEx 0022a2e0 (SBRRRRRR)Hlightning;
 DWORD Jass_AddLightningEx(DWORD arg_0_S, DWORD arg_4_B, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_R, DWORD arg_14_R, DWORD arg_18_R, DWORD arg_1C_R)
 {
    DWORD rt = 0;
@@ -28197,7 +28197,7 @@ static PyObject* AddLightningEx(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DestroyLightning 0022f790 (Hlightning;)B
+// DestroyLightning 0022f920 (Hlightning;)B
 DWORD Jass_DestroyLightning(DWORD arg_0_Hlightning)
 {
    DWORD rt = 0;
@@ -28220,7 +28220,7 @@ static PyObject* DestroyLightning(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetLightningColorA 00233050 (Hlightning;)R
+// GetLightningColorA 002331e0 (Hlightning;)R
 DWORD Jass_GetLightningColorA(DWORD arg_0_Hlightning)
 {
    DWORD rt = 0;
@@ -28243,7 +28243,7 @@ static PyObject* GetLightningColorA(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetLightningColorR 00233140 (Hlightning;)R
+// GetLightningColorR 002332d0 (Hlightning;)R
 DWORD Jass_GetLightningColorR(DWORD arg_0_Hlightning)
 {
    DWORD rt = 0;
@@ -28266,7 +28266,7 @@ static PyObject* GetLightningColorR(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetLightningColorG 002330f0 (Hlightning;)R
+// GetLightningColorG 00233280 (Hlightning;)R
 DWORD Jass_GetLightningColorG(DWORD arg_0_Hlightning)
 {
    DWORD rt = 0;
@@ -28289,7 +28289,7 @@ static PyObject* GetLightningColorG(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetLightningColorB 002330a0 (Hlightning;)R
+// GetLightningColorB 00233230 (Hlightning;)R
 DWORD Jass_GetLightningColorB(DWORD arg_0_Hlightning)
 {
    DWORD rt = 0;
@@ -28312,7 +28312,7 @@ static PyObject* GetLightningColorB(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MoveLightning 00240de0 (Hlightning;BRRRR)B
+// MoveLightning 00240f70 (Hlightning;BRRRR)B
 DWORD Jass_MoveLightning(DWORD arg_0_Hlightning, DWORD arg_4_B, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_R, DWORD arg_14_R)
 {
    DWORD rt = 0;
@@ -28350,7 +28350,7 @@ static PyObject* MoveLightning(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MoveLightningEx 00240e60 (Hlightning;BRRRRRR)B
+// MoveLightningEx 00240ff0 (Hlightning;BRRRRRR)B
 DWORD Jass_MoveLightningEx(DWORD arg_0_Hlightning, DWORD arg_4_B, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_R, DWORD arg_14_R, DWORD arg_18_R, DWORD arg_1C_R)
 {
    DWORD rt = 0;
@@ -28394,7 +28394,7 @@ static PyObject* MoveLightningEx(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetLightningColor 00245fa0 (Hlightning;RRRR)B
+// SetLightningColor 00246110 (Hlightning;RRRR)B
 DWORD Jass_SetLightningColor(DWORD arg_0_Hlightning, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_R)
 {
    DWORD rt = 0;
@@ -28429,7 +28429,7 @@ static PyObject* SetLightningColor(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetAbilityEffect 00231660 (SHeffecttype;I)S
+// GetAbilityEffect 002317f0 (SHeffecttype;I)S
 DWORD Jass_GetAbilityEffect(DWORD arg_0_S, DWORD arg_4_Heffecttype, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -28458,7 +28458,7 @@ static PyObject* GetAbilityEffect(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// GetAbilityEffectById 00231690 (IHeffecttype;I)S
+// GetAbilityEffectById 00231820 (IHeffecttype;I)S
 DWORD Jass_GetAbilityEffectById(DWORD arg_0_I, DWORD arg_4_Heffecttype, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -28487,7 +28487,7 @@ static PyObject* GetAbilityEffectById(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// GetAbilitySound 002316b0 (SHsoundtype;)S
+// GetAbilitySound 00231840 (SHsoundtype;)S
 DWORD Jass_GetAbilitySound(DWORD arg_0_S, DWORD arg_4_Hsoundtype)
 {
    DWORD rt = 0;
@@ -28513,7 +28513,7 @@ static PyObject* GetAbilitySound(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// GetAbilitySoundById 002316f0 (IHsoundtype;)S
+// GetAbilitySoundById 00231880 (IHsoundtype;)S
 DWORD Jass_GetAbilitySoundById(DWORD arg_0_I, DWORD arg_4_Hsoundtype)
 {
    DWORD rt = 0;
@@ -28539,7 +28539,7 @@ static PyObject* GetAbilitySoundById(PyObject *self, PyObject *args)
    return Py_BuildValue("s", jstr2cstr(rt));
 }
 
-// GetTerrainCliffLevel 002359c0 (RR)I
+// GetTerrainCliffLevel 00235b50 (RR)I
 DWORD Jass_GetTerrainCliffLevel(DWORD arg_0_R, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -28565,7 +28565,7 @@ static PyObject* GetTerrainCliffLevel(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetWaterBaseColor 00247f00 (IIII)V
+// SetWaterBaseColor 00248070 (IIII)V
 DWORD Jass_SetWaterBaseColor(DWORD arg_0_I, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_I)
 {
    DWORD rt = 0;
@@ -28597,7 +28597,7 @@ static PyObject* SetWaterBaseColor(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetWaterDeforms 00247f40 (B)V
+// SetWaterDeforms 002480b0 (B)V
 DWORD Jass_SetWaterDeforms(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -28620,7 +28620,7 @@ static PyObject* SetWaterDeforms(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetTerrainType 00235a60 (RR)I
+// GetTerrainType 00235bf0 (RR)I
 DWORD Jass_GetTerrainType(DWORD arg_0_R, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -28646,7 +28646,7 @@ static PyObject* GetTerrainType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetTerrainVariance 00235ab0 (RR)I
+// GetTerrainVariance 00235c40 (RR)I
 DWORD Jass_GetTerrainVariance(DWORD arg_0_R, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -28672,7 +28672,7 @@ static PyObject* GetTerrainVariance(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetTerrainType 00246e30 (RRIIII)V
+// SetTerrainType 00246fa0 (RRIIII)V
 DWORD Jass_SetTerrainType(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_I, DWORD arg_C_I, DWORD arg_10_I, DWORD arg_14_I)
 {
    DWORD rt = 0;
@@ -28710,7 +28710,7 @@ static PyObject* SetTerrainType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsTerrainPathable 002384d0 (RRHpathingtype;)B
+// IsTerrainPathable 00238660 (RRHpathingtype;)B
 DWORD Jass_IsTerrainPathable(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_Hpathingtype)
 {
    DWORD rt = 0;
@@ -28739,7 +28739,7 @@ static PyObject* IsTerrainPathable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetTerrainPathable 00246e00 (RRHpathingtype;B)V
+// SetTerrainPathable 00246f70 (RRHpathingtype;B)V
 DWORD Jass_SetTerrainPathable(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_Hpathingtype, DWORD arg_C_B)
 {
    DWORD rt = 0;
@@ -28771,7 +28771,7 @@ static PyObject* SetTerrainPathable(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateImage 0022e220 (SRRRRRRRRRI)Himage;
+// CreateImage 0022e3b0 (SRRRRRRRRRI)Himage;
 DWORD Jass_CreateImage(DWORD arg_0_S, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_R, DWORD arg_14_R, DWORD arg_18_R, DWORD arg_1C_R, DWORD arg_20_R, DWORD arg_24_R, DWORD arg_28_I)
 {
    DWORD rt = 0;
@@ -28824,7 +28824,7 @@ static PyObject* CreateImage(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DestroyImage 0022f720 (Himage;)V
+// DestroyImage 0022f8b0 (Himage;)V
 DWORD Jass_DestroyImage(DWORD arg_0_Himage)
 {
    DWORD rt = 0;
@@ -28847,7 +28847,7 @@ static PyObject* DestroyImage(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ShowImage 00247fa0 (Himage;B)V
+// ShowImage 00248110 (Himage;B)V
 DWORD Jass_ShowImage(DWORD arg_0_Himage, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -28873,7 +28873,7 @@ static PyObject* ShowImage(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetImageConstantHeight 00245b90 (Himage;BR)V
+// SetImageConstantHeight 00245d00 (Himage;BR)V
 DWORD Jass_SetImageConstantHeight(DWORD arg_0_Himage, DWORD arg_4_B, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -28902,7 +28902,7 @@ static PyObject* SetImageConstantHeight(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetImagePosition 00245bc0 (Himage;RRR)V
+// SetImagePosition 00245d30 (Himage;RRR)V
 DWORD Jass_SetImagePosition(DWORD arg_0_Himage, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -28934,7 +28934,7 @@ static PyObject* SetImagePosition(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetImageColor 00245b50 (Himage;IIII)V
+// SetImageColor 00245cc0 (Himage;IIII)V
 DWORD Jass_SetImageColor(DWORD arg_0_Himage, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_I, DWORD arg_10_I)
 {
    DWORD rt = 0;
@@ -28969,7 +28969,7 @@ static PyObject* SetImageColor(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetImageRender 00245c00 (Himage;B)V
+// SetImageRender 00245d70 (Himage;B)V
 DWORD Jass_SetImageRender(DWORD arg_0_Himage, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -28995,7 +28995,7 @@ static PyObject* SetImageRender(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetImageRenderAlways 00245c20 (Himage;B)V
+// SetImageRenderAlways 00245d90 (Himage;B)V
 DWORD Jass_SetImageRenderAlways(DWORD arg_0_Himage, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -29021,7 +29021,7 @@ static PyObject* SetImageRenderAlways(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetImageAboveWater 00245b30 (Himage;BB)V
+// SetImageAboveWater 00245ca0 (Himage;BB)V
 DWORD Jass_SetImageAboveWater(DWORD arg_0_Himage, DWORD arg_4_B, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -29050,7 +29050,7 @@ static PyObject* SetImageAboveWater(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetImageType 00245c40 (Himage;I)V
+// SetImageType 00245db0 (Himage;I)V
 DWORD Jass_SetImageType(DWORD arg_0_Himage, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -29076,7 +29076,7 @@ static PyObject* SetImageType(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateUbersplat 0022ef40 (RRSIIIIBB)Hubersplat;
+// CreateUbersplat 0022f0d0 (RRSIIIIBB)Hubersplat;
 DWORD Jass_CreateUbersplat(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_S, DWORD arg_C_I, DWORD arg_10_I, DWORD arg_14_I, DWORD arg_18_I, DWORD arg_1C_B, DWORD arg_20_B)
 {
    DWORD rt = 0;
@@ -29123,7 +29123,7 @@ static PyObject* CreateUbersplat(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DestroyUbersplat 0022f8b0 (Hubersplat;)V
+// DestroyUbersplat 0022fa40 (Hubersplat;)V
 DWORD Jass_DestroyUbersplat(DWORD arg_0_Hubersplat)
 {
    DWORD rt = 0;
@@ -29146,7 +29146,7 @@ static PyObject* DestroyUbersplat(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ResetUbersplat 00243300 (Hubersplat;)V
+// ResetUbersplat 00243470 (Hubersplat;)V
 DWORD Jass_ResetUbersplat(DWORD arg_0_Hubersplat)
 {
    DWORD rt = 0;
@@ -29169,7 +29169,7 @@ static PyObject* ResetUbersplat(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// FinishUbersplat 002308f0 (Hubersplat;)V
+// FinishUbersplat 00230a80 (Hubersplat;)V
 DWORD Jass_FinishUbersplat(DWORD arg_0_Hubersplat)
 {
    DWORD rt = 0;
@@ -29192,7 +29192,7 @@ static PyObject* FinishUbersplat(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ShowUbersplat 00247ff0 (Hubersplat;B)V
+// ShowUbersplat 00248160 (Hubersplat;B)V
 DWORD Jass_ShowUbersplat(DWORD arg_0_Hubersplat, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -29218,7 +29218,7 @@ static PyObject* ShowUbersplat(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUbersplatRender 002472a0 (Hubersplat;B)V
+// SetUbersplatRender 00247410 (Hubersplat;B)V
 DWORD Jass_SetUbersplatRender(DWORD arg_0_Hubersplat, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -29244,7 +29244,7 @@ static PyObject* SetUbersplatRender(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUbersplatRenderAlways 002472c0 (Hubersplat;B)V
+// SetUbersplatRenderAlways 00247430 (Hubersplat;B)V
 DWORD Jass_SetUbersplatRenderAlways(DWORD arg_0_Hubersplat, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -29270,7 +29270,7 @@ static PyObject* SetUbersplatRenderAlways(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetBlight 002440c0 (Hplayer;RRRB)V
+// SetBlight 00244230 (Hplayer;RRRB)V
 DWORD Jass_SetBlight(DWORD arg_0_Hplayer, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R, DWORD arg_10_B)
 {
    DWORD rt = 0;
@@ -29305,7 +29305,7 @@ static PyObject* SetBlight(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetBlightLoc 00244120 (Hplayer;Hlocation;RB)V
+// SetBlightLoc 00244290 (Hplayer;Hlocation;RB)V
 DWORD Jass_SetBlightLoc(DWORD arg_0_Hplayer, DWORD arg_4_Hlocation, DWORD arg_8_R, DWORD arg_C_B)
 {
    DWORD rt = 0;
@@ -29337,7 +29337,7 @@ static PyObject* SetBlightLoc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetBlightRect 002441d0 (Hplayer;Hrect;B)V
+// SetBlightRect 00244340 (Hplayer;Hrect;B)V
 DWORD Jass_SetBlightRect(DWORD arg_0_Hplayer, DWORD arg_4_Hrect, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -29366,7 +29366,7 @@ static PyObject* SetBlightRect(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetBlightPoint 00244180 (Hplayer;RRB)V
+// SetBlightPoint 002442f0 (Hplayer;RRB)V
 DWORD Jass_SetBlightPoint(DWORD arg_0_Hplayer, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_B)
 {
    DWORD rt = 0;
@@ -29398,7 +29398,7 @@ static PyObject* SetBlightPoint(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateBlightedGoldmine 0022d9c0 (Hplayer;RRR)Hunit;
+// CreateBlightedGoldmine 0022db50 (Hplayer;RRR)Hunit;
 DWORD Jass_CreateBlightedGoldmine(DWORD arg_0_Hplayer, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_R)
 {
    DWORD rt = 0;
@@ -29430,7 +29430,7 @@ static PyObject* CreateBlightedGoldmine(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsPointBlighted 002382e0 (RR)B
+// IsPointBlighted 00238470 (RR)B
 DWORD Jass_IsPointBlighted(DWORD arg_0_R, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -29456,7 +29456,7 @@ static PyObject* IsPointBlighted(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetDoodadAnimation 00244d80 (RRRIBSB)V
+// SetDoodadAnimation 00244ef0 (RRRIBSB)V
 DWORD Jass_SetDoodadAnimation(DWORD arg_0_R, DWORD arg_4_R, DWORD arg_8_R, DWORD arg_C_I, DWORD arg_10_B, DWORD arg_14_S, DWORD arg_18_B)
 {
    DWORD rt = 0;
@@ -29497,7 +29497,7 @@ static PyObject* SetDoodadAnimation(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetDoodadAnimationRect 00244de0 (Hrect;ISB)V
+// SetDoodadAnimationRect 00244f50 (Hrect;ISB)V
 DWORD Jass_SetDoodadAnimationRect(DWORD arg_0_Hrect, DWORD arg_4_I, DWORD arg_8_S, DWORD arg_C_B)
 {
    DWORD rt = 0;
@@ -29529,7 +29529,7 @@ static PyObject* SetDoodadAnimationRect(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// StartMeleeAI 002482f0 (Hplayer;S)V
+// StartMeleeAI 00248460 (Hplayer;S)V
 DWORD Jass_StartMeleeAI(DWORD arg_0_Hplayer, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -29555,7 +29555,7 @@ static PyObject* StartMeleeAI(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// StartCampaignAI 002482a0 (Hplayer;S)V
+// StartCampaignAI 00248410 (Hplayer;S)V
 DWORD Jass_StartCampaignAI(DWORD arg_0_Hplayer, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -29581,7 +29581,7 @@ static PyObject* StartCampaignAI(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CommandAI 0022b610 (Hplayer;II)V
+// CommandAI 0022b7a0 (Hplayer;II)V
 DWORD Jass_CommandAI(DWORD arg_0_Hplayer, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -29610,7 +29610,7 @@ static PyObject* CommandAI(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PauseCompAI 00241b30 (Hplayer;B)V
+// PauseCompAI 00241cc0 (Hplayer;B)V
 DWORD Jass_PauseCompAI(DWORD arg_0_Hplayer, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -29636,7 +29636,7 @@ static PyObject* PauseCompAI(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetAIDifficulty 002315c0 (Hplayer;)Haidifficulty;
+// GetAIDifficulty 00231750 (Hplayer;)Haidifficulty;
 DWORD Jass_GetAIDifficulty(DWORD arg_0_Hplayer)
 {
    DWORD rt = 0;
@@ -29659,7 +29659,7 @@ static PyObject* GetAIDifficulty(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RemoveGuardPosition 00242e80 (Hunit;)V
+// RemoveGuardPosition 00242ff0 (Hunit;)V
 DWORD Jass_RemoveGuardPosition(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -29682,7 +29682,7 @@ static PyObject* RemoveGuardPosition(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RecycleGuardPosition 00242b20 (Hunit;)V
+// RecycleGuardPosition 00242c90 (Hunit;)V
 DWORD Jass_RecycleGuardPosition(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -29705,7 +29705,7 @@ static PyObject* RecycleGuardPosition(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RemoveAllGuardPositions 00242e20 (Hplayer;)V
+// RemoveAllGuardPositions 00242f90 (Hplayer;)V
 DWORD Jass_RemoveAllGuardPositions(DWORD arg_0_Hplayer)
 {
    DWORD rt = 0;
@@ -29728,7 +29728,7 @@ static PyObject* RemoveAllGuardPositions(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ExecuteFunc 00230710 (S)V
+// ExecuteFunc 002308a0 (S)V
 DWORD Jass_ExecuteFunc(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -29751,7 +29751,7 @@ static PyObject* ExecuteFunc(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// Cheat 0022b0a0 (S)V
+// Cheat 0022b230 (S)V
 DWORD Jass_Cheat(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -29774,7 +29774,7 @@ static PyObject* Cheat(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsNoVictoryCheat 00238070 ()B
+// IsNoVictoryCheat 00238200 ()B
 DWORD Jass_IsNoVictoryCheat()
 {
    DWORD rt = 0;
@@ -29791,7 +29791,7 @@ static PyObject* IsNoVictoryCheat(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsNoDefeatCheat 00238040 ()B
+// IsNoDefeatCheat 002381d0 ()B
 DWORD Jass_IsNoDefeatCheat()
 {
    DWORD rt = 0;
@@ -29808,7 +29808,7 @@ static PyObject* IsNoDefeatCheat(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// Preload 002420b0 (S)V
+// Preload 00242230 (S)V
 DWORD Jass_Preload(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -29831,7 +29831,7 @@ static PyObject* Preload(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PreloadEnd 002420e0 (R)V
+// PreloadEnd 00242260 (R)V
 DWORD Jass_PreloadEnd(DWORD arg_0_R)
 {
    DWORD rt = 0;
@@ -29854,7 +29854,7 @@ static PyObject* PreloadEnd(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PreloadStart 00242200 ()V
+// PreloadStart 00242380 ()V
 DWORD Jass_PreloadStart()
 {
    DWORD rt = 0;
@@ -29871,7 +29871,7 @@ static PyObject* PreloadStart(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PreloadRefresh 002421f0 ()V
+// PreloadRefresh 00242370 ()V
 DWORD Jass_PreloadRefresh()
 {
    DWORD rt = 0;
@@ -29888,7 +29888,7 @@ static PyObject* PreloadRefresh(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PreloadEndEx 00242130 ()V
+// PreloadEndEx 002422b0 ()V
 DWORD Jass_PreloadEndEx()
 {
    DWORD rt = 0;
@@ -29905,7 +29905,7 @@ static PyObject* PreloadEndEx(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PreloadGenStart 002421d0 ()V
+// PreloadGenStart 00242350 ()V
 DWORD Jass_PreloadGenStart()
 {
    DWORD rt = 0;
@@ -29922,7 +29922,7 @@ static PyObject* PreloadGenStart(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PreloadGenClear 00242180 ()V
+// PreloadGenClear 00242300 ()V
 DWORD Jass_PreloadGenClear()
 {
    DWORD rt = 0;
@@ -29939,7 +29939,7 @@ static PyObject* PreloadGenClear(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PreloadGenEnd 002421a0 (S)V
+// PreloadGenEnd 00242320 (S)V
 DWORD Jass_PreloadGenEnd(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -29962,7 +29962,7 @@ static PyObject* PreloadGenEnd(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// Preloader 00242220 (S)V
+// Preloader 002423a0 (S)V
 DWORD Jass_Preloader(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -29985,7 +29985,7 @@ static PyObject* Preloader(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DebugS 0096e340 (S)V
+// DebugS 0096e660 (S)V
 DWORD Jass_DebugS(DWORD arg_0_S)
 {
    DWORD rt = 0;
@@ -30008,7 +30008,7 @@ static PyObject* DebugS(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DebugFI 0096e330 (SI)V
+// DebugFI 0096e650 (SI)V
 DWORD Jass_DebugFI(DWORD arg_0_S, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -30034,7 +30034,7 @@ static PyObject* DebugFI(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DebugUnitID 0096e350 (SI)V
+// DebugUnitID 0096e670 (SI)V
 DWORD Jass_DebugUnitID(DWORD arg_0_S, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -30060,7 +30060,7 @@ static PyObject* DebugUnitID(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DisplayText 0096e4f0 (IS)V
+// DisplayText 0096e810 (IS)V
 DWORD Jass_DisplayText(DWORD arg_0_I, DWORD arg_4_S)
 {
    DWORD rt = 0;
@@ -30086,7 +30086,7 @@ static PyObject* DisplayText(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DisplayTextI 0096e500 (ISI)V
+// DisplayTextI 0096e820 (ISI)V
 DWORD Jass_DisplayTextI(DWORD arg_0_I, DWORD arg_4_S, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -30115,7 +30115,7 @@ static PyObject* DisplayTextI(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DisplayTextII 0096e510 (ISII)V
+// DisplayTextII 0096e830 (ISII)V
 DWORD Jass_DisplayTextII(DWORD arg_0_I, DWORD arg_4_S, DWORD arg_8_I, DWORD arg_C_I)
 {
    DWORD rt = 0;
@@ -30147,7 +30147,7 @@ static PyObject* DisplayTextII(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DisplayTextIII 0096e520 (ISIII)V
+// DisplayTextIII 0096e840 (ISIII)V
 DWORD Jass_DisplayTextIII(DWORD arg_0_I, DWORD arg_4_S, DWORD arg_8_I, DWORD arg_C_I, DWORD arg_10_I)
 {
    DWORD rt = 0;
@@ -30182,7 +30182,7 @@ static PyObject* DisplayTextIII(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SuicideUnit 00975070 (II)V
+// SuicideUnit 00975390 (II)V
 DWORD Jass_SuicideUnit(DWORD arg_0_I, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -30208,7 +30208,7 @@ static PyObject* SuicideUnit(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SuicideUnitEx 009750c0 (III)V
+// SuicideUnitEx 009753e0 (III)V
 DWORD Jass_SuicideUnitEx(DWORD arg_0_I, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -30237,7 +30237,7 @@ static PyObject* SuicideUnitEx(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// Sleep 00974d70 (R)V
+// Sleep 00975090 (R)V
 DWORD Jass_Sleep(DWORD arg_0_R)
 {
    DWORD rt = 0;
@@ -30260,7 +30260,7 @@ static PyObject* Sleep(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// StartThread 00974e30 (C)V
+// StartThread 00975150 (C)V
 DWORD Jass_StartThread(DWORD arg_0_C)
 {
    DWORD rt = 0;
@@ -30283,7 +30283,7 @@ static PyObject* StartThread(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetAiPlayer 0096eff0 ()I
+// GetAiPlayer 0096f310 ()I
 DWORD Jass_GetAiPlayer()
 {
    DWORD rt = 0;
@@ -30300,7 +30300,7 @@ static PyObject* GetAiPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DoAiScriptDebug 0096e530 ()B
+// DoAiScriptDebug 0096e850 ()B
 DWORD Jass_DoAiScriptDebug()
 {
    DWORD rt = 0;
@@ -30317,7 +30317,7 @@ static PyObject* DoAiScriptDebug(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetHeroId 0096fb40 ()I
+// GetHeroId 0096fe60 ()I
 DWORD Jass_GetHeroId()
 {
    DWORD rt = 0;
@@ -30334,7 +30334,7 @@ static PyObject* GetHeroId(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetHeroLevelAI 0096fbc0 ()I
+// GetHeroLevelAI 0096fee0 ()I
 DWORD Jass_GetHeroLevelAI()
 {
    DWORD rt = 0;
@@ -30351,7 +30351,7 @@ static PyObject* GetHeroLevelAI(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetHeroLevels 009743e0 (C)V
+// SetHeroLevels 00974700 (C)V
 DWORD Jass_SetHeroLevels(DWORD arg_0_C)
 {
    DWORD rt = 0;
@@ -30374,7 +30374,7 @@ static PyObject* SetHeroLevels(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetNewHeroes 00974600 (B)V
+// SetNewHeroes 00974920 (B)V
 DWORD Jass_SetNewHeroes(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -30397,7 +30397,7 @@ static PyObject* SetNewHeroes(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitCount 009704c0 (I)I
+// GetUnitCount 009707e0 (I)I
 DWORD Jass_GetUnitCount(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -30420,7 +30420,7 @@ static PyObject* GetUnitCount(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetPlayerUnitTypeCount 00970340 (Hplayer;I)I
+// GetPlayerUnitTypeCount 00970660 (Hplayer;I)I
 DWORD Jass_GetPlayerUnitTypeCount(DWORD arg_0_Hplayer, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -30446,7 +30446,7 @@ static PyObject* GetPlayerUnitTypeCount(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetTownUnitCount 009703f0 (IIB)I
+// GetTownUnitCount 00970710 (IIB)I
 DWORD Jass_GetTownUnitCount(DWORD arg_0_I, DWORD arg_4_I, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -30475,7 +30475,7 @@ static PyObject* GetTownUnitCount(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitCountDone 00970530 (I)I
+// GetUnitCountDone 00970850 (I)I
 DWORD Jass_GetUnitCountDone(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -30498,7 +30498,7 @@ static PyObject* GetUnitCountDone(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUpgradeLevel 00970650 (I)I
+// GetUpgradeLevel 00970970 (I)I
 DWORD Jass_GetUpgradeLevel(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -30521,7 +30521,7 @@ static PyObject* GetUpgradeLevel(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitGoldCost 00970570 (I)I
+// GetUnitGoldCost 00970890 (I)I
 DWORD Jass_GetUnitGoldCost(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -30544,7 +30544,7 @@ static PyObject* GetUnitGoldCost(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitWoodCost 009705d0 (I)I
+// GetUnitWoodCost 009708f0 (I)I
 DWORD Jass_GetUnitWoodCost(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -30567,7 +30567,7 @@ static PyObject* GetUnitWoodCost(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUnitBuildTime 00970470 (I)I
+// GetUnitBuildTime 00970790 (I)I
 DWORD Jass_GetUnitBuildTime(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -30590,7 +30590,7 @@ static PyObject* GetUnitBuildTime(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUpgradeGoldCost 00970630 (I)I
+// GetUpgradeGoldCost 00970950 (I)I
 DWORD Jass_GetUpgradeGoldCost(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -30613,7 +30613,7 @@ static PyObject* GetUpgradeGoldCost(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetUpgradeWoodCost 009706b0 (I)I
+// GetUpgradeWoodCost 009709d0 (I)I
 DWORD Jass_GetUpgradeWoodCost(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -30636,7 +30636,7 @@ static PyObject* GetUpgradeWoodCost(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetEnemyPower 0096f900 ()I
+// GetEnemyPower 0096fc20 ()I
 DWORD Jass_GetEnemyPower()
 {
    DWORD rt = 0;
@@ -30653,7 +30653,7 @@ static PyObject* GetEnemyPower(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetMinesOwned 0096fe00 ()I
+// GetMinesOwned 00970120 ()I
 DWORD Jass_GetMinesOwned()
 {
    DWORD rt = 0;
@@ -30670,7 +30670,7 @@ static PyObject* GetMinesOwned(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetGoldOwned 0096fb10 ()I
+// GetGoldOwned 0096fe30 ()I
 DWORD Jass_GetGoldOwned()
 {
    DWORD rt = 0;
@@ -30687,7 +30687,7 @@ static PyObject* GetGoldOwned(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TownWithMine 009754e0 ()I
+// TownWithMine 00975800 ()I
 DWORD Jass_TownWithMine()
 {
    DWORD rt = 0;
@@ -30704,7 +30704,7 @@ static PyObject* TownWithMine(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TownHasMine 00975450 (I)B
+// TownHasMine 00975770 (I)B
 DWORD Jass_TownHasMine(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -30727,7 +30727,7 @@ static PyObject* TownHasMine(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TownHasHall 00975410 (I)B
+// TownHasHall 00975730 (I)B
 DWORD Jass_TownHasHall(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -30750,7 +30750,7 @@ static PyObject* TownHasHall(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetNextExpansion 0096fe50 ()I
+// GetNextExpansion 00970170 ()I
 DWORD Jass_GetNextExpansion()
 {
    DWORD rt = 0;
@@ -30767,7 +30767,7 @@ static PyObject* GetNextExpansion(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetExpansionPeon 0096f9c0 ()Hunit;
+// GetExpansionPeon 0096fce0 ()Hunit;
 DWORD Jass_GetExpansionPeon()
 {
    DWORD rt = 0;
@@ -30784,7 +30784,7 @@ static PyObject* GetExpansionPeon(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetEnemyExpansion 0096f8c0 ()Hunit;
+// GetEnemyExpansion 0096fbe0 ()Hunit;
 DWORD Jass_GetEnemyExpansion()
 {
    DWORD rt = 0;
@@ -30801,7 +30801,7 @@ static PyObject* GetEnemyExpansion(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetExpansion 00974150 (Hunit;I)B
+// SetExpansion 00974470 (Hunit;I)B
 DWORD Jass_SetExpansion(DWORD arg_0_Hunit, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -30827,7 +30827,7 @@ static PyObject* SetExpansion(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetBuilding 0096f190 (Hplayer;)Hunit;
+// GetBuilding 0096f4b0 (Hplayer;)Hunit;
 DWORD Jass_GetBuilding(DWORD arg_0_Hplayer)
 {
    DWORD rt = 0;
@@ -30850,7 +30850,7 @@ static PyObject* GetBuilding(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetAllianceTarget 00973ec0 (Hunit;)V
+// SetAllianceTarget 009741e0 (Hunit;)V
 DWORD Jass_SetAllianceTarget(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -30873,7 +30873,7 @@ static PyObject* SetAllianceTarget(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetAllianceTarget 0096f020 ()Hunit;
+// GetAllianceTarget 0096f340 ()Hunit;
 DWORD Jass_GetAllianceTarget()
 {
    DWORD rt = 0;
@@ -30890,7 +30890,7 @@ static PyObject* GetAllianceTarget(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetProduce 009746d0 (III)B
+// SetProduce 009749f0 (III)B
 DWORD Jass_SetProduce(DWORD arg_0_I, DWORD arg_4_I, DWORD arg_8_I)
 {
    DWORD rt = 0;
@@ -30919,7 +30919,7 @@ static PyObject* SetProduce(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MergeUnits 00971c90 (IIII)B
+// MergeUnits 00971fb0 (IIII)B
 DWORD Jass_MergeUnits(DWORD arg_0_I, DWORD arg_4_I, DWORD arg_8_I, DWORD arg_C_I)
 {
    DWORD rt = 0;
@@ -30951,7 +30951,7 @@ static PyObject* MergeUnits(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ConvertUnits 0096e0c0 (II)B
+// ConvertUnits 0096e3e0 (II)B
 DWORD Jass_ConvertUnits(DWORD arg_0_I, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -30977,7 +30977,7 @@ static PyObject* ConvertUnits(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUpgrade 00974a50 (I)B
+// SetUpgrade 00974d70 (I)B
 DWORD Jass_SetUpgrade(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -31000,7 +31000,7 @@ static PyObject* SetUpgrade(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// Unsummon 009758a0 (Hunit;)V
+// Unsummon 00975bc0 (Hunit;)V
 DWORD Jass_Unsummon(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -31023,7 +31023,7 @@ static PyObject* Unsummon(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ClearHarvestAI 0096db50 ()V
+// ClearHarvestAI 0096de70 ()V
 DWORD Jass_ClearHarvestAI()
 {
    DWORD rt = 0;
@@ -31040,7 +31040,7 @@ static PyObject* ClearHarvestAI(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// HarvestGold 00970a20 (II)V
+// HarvestGold 00970d40 (II)V
 DWORD Jass_HarvestGold(DWORD arg_0_I, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -31066,7 +31066,7 @@ static PyObject* HarvestGold(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// HarvestWood 00970a90 (II)V
+// HarvestWood 00970db0 (II)V
 DWORD Jass_HarvestWood(DWORD arg_0_I, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -31092,7 +31092,7 @@ static PyObject* HarvestWood(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// StopGathering 00974f20 ()V
+// StopGathering 00975240 ()V
 DWORD Jass_StopGathering()
 {
    DWORD rt = 0;
@@ -31109,7 +31109,7 @@ static PyObject* StopGathering(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AddGuardPost 0096c8b0 (IRR)V
+// AddGuardPost 0096cbc0 (IRR)V
 DWORD Jass_AddGuardPost(DWORD arg_0_I, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -31138,7 +31138,7 @@ static PyObject* AddGuardPost(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// FillGuardPosts 0096e7c0 ()V
+// FillGuardPosts 0096eae0 ()V
 DWORD Jass_FillGuardPosts()
 {
    DWORD rt = 0;
@@ -31155,7 +31155,7 @@ static PyObject* FillGuardPosts(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ReturnGuardPosts 00973b20 ()V
+// ReturnGuardPosts 00973e40 ()V
 DWORD Jass_ReturnGuardPosts()
 {
    DWORD rt = 0;
@@ -31172,7 +31172,7 @@ static PyObject* ReturnGuardPosts(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreateCaptains 0096e2a0 ()V
+// CreateCaptains 0096e5c0 ()V
 DWORD Jass_CreateCaptains()
 {
    DWORD rt = 0;
@@ -31189,7 +31189,7 @@ static PyObject* CreateCaptains(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCaptainHome 00974090 (IRR)V
+// SetCaptainHome 009743b0 (IRR)V
 DWORD Jass_SetCaptainHome(DWORD arg_0_I, DWORD arg_4_R, DWORD arg_8_R)
 {
    DWORD rt = 0;
@@ -31218,7 +31218,7 @@ static PyObject* SetCaptainHome(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ResetCaptainLocs 00973ae0 ()V
+// ResetCaptainLocs 00973e00 ()V
 DWORD Jass_ResetCaptainLocs()
 {
    DWORD rt = 0;
@@ -31235,7 +31235,7 @@ static PyObject* ResetCaptainLocs(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ShiftTownSpot 00974d30 (RR)V
+// ShiftTownSpot 00975050 (RR)V
 DWORD Jass_ShiftTownSpot(DWORD arg_0_R, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -31261,7 +31261,7 @@ static PyObject* ShiftTownSpot(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCaptainChanges 00974020 (B)V
+// SetCaptainChanges 00974340 (B)V
 DWORD Jass_SetCaptainChanges(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -31284,7 +31284,7 @@ static PyObject* SetCaptainChanges(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TeleportCaptain 00975110 (RR)V
+// TeleportCaptain 00975430 (RR)V
 DWORD Jass_TeleportCaptain(DWORD arg_0_R, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -31310,7 +31310,7 @@ static PyObject* TeleportCaptain(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// ClearCaptainTargets 0096daf0 ()V
+// ClearCaptainTargets 0096de10 ()V
 DWORD Jass_ClearCaptainTargets()
 {
    DWORD rt = 0;
@@ -31327,7 +31327,7 @@ static PyObject* ClearCaptainTargets(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CaptainVsUnits 0096d890 (Hplayer;)V
+// CaptainVsUnits 0096dbb0 (Hplayer;)V
 DWORD Jass_CaptainVsUnits(DWORD arg_0_Hplayer)
 {
    DWORD rt = 0;
@@ -31350,7 +31350,7 @@ static PyObject* CaptainVsUnits(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CaptainVsPlayer 0096d800 (Hplayer;)V
+// CaptainVsPlayer 0096db20 (Hplayer;)V
 DWORD Jass_CaptainVsPlayer(DWORD arg_0_Hplayer)
 {
    DWORD rt = 0;
@@ -31373,7 +31373,7 @@ static PyObject* CaptainVsPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CaptainAttack 0096d560 (RR)V
+// CaptainAttack 0096d880 (RR)V
 DWORD Jass_CaptainAttack(DWORD arg_0_R, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -31399,7 +31399,7 @@ static PyObject* CaptainAttack(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GroupTimedLife 00970800 (B)V
+// GroupTimedLife 00970b20 (B)V
 DWORD Jass_GroupTimedLife(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -31422,7 +31422,7 @@ static PyObject* GroupTimedLife(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CaptainGoHome 0096d5a0 ()V
+// CaptainGoHome 0096d8c0 ()V
 DWORD Jass_CaptainGoHome()
 {
    DWORD rt = 0;
@@ -31439,7 +31439,7 @@ static PyObject* CaptainGoHome(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CaptainIsHome 0096d6d0 ()B
+// CaptainIsHome 0096d9f0 ()B
 DWORD Jass_CaptainIsHome()
 {
    DWORD rt = 0;
@@ -31456,7 +31456,7 @@ static PyObject* CaptainIsHome(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CaptainRetreating 0096d7c0 ()B
+// CaptainRetreating 0096dae0 ()B
 DWORD Jass_CaptainRetreating()
 {
    DWORD rt = 0;
@@ -31473,7 +31473,7 @@ static PyObject* CaptainRetreating(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CaptainIsFull 0096d690 ()B
+// CaptainIsFull 0096d9b0 ()B
 DWORD Jass_CaptainIsFull()
 {
    DWORD rt = 0;
@@ -31490,7 +31490,7 @@ static PyObject* CaptainIsFull(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CaptainIsEmpty 0096d650 ()B
+// CaptainIsEmpty 0096d970 ()B
 DWORD Jass_CaptainIsEmpty()
 {
    DWORD rt = 0;
@@ -31507,7 +31507,7 @@ static PyObject* CaptainIsEmpty(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CaptainGroupSize 0096d5d0 ()I
+// CaptainGroupSize 0096d8f0 ()I
 DWORD Jass_CaptainGroupSize()
 {
    DWORD rt = 0;
@@ -31524,7 +31524,7 @@ static PyObject* CaptainGroupSize(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CaptainReadiness 0096d700 ()I
+// CaptainReadiness 0096da20 ()I
 DWORD Jass_CaptainReadiness()
 {
    DWORD rt = 0;
@@ -31541,7 +31541,7 @@ static PyObject* CaptainReadiness(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CaptainReadinessHP 0096d740 ()I
+// CaptainReadinessHP 0096da60 ()I
 DWORD Jass_CaptainReadinessHP()
 {
    DWORD rt = 0;
@@ -31558,7 +31558,7 @@ static PyObject* CaptainReadinessHP(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CaptainReadinessMa 0096d780 ()I
+// CaptainReadinessMa 0096daa0 ()I
 DWORD Jass_CaptainReadinessMa()
 {
    DWORD rt = 0;
@@ -31575,7 +31575,7 @@ static PyObject* CaptainReadinessMa(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CaptainInCombat 0096d610 (B)B
+// CaptainInCombat 0096d930 (B)B
 DWORD Jass_CaptainInCombat(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -31598,7 +31598,7 @@ static PyObject* CaptainInCombat(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// TownThreatened 00975490 ()B
+// TownThreatened 009757b0 ()B
 DWORD Jass_TownThreatened()
 {
    DWORD rt = 0;
@@ -31615,7 +31615,7 @@ static PyObject* TownThreatened(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CaptainAtGoal 0096d530 ()B
+// CaptainAtGoal 0096d850 ()B
 DWORD Jass_CaptainAtGoal()
 {
    DWORD rt = 0;
@@ -31632,7 +31632,7 @@ static PyObject* CaptainAtGoal(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CreepsOnMap 0096e2f0 ()B
+// CreepsOnMap 0096e610 ()B
 DWORD Jass_CreepsOnMap()
 {
    DWORD rt = 0;
@@ -31649,7 +31649,7 @@ static PyObject* CreepsOnMap(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RemoveInjuries 00973600 ()V
+// RemoveInjuries 00973920 ()V
 DWORD Jass_RemoveInjuries()
 {
    DWORD rt = 0;
@@ -31666,7 +31666,7 @@ static PyObject* RemoveInjuries(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// RemoveSiege 009736e0 ()V
+// RemoveSiege 00973a00 ()V
 DWORD Jass_RemoveSiege()
 {
    DWORD rt = 0;
@@ -31683,7 +31683,7 @@ static PyObject* RemoveSiege(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IsTowered 00971050 (Hunit;)B
+// IsTowered 00971370 (Hunit;)B
 DWORD Jass_IsTowered(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -31706,7 +31706,7 @@ static PyObject* IsTowered(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DisablePathing 0096e4a0 ()V
+// DisablePathing 0096e7c0 ()V
 DWORD Jass_DisablePathing()
 {
    DWORD rt = 0;
@@ -31723,7 +31723,7 @@ static PyObject* DisablePathing(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetAmphibious 00973f80 ()V
+// SetAmphibious 009742a0 ()V
 DWORD Jass_SetAmphibious()
 {
    DWORD rt = 0;
@@ -31740,7 +31740,7 @@ static PyObject* SetAmphibious(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// InitAssault 00970d60 ()V
+// InitAssault 00971080 ()V
 DWORD Jass_InitAssault()
 {
    DWORD rt = 0;
@@ -31757,7 +31757,7 @@ static PyObject* InitAssault(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AddAssault 0096c620 (II)B
+// AddAssault 0096c930 (II)B
 DWORD Jass_AddAssault(DWORD arg_0_I, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -31783,7 +31783,7 @@ static PyObject* AddAssault(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AddDefenders 0096c840 (II)B
+// AddDefenders 0096cb50 (II)B
 DWORD Jass_AddDefenders(DWORD arg_0_I, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -31809,7 +31809,7 @@ static PyObject* AddDefenders(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetCreepCamp 0096f840 (IIB)Hunit;
+// GetCreepCamp 0096fb60 (IIB)Hunit;
 DWORD Jass_GetCreepCamp(DWORD arg_0_I, DWORD arg_4_I, DWORD arg_8_B)
 {
    DWORD rt = 0;
@@ -31838,7 +31838,7 @@ static PyObject* GetCreepCamp(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// StartGetEnemyBase 00974e00 ()V
+// StartGetEnemyBase 00975120 ()V
 DWORD Jass_StartGetEnemyBase()
 {
    DWORD rt = 0;
@@ -31855,7 +31855,7 @@ static PyObject* StartGetEnemyBase(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// WaitGetEnemyBase 00975960 ()B
+// WaitGetEnemyBase 00975c80 ()B
 DWORD Jass_WaitGetEnemyBase()
 {
    DWORD rt = 0;
@@ -31872,7 +31872,7 @@ static PyObject* WaitGetEnemyBase(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetMegaTarget 0096fdc0 ()Hunit;
+// GetMegaTarget 009700e0 ()Hunit;
 DWORD Jass_GetMegaTarget()
 {
    DWORD rt = 0;
@@ -31889,7 +31889,7 @@ static PyObject* GetMegaTarget(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetEnemyBase 0096f880 ()Hunit;
+// GetEnemyBase 0096fba0 ()Hunit;
 DWORD Jass_GetEnemyBase()
 {
    DWORD rt = 0;
@@ -31906,7 +31906,7 @@ static PyObject* GetEnemyBase(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetExpansionFoe 0096f910 ()Hunit;
+// GetExpansionFoe 0096fc30 ()Hunit;
 DWORD Jass_GetExpansionFoe()
 {
    DWORD rt = 0;
@@ -31923,7 +31923,7 @@ static PyObject* GetExpansionFoe(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetExpansionX 0096fa00 ()I
+// GetExpansionX 0096fd20 ()I
 DWORD Jass_GetExpansionX()
 {
    DWORD rt = 0;
@@ -31940,7 +31940,7 @@ static PyObject* GetExpansionX(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetExpansionY 0096fa80 ()I
+// GetExpansionY 0096fda0 ()I
 DWORD Jass_GetExpansionY()
 {
    DWORD rt = 0;
@@ -31957,7 +31957,7 @@ static PyObject* GetExpansionY(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetStagePoint 00974890 (RR)V
+// SetStagePoint 00974bb0 (RR)V
 DWORD Jass_SetStagePoint(DWORD arg_0_R, DWORD arg_4_R)
 {
    DWORD rt = 0;
@@ -31983,7 +31983,7 @@ static PyObject* SetStagePoint(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AttackMoveKill 0096cc80 (Hunit;)V
+// AttackMoveKill 0096cfa0 (Hunit;)V
 DWORD Jass_AttackMoveKill(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -32006,7 +32006,7 @@ static PyObject* AttackMoveKill(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// AttackMoveXY 0096cd50 (II)V
+// AttackMoveXY 0096d070 (II)V
 DWORD Jass_AttackMoveXY(DWORD arg_0_I, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -32032,7 +32032,7 @@ static PyObject* AttackMoveXY(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// LoadZepWave 00971530 (II)V
+// LoadZepWave 00971850 (II)V
 DWORD Jass_LoadZepWave(DWORD arg_0_I, DWORD arg_4_I)
 {
    DWORD rt = 0;
@@ -32058,7 +32058,7 @@ static PyObject* LoadZepWave(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SuicidePlayer 00974f50 (Hplayer;B)B
+// SuicidePlayer 00975270 (Hplayer;B)B
 DWORD Jass_SuicidePlayer(DWORD arg_0_Hplayer, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -32084,7 +32084,7 @@ static PyObject* SuicidePlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SuicidePlayerUnits 00974fe0 (Hplayer;B)B
+// SuicidePlayerUnits 00975300 (Hplayer;B)B
 DWORD Jass_SuicidePlayerUnits(DWORD arg_0_Hplayer, DWORD arg_4_B)
 {
    DWORD rt = 0;
@@ -32110,7 +32110,7 @@ static PyObject* SuicidePlayerUnits(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitAlive 00975650 (Hunit;)B
+// UnitAlive 00975970 (Hunit;)B
 DWORD Jass_UnitAlive(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -32133,7 +32133,7 @@ static PyObject* UnitAlive(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// UnitInvis 009756b0 (Hunit;)B
+// UnitInvis 009759d0 (Hunit;)B
 DWORD Jass_UnitInvis(DWORD arg_0_Hunit)
 {
    DWORD rt = 0;
@@ -32156,7 +32156,7 @@ static PyObject* UnitInvis(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// IgnoredUnits 00970d20 (I)I
+// IgnoredUnits 00971040 (I)I
 DWORD Jass_IgnoredUnits(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -32179,7 +32179,7 @@ static PyObject* IgnoredUnits(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// CommandsWaiting 0096de70 ()I
+// CommandsWaiting 0096e190 ()I
 DWORD Jass_CommandsWaiting()
 {
    DWORD rt = 0;
@@ -32196,7 +32196,7 @@ static PyObject* CommandsWaiting(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetLastCommand 0096fc30 ()I
+// GetLastCommand 0096ff50 ()I
 DWORD Jass_GetLastCommand()
 {
    DWORD rt = 0;
@@ -32213,7 +32213,7 @@ static PyObject* GetLastCommand(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// GetLastData 0096fc70 ()I
+// GetLastData 0096ff90 ()I
 DWORD Jass_GetLastData()
 {
    DWORD rt = 0;
@@ -32230,7 +32230,7 @@ static PyObject* GetLastData(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PopLastCommand 00972610 ()V
+// PopLastCommand 00972930 ()V
 DWORD Jass_PopLastCommand()
 {
    DWORD rt = 0;
@@ -32247,7 +32247,7 @@ static PyObject* PopLastCommand(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetCampaignAI 00973fe0 ()V
+// SetCampaignAI 00974300 ()V
 DWORD Jass_SetCampaignAI()
 {
    DWORD rt = 0;
@@ -32264,7 +32264,7 @@ static PyObject* SetCampaignAI(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetMeleeAI 009745d0 ()V
+// SetMeleeAI 009748f0 ()V
 DWORD Jass_SetMeleeAI()
 {
    DWORD rt = 0;
@@ -32281,7 +32281,7 @@ static PyObject* SetMeleeAI(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetTargetHeroes 009748d0 (B)V
+// SetTargetHeroes 00974bf0 (B)V
 DWORD Jass_SetTargetHeroes(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -32304,7 +32304,7 @@ static PyObject* SetTargetHeroes(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetHeroesFlee 00974490 (B)V
+// SetHeroesFlee 009747b0 (B)V
 DWORD Jass_SetHeroesFlee(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -32327,7 +32327,7 @@ static PyObject* SetHeroesFlee(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetHeroesBuyItems 00974450 (B)V
+// SetHeroesBuyItems 00974770 (B)V
 DWORD Jass_SetHeroesBuyItems(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -32350,7 +32350,7 @@ static PyObject* SetHeroesBuyItems(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetIgnoreInjured 00974560 (B)V
+// SetIgnoreInjured 00974880 (B)V
 DWORD Jass_SetIgnoreInjured(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -32373,7 +32373,7 @@ static PyObject* SetIgnoreInjured(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetPeonsRepair 00974660 (B)V
+// SetPeonsRepair 00974980 (B)V
 DWORD Jass_SetPeonsRepair(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -32396,7 +32396,7 @@ static PyObject* SetPeonsRepair(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetRandomPaths 00974730 (B)V
+// SetRandomPaths 00974a50 (B)V
 DWORD Jass_SetRandomPaths(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -32419,7 +32419,7 @@ static PyObject* SetRandomPaths(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetDefendPlayer 009740e0 (B)V
+// SetDefendPlayer 00974400 (B)V
 DWORD Jass_SetDefendPlayer(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -32442,7 +32442,7 @@ static PyObject* SetDefendPlayer(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetHeroesTakeItems 00974520 (B)V
+// SetHeroesTakeItems 00974840 (B)V
 DWORD Jass_SetHeroesTakeItems(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -32465,7 +32465,7 @@ static PyObject* SetHeroesTakeItems(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetUnitsFlee 009749f0 (B)V
+// SetUnitsFlee 00974d10 (B)V
 DWORD Jass_SetUnitsFlee(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -32488,7 +32488,7 @@ static PyObject* SetUnitsFlee(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetGroupsFlee 00974290 (B)V
+// SetGroupsFlee 009745b0 (B)V
 DWORD Jass_SetGroupsFlee(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -32511,7 +32511,7 @@ static PyObject* SetGroupsFlee(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetSlowChopping 009747f0 (B)V
+// SetSlowChopping 00974b10 (B)V
 DWORD Jass_SetSlowChopping(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -32534,7 +32534,7 @@ static PyObject* SetSlowChopping(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetSmartArtillery 00974850 (B)V
+// SetSmartArtillery 00974b70 (B)V
 DWORD Jass_SetSmartArtillery(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -32557,7 +32557,7 @@ static PyObject* SetSmartArtillery(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetWatchMegaTargets 00974a90 (B)V
+// SetWatchMegaTargets 00974db0 (B)V
 DWORD Jass_SetWatchMegaTargets(DWORD arg_0_B)
 {
    DWORD rt = 0;
@@ -32580,7 +32580,7 @@ static PyObject* SetWatchMegaTargets(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// SetReplacementCount 009747b0 (I)V
+// SetReplacementCount 00974ad0 (I)V
 DWORD Jass_SetReplacementCount(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -32603,7 +32603,7 @@ static PyObject* SetReplacementCount(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// PurchaseZeppelin 009726a0 ()V
+// PurchaseZeppelin 009729c0 ()V
 DWORD Jass_PurchaseZeppelin()
 {
    DWORD rt = 0;
@@ -32620,7 +32620,7 @@ static PyObject* PurchaseZeppelin(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// MeleeDifficulty 00971be0 ()I
+// MeleeDifficulty 00971f00 ()I
 DWORD Jass_MeleeDifficulty()
 {
    DWORD rt = 0;
@@ -32637,7 +32637,7 @@ static PyObject* MeleeDifficulty(PyObject *self, PyObject *args)
    return Py_BuildValue("I", rt);
 }
 
-// DebugBreak 0096e320 (I)V
+// DebugBreak 0096e640 (I)V
 DWORD Jass_DebugBreak(DWORD arg_0_I)
 {
    DWORD rt = 0;
@@ -32661,1296 +32661,1296 @@ static PyObject* DebugBreak(PyObject *self, PyObject *args)
 }
 
 PyMethodDef JassMethods[] = {
-   {"Deg2Rad", Deg2Rad, METH_VARARGS, "Game.base+0022F420 (R)R"},
-   {"Rad2Deg", Rad2Deg, METH_VARARGS, "Game.base+00242990 (R)R"},
-   {"Sin", Sin, METH_VARARGS, "Game.base+00248210 (R)R"},
-   {"Cos", Cos, METH_VARARGS, "Game.base+0022BC00 (R)R"},
-   {"Tan", Tan, METH_VARARGS, "Game.base+00248C60 (R)R"},
-   {"Asin", Asin, METH_VARARGS, "Game.base+0022A8D0 (R)R"},
-   {"Acos", Acos, METH_VARARGS, "Game.base+00229C50 (R)R"},
-   {"Atan", Atan, METH_VARARGS, "Game.base+0022A990 (R)R"},
-   {"Atan2", Atan2, METH_VARARGS, "Game.base+0022A910 (RR)R"},
-   {"SquareRoot", SquareRoot, METH_VARARGS, "Game.base+00248240 (R)R"},
-   {"Pow", Pow, METH_VARARGS, "Game.base+00242000 (RR)R"},
-   {"I2R", I2R, METH_VARARGS, "Game.base+002372D0 (I)R"},
-   {"R2I", R2I, METH_VARARGS, "Game.base+002428B0 (R)I"},
-   {"I2S", I2S, METH_VARARGS, "Game.base+002372F0 (I)S"},
-   {"R2S", R2S, METH_VARARGS, "Game.base+002428C0 (R)S"},
-   {"R2SW", R2SW, METH_VARARGS, "Game.base+00242900 (RII)S"},
-   {"S2I", S2I, METH_VARARGS, "Game.base+00243560 (S)I"},
-   {"S2R", S2R, METH_VARARGS, "Game.base+00243590 (S)R"},
-   {"GetHandleId", GetHandleId, METH_VARARGS, "Game.base+00232840 (Hhandle;)I"},
-   {"SubString", SubString, METH_VARARGS, "Game.base+00248910 (SII)S"},
-   {"StringLength", StringLength, METH_VARARGS, "Game.base+00248630 (S)I"},
-   {"StringCase", StringCase, METH_VARARGS, "Game.base+00248580 (SB)S"},
-   {"StringHash", StringHash, METH_VARARGS, "Game.base+00248610 (S)I"},
-   {"GetLocalizedString", GetLocalizedString, METH_VARARGS, "Game.base+00233270 (S)S"},
-   {"GetLocalizedHotkey", GetLocalizedHotkey, METH_VARARGS, "Game.base+00233240 (S)I"},
-   {"ConvertRace", ConvertRace, METH_VARARGS, "Game.base+0022B980 (I)Hrace;"},
-   {"ConvertAllianceType", ConvertAllianceType, METH_VARARGS, "Game.base+0022B7A0 (I)Halliancetype;"},
-   {"ConvertRacePref", ConvertRacePref, METH_VARARGS, "Game.base+0022B990 (I)Hracepreference;"},
-   {"ConvertIGameState", ConvertIGameState, METH_VARARGS, "Game.base+0022B870 (I)Higamestate;"},
-   {"ConvertFGameState", ConvertFGameState, METH_VARARGS, "Game.base+0022B810 (I)Hfgamestate;"},
-   {"ConvertPlayerState", ConvertPlayerState, METH_VARARGS, "Game.base+0022B960 (I)Hplayerstate;"},
-   {"ConvertPlayerScore", ConvertPlayerScore, METH_VARARGS, "Game.base+0022B940 (I)Hplayerscore;"},
-   {"ConvertStartLocPrio", ConvertStartLocPrio, METH_VARARGS, "Game.base+0022B9D0 (I)Hstartlocprio;"},
-   {"ConvertPlayerGameResult", ConvertPlayerGameResult, METH_VARARGS, "Game.base+0022B930 (I)Hplayergameresult;"},
-   {"ConvertUnitState", ConvertUnitState, METH_VARARGS, "Game.base+0022BA50 (I)Hunitstate;"},
-   {"ConvertAIDifficulty", ConvertAIDifficulty, METH_VARARGS, "Game.base+0022B790 (I)Haidifficulty;"},
-   {"ConvertGameEvent", ConvertGameEvent, METH_VARARGS, "Game.base+0022B840 (I)Hgameevent;"},
-   {"ConvertPlayerEvent", ConvertPlayerEvent, METH_VARARGS, "Game.base+0022B920 (I)Hplayerevent;"},
-   {"ConvertPlayerUnitEvent", ConvertPlayerUnitEvent, METH_VARARGS, "Game.base+0022B970 (I)Hplayerunitevent;"},
-   {"ConvertUnitEvent", ConvertUnitEvent, METH_VARARGS, "Game.base+0022BA40 (I)Hunitevent;"},
-   {"ConvertWidgetEvent", ConvertWidgetEvent, METH_VARARGS, "Game.base+0022BAA0 (I)Hwidgetevent;"},
-   {"ConvertDialogEvent", ConvertDialogEvent, METH_VARARGS, "Game.base+0022B7F0 (I)Hdialogevent;"},
-   {"ConvertLimitOp", ConvertLimitOp, METH_VARARGS, "Game.base+0022B890 (I)Hlimitop;"},
-   {"ConvertUnitType", ConvertUnitType, METH_VARARGS, "Game.base+0022BA60 (I)Hunittype;"},
-   {"ConvertGameSpeed", ConvertGameSpeed, METH_VARARGS, "Game.base+0022B850 (I)Hgamespeed;"},
-   {"ConvertPlacement", ConvertPlacement, METH_VARARGS, "Game.base+0022B900 (I)Hplacement;"},
-   {"ConvertGameDifficulty", ConvertGameDifficulty, METH_VARARGS, "Game.base+0022B830 (I)Hgamedifficulty;"},
-   {"ConvertGameType", ConvertGameType, METH_VARARGS, "Game.base+0022B860 (I)Hgametype;"},
-   {"ConvertMapFlag", ConvertMapFlag, METH_VARARGS, "Game.base+0022B8C0 (I)Hmapflag;"},
-   {"ConvertMapVisibility", ConvertMapVisibility, METH_VARARGS, "Game.base+0022B8E0 (I)Hmapvisibility;"},
-   {"ConvertMapSetting", ConvertMapSetting, METH_VARARGS, "Game.base+0022B8D0 (I)Hmapsetting;"},
-   {"ConvertMapDensity", ConvertMapDensity, METH_VARARGS, "Game.base+0022B8B0 (I)Hmapdensity;"},
-   {"ConvertMapControl", ConvertMapControl, METH_VARARGS, "Game.base+0022B8A0 (I)Hmapcontrol;"},
-   {"ConvertPlayerColor", ConvertPlayerColor, METH_VARARGS, "Game.base+0022B910 (I)Hplayercolor;"},
-   {"ConvertPlayerSlotState", ConvertPlayerSlotState, METH_VARARGS, "Game.base+0022B950 (I)Hplayerslotstate;"},
-   {"ConvertVolumeGroup", ConvertVolumeGroup, METH_VARARGS, "Game.base+0022BA80 (I)Hvolumegroup;"},
-   {"ConvertCameraField", ConvertCameraField, METH_VARARGS, "Game.base+0022B7D0 (I)Hcamerafield;"},
-   {"ConvertBlendMode", ConvertBlendMode, METH_VARARGS, "Game.base+0022B7C0 (I)Hblendmode;"},
-   {"ConvertRarityControl", ConvertRarityControl, METH_VARARGS, "Game.base+0022B9B0 (I)Hraritycontrol;"},
-   {"ConvertTexMapFlags", ConvertTexMapFlags, METH_VARARGS, "Game.base+0022B9E0 (I)Htexmapflags;"},
-   {"ConvertFogState", ConvertFogState, METH_VARARGS, "Game.base+0022B820 (I)Hfogstate;"},
-   {"ConvertEffectType", ConvertEffectType, METH_VARARGS, "Game.base+0022B800 (I)Heffecttype;"},
-   {"ConvertVersion", ConvertVersion, METH_VARARGS, "Game.base+0022BA70 (I)Hversion;"},
-   {"ConvertItemType", ConvertItemType, METH_VARARGS, "Game.base+0022B880 (I)Hitemtype;"},
-   {"ConvertAttackType", ConvertAttackType, METH_VARARGS, "Game.base+0022B7B0 (I)Hattacktype;"},
-   {"ConvertDamageType", ConvertDamageType, METH_VARARGS, "Game.base+0022B7E0 (I)Hdamagetype;"},
-   {"ConvertWeaponType", ConvertWeaponType, METH_VARARGS, "Game.base+0022BA90 (I)Hweapontype;"},
-   {"ConvertSoundType", ConvertSoundType, METH_VARARGS, "Game.base+0022B9C0 (I)Hsoundtype;"},
-   {"ConvertPathingType", ConvertPathingType, METH_VARARGS, "Game.base+0022B8F0 (I)Hpathingtype;"},
-   {"SetMapName", SetMapName, METH_VARARGS, "Game.base+002460C0 (S)V"},
-   {"SetMapDescription", SetMapDescription, METH_VARARGS, "Game.base+00246030 (S)V"},
-   {"SetTeams", SetTeams, METH_VARARGS, "Game.base+00246D10 (I)V"},
-   {"SetPlayers", SetPlayers, METH_VARARGS, "Game.base+00246640 (I)V"},
-   {"SetGameTypeSupported", SetGameTypeSupported, METH_VARARGS, "Game.base+00245880 (Hgametype;B)V"},
-   {"SetMapFlag", SetMapFlag, METH_VARARGS, "Game.base+00246060 (Hmapflag;B)V"},
-   {"SetGameSpeed", SetGameSpeed, METH_VARARGS, "Game.base+00245860 (Hgamespeed;)V"},
-   {"SetGamePlacement", SetGamePlacement, METH_VARARGS, "Game.base+00245840 (Hplacement;)V"},
-   {"SetGameDifficulty", SetGameDifficulty, METH_VARARGS, "Game.base+00245820 (Hgamedifficulty;)V"},
-   {"SetResourceDensity", SetResourceDensity, METH_VARARGS, "Game.base+002467D0 (Hmapdensity;)V"},
-   {"SetCreatureDensity", SetCreatureDensity, METH_VARARGS, "Game.base+00244A60 (Hmapdensity;)V"},
-   {"DefineStartLocation", DefineStartLocation, METH_VARARGS, "Game.base+0022F3C0 (IRR)V"},
-   {"DefineStartLocationLoc", DefineStartLocationLoc, METH_VARARGS, "Game.base+0022F3E0 (IHlocation;)V"},
-   {"SetStartLocPrioCount", SetStartLocPrioCount, METH_VARARGS, "Game.base+00246CE0 (II)V"},
-   {"SetStartLocPrio", SetStartLocPrio, METH_VARARGS, "Game.base+00246CA0 (IIIHstartlocprio;)V"},
-   {"GetStartLocPrioSlot", GetStartLocPrioSlot, METH_VARARGS, "Game.base+00235670 (II)I"},
-   {"GetStartLocPrio", GetStartLocPrio, METH_VARARGS, "Game.base+00235640 (II)Hstartlocprio;"},
-   {"GetTeams", GetTeams, METH_NOARGS, "Game.base+002359B0 ()I"},
-   {"GetPlayers", GetPlayers, METH_NOARGS, "Game.base+002343F0 ()I"},
-   {"IsGameTypeSupported", IsGameTypeSupported, METH_VARARGS, "Game.base+00237B30 (Hgametype;)B"},
-   {"IsMapFlagSet", IsMapFlagSet, METH_VARARGS, "Game.base+00237EE0 (Hmapflag;)B"},
-   {"GetGameTypeSelected", GetGameTypeSelected, METH_NOARGS, "Game.base+00232830 ()Hgametype;"},
-   {"GetGamePlacement", GetGamePlacement, METH_NOARGS, "Game.base+00232810 ()Hplacement;"},
-   {"GetGameSpeed", GetGameSpeed, METH_NOARGS, "Game.base+00232820 ()Hgamespeed;"},
-   {"GetGameDifficulty", GetGameDifficulty, METH_NOARGS, "Game.base+00232800 ()Hgamedifficulty;"},
-   {"GetResourceDensity", GetResourceDensity, METH_NOARGS, "Game.base+002348A0 ()Hmapdensity;"},
-   {"GetCreatureDensity", GetCreatureDensity, METH_NOARGS, "Game.base+00231F20 ()Hmapdensity;"},
-   {"GetStartLocationX", GetStartLocationX, METH_VARARGS, "Game.base+002356F0 (I)R"},
-   {"GetStartLocationY", GetStartLocationY, METH_VARARGS, "Game.base+00235710 (I)R"},
-   {"GetStartLocationLoc", GetStartLocationLoc, METH_VARARGS, "Game.base+002356A0 (I)Hlocation;"},
-   {"SetPlayerTeam", SetPlayerTeam, METH_VARARGS, "Game.base+00246580 (Hplayer;I)V"},
-   {"SetPlayerStartLocation", SetPlayerStartLocation, METH_VARARGS, "Game.base+002464A0 (Hplayer;I)V"},
-   {"ForcePlayerStartLocation", ForcePlayerStartLocation, METH_VARARGS, "Game.base+00230EB0 (Hplayer;I)V"},
-   {"SetPlayerAlliance", SetPlayerAlliance, METH_VARARGS, "Game.base+002461D0 (Hplayer;Hplayer;Halliancetype;B)V"},
-   {"SetPlayerTaxRate", SetPlayerTaxRate, METH_VARARGS, "Game.base+00246520 (Hplayer;Hplayer;Hplayerstate;I)V"},
-   {"SetPlayerRacePreference", SetPlayerRacePreference, METH_VARARGS, "Game.base+00246440 (Hplayer;Hracepreference;)V"},
-   {"SetPlayerRaceSelectable", SetPlayerRaceSelectable, METH_VARARGS, "Game.base+00246470 (Hplayer;B)V"},
-   {"SetPlayerController", SetPlayerController, METH_VARARGS, "Game.base+00246290 (Hplayer;Hmapcontrol;)V"},
-   {"SetPlayerColor", SetPlayerColor, METH_VARARGS, "Game.base+00246270 (Hplayer;Hplayercolor;)V"},
-   {"SetPlayerOnScoreScreen", SetPlayerOnScoreScreen, METH_VARARGS, "Game.base+00246420 (Hplayer;B)V"},
-   {"SetPlayerName", SetPlayerName, METH_VARARGS, "Game.base+002463E0 (Hplayer;S)V"},
-   {"GetPlayerTeam", GetPlayerTeam, METH_VARARGS, "Game.base+00234200 (Hplayer;)I"},
-   {"GetPlayerName", GetPlayerName, METH_VARARGS, "Game.base+00233DE0 (Hplayer;)S"},
-   {"GetPlayerStartLocation", GetPlayerStartLocation, METH_VARARGS, "Game.base+002340A0 (Hplayer;)I"},
-   {"GetPlayerStartLocationX", GetPlayerStartLocationX, METH_VARARGS, "Game.base+002340C0 (Hplayer;)R"},
-   {"GetPlayerStartLocationY", GetPlayerStartLocationY, METH_VARARGS, "Game.base+002340F0 (Hplayer;)R"},
-   {"GetPlayerColor", GetPlayerColor, METH_VARARGS, "Game.base+00233D40 (Hplayer;)Hplayercolor;"},
-   {"GetPlayerSelectable", GetPlayerSelectable, METH_VARARGS, "Game.base+00234060 (Hplayer;)B"},
-   {"GetPlayerController", GetPlayerController, METH_VARARGS, "Game.base+00233D60 (Hplayer;)Hmapcontrol;"},
-   {"GetPlayerSlotState", GetPlayerSlotState, METH_VARARGS, "Game.base+00234080 (Hplayer;)Hplayerslotstate;"},
-   {"GetPlayerTaxRate", GetPlayerTaxRate, METH_VARARGS, "Game.base+002341B0 (Hplayer;Hplayer;Hplayerstate;)I"},
-   {"IsPlayerRacePrefSet", IsPlayerRacePrefSet, METH_VARARGS, "Game.base+00238220 (Hplayer;Hracepreference;)B"},
-   {"Location", Location, METH_VARARGS, "Game.base+00240C90 (RR)Hlocation;"},
-   {"RemoveLocation", RemoveLocation, METH_VARARGS, "Game.base+00242F20 (Hlocation;)V"},
-   {"MoveLocation", MoveLocation, METH_VARARGS, "Game.base+00240F40 (Hlocation;RR)V"},
-   {"GetLocationX", GetLocationX, METH_VARARGS, "Game.base+002332E0 (Hlocation;)R"},
-   {"GetLocationY", GetLocationY, METH_VARARGS, "Game.base+00233300 (Hlocation;)R"},
-   {"GetLocationZ", GetLocationZ, METH_VARARGS, "Game.base+00233320 (Hlocation;)R"},
-   {"CreateTimer", CreateTimer, METH_NOARGS, "Game.base+0022EB70 ()Htimer;"},
-   {"DestroyTimer", DestroyTimer, METH_VARARGS, "Game.base+0022F850 (Htimer;)V"},
-   {"TimerStart", TimerStart, METH_VARARGS, "Game.base+00249180 (Htimer;RBC)V"},
-   {"TimerGetTimeout", TimerGetTimeout, METH_VARARGS, "Game.base+00249150 (Htimer;)R"},
-   {"TimerGetElapsed", TimerGetElapsed, METH_VARARGS, "Game.base+002490F0 (Htimer;)R"},
-   {"TimerGetRemaining", TimerGetRemaining, METH_VARARGS, "Game.base+00249120 (Htimer;)R"},
-   {"PauseTimer", PauseTimer, METH_VARARGS, "Game.base+00241B80 (Htimer;)V"},
-   {"ResumeTimer", ResumeTimer, METH_VARARGS, "Game.base+00243480 (Htimer;)V"},
-   {"GetExpiredTimer", GetExpiredTimer, METH_NOARGS, "Game.base+002324D0 ()Htimer;"},
-   {"Condition", Condition, METH_VARARGS, "Game.base+0022B680 (C)Hconditionfunc;"},
-   {"DestroyCondition", DestroyCondition, METH_VARARGS, "Game.base+0022F5F0 (Hconditionfunc;)V"},
-   {"Filter", Filter, METH_VARARGS, "Game.base+002307E0 (C)Hfilterfunc;"},
-   {"DestroyFilter", DestroyFilter, METH_VARARGS, "Game.base+0022F690 (Hfilterfunc;)V"},
-   {"DestroyBoolExpr", DestroyBoolExpr, METH_VARARGS, "Game.base+0022F5D0 (Hboolexpr;)V"},
-   {"And", And, METH_VARARGS, "Game.base+0022A7C0 (Hboolexpr;Hboolexpr;)Hboolexpr;"},
-   {"Or", Or, METH_VARARGS, "Game.base+00241820 (Hboolexpr;Hboolexpr;)Hboolexpr;"},
-   {"Not", Not, METH_VARARGS, "Game.base+00241680 (Hboolexpr;)Hboolexpr;"},
-   {"CreateRegion", CreateRegion, METH_NOARGS, "Game.base+0022E720 ()Hregion;"},
-   {"RemoveRegion", RemoveRegion, METH_VARARGS, "Game.base+00242F90 (Hregion;)V"},
-   {"RegionAddRect", RegionAddRect, METH_VARARGS, "Game.base+00242BA0 (Hregion;Hrect;)V"},
-   {"RegionClearRect", RegionClearRect, METH_VARARGS, "Game.base+00242C50 (Hregion;Hrect;)V"},
-   {"RegionAddCell", RegionAddCell, METH_VARARGS, "Game.base+00242B40 (Hregion;RR)V"},
-   {"RegionAddCellAtLoc", RegionAddCellAtLoc, METH_VARARGS, "Game.base+00242B60 (Hregion;Hlocation;)V"},
-   {"RegionClearCell", RegionClearCell, METH_VARARGS, "Game.base+00242BF0 (Hregion;RR)V"},
-   {"RegionClearCellAtLoc", RegionClearCellAtLoc, METH_VARARGS, "Game.base+00242C10 (Hregion;Hlocation;)V"},
-   {"IsUnitInRegion", IsUnitInRegion, METH_VARARGS, "Game.base+00238AC0 (Hregion;Hunit;)B"},
-   {"IsPointInRegion", IsPointInRegion, METH_VARARGS, "Game.base+00238300 (Hregion;RR)B"},
-   {"IsLocationInRegion", IsLocationInRegion, METH_VARARGS, "Game.base+00237DF0 (Hregion;Hlocation;)B"},
-   {"Rect", Rect, METH_VARARGS, "Game.base+0023F630 (RRRR)Hrect;"},
-   {"RectFromLoc", RectFromLoc, METH_VARARGS, "Game.base+002429C0 (Hlocation;Hlocation;)Hrect;"},
-   {"RemoveRect", RemoveRect, METH_VARARGS, "Game.base+00242F70 (Hrect;)V"},
-   {"SetRect", SetRect, METH_VARARGS, "Game.base+0023F7F0 (Hrect;RRRR)V"},
-   {"SetRectFromLoc", SetRectFromLoc, METH_VARARGS, "Game.base+00246680 (Hrect;Hlocation;Hlocation;)V"},
-   {"GetRectCenterX", GetRectCenterX, METH_VARARGS, "Game.base+00234570 (Hrect;)R"},
-   {"GetRectCenterY", GetRectCenterY, METH_VARARGS, "Game.base+002345D0 (Hrect;)R"},
-   {"MoveRectTo", MoveRectTo, METH_VARARGS, "Game.base+00240F70 (Hrect;RR)V"},
-   {"MoveRectToLoc", MoveRectToLoc, METH_VARARGS, "Game.base+00240FA0 (Hrect;Hlocation;)V"},
-   {"GetRectMinX", GetRectMinX, METH_VARARGS, "Game.base+00234670 (Hrect;)R"},
-   {"GetRectMinY", GetRectMinY, METH_VARARGS, "Game.base+00234690 (Hrect;)R"},
-   {"GetRectMaxX", GetRectMaxX, METH_VARARGS, "Game.base+00234630 (Hrect;)R"},
-   {"GetRectMaxY", GetRectMaxY, METH_VARARGS, "Game.base+00234650 (Hrect;)R"},
-   {"GetWorldBounds", GetWorldBounds, METH_NOARGS, "Game.base+002368B0 ()Hrect;"},
-   {"SetFogStateRect", SetFogStateRect, METH_VARARGS, "Game.base+00245740 (Hplayer;Hfogstate;Hrect;B)V"},
-   {"SetFogStateRadius", SetFogStateRadius, METH_VARARGS, "Game.base+00245670 (Hplayer;Hfogstate;RRRB)V"},
-   {"SetFogStateRadiusLoc", SetFogStateRadiusLoc, METH_VARARGS, "Game.base+002456D0 (Hplayer;Hfogstate;Hlocation;RB)V"},
-   {"FogMaskEnable", FogMaskEnable, METH_VARARGS, "Game.base+00230C60 (B)V"},
-   {"IsFogMaskEnabled", IsFogMaskEnabled, METH_NOARGS, "Game.base+00237A00 ()B"},
-   {"FogEnable", FogEnable, METH_VARARGS, "Game.base+00230C30 (B)V"},
-   {"IsFogEnabled", IsFogEnabled, METH_NOARGS, "Game.base+002379F0 ()B"},
-   {"CreateFogModifierRect", CreateFogModifierRect, METH_VARARGS, "Game.base+0022DF70 (Hplayer;Hfogstate;Hrect;BB)Hfogmodifier;"},
-   {"CreateFogModifierRadius", CreateFogModifierRadius, METH_VARARGS, "Game.base+0022DDB0 (Hplayer;Hfogstate;RRRBB)Hfogmodifier;"},
-   {"CreateFogModifierRadiusLoc", CreateFogModifierRadiusLoc, METH_VARARGS, "Game.base+0022DE90 (Hplayer;Hfogstate;Hlocation;RBB)Hfogmodifier;"},
-   {"DestroyFogModifier", DestroyFogModifier, METH_VARARGS, "Game.base+0022F6C0 (Hfogmodifier;)V"},
-   {"FogModifierStart", FogModifierStart, METH_VARARGS, "Game.base+00230C80 (Hfogmodifier;)V"},
-   {"FogModifierStop", FogModifierStop, METH_VARARGS, "Game.base+00230CA0 (Hfogmodifier;)V"},
-   {"CreateTrigger", CreateTrigger, METH_NOARGS, "Game.base+0022EE60 ()Htrigger;"},
-   {"DestroyTrigger", DestroyTrigger, METH_VARARGS, "Game.base+0022F890 (Htrigger;)V"},
-   {"ResetTrigger", ResetTrigger, METH_VARARGS, "Game.base+002432E0 (Htrigger;)V"},
-   {"EnableTrigger", EnableTrigger, METH_VARARGS, "Game.base+002300D0 (Htrigger;)V"},
-   {"DisableTrigger", DisableTrigger, METH_VARARGS, "Game.base+0022FD10 (Htrigger;)V"},
-   {"IsTriggerEnabled", IsTriggerEnabled, METH_VARARGS, "Game.base+00238540 (Htrigger;)B"},
-   {"TriggerWaitOnSleeps", TriggerWaitOnSleeps, METH_VARARGS, "Game.base+0024A690 (Htrigger;B)V"},
-   {"IsTriggerWaitOnSleeps", IsTriggerWaitOnSleeps, METH_VARARGS, "Game.base+00238560 (Htrigger;)B"},
-   {"TriggerRegisterVariableEvent", TriggerRegisterVariableEvent, METH_VARARGS, "Game.base+0024A4F0 (Htrigger;SHlimitop;R)Hevent;"},
-   {"TriggerRegisterTimerEvent", TriggerRegisterTimerEvent, METH_VARARGS, "Game.base+00249F00 (Htrigger;RB)Hevent;"},
-   {"TriggerRegisterTimerExpireEvent", TriggerRegisterTimerExpireEvent, METH_VARARGS, "Game.base+00249FC0 (Htrigger;Htimer;)Hevent;"},
-   {"TriggerRegisterGameStateEvent", TriggerRegisterGameStateEvent, METH_VARARGS, "Game.base+002497F0 (Htrigger;Hgamestate;Hlimitop;R)Hevent;"},
-   {"GetEventGameState", GetEventGameState, METH_NOARGS, "Game.base+00232370 ()Hgamestate;"},
-   {"TriggerRegisterDialogEvent", TriggerRegisterDialogEvent, METH_VARARGS, "Game.base+00249470 (Htrigger;Hdialog;)Hevent;"},
-   {"TriggerRegisterDialogButtonEvent", TriggerRegisterDialogButtonEvent, METH_VARARGS, "Game.base+002493B0 (Htrigger;Hbutton;)Hevent;"},
-   {"GetClickedButton", GetClickedButton, METH_NOARGS, "Game.base+00231D90 ()Hbutton;"},
-   {"GetClickedDialog", GetClickedDialog, METH_NOARGS, "Game.base+00231DE0 ()Hdialog;"},
-   {"GetTournamentFinishSoonTimeRemaining", GetTournamentFinishSoonTimeRemaining, METH_NOARGS, "Game.base+00235BB0 ()R;"},
-   {"GetTournamentFinishNowRule", GetTournamentFinishNowRule, METH_NOARGS, "Game.base+00235B80 ()I;"},
-   {"GetTournamentFinishNowPlayer", GetTournamentFinishNowPlayer, METH_NOARGS, "Game.base+00235B20 ()Hplayer;"},
-   {"GetTournamentScore", GetTournamentScore, METH_VARARGS, "Game.base+00235BE0 (Hplayer;)I"},
-   {"GetSaveBasicFilename", GetSaveBasicFilename, METH_NOARGS, "Game.base+002349C0 ()S"},
-   {"TriggerRegisterGameEvent", TriggerRegisterGameEvent, METH_VARARGS, "Game.base+00249710 (Htrigger;Hgameevent;)Hevent;"},
-   {"GetWinningPlayer", GetWinningPlayer, METH_NOARGS, "Game.base+00236880 ()Hplayer;"},
-   {"TriggerRegisterPlayerStateEvent", TriggerRegisterPlayerStateEvent, METH_VARARGS, "Game.base+00249CE0 (Htrigger;Hplayer;Hplayerstate;Hlimitop;R)Hevent;"},
-   {"GetEventPlayerState", GetEventPlayerState, METH_NOARGS, "Game.base+00232410 ()Hplayerstate;"},
-   {"TriggerRegisterPlayerEvent", TriggerRegisterPlayerEvent, METH_VARARGS, "Game.base+00249BC0 (Htrigger;Hplayer;Hplayerevent;)Hevent;"},
-   {"TriggerRegisterPlayerUnitEvent", TriggerRegisterPlayerUnitEvent, METH_VARARGS, "Game.base+00249E00 (Htrigger;Hplayer;Hplayerunitevent;Hboolexpr;)Hevent;"},
-   {"GetAttacker", GetAttacker, METH_NOARGS, "Game.base+00231770 ()Hunit;"},
-   {"GetRescuer", GetRescuer, METH_NOARGS, "Game.base+002346D0 ()Hunit;"},
-   {"GetDyingUnit", GetDyingUnit, METH_NOARGS, "Game.base+002321D0 ()Hunit;"},
-   {"GetKillingUnit", GetKillingUnit, METH_NOARGS, "Game.base+00232E60 ()Hunit;"},
-   {"GetDecayingUnit", GetDecayingUnit, METH_NOARGS, "Game.base+00231F90 ()Hunit;"},
-   {"GetConstructingStructure", GetConstructingStructure, METH_NOARGS, "Game.base+00231E70 ()Hunit;"},
-   {"GetCancelledStructure", GetCancelledStructure, METH_NOARGS, "Game.base+00231C60 ()Hunit;"},
-   {"GetConstructedStructure", GetConstructedStructure, METH_NOARGS, "Game.base+00231E50 ()Hunit;"},
-   {"GetTrainedUnitType", GetTrainedUnitType, METH_NOARGS, "Game.base+00235C90 ()I"},
-   {"GetResearchingUnit", GetResearchingUnit, METH_NOARGS, "Game.base+002347F0 ()Hunit;"},
-   {"GetResearched", GetResearched, METH_NOARGS, "Game.base+00234750 ()I"},
-   {"GetTrainedUnit", GetTrainedUnit, METH_NOARGS, "Game.base+00235C10 ()Hunit;"},
-   {"GetSellingUnit", GetSellingUnit, METH_NOARGS, "Game.base+00234A50 ()Hunit;"},
-   {"GetSoldUnit", GetSoldUnit, METH_NOARGS, "Game.base+00234C00 ()Hunit;"},
-   {"GetBuyingUnit", GetBuyingUnit, METH_NOARGS, "Game.base+002317F0 ()Hunit;"},
-   {"GetSoldItem", GetSoldItem, METH_NOARGS, "Game.base+00234B70 ()Hitem;"},
-   {"GetChangingUnit", GetChangingUnit, METH_NOARGS, "Game.base+00231C80 ()Hunit;"},
-   {"GetChangingUnitPrevOwner", GetChangingUnitPrevOwner, METH_NOARGS, "Game.base+00231D00 ()Hplayer;"},
-   {"GetDetectedUnit", GetDetectedUnit, METH_NOARGS, "Game.base+00232190 ()Hunit;"},
-   {"GetOrderedUnit", GetOrderedUnit, METH_NOARGS, "Game.base+00233BC0 ()Hunit;"},
-   {"OrderId", OrderId, METH_VARARGS, "Game.base+00241950 (S)I"},
-   {"OrderId2String", OrderId2String, METH_VARARGS, "Game.base+00241920 (I)S"},
-   {"AbilityId", AbilityId, METH_VARARGS, "Game.base+00229C20 (S)I"},
-   {"AbilityId2String", AbilityId2String, METH_VARARGS, "Game.base+00229BF0 (I)S"},
-   {"UnitId", UnitId, METH_VARARGS, "Game.base+0024AFB0 (S)I"},
-   {"UnitId2String", UnitId2String, METH_VARARGS, "Game.base+0024AF80 (I)S"},
-   {"GetObjectName", GetObjectName, METH_VARARGS, "Game.base+00233540 (I)S"},
-   {"GetIssuedOrderId", GetIssuedOrderId, METH_NOARGS, "Game.base+00232C00 ()I"},
-   {"GetOrderPointX", GetOrderPointX, METH_NOARGS, "Game.base+00233660 ()R"},
-   {"GetOrderPointY", GetOrderPointY, METH_NOARGS, "Game.base+002336B0 ()R"},
-   {"GetOrderPointLoc", GetOrderPointLoc, METH_NOARGS, "Game.base+002335C0 ()Hlocation;"},
-   {"GetOrderTarget", GetOrderTarget, METH_NOARGS, "Game.base+00233700 ()Hwidget;"},
-   {"GetOrderTargetDestructable", GetOrderTargetDestructable, METH_NOARGS, "Game.base+00233860 ()Hdestructable;"},
-   {"GetOrderTargetItem", GetOrderTargetItem, METH_NOARGS, "Game.base+00233980 ()Hitem;"},
-   {"GetOrderTargetUnit", GetOrderTargetUnit, METH_NOARGS, "Game.base+00233AA0 ()Hunit;"},
-   {"GetSpellAbilityUnit", GetSpellAbilityUnit, METH_NOARGS, "Game.base+00234EE0 ()Hunit;"},
-   {"GetSpellAbilityId", GetSpellAbilityId, METH_NOARGS, "Game.base+00234E70 ()I"},
-   {"GetSpellAbility", GetSpellAbility, METH_NOARGS, "Game.base+00234D20 ()Hability;"},
-   {"GetSpellTargetLoc", GetSpellTargetLoc, METH_NOARGS, "Game.base+00235260 ()Hlocation;"},
-   {"GetSpellTargetX", GetSpellTargetX, METH_NOARGS, "Game.base+00235480 ()R"},
-   {"GetSpellTargetY", GetSpellTargetY, METH_NOARGS, "Game.base+00235560 ()R"},
-   {"GetSpellTargetDestructable", GetSpellTargetDestructable, METH_NOARGS, "Game.base+00235000 ()Hdestructable;"},
-   {"GetSpellTargetItem", GetSpellTargetItem, METH_NOARGS, "Game.base+00235130 ()Hitem;"},
-   {"GetSpellTargetUnit", GetSpellTargetUnit, METH_NOARGS, "Game.base+00235350 ()Hunit;"},
-   {"GetLevelingUnit", GetLevelingUnit, METH_NOARGS, "Game.base+00232FF0 ()Hunit;"},
-   {"GetLearningUnit", GetLearningUnit, METH_NOARGS, "Game.base+00232F50 ()Hunit;"},
-   {"GetLearnedSkill", GetLearnedSkill, METH_NOARGS, "Game.base+00232ED0 ()I"},
-   {"GetLearnedSkillLevel", GetLearnedSkillLevel, METH_NOARGS, "Game.base+00232F10 ()I"},
-   {"GetRevivableUnit", GetRevivableUnit, METH_NOARGS, "Game.base+002348B0 ()Hunit;"},
-   {"GetRevivingUnit", GetRevivingUnit, METH_NOARGS, "Game.base+00234910 ()Hunit;"},
-   {"GetSummoningUnit", GetSummoningUnit, METH_NOARGS, "Game.base+00235940 ()Hunit;"},
-   {"GetSummonedUnit", GetSummonedUnit, METH_NOARGS, "Game.base+002358C0 ()Hunit;"},
-   {"GetTransportUnit", GetTransportUnit, METH_NOARGS, "Game.base+00235D50 ()Hunit;"},
-   {"GetLoadedUnit", GetLoadedUnit, METH_NOARGS, "Game.base+00233190 ()Hunit;"},
-   {"GetManipulatingUnit", GetManipulatingUnit, METH_NOARGS, "Game.base+00233420 ()Hunit;"},
-   {"GetManipulatedItem", GetManipulatedItem, METH_NOARGS, "Game.base+00233380 ()Hitem;"},
-   {"TriggerRegisterPlayerAllianceChange", TriggerRegisterPlayerAllianceChange, METH_VARARGS, "Game.base+00249A20 (Htrigger;Hplayer;Halliancetype;)Hevent;"},
-   {"TriggerRegisterPlayerChatEvent", TriggerRegisterPlayerChatEvent, METH_VARARGS, "Game.base+00249AF0 (Htrigger;Hplayer;SB)Hevent;"},
-   {"GetEventPlayerChatString", GetEventPlayerChatString, METH_NOARGS, "Game.base+002323A0 ()S"},
-   {"GetEventPlayerChatStringMatched", GetEventPlayerChatStringMatched, METH_NOARGS, "Game.base+002323E0 ()S"},
-   {"TriggerRegisterUnitStateEvent", TriggerRegisterUnitStateEvent, METH_VARARGS, "Game.base+0024A400 (Htrigger;Hunit;Hunitstate;Hlimitop;R)Hevent;"},
-   {"GetEventUnitState", GetEventUnitState, METH_NOARGS, "Game.base+00232490 ()Hunitstate;"},
-   {"TriggerRegisterDeathEvent", TriggerRegisterDeathEvent, METH_VARARGS, "Game.base+002492E0 (Htrigger;Hwidget;)Hevent;"},
-   {"TriggerRegisterUnitEvent", TriggerRegisterUnitEvent, METH_VARARGS, "Game.base+0024A200 (Htrigger;Hunit;Hunitevent;)Hevent;"},
-   {"GetEventDamage", GetEventDamage, METH_NOARGS, "Game.base+00232290 ()R"},
-   {"GetEventDamageSource", GetEventDamageSource, METH_NOARGS, "Game.base+002322B0 ()Hunit;"},
-   {"GetEventDetectingPlayer", GetEventDetectingPlayer, METH_NOARGS, "Game.base+00232320 ()Hplayer;"},
-   {"GetEventTargetUnit", GetEventTargetUnit, METH_NOARGS, "Game.base+00232440 ()Hunit;"},
-   {"TriggerRegisterFilterUnitEvent", TriggerRegisterFilterUnitEvent, METH_VARARGS, "Game.base+00249610 (Htrigger;Hunit;Hunitevent;Hboolexpr;)Hevent;"},
-   {"TriggerRegisterUnitInRange", TriggerRegisterUnitInRange, METH_VARARGS, "Game.base+0024A310 (Htrigger;Hunit;RHboolexpr;)Hevent;"},
-   {"TriggerRegisterEnterRegion", TriggerRegisterEnterRegion, METH_VARARGS, "Game.base+00249530 (Htrigger;Hregion;Hboolexpr;)Hevent;"},
-   {"TriggerRegisterLeaveRegion", TriggerRegisterLeaveRegion, METH_VARARGS, "Game.base+00249940 (Htrigger;Hregion;Hboolexpr;)Hevent;"},
-   {"GetTriggeringRegion", GetTriggeringRegion, METH_NOARGS, "Game.base+00235EF0 ()Hregion;"},
-   {"GetEnteringUnit", GetEnteringUnit, METH_NOARGS, "Game.base+002321F0 ()Hunit;"},
-   {"GetLeavingUnit", GetLeavingUnit, METH_NOARGS, "Game.base+00232FB0 ()Hunit;"},
-   {"TriggerAddCondition", TriggerAddCondition, METH_VARARGS, "Game.base+002491F0 (Htrigger;Hboolexpr;)Htriggercondition;"},
-   {"TriggerRemoveCondition", TriggerRemoveCondition, METH_VARARGS, "Game.base+0024A5F0 (Htrigger;Htriggercondition;)V"},
-   {"TriggerClearConditions", TriggerClearConditions, METH_VARARGS, "Game.base+00249260 (Htrigger;)V"},
-   {"TriggerAddAction", TriggerAddAction, METH_VARARGS, "Game.base+002491B0 (Htrigger;C)Htriggeraction;"},
-   {"TriggerRemoveAction", TriggerRemoveAction, METH_VARARGS, "Game.base+0024A5C0 (Htrigger;Htriggeraction;)V"},
-   {"TriggerClearActions", TriggerClearActions, METH_VARARGS, "Game.base+00249240 (Htrigger;)V"},
-   {"TriggerSleepAction", TriggerSleepAction, METH_VARARGS, "Game.base+0024A620 (R)V"},
-   {"TriggerWaitForSound", TriggerWaitForSound, METH_VARARGS, "Game.base+0024A670 (Hsound;R)V"},
-   {"TriggerExecute", TriggerExecute, METH_VARARGS, "Game.base+002492A0 (Htrigger;)V"},
-   {"TriggerExecuteWait", TriggerExecuteWait, METH_VARARGS, "Game.base+002492C0 (Htrigger;)V"},
-   {"TriggerEvaluate", TriggerEvaluate, METH_VARARGS, "Game.base+00249280 (Htrigger;)B"},
-   {"TriggerSyncStart", TriggerSyncStart, METH_NOARGS, "Game.base+0024A660 ()V"},
-   {"TriggerSyncReady", TriggerSyncReady, METH_NOARGS, "Game.base+0024A630 ()V"},
-   {"GetTriggerWidget", GetTriggerWidget, METH_NOARGS, "Game.base+00235ED0 ()Hwidget;"},
-   {"GetTriggerDestructable", GetTriggerDestructable, METH_NOARGS, "Game.base+00235DD0 ()Hdestructable;"},
-   {"GetTriggerUnit", GetTriggerUnit, METH_NOARGS, "Game.base+00235EB0 ()Hunit;"},
-   {"GetTriggerPlayer", GetTriggerPlayer, METH_NOARGS, "Game.base+00235E90 ()Hplayer;"},
-   {"GetTriggeringTrigger", GetTriggeringTrigger, METH_NOARGS, "Game.base+00235F70 ()Htrigger;"},
-   {"GetTriggerEventId", GetTriggerEventId, METH_NOARGS, "Game.base+00235E30 ()Heventid;"},
-   {"GetTriggerEvalCount", GetTriggerEvalCount, METH_VARARGS, "Game.base+00235DF0 (Htrigger;)I"},
-   {"GetTriggerExecCount", GetTriggerExecCount, METH_VARARGS, "Game.base+00235E70 (Htrigger;)I"},
-   {"GetFilterUnit", GetFilterUnit, METH_NOARGS, "Game.base+00232590 ()Hunit;"},
-   {"GetEnumUnit", GetEnumUnit, METH_NOARGS, "Game.base+00232270 ()Hunit;"},
-   {"GetEnumPlayer", GetEnumPlayer, METH_NOARGS, "Game.base+00232250 ()Hplayer;"},
-   {"GetFilterPlayer", GetFilterPlayer, METH_NOARGS, "Game.base+00232570 ()Hplayer;"},
-   {"GetFilterDestructable", GetFilterDestructable, METH_NOARGS, "Game.base+00232530 ()Hdestructable;"},
-   {"GetEnumDestructable", GetEnumDestructable, METH_NOARGS, "Game.base+00232210 ()Hdestructable;"},
-   {"GetFilterItem", GetFilterItem, METH_NOARGS, "Game.base+00232550 ()Hitem;"},
-   {"GetEnumItem", GetEnumItem, METH_NOARGS, "Game.base+00232230 ()Hitem;"},
-   {"CreateGroup", CreateGroup, METH_NOARGS, "Game.base+0022E140 ()Hgroup;"},
-   {"DestroyGroup", DestroyGroup, METH_VARARGS, "Game.base+0022F700 (Hgroup;)V"},
-   {"GroupAddUnit", GroupAddUnit, METH_VARARGS, "Game.base+002369B0 (Hgroup;Hunit;)V"},
-   {"GroupRemoveUnit", GroupRemoveUnit, METH_VARARGS, "Game.base+00236ED0 (Hgroup;Hunit;)V"},
-   {"GroupClear", GroupClear, METH_VARARGS, "Game.base+002369E0 (Hgroup;)V"},
-   {"GroupEnumUnitsOfType", GroupEnumUnitsOfType, METH_VARARGS, "Game.base+00236BF0 (Hgroup;SHboolexpr;)V"},
-   {"GroupEnumUnitsOfTypeCounted", GroupEnumUnitsOfTypeCounted, METH_VARARGS, "Game.base+00236C40 (Hgroup;SHboolexpr;I)V"},
-   {"GroupEnumUnitsInRect", GroupEnumUnitsInRect, METH_VARARGS, "Game.base+00236AF0 (Hgroup;Hrect;Hboolexpr;)V"},
-   {"GroupEnumUnitsInRectCounted", GroupEnumUnitsInRectCounted, METH_VARARGS, "Game.base+00236B50 (Hgroup;Hrect;Hboolexpr;I)V"},
-   {"GroupEnumUnitsOfPlayer", GroupEnumUnitsOfPlayer, METH_VARARGS, "Game.base+00236BB0 (Hgroup;Hplayer;Hboolexpr;)V"},
-   {"GroupEnumUnitsInRange", GroupEnumUnitsInRange, METH_VARARGS, "Game.base+00236A00 (Hgroup;RRRHboolexpr;)V"},
-   {"GroupEnumUnitsInRangeOfLoc", GroupEnumUnitsInRangeOfLoc, METH_VARARGS, "Game.base+00236A70 (Hgroup;Hlocation;RHboolexpr;)V"},
-   {"GroupEnumUnitsInRangeCounted", GroupEnumUnitsInRangeCounted, METH_VARARGS, "Game.base+00236A30 (Hgroup;RRRHboolexpr;I)V"},
-   {"GroupEnumUnitsInRangeOfLocCounted", GroupEnumUnitsInRangeOfLocCounted, METH_VARARGS, "Game.base+00236AB0 (Hgroup;Hlocation;RHboolexpr;I)V"},
-   {"GroupEnumUnitsSelected", GroupEnumUnitsSelected, METH_VARARGS, "Game.base+00236C90 (Hgroup;Hplayer;Hboolexpr;)V"},
-   {"GroupImmediateOrder", GroupImmediateOrder, METH_VARARGS, "Game.base+00236DE0 (Hgroup;S)B"},
-   {"GroupImmediateOrderById", GroupImmediateOrderById, METH_VARARGS, "Game.base+00236E00 (Hgroup;I)B"},
-   {"GroupPointOrder", GroupPointOrder, METH_VARARGS, "Game.base+00236E20 (Hgroup;SRR)B"},
-   {"GroupPointOrderLoc", GroupPointOrderLoc, METH_VARARGS, "Game.base+00236EB0 (Hgroup;SHlocation;)B"},
-   {"GroupPointOrderById", GroupPointOrderById, METH_VARARGS, "Game.base+00236E40 (Hgroup;IRR)B"},
-   {"GroupPointOrderByIdLoc", GroupPointOrderByIdLoc, METH_VARARGS, "Game.base+00236E70 (Hgroup;IHlocation;)B"},
-   {"GroupTargetOrder", GroupTargetOrder, METH_VARARGS, "Game.base+00236F00 (Hgroup;SHwidget;)B"},
-   {"GroupTargetOrderById", GroupTargetOrderById, METH_VARARGS, "Game.base+00236F20 (Hgroup;IHwidget;)B"},
-   {"ForGroup", ForGroup, METH_VARARGS, "Game.base+00230D10 (Hgroup;C)V"},
-   {"FirstOfGroup", FirstOfGroup, METH_VARARGS, "Game.base+00230910 (Hgroup;)Hunit;"},
-   {"CreateForce", CreateForce, METH_NOARGS, "Game.base+0022E060 ()Hforce;"},
-   {"DestroyForce", DestroyForce, METH_VARARGS, "Game.base+0022F6E0 (Hforce;)V"},
-   {"ForceAddPlayer", ForceAddPlayer, METH_VARARGS, "Game.base+00230D30 (Hforce;Hplayer;)V"},
-   {"ForceRemovePlayer", ForceRemovePlayer, METH_VARARGS, "Game.base+00230F10 (Hforce;Hplayer;)V"},
-   {"ForceClear", ForceClear, METH_VARARGS, "Game.base+00230DB0 (Hforce;)V"},
-   {"ForceEnumPlayers", ForceEnumPlayers, METH_VARARGS, "Game.base+00230E50 (Hforce;Hboolexpr;)V"},
-   {"ForceEnumPlayersCounted", ForceEnumPlayersCounted, METH_VARARGS, "Game.base+00230E80 (Hforce;Hboolexpr;I)V"},
-   {"ForceEnumAllies", ForceEnumAllies, METH_VARARGS, "Game.base+00230DD0 (Hforce;Hplayer;Hboolexpr;)V"},
-   {"ForceEnumEnemies", ForceEnumEnemies, METH_VARARGS, "Game.base+00230E10 (Hforce;Hplayer;Hboolexpr;)V"},
-   {"ForForce", ForForce, METH_VARARGS, "Game.base+00230CF0 (Hforce;C)V"},
-   {"GetWidgetLife", GetWidgetLife, METH_VARARGS, "Game.base+002367D0 (Hwidget;)R"},
-   {"SetWidgetLife", SetWidgetLife, METH_VARARGS, "Game.base+00247F50 (Hwidget;R)V"},
-   {"GetWidgetX", GetWidgetX, METH_VARARGS, "Game.base+00236800 (Hwidget;)R"},
-   {"GetWidgetY", GetWidgetY, METH_VARARGS, "Game.base+00236840 (Hwidget;)R"},
-   {"CreateDestructable", CreateDestructable, METH_VARARGS, "Game.base+0022DD10 (IRRRRI)Hdestructable;"},
-   {"CreateDestructableZ", CreateDestructableZ, METH_VARARGS, "Game.base+0022DD60 (IRRRRRI)Hdestructable;"},
-   {"CreateDeadDestructable", CreateDeadDestructable, METH_VARARGS, "Game.base+0022DC20 (IRRRRI)Hdestructable;"},
-   {"CreateDeadDestructableZ", CreateDeadDestructableZ, METH_VARARGS, "Game.base+0022DC70 (IRRRRRI)Hdestructable;"},
-   {"RemoveDestructable", RemoveDestructable, METH_VARARGS, "Game.base+00242E60 (Hdestructable;)V"},
-   {"KillDestructable", KillDestructable, METH_VARARGS, "Game.base+0023FD30 (Hdestructable;)V"},
-   {"SetDestructableInvulnerable", SetDestructableInvulnerable, METH_VARARGS, "Game.base+00244CA0 (Hdestructable;B)V"},
-   {"IsDestructableInvulnerable", IsDestructableInvulnerable, METH_VARARGS, "Game.base+00237900 (Hdestructable;)B"},
-   {"EnumDestructablesInRect", EnumDestructablesInRect, METH_VARARGS, "Game.base+00230200 (Hrect;Hboolexpr;C)V"},
-   {"GetDestructableTypeId", GetDestructableTypeId, METH_VARARGS, "Game.base+002320F0 (Hdestructable;)I"},
-   {"GetDestructableX", GetDestructableX, METH_VARARGS, "Game.base+00232110 (Hdestructable;)R"},
-   {"GetDestructableY", GetDestructableY, METH_VARARGS, "Game.base+00232150 (Hdestructable;)R"},
-   {"SetDestructableLife", SetDestructableLife, METH_VARARGS, "Game.base+00244CC0 (Hdestructable;R)V"},
-   {"GetDestructableLife", GetDestructableLife, METH_VARARGS, "Game.base+00232030 (Hdestructable;)R"},
-   {"SetDestructableMaxLife", SetDestructableMaxLife, METH_VARARGS, "Game.base+00244CE0 (Hdestructable;R)V"},
-   {"GetDestructableMaxLife", GetDestructableMaxLife, METH_VARARGS, "Game.base+00232070 (Hdestructable;)R"},
-   {"DestructableRestoreLife", DestructableRestoreLife, METH_VARARGS, "Game.base+0022FA40 (Hdestructable;RB)V"},
-   {"QueueDestructableAnimation", QueueDestructableAnimation, METH_VARARGS, "Game.base+00242870 (Hdestructable;S)V"},
-   {"SetDestructableAnimation", SetDestructableAnimation, METH_VARARGS, "Game.base+00244BB0 (Hdestructable;S)V"},
-   {"SetDestructableAnimationSpeed", SetDestructableAnimationSpeed, METH_VARARGS, "Game.base+00244C70 (Hdestructable;R)V"},
-   {"ShowDestructable", ShowDestructable, METH_VARARGS, "Game.base+00247F70 (Hdestructable;B)V"},
-   {"GetDestructableOccluderHeight", GetDestructableOccluderHeight, METH_VARARGS, "Game.base+002320D0 (Hdestructable;)R"},
-   {"SetDestructableOccluderHeight", SetDestructableOccluderHeight, METH_VARARGS, "Game.base+00244D30 (Hdestructable;R)V"},
-   {"GetDestructableName", GetDestructableName, METH_VARARGS, "Game.base+002320A0 (Hdestructable;)S"},
-   {"CreateUnit", CreateUnit, METH_VARARGS, "Game.base+0022EFB0 (Hplayer;IRRR)Hunit;"},
-   {"CreateUnitByName", CreateUnitByName, METH_VARARGS, "Game.base+0022F090 (Hplayer;SRRR)Hunit;"},
-   {"CreateUnitAtLoc", CreateUnitAtLoc, METH_VARARGS, "Game.base+0022F010 (Hplayer;IHlocation;R)Hunit;"},
-   {"CreateUnitAtLocByName", CreateUnitAtLocByName, METH_VARARGS, "Game.base+0022F060 (Hplayer;SHlocation;R)Hunit;"},
-   {"CreateCorpse", CreateCorpse, METH_VARARGS, "Game.base+0022DB70 (Hplayer;IRRR)Hunit;"},
-   {"GetUnitState", GetUnitState, METH_VARARGS, "Game.base+002366A0 (Hunit;Hunitstate;)R"},
-   {"GetUnitFoodUsed", GetUnitFoodUsed, METH_VARARGS, "Game.base+00236280 (Hunit;)I"},
-   {"GetUnitFoodMade", GetUnitFoodMade, METH_VARARGS, "Game.base+00236260 (Hunit;)I"},
-   {"GetFoodMade", GetFoodMade, METH_VARARGS, "Game.base+00232620 (I)I"},
-   {"GetFoodUsed", GetFoodUsed, METH_VARARGS, "Game.base+00232630 (I)I"},
-   {"SetUnitUseFood", SetUnitUseFood, METH_VARARGS, "Game.base+00247CE0 (Hunit;B)V"},
-   {"GetUnitX", GetUnitX, METH_VARARGS, "Game.base+00236750 (Hunit;)R"},
-   {"GetUnitY", GetUnitY, METH_VARARGS, "Game.base+00236790 (Hunit;)R"},
-   {"GetUnitLoc", GetUnitLoc, METH_VARARGS, "Game.base+00236320 (Hunit;)Hlocation;"},
-   {"GetUnitRallyPoint", GetUnitRallyPoint, METH_VARARGS, "Game.base+00236560 (Hunit;)Hlocation;"},
-   {"GetUnitRallyUnit", GetUnitRallyUnit, METH_VARARGS, "Game.base+002365D0 (Hunit;)Hunit;"},
-   {"GetUnitRallyDestructable", GetUnitRallyDestructable, METH_VARARGS, "Game.base+00236490 (Hunit;)Hdestructable;"},
-   {"GetUnitFacing", GetUnitFacing, METH_VARARGS, "Game.base+002361D0 (Hunit;)R"},
-   {"GetUnitMoveSpeed", GetUnitMoveSpeed, METH_VARARGS, "Game.base+00236380 (Hunit;)R"},
-   {"GetUnitDefaultMoveSpeed", GetUnitDefaultMoveSpeed, METH_VARARGS, "Game.base+002360E0 (Hunit;)R"},
-   {"GetUnitTypeId", GetUnitTypeId, METH_VARARGS, "Game.base+00236710 (Hunit;)I"},
-   {"GetUnitRace", GetUnitRace, METH_VARARGS, "Game.base+00236470 (Hunit;)Hrace;"},
-   {"GetUnitName", GetUnitName, METH_VARARGS, "Game.base+002363E0 (Hunit;)S"},
-   {"GetUnitPointValue", GetUnitPointValue, METH_VARARGS, "Game.base+00236410 (Hunit;)I"},
-   {"GetUnitPointValueByType", GetUnitPointValueByType, METH_VARARGS, "Game.base+00236430 (I)I"},
-   {"SetUnitX", SetUnitX, METH_VARARGS, "Game.base+00247E10 (Hunit;R)V"},
-   {"SetUnitY", SetUnitY, METH_VARARGS, "Game.base+00247E70 (Hunit;R)V"},
-   {"SetUnitPosition", SetUnitPosition, METH_VARARGS, "Game.base+00247AD0 (Hunit;RR)V"},
-   {"SetUnitPositionLoc", SetUnitPositionLoc, METH_VARARGS, "Game.base+00247B30 (Hunit;Hlocation;)V"},
-   {"SetUnitFacing", SetUnitFacing, METH_VARARGS, "Game.base+00247680 (Hunit;R)V"},
-   {"SetUnitFacingTimed", SetUnitFacingTimed, METH_VARARGS, "Game.base+002476C0 (Hunit;RR)V"},
-   {"SetUnitFlyHeight", SetUnitFlyHeight, METH_VARARGS, "Game.base+002477D0 (Hunit;RR)V"},
-   {"SetUnitMoveSpeed", SetUnitMoveSpeed, METH_VARARGS, "Game.base+002479F0 (Hunit;R)V"},
-   {"SetUnitTurnSpeed", SetUnitTurnSpeed, METH_VARARGS, "Game.base+00247C80 (Hunit;R)V"},
-   {"SetUnitPropWindow", SetUnitPropWindow, METH_VARARGS, "Game.base+00247B70 (Hunit;R)V"},
-   {"SetUnitCreepGuard", SetUnitCreepGuard, METH_VARARGS, "Game.base+002475F0 (Hunit;B)V"},
-   {"GetUnitAcquireRange", GetUnitAcquireRange, METH_VARARGS, "Game.base+00235FF0 (Hunit;)R"},
-   {"GetUnitTurnSpeed", GetUnitTurnSpeed, METH_VARARGS, "Game.base+002366E0 (Hunit;)R"},
-   {"GetUnitPropWindow", GetUnitPropWindow, METH_VARARGS, "Game.base+00236440 (Hunit;)R"},
-   {"GetUnitFlyHeight", GetUnitFlyHeight, METH_VARARGS, "Game.base+00236240 (Hunit;)R"},
-   {"GetUnitDefaultAcquireRange", GetUnitDefaultAcquireRange, METH_VARARGS, "Game.base+00236080 (Hunit;)R"},
-   {"GetUnitDefaultTurnSpeed", GetUnitDefaultTurnSpeed, METH_VARARGS, "Game.base+002361A0 (Hunit;)R"},
-   {"GetUnitDefaultPropWindow", GetUnitDefaultPropWindow, METH_VARARGS, "Game.base+00236170 (Hunit;)R"},
-   {"GetUnitDefaultFlyHeight", GetUnitDefaultFlyHeight, METH_VARARGS, "Game.base+002360B0 (Hunit;)R"},
-   {"SetUnitAcquireRange", SetUnitAcquireRange, METH_VARARGS, "Game.base+002473B0 (Hunit;R)V"},
-   {"SetUnitState", SetUnitState, METH_VARARGS, "Game.base+00247C20 (Hunit;Hunitstate;R)V"},
-   {"SetUnitOwner", SetUnitOwner, METH_VARARGS, "Game.base+00247A10 (Hunit;Hplayer;B)V"},
-   {"SetUnitRescuable", SetUnitRescuable, METH_VARARGS, "Game.base+00247B90 (Hunit;Hplayer;B)V"},
-   {"SetUnitRescueRange", SetUnitRescueRange, METH_VARARGS, "Game.base+00247BC0 (Hunit;R)V"},
-   {"SetUnitColor", SetUnitColor, METH_VARARGS, "Game.base+002475B0 (Hunit;Hplayercolor;)V"},
-   {"QueueUnitAnimation", QueueUnitAnimation, METH_VARARGS, "Game.base+00242890 (Hunit;S)V"},
-   {"SetUnitAnimation", SetUnitAnimation, METH_VARARGS, "Game.base+002473D0 (Hunit;S)V"},
-   {"SetUnitAnimationWithRarity", SetUnitAnimationWithRarity, METH_VARARGS, "Game.base+00247560 (Hunit;SHraritycontrol;)V"},
-   {"SetUnitAnimationByIndex", SetUnitAnimationByIndex, METH_VARARGS, "Game.base+002473F0 (Hunit;I)V"},
-   {"AddUnitAnimationProperties", AddUnitAnimationProperties, METH_VARARGS, "Game.base+0022A600 (Hunit;SB)V"},
-   {"SetUnitScale", SetUnitScale, METH_VARARGS, "Game.base+00247BE0 (Hunit;RRR)V"},
-   {"SetUnitTimeScale", SetUnitTimeScale, METH_VARARGS, "Game.base+00247C50 (Hunit;R)V"},
-   {"SetUnitBlendTime", SetUnitBlendTime, METH_VARARGS, "Game.base+00247580 (Hunit;R)V"},
-   {"SetUnitVertexColor", SetUnitVertexColor, METH_VARARGS, "Game.base+00247D70 (Hunit;IIII)V"},
-   {"SetUnitLookAt", SetUnitLookAt, METH_VARARGS, "Game.base+00247880 (Hunit;SHunit;RRR)V"},
-   {"SetUnitPathing", SetUnitPathing, METH_VARARGS, "Game.base+00247A50 (Hunit;B)V"},
-   {"ResetUnitLookAt", ResetUnitLookAt, METH_VARARGS, "Game.base+00243320 (Hunit;)V"},
-   {"SetHeroStr", SetHeroStr, METH_VARARGS, "Game.base+00245A30 (Hunit;IB)V"},
-   {"SetHeroAgi", SetHeroAgi, METH_VARARGS, "Game.base+002458C0 (Hunit;IB)V"},
-   {"SetHeroInt", SetHeroInt, METH_VARARGS, "Game.base+00245920 (Hunit;IB)V"},
-   {"GetHeroStr", GetHeroStr, METH_VARARGS, "Game.base+00232A70 (Hunit;B)I"},
-   {"GetHeroAgi", GetHeroAgi, METH_VARARGS, "Game.base+00232850 (Hunit;B)I"},
-   {"GetHeroInt", GetHeroInt, METH_VARARGS, "Game.base+002328B0 (Hunit;B)I"},
-   {"GetHeroSkillPoints", GetHeroSkillPoints, METH_VARARGS, "Game.base+00232A10 (Hunit;)I"},
-   {"UnitStripHeroLevel", UnitStripHeroLevel, METH_VARARGS, "Game.base+0024B510 (Hunit;I)B"},
-   {"UnitModifySkillPoints", UnitModifySkillPoints, METH_VARARGS, "Game.base+0024B190 (Hunit;I)B"},
-   {"GetHeroXP", GetHeroXP, METH_VARARGS, "Game.base+00232AD0 (Hunit;)I"},
-   {"SetHeroXP", SetHeroXP, METH_VARARGS, "Game.base+00245A90 (Hunit;IB)V"},
-   {"AddHeroXP", AddHeroXP, METH_VARARGS, "Game.base+00229E60 (Hunit;IB)V"},
-   {"SetHeroLevel", SetHeroLevel, METH_VARARGS, "Game.base+00245980 (Hunit;IB)V"},
-   {"GetHeroLevel", GetHeroLevel, METH_VARARGS, "Game.base+00232910 (Hunit;)I"},
-   {"GetUnitLevel", GetUnitLevel, METH_VARARGS, "Game.base+002362B0 (Hunit;)I"},
-   {"GetHeroProperName", GetHeroProperName, METH_VARARGS, "Game.base+00232970 (Hunit;)S"},
-   {"SuspendHeroXP", SuspendHeroXP, METH_VARARGS, "Game.base+002489B0 (Hunit;B)V"},
-   {"IsSuspendedXP", IsSuspendedXP, METH_VARARGS, "Game.base+00238470 (Hunit;)B"},
-   {"SelectHeroSkill", SelectHeroSkill, METH_VARARGS, "Game.base+00243E50 (Hunit;I)V"},
-   {"GetUnitAbilityLevel", GetUnitAbilityLevel, METH_VARARGS, "Game.base+00235F90 (Hunit;I)I"},
-   {"ReviveHero", ReviveHero, METH_VARARGS, "Game.base+002434A0 (Hunit;RRB)B"},
-   {"ReviveHeroLoc", ReviveHeroLoc, METH_VARARGS, "Game.base+00243520 (Hunit;Hlocation;B)B"},
-   {"SetUnitExploded", SetUnitExploded, METH_VARARGS, "Game.base+00247620 (Hunit;B)V"},
-   {"SetUnitInvulnerable", SetUnitInvulnerable, METH_VARARGS, "Game.base+00247830 (Hunit;B)V"},
-   {"PauseUnit", PauseUnit, METH_VARARGS, "Game.base+00241BA0 (Hunit;B)V"},
-   {"IsUnitPaused", IsUnitPaused, METH_VARARGS, "Game.base+00238C50 (Hunit;)B"},
-   {"UnitAddItem", UnitAddItem, METH_VARARGS, "Game.base+0024A7B0 (Hunit;Hitem;)B"},
-   {"UnitAddItemById", UnitAddItemById, METH_VARARGS, "Game.base+0024A8A0 (Hunit;I)Hitem;"},
-   {"UnitAddItemToSlotById", UnitAddItemToSlotById, METH_VARARGS, "Game.base+0024A950 (Hunit;II)B"},
-   {"UnitRemoveItem", UnitRemoveItem, METH_VARARGS, "Game.base+0024B310 (Hunit;Hitem;)V"},
-   {"UnitRemoveItemFromSlot", UnitRemoveItemFromSlot, METH_VARARGS, "Game.base+0024B350 (Hunit;I)Hitem;"},
-   {"UnitHasItem", UnitHasItem, METH_VARARGS, "Game.base+0024AF30 (Hunit;Hitem;)B"},
-   {"UnitItemInSlot", UnitItemInSlot, METH_VARARGS, "Game.base+0024B0F0 (Hunit;I)Hitem;"},
-   {"UnitInventorySize", UnitInventorySize, METH_VARARGS, "Game.base+0024B080 (Hunit;)I"},
-   {"UnitDropItemPoint", UnitDropItemPoint, METH_VARARGS, "Game.base+0024ADC0 (Hunit;Hitem;RR)B"},
-   {"UnitDropItemSlot", UnitDropItemSlot, METH_VARARGS, "Game.base+0024AE20 (Hunit;Hitem;I)B"},
-   {"UnitDropItemTarget", UnitDropItemTarget, METH_VARARGS, "Game.base+0024AE90 (Hunit;Hitem;Hwidget;)B"},
-   {"UnitUseItem", UnitUseItem, METH_VARARGS, "Game.base+0024B5D0 (Hunit;Hitem;)B"},
-   {"UnitUseItemPoint", UnitUseItemPoint, METH_VARARGS, "Game.base+0024B640 (Hunit;Hitem;RR)B"},
-   {"UnitUseItemTarget", UnitUseItemTarget, METH_VARARGS, "Game.base+0024B6B0 (Hunit;Hitem;Hwidget;)B"},
-   {"GetUnitCurrentOrder", GetUnitCurrentOrder, METH_VARARGS, "Game.base+00236020 (Hunit;)I"},
-   {"SetResourceAmount", SetResourceAmount, METH_VARARGS, "Game.base+00246780 (Hunit;I)V"},
-   {"AddResourceAmount", AddResourceAmount, METH_VARARGS, "Game.base+0022A2B0 (Hunit;I)V"},
-   {"GetResourceAmount", GetResourceAmount, METH_VARARGS, "Game.base+00234850 (Hunit;)I"},
-   {"SelectUnit", SelectUnit, METH_VARARGS, "Game.base+00243EB0 (Hunit;B)V"},
-   {"ClearSelection", ClearSelection, METH_NOARGS, "Game.base+0022B3D0 ()V"},
-   {"UnitAddIndicator", UnitAddIndicator, METH_VARARGS, "Game.base+0024A720 (Hunit;IIII)V"},
-   {"AddIndicator", AddIndicator, METH_VARARGS, "Game.base+00229ED0 (Hwidget;IIII)V"},
-   {"KillUnit", KillUnit, METH_VARARGS, "Game.base+0023FD70 (Hunit;)V"},
-   {"RemoveUnit", RemoveUnit, METH_VARARGS, "Game.base+00243120 (Hunit;)V"},
-   {"ShowUnit", ShowUnit, METH_VARARGS, "Game.base+00248010 (Hunit;B)V"},
-   {"IsUnitInForce", IsUnitInForce, METH_VARARGS, "Game.base+00238970 (Hunit;Hforce;)B"},
-   {"IsUnitInGroup", IsUnitInGroup, METH_VARARGS, "Game.base+002389B0 (Hunit;Hgroup;)B"},
-   {"IsUnitOwnedByPlayer", IsUnitOwnedByPlayer, METH_VARARGS, "Game.base+00238C10 (Hunit;Hplayer;)B"},
-   {"IsUnitAlly", IsUnitAlly, METH_VARARGS, "Game.base+002385B0 (Hunit;Hplayer;)B"},
-   {"IsUnitEnemy", IsUnitEnemy, METH_VARARGS, "Game.base+00238650 (Hunit;Hplayer;)B"},
-   {"IsUnitVisible", IsUnitVisible, METH_VARARGS, "Game.base+00238F10 (Hunit;Hplayer;)B"},
-   {"IsUnitDetected", IsUnitDetected, METH_VARARGS, "Game.base+00238610 (Hunit;Hplayer;)B"},
-   {"IsUnitInvisible", IsUnitInvisible, METH_VARARGS, "Game.base+00238B30 (Hunit;Hplayer;)B"},
-   {"IsUnitFogged", IsUnitFogged, METH_VARARGS, "Game.base+002386D0 (Hunit;Hplayer;)B"},
-   {"IsUnitMasked", IsUnitMasked, METH_VARARGS, "Game.base+00238B90 (Hunit;Hplayer;)B"},
-   {"IsUnitSelected", IsUnitSelected, METH_VARARGS, "Game.base+00238CD0 (Hunit;Hplayer;)B"},
-   {"IsUnitRace", IsUnitRace, METH_VARARGS, "Game.base+00238CA0 (Hunit;Hrace;)B"},
-   {"IsUnitType", IsUnitType, METH_VARARGS, "Game.base+00238D50 (Hunit;Hunittype;)B"},
-   {"IsUnit", IsUnit, METH_VARARGS, "Game.base+00238580 (Hunit;Hunit;)B"},
-   {"IsUnitInRange", IsUnitInRange, METH_VARARGS, "Game.base+002389E0 (Hunit;Hunit;R)B"},
-   {"IsUnitInRangeXY", IsUnitInRangeXY, METH_VARARGS, "Game.base+00238A70 (Hunit;RRR)B"},
-   {"IsUnitInRangeLoc", IsUnitInRangeLoc, METH_VARARGS, "Game.base+00238A30 (Hunit;Hlocation;R)B"},
-   {"IsUnitHidden", IsUnitHidden, METH_VARARGS, "Game.base+00238750 (Hunit;)B"},
-   {"IsUnitIllusion", IsUnitIllusion, METH_VARARGS, "Game.base+00238950 (Hunit;)B"},
-   {"IsUnitInTransport", IsUnitInTransport, METH_VARARGS, "Game.base+00238B00 (Hunit;Hunit;)B"},
-   {"IsUnitLoaded", IsUnitLoaded, METH_VARARGS, "Game.base+00238B70 (Hunit;)B"},
-   {"IsHeroUnitId", IsHeroUnitId, METH_VARARGS, "Game.base+00237BE0 (I)B"},
-   {"IsUnitIdType", IsUnitIdType, METH_VARARGS, "Game.base+00238770 (IHunittype;)B"},
-   {"GetOwningPlayer", GetOwningPlayer, METH_VARARGS, "Game.base+00233C40 (Hunit;)Hplayer;"},
-   {"UnitShareVision", UnitShareVision, METH_VARARGS, "Game.base+0024B4E0 (Hunit;Hplayer;B)V"},
-   {"UnitSuspendDecay", UnitSuspendDecay, METH_VARARGS, "Game.base+0024B570 (Hunit;B)V"},
-   {"UnitAddType", UnitAddType, METH_VARARGS, "Game.base+0024AA90 (Hunit;Hunittype;)B"},
-   {"UnitRemoveType", UnitRemoveType, METH_VARARGS, "Game.base+0024B3B0 (Hunit;Hunittype;)B"},
-   {"UnitAddAbility", UnitAddAbility, METH_VARARGS, "Game.base+0024A6B0 (Hunit;I)B"},
-   {"UnitRemoveAbility", UnitRemoveAbility, METH_VARARGS, "Game.base+0024B250 (Hunit;I)B"},
-   {"UnitMakeAbilityPermanent", UnitMakeAbilityPermanent, METH_VARARGS, "Game.base+0024B140 (Hunit;BI)B"},
-   {"UnitHasBuffsEx", UnitHasBuffsEx, METH_VARARGS, "Game.base+0024AEF0 (Hunit;BBBBBBB)B"},
-   {"UnitCountBuffsEx", UnitCountBuffsEx, METH_VARARGS, "Game.base+0024ABE0 (Hunit;BBBBBBB)I"},
-   {"UnitRemoveBuffs", UnitRemoveBuffs, METH_VARARGS, "Game.base+0024B2A0 (Hunit;BB)V"},
-   {"UnitRemoveBuffsEx", UnitRemoveBuffsEx, METH_VARARGS, "Game.base+0024B2D0 (Hunit;BBBBBBB)V"},
-   {"UnitAddSleep", UnitAddSleep, METH_VARARGS, "Game.base+0024A9F0 (Hunit;B)V"},
-   {"UnitCanSleep", UnitCanSleep, METH_VARARGS, "Game.base+0024AB60 (Hunit;)B"},
-   {"UnitAddSleepPerm", UnitAddSleepPerm, METH_VARARGS, "Game.base+0024AA40 (Hunit;B)V"},
-   {"UnitCanSleepPerm", UnitCanSleepPerm, METH_VARARGS, "Game.base+0024ABA0 (Hunit;)B"},
-   {"UnitIsSleeping", UnitIsSleeping, METH_VARARGS, "Game.base+0024B0B0 (Hunit;)B"},
-   {"UnitWakeUp", UnitWakeUp, METH_VARARGS, "Game.base+0024B730 (Hunit;)V"},
-   {"UnitApplyTimedLife", UnitApplyTimedLife, METH_VARARGS, "Game.base+0024AAF0 (Hunit;IR)V"},
-   {"UnitIgnoreAlarm", UnitIgnoreAlarm, METH_VARARGS, "Game.base+0024AFE0 (Hunit;B)B"},
-   {"UnitIgnoreAlarmToggled", UnitIgnoreAlarmToggled, METH_VARARGS, "Game.base+0024B040 (Hunit;)B"},
-   {"UnitDamagePoint", UnitDamagePoint, METH_VARARGS, "Game.base+0024AC20 (Hunit;RRRRRBBHattacktype;Hdamagetype;Hweapontype;)B"},
-   {"UnitDamageTarget", UnitDamageTarget, METH_VARARGS, "Game.base+0024AD10 (Hunit;Hwidget;RBBHattacktype;Hdamagetype;Hweapontype;)B"},
-   {"DecUnitAbilityLevel", DecUnitAbilityLevel, METH_VARARGS, "Game.base+0022F270 (Hunit;I)I"},
-   {"IncUnitAbilityLevel", IncUnitAbilityLevel, METH_VARARGS, "Game.base+002373E0 (Hunit;I)I"},
-   {"SetUnitAbilityLevel", SetUnitAbilityLevel, METH_VARARGS, "Game.base+002472E0 (Hunit;II)I"},
-   {"UnitResetCooldown", UnitResetCooldown, METH_VARARGS, "Game.base+0024B410 (Hunit;)V"},
-   {"UnitSetConstructionProgress", UnitSetConstructionProgress, METH_VARARGS, "Game.base+0024B430 (Hunit;I)V"},
-   {"UnitSetUpgradeProgress", UnitSetUpgradeProgress, METH_VARARGS, "Game.base+0024B470 (Hunit;I)V"},
-   {"UnitPauseTimedLife", UnitPauseTimedLife, METH_VARARGS, "Game.base+0024B1F0 (Hunit;B)V"},
-   {"UnitSetUsesAltIcon", UnitSetUsesAltIcon, METH_VARARGS, "Game.base+0024B4B0 (Hunit;B)V"},
-   {"IssueImmediateOrderById", IssueImmediateOrderById, METH_VARARGS, "Game.base+00239130 (Hunit;I)B"},
-   {"IssuePointOrderById", IssuePointOrderById, METH_VARARGS, "Game.base+00239500 (Hunit;IRR)B"},
-   {"IssuePointOrderByIdLoc", IssuePointOrderByIdLoc, METH_VARARGS, "Game.base+002396A0 (Hunit;IHlocation;)B"},
-   {"IssueTargetOrderById", IssueTargetOrderById, METH_VARARGS, "Game.base+00239750 (Hunit;IHwidget;)B"},
-   {"IssueInstantPointOrderById", IssueInstantPointOrderById, METH_VARARGS, "Game.base+002391D0 (Hunit;IRRHwidget;)B"},
-   {"IssueInstantTargetOrderById", IssueInstantTargetOrderById, METH_VARARGS, "Game.base+00239280 (Hunit;IHwidget;Hwidget;)B"},
-   {"IssueBuildOrderById", IssueBuildOrderById, METH_VARARGS, "Game.base+00239060 (Hunit;IRR)B"},
-   {"IssueNeutralImmediateOrderById", IssueNeutralImmediateOrderById, METH_VARARGS, "Game.base+002393C0 (Hplayer;Hunit;I)B"},
-   {"IssueNeutralPointOrderById", IssueNeutralPointOrderById, METH_VARARGS, "Game.base+00239420 (Hplayer;Hunit;IRR)B"},
-   {"IssueNeutralTargetOrderById", IssueNeutralTargetOrderById, METH_VARARGS, "Game.base+00239490 (Hplayer;Hunit;IHwidget;)B"},
-   {"IssueImmediateOrder", IssueImmediateOrder, METH_VARARGS, "Game.base+00239110 (Hunit;S)B"},
-   {"IssuePointOrder", IssuePointOrder, METH_VARARGS, "Game.base+002394E0 (Hunit;SRR)B"},
-   {"IssuePointOrderLoc", IssuePointOrderLoc, METH_VARARGS, "Game.base+002396E0 (Hunit;SHlocation;)B"},
-   {"IssueTargetOrder", IssueTargetOrder, METH_VARARGS, "Game.base+00239730 (Hunit;SHwidget;)B"},
-   {"IssueInstantPointOrder", IssueInstantPointOrder, METH_VARARGS, "Game.base+002391B0 (Hunit;SRRHwidget;)B"},
-   {"IssueInstantTargetOrder", IssueInstantTargetOrder, METH_VARARGS, "Game.base+00239260 (Hunit;SHwidget;Hwidget;)B"},
-   {"IssueBuildOrder", IssueBuildOrder, METH_VARARGS, "Game.base+00239040 (Hunit;SRR)B"},
-   {"IssueNeutralImmediateOrder", IssueNeutralImmediateOrder, METH_VARARGS, "Game.base+002393A0 (Hplayer;Hunit;S)B"},
-   {"IssueNeutralPointOrder", IssueNeutralPointOrder, METH_VARARGS, "Game.base+00239400 (Hplayer;Hunit;SRR)B"},
-   {"IssueNeutralTargetOrder", IssueNeutralTargetOrder, METH_VARARGS, "Game.base+00239470 (Hplayer;Hunit;SHwidget;)B"},
-   {"WaygateGetDestinationX", WaygateGetDestinationX, METH_VARARGS, "Game.base+0024B930 (Hunit;)R"},
-   {"WaygateGetDestinationY", WaygateGetDestinationY, METH_VARARGS, "Game.base+0024B980 (Hunit;)R"},
-   {"WaygateSetDestination", WaygateSetDestination, METH_VARARGS, "Game.base+0024BA10 (Hunit;RR)V"},
-   {"WaygateActivate", WaygateActivate, METH_VARARGS, "Game.base+0024B8F0 (Hunit;B)V"},
-   {"WaygateIsActive", WaygateIsActive, METH_VARARGS, "Game.base+0024B9D0 (Hunit;)B"},
-   {"AddItemToAllStock", AddItemToAllStock, METH_VARARGS, "Game.base+0022A070 (III)V"},
-   {"AddItemToStock", AddItemToStock, METH_VARARGS, "Game.base+0022A090 (Hunit;III)V"},
-   {"AddUnitToAllStock", AddUnitToAllStock, METH_VARARGS, "Game.base+0022A6B0 (III)V"},
-   {"AddUnitToStock", AddUnitToStock, METH_VARARGS, "Game.base+0022A6D0 (Hunit;III)V"},
-   {"RemoveItemFromAllStock", RemoveItemFromAllStock, METH_VARARGS, "Game.base+00242ED0 (I)V"},
-   {"RemoveItemFromStock", RemoveItemFromStock, METH_VARARGS, "Game.base+00242EE0 (Hunit;I)V"},
-   {"RemoveUnitFromAllStock", RemoveUnitFromAllStock, METH_VARARGS, "Game.base+00243150 (I)V"},
-   {"RemoveUnitFromStock", RemoveUnitFromStock, METH_VARARGS, "Game.base+00243160 (Hunit;I)V"},
-   {"SetAllItemTypeSlots", SetAllItemTypeSlots, METH_VARARGS, "Game.base+00244000 (I)V"},
-   {"SetAllUnitTypeSlots", SetAllUnitTypeSlots, METH_VARARGS, "Game.base+00244010 (I)V"},
-   {"SetItemTypeSlots", SetItemTypeSlots, METH_VARARGS, "Game.base+00245ED0 (Hunit;I)V"},
-   {"SetUnitTypeSlots", SetUnitTypeSlots, METH_VARARGS, "Game.base+00247CA0 (Hunit;I)V"},
-   {"GetUnitUserData", GetUnitUserData, METH_VARARGS, "Game.base+00236730 (Hunit;)I"},
-   {"SetUnitUserData", SetUnitUserData, METH_VARARGS, "Game.base+00247D50 (Hunit;I)V"},
-   {"CreateItem", CreateItem, METH_VARARGS, "Game.base+0022E2C0 (IRR)Hitem;"},
-   {"RemoveItem", RemoveItem, METH_VARARGS, "Game.base+00242EA0 (Hitem;)V"},
-   {"GetItemPlayer", GetItemPlayer, METH_VARARGS, "Game.base+00232CF0 (Hitem;)Hplayer;"},
-   {"GetItemTypeId", GetItemTypeId, METH_VARARGS, "Game.base+00232D60 (Hitem;)I"},
-   {"GetItemX", GetItemX, METH_VARARGS, "Game.base+00232DA0 (Hitem;)R"},
-   {"GetItemY", GetItemY, METH_VARARGS, "Game.base+00232DE0 (Hitem;)R"},
-   {"SetItemPosition", SetItemPosition, METH_VARARGS, "Game.base+00245E50 (Hitem;RR)V"},
-   {"SetItemDropOnDeath", SetItemDropOnDeath, METH_VARARGS, "Game.base+00245D70 (Hitem;B)V"},
-   {"SetItemDroppable", SetItemDroppable, METH_VARARGS, "Game.base+00245DA0 (Hitem;B)V"},
-   {"SetItemPawnable", SetItemPawnable, METH_VARARGS, "Game.base+00245DF0 (Hitem;B)V"},
-   {"SetItemPlayer", SetItemPlayer, METH_VARARGS, "Game.base+00245E20 (Hitem;Hplayer;B)V"},
-   {"SetItemInvulnerable", SetItemInvulnerable, METH_VARARGS, "Game.base+00245DD0 (Hitem;B)V"},
-   {"IsItemInvulnerable", IsItemInvulnerable, METH_VARARGS, "Game.base+00237CA0 (Hitem;)B"},
-   {"GetItemLevel", GetItemLevel, METH_VARARGS, "Game.base+00232CA0 (Hitem;)I"},
-   {"GetItemType", GetItemType, METH_VARARGS, "Game.base+00232D40 (Hitem;)Hitemtype;"},
-   {"SetItemVisible", SetItemVisible, METH_VARARGS, "Game.base+00245F30 (Hitem;B)V"},
-   {"IsItemVisible", IsItemVisible, METH_VARARGS, "Game.base+00237D60 (Hitem;)B"},
-   {"EnumItemsInRect", EnumItemsInRect, METH_VARARGS, "Game.base+002302F0 (Hrect;Hboolexpr;C)V"},
-   {"IsItemOwned", IsItemOwned, METH_VARARGS, "Game.base+00237CC0 (Hitem;)B"},
-   {"IsItemPowerup", IsItemPowerup, METH_VARARGS, "Game.base+00237D20 (Hitem;)B"},
-   {"IsItemSellable", IsItemSellable, METH_VARARGS, "Game.base+00237D40 (Hitem;)B"},
-   {"IsItemPawnable", IsItemPawnable, METH_VARARGS, "Game.base+00237D00 (Hitem;)B"},
-   {"IsItemIdPowerup", IsItemIdPowerup, METH_VARARGS, "Game.base+00237C80 (I)B"},
-   {"IsItemIdSellable", IsItemIdSellable, METH_VARARGS, "Game.base+00237C90 (I)B"},
-   {"IsItemIdPawnable", IsItemIdPawnable, METH_VARARGS, "Game.base+00237C70 (I)B"},
-   {"SetItemDropID", SetItemDropID, METH_VARARGS, "Game.base+00245D50 (Hitem;I)V"},
-   {"GetItemName", GetItemName, METH_VARARGS, "Game.base+00232CC0 (Hitem;)S"},
-   {"GetItemCharges", GetItemCharges, METH_VARARGS, "Game.base+00232C80 (Hitem;)I"},
-   {"SetItemCharges", SetItemCharges, METH_VARARGS, "Game.base+00245CF0 (Hitem;I)V"},
-   {"GetItemUserData", GetItemUserData, METH_VARARGS, "Game.base+00232D80 (Hitem;)I"},
-   {"SetItemUserData", SetItemUserData, METH_VARARGS, "Game.base+00245F10 (Hitem;I)V"},
-   {"Player", Player, METH_VARARGS, "Game.base+00241EF0 (I)Hplayer;"},
-   {"GetLocalPlayer", GetLocalPlayer, METH_NOARGS, "Game.base+002331F0 ()Hplayer;"},
-   {"IsPlayerAlly", IsPlayerAlly, METH_VARARGS, "Game.base+002380D0 (Hplayer;Hplayer;)B"},
-   {"IsPlayerEnemy", IsPlayerEnemy, METH_VARARGS, "Game.base+00238120 (Hplayer;Hplayer;)B"},
-   {"IsPlayerInForce", IsPlayerInForce, METH_VARARGS, "Game.base+002381D0 (Hplayer;Hforce;)B"},
-   {"IsPlayerObserver", IsPlayerObserver, METH_VARARGS, "Game.base+00238200 (Hplayer;)B"},
-   {"GetPlayerRace", GetPlayerRace, METH_VARARGS, "Game.base+00233E10 (Hplayer;)Hrace;"},
-   {"GetPlayerId", GetPlayerId, METH_VARARGS, "Game.base+00233DC0 (Hplayer;)I"},
-   {"SetPlayerTechMaxAllowed", SetPlayerTechMaxAllowed, METH_VARARGS, "Game.base+002465B0 (Hplayer;II)V"},
-   {"GetPlayerTechMaxAllowed", GetPlayerTechMaxAllowed, METH_VARARGS, "Game.base+00234260 (Hplayer;I)I"},
-   {"AddPlayerTechResearched", AddPlayerTechResearched, METH_VARARGS, "Game.base+0022A250 (Hplayer;II)V"},
-   {"SetPlayerTechResearched", SetPlayerTechResearched, METH_VARARGS, "Game.base+002465E0 (Hplayer;II)V"},
-   {"GetPlayerTechResearched", GetPlayerTechResearched, METH_VARARGS, "Game.base+002342A0 (Hplayer;IB)B"},
-   {"GetPlayerTechCount", GetPlayerTechCount, METH_VARARGS, "Game.base+00234230 (Hplayer;IB)I"},
-   {"SetPlayerAbilityAvailable", SetPlayerAbilityAvailable, METH_VARARGS, "Game.base+002461A0 (Hplayer;IB)V"},
-   {"GetPlayerUnitCount", GetPlayerUnitCount, METH_VARARGS, "Game.base+00234340 (Hplayer;B)I"},
-   {"GetPlayerTypedUnitCount", GetPlayerTypedUnitCount, METH_VARARGS, "Game.base+002342D0 (Hplayer;SBB)I"},
-   {"GetPlayerStructureCount", GetPlayerStructureCount, METH_VARARGS, "Game.base+00234180 (Hplayer;B)I"},
-   {"IsVisibleToPlayer", IsVisibleToPlayer, METH_VARARGS, "Game.base+00238FE0 (RRHplayer;)B"},
-   {"IsLocationVisibleToPlayer", IsLocationVisibleToPlayer, METH_VARARGS, "Game.base+00237E70 (Hlocation;Hplayer;)B"},
-   {"IsFoggedToPlayer", IsFoggedToPlayer, METH_VARARGS, "Game.base+00237AA0 (RRHplayer;)B"},
-   {"IsLocationFoggedToPlayer", IsLocationFoggedToPlayer, METH_VARARGS, "Game.base+00237DB0 (Hlocation;Hplayer;)B"},
-   {"IsMaskedToPlayer", IsMaskedToPlayer, METH_VARARGS, "Game.base+00237F80 (RRHplayer;)B"},
-   {"IsLocationMaskedToPlayer", IsLocationMaskedToPlayer, METH_VARARGS, "Game.base+00237E30 (Hlocation;Hplayer;)B"},
-   {"SetPlayerState", SetPlayerState, METH_VARARGS, "Game.base+002464C0 (Hplayer;Hplayerstate;I)V"},
-   {"GetPlayerState", GetPlayerState, METH_VARARGS, "Game.base+00234120 (Hplayer;Hplayerstate;)I"},
-   {"GetPlayerScore", GetPlayerScore, METH_VARARGS, "Game.base+00233E30 (Hplayer;Hplayerscore;)I"},
-   {"GetPlayerAlliance", GetPlayerAlliance, METH_VARARGS, "Game.base+00233CF0 (Hplayer;Hplayer;Halliancetype;)B"},
-   {"RemovePlayer", RemovePlayer, METH_VARARGS, "Game.base+00242F50 (Hplayer;Hplayergameresult;)V"},
-   {"CachePlayerHeroData", CachePlayerHeroData, METH_VARARGS, "Game.base+0022AA30 (Hplayer;)V"},
-   {"GetPlayerHandicap", GetPlayerHandicap, METH_VARARGS, "Game.base+00233D80 (Hplayer;)R"},
-   {"SetPlayerHandicap", SetPlayerHandicap, METH_VARARGS, "Game.base+002462C0 (Hplayer;R)V"},
-   {"GetPlayerHandicapXP", GetPlayerHandicapXP, METH_VARARGS, "Game.base+00233DA0 (Hplayer;)R"},
-   {"SetPlayerHandicapXP", SetPlayerHandicapXP, METH_VARARGS, "Game.base+00246380 (Hplayer;R)V"},
-   {"SetPlayerUnitsOwner", SetPlayerUnitsOwner, METH_VARARGS, "Game.base+00246620 (Hplayer;I)V"},
-   {"CripplePlayer", CripplePlayer, METH_VARARGS, "Game.base+0022F1C0 (Hplayer;Hforce;B)V"},
-   {"VersionGet", VersionGet, METH_NOARGS, "Game.base+0024B870 ()Hversion;"},
-   {"VersionCompatible", VersionCompatible, METH_VARARGS, "Game.base+0024B860 (Hversion;)B"},
-   {"VersionSupported", VersionSupported, METH_VARARGS, "Game.base+0024B880 (Hversion;)B"},
-   {"EndGame", EndGame, METH_VARARGS, "Game.base+002301C0 (B)V"},
-   {"ChangeLevel", ChangeLevel, METH_VARARGS, "Game.base+0022B060 (SB)V"},
-   {"RestartGame", RestartGame, METH_VARARGS, "Game.base+00243380 (B)V"},
-   {"ReloadGame", ReloadGame, METH_NOARGS, "Game.base+00242DC0 ()V"},
-   {"LoadGame", LoadGame, METH_VARARGS, "Game.base+002406D0 (SB)V"},
-   {"SaveGame", SaveGame, METH_VARARGS, "Game.base+00243870 (S)V"},
-   {"RenameSaveDirectory", RenameSaveDirectory, METH_VARARGS, "Game.base+002431B0 (SS)B"},
-   {"RemoveSaveDirectory", RemoveSaveDirectory, METH_VARARGS, "Game.base+00242FB0 (S)B"},
-   {"CopySaveGame", CopySaveGame, METH_VARARGS, "Game.base+0022BAB0 (SS)B"},
-   {"SaveGameExists", SaveGameExists, METH_VARARGS, "Game.base+00243960 (S)B"},
-   {"SetFloatGameState", SetFloatGameState, METH_VARARGS, "Game.base+00244F40 (Hfgamestate;R)V"},
-   {"GetFloatGameState", GetFloatGameState, METH_VARARGS, "Game.base+002325C0 (Hfgamestate;)R"},
-   {"SetIntegerGameState", SetIntegerGameState, METH_VARARGS, "Game.base+00245C60 (Higamestate;I)V"},
-   {"GetIntegerGameState", GetIntegerGameState, METH_VARARGS, "Game.base+00232BD0 (Higamestate;)I"},
-   {"SyncSelections", SyncSelections, METH_NOARGS, "Game.base+00248A40 ()V"},
-   {"DialogCreate", DialogCreate, METH_NOARGS, "Game.base+0022FB20 ()Hdialog;"},
-   {"DialogDestroy", DialogDestroy, METH_VARARGS, "Game.base+0022FC10 (Hdialog;)V"},
-   {"DialogSetAsync", DialogSetAsync, METH_VARARGS, "Game.base+0022FC80 (Hdialog;)V"},
-   {"DialogClear", DialogClear, METH_VARARGS, "Game.base+0022FB00 (Hdialog;)V"},
-   {"DialogSetMessage", DialogSetMessage, METH_VARARGS, "Game.base+0022FCA0 (Hdialog;S)V"},
-   {"DialogAddButton", DialogAddButton, METH_VARARGS, "Game.base+0022FA60 (Hdialog;SI)Hbutton;"},
-   {"DialogAddQuitButton", DialogAddQuitButton, METH_VARARGS, "Game.base+0022FAB0 (Hdialog;BSI)Hbutton;"},
-   {"DialogDisplay", DialogDisplay, METH_VARARGS, "Game.base+0022FC30 (Hplayer;Hdialog;B)V"},
-   {"SetMissionAvailable", SetMissionAvailable, METH_VARARGS, "Game.base+002460F0 (IIB)V"},
-   {"SetCampaignAvailable", SetCampaignAvailable, METH_VARARGS, "Game.base+002444F0 (IB)V"},
-   {"SetCampaignMenuRace", SetCampaignMenuRace, METH_VARARGS, "Game.base+00244520 (Hrace;)V"},
-   {"SetCampaignMenuRaceEx", SetCampaignMenuRaceEx, METH_VARARGS, "Game.base+00244550 (I)V"},
-   {"ForceCampaignSelectScreen", ForceCampaignSelectScreen, METH_NOARGS, "Game.base+00230D60 ()V"},
-   {"SetOpCinematicAvailable", SetOpCinematicAvailable, METH_VARARGS, "Game.base+00246170 (IB)V"},
-   {"SetEdCinematicAvailable", SetEdCinematicAvailable, METH_VARARGS, "Game.base+00244E80 (IB)V"},
-   {"SetTutorialCleared", SetTutorialCleared, METH_VARARGS, "Game.base+00247270 (B)V"},
-   {"GetDefaultDifficulty", GetDefaultDifficulty, METH_NOARGS, "Game.base+00231FD0 ()Hgamedifficulty;"},
-   {"SetDefaultDifficulty", SetDefaultDifficulty, METH_VARARGS, "Game.base+00244B20 (Hgamedifficulty;)V"},
-   {"ReloadGameCachesFromDisk", ReloadGameCachesFromDisk, METH_NOARGS, "Game.base+00242DE0 ()B"},
-   {"SetCustomCampaignButtonVisible", SetCustomCampaignButtonVisible, METH_VARARGS, "Game.base+00244AC0 (IB)V"},
-   {"GetCustomCampaignButtonVisible", GetCustomCampaignButtonVisible, METH_VARARGS, "Game.base+00231F60 (I)B"},
-   {"DoNotSaveReplay", DoNotSaveReplay, METH_NOARGS, "Game.base+0022FFA0 ()V"},
-   {"InitGameCache", InitGameCache, METH_VARARGS, "Game.base+00237460 (S)Hgamecache;"},
-   {"SaveGameCache", SaveGameCache, METH_VARARGS, "Game.base+00243930 (Hgamecache;)B"},
-   {"StoreInteger", StoreInteger, METH_VARARGS, "Game.base+00248420 (Hgamecache;SSI)V"},
-   {"StoreReal", StoreReal, METH_VARARGS, "Game.base+00248470 (Hgamecache;SSR)V"},
-   {"StoreBoolean", StoreBoolean, METH_VARARGS, "Game.base+002483C0 (Hgamecache;SSB)V"},
-   {"StoreUnit", StoreUnit, METH_VARARGS, "Game.base+00248520 (Hgamecache;SSHunit;)B"},
-   {"StoreString", StoreString, METH_VARARGS, "Game.base+002484C0 (Hgamecache;SSS)B"},
-   {"SaveInteger", SaveInteger, METH_VARARGS, "Game.base+00243A30 (Hhashtable;III)V"},
-   {"SaveReal", SaveReal, METH_VARARGS, "Game.base+00243BB0 (Hhashtable;IIR)V"},
-   {"SaveBoolean", SaveBoolean, METH_VARARGS, "Game.base+00243710 (Hhashtable;IIB)V"},
-   {"SaveStr", SaveStr, METH_VARARGS, "Game.base+00243C90 (Hhashtable;IIS)B"},
-   {"SavePlayerHandle", SavePlayerHandle, METH_VARARGS, "Game.base+00243B50 (Hhashtable;IIHplayer;)B"},
-   {"SaveWidgetHandle", SaveWidgetHandle, METH_VARARGS, "Game.base+00243E30 (Hhashtable;IIHwidget;)B"},
-   {"SaveDestructableHandle", SaveDestructableHandle, METH_VARARGS, "Game.base+002437B0 (Hhashtable;IIHdestructable;)B"},
-   {"SaveItemHandle", SaveItemHandle, METH_VARARGS, "Game.base+00243A70 (Hhashtable;IIHitem;)B"},
-   {"SaveUnitHandle", SaveUnitHandle, METH_VARARGS, "Game.base+00243DF0 (Hhashtable;IIHunit;)B"},
-   {"SaveAbilityHandle", SaveAbilityHandle, METH_VARARGS, "Game.base+002436D0 (Hhashtable;IIHability;)B"},
-   {"SaveTimerHandle", SaveTimerHandle, METH_VARARGS, "Game.base+00243D10 (Hhashtable;IIHtimer;)B"},
-   {"SaveRegionHandle", SaveRegionHandle, METH_VARARGS, "Game.base+00243C10 (Hhashtable;IIHregion;)B"},
-   {"SaveTriggerHandle", SaveTriggerHandle, METH_VARARGS, "Game.base+00243DB0 (Hhashtable;IIHtrigger;)B"},
-   {"SaveTriggerConditionHandle", SaveTriggerConditionHandle, METH_VARARGS, "Game.base+00243D70 (Hhashtable;IIHtriggercondition;)B"},
-   {"SaveTriggerActionHandle", SaveTriggerActionHandle, METH_VARARGS, "Game.base+00243D50 (Hhashtable;IIHtriggeraction;)B"},
-   {"SaveTriggerEventHandle", SaveTriggerEventHandle, METH_VARARGS, "Game.base+00243D90 (Hhashtable;IIHevent;)B"},
-   {"SaveForceHandle", SaveForceHandle, METH_VARARGS, "Game.base+00243850 (Hhashtable;IIHforce;)B"},
-   {"SaveGroupHandle", SaveGroupHandle, METH_VARARGS, "Game.base+002439D0 (Hhashtable;IIHgroup;)B"},
-   {"SaveLocationHandle", SaveLocationHandle, METH_VARARGS, "Game.base+00243AF0 (Hhashtable;IIHlocation;)B"},
-   {"SaveRectHandle", SaveRectHandle, METH_VARARGS, "Game.base+00243BF0 (Hhashtable;IIHrect;)B"},
-   {"SaveBooleanExprHandle", SaveBooleanExprHandle, METH_VARARGS, "Game.base+00243750 (Hhashtable;IIHboolexpr;)B"},
-   {"SaveSoundHandle", SaveSoundHandle, METH_VARARGS, "Game.base+00243C70 (Hhashtable;IIHsound;)B"},
-   {"SaveEffectHandle", SaveEffectHandle, METH_VARARGS, "Game.base+002437F0 (Hhashtable;IIHeffect;)B"},
-   {"SaveUnitPoolHandle", SaveUnitPoolHandle, METH_VARARGS, "Game.base+00243E10 (Hhashtable;IIHunitpool;)B"},
-   {"SaveItemPoolHandle", SaveItemPoolHandle, METH_VARARGS, "Game.base+00243A90 (Hhashtable;IIHitempool;)B"},
-   {"SaveQuestHandle", SaveQuestHandle, METH_VARARGS, "Game.base+00243B70 (Hhashtable;IIHquest;)B"},
-   {"SaveQuestItemHandle", SaveQuestItemHandle, METH_VARARGS, "Game.base+00243B90 (Hhashtable;IIHquestitem;)B"},
-   {"SaveDefeatConditionHandle", SaveDefeatConditionHandle, METH_VARARGS, "Game.base+00243790 (Hhashtable;IIHdefeatcondition;)B"},
-   {"SaveTimerDialogHandle", SaveTimerDialogHandle, METH_VARARGS, "Game.base+00243CF0 (Hhashtable;IIHtimerdialog;)B"},
-   {"SaveLeaderboardHandle", SaveLeaderboardHandle, METH_VARARGS, "Game.base+00243AB0 (Hhashtable;IIHleaderboard;)B"},
-   {"SaveMultiboardHandle", SaveMultiboardHandle, METH_VARARGS, "Game.base+00243B10 (Hhashtable;IIHmultiboard;)B"},
-   {"SaveMultiboardItemHandle", SaveMultiboardItemHandle, METH_VARARGS, "Game.base+00243B30 (Hhashtable;IIHmultiboarditem;)B"},
-   {"SaveTrackableHandle", SaveTrackableHandle, METH_VARARGS, "Game.base+00243D30 (Hhashtable;IIHtrackable;)B"},
-   {"SaveDialogHandle", SaveDialogHandle, METH_VARARGS, "Game.base+002437D0 (Hhashtable;IIHdialog;)B"},
-   {"SaveButtonHandle", SaveButtonHandle, METH_VARARGS, "Game.base+00243770 (Hhashtable;IIHbutton;)B"},
-   {"SaveTextTagHandle", SaveTextTagHandle, METH_VARARGS, "Game.base+00243CD0 (Hhashtable;IIHtexttag;)B"},
-   {"SaveLightningHandle", SaveLightningHandle, METH_VARARGS, "Game.base+00243AD0 (Hhashtable;IIHlightning;)B"},
-   {"SaveImageHandle", SaveImageHandle, METH_VARARGS, "Game.base+00243A10 (Hhashtable;IIHimage;)B"},
-   {"SaveUbersplatHandle", SaveUbersplatHandle, METH_VARARGS, "Game.base+00243DD0 (Hhashtable;IIHubersplat;)B"},
-   {"SaveFogStateHandle", SaveFogStateHandle, METH_VARARGS, "Game.base+00243830 (Hhashtable;IIHfogstate;)B"},
-   {"SaveFogModifierHandle", SaveFogModifierHandle, METH_VARARGS, "Game.base+00243810 (Hhashtable;IIHfogmodifier;)B"},
-   {"SaveAgentHandle", SaveAgentHandle, METH_VARARGS, "Game.base+002436F0 (Hhashtable;IIHagent;)B"},
-   {"SaveHashtableHandle", SaveHashtableHandle, METH_VARARGS, "Game.base+002439F0 (Hhashtable;IIHhashtable;)B"},
-   {"SyncStoredInteger", SyncStoredInteger, METH_VARARGS, "Game.base+00248AE0 (Hgamecache;SS)V"},
-   {"SyncStoredReal", SyncStoredReal, METH_VARARGS, "Game.base+00248B40 (Hgamecache;SS)V"},
-   {"SyncStoredBoolean", SyncStoredBoolean, METH_VARARGS, "Game.base+00248A80 (Hgamecache;SS)V"},
-   {"SyncStoredUnit", SyncStoredUnit, METH_VARARGS, "Game.base+00248C00 (Hgamecache;SS)V"},
-   {"SyncStoredString", SyncStoredString, METH_VARARGS, "Game.base+00248BA0 (Hgamecache;SS)V"},
-   {"GetStoredInteger", GetStoredInteger, METH_VARARGS, "Game.base+002357B0 (Hgamecache;SS)I"},
-   {"GetStoredReal", GetStoredReal, METH_VARARGS, "Game.base+00235800 (Hgamecache;SS)R"},
-   {"GetStoredBoolean", GetStoredBoolean, METH_VARARGS, "Game.base+00235760 (Hgamecache;SS)B"},
-   {"RestoreUnit", RestoreUnit, METH_VARARGS, "Game.base+002433B0 (Hgamecache;SSHplayer;RRR)Hunit;"},
-   {"GetStoredString", GetStoredString, METH_VARARGS, "Game.base+00235860 (Hgamecache;SS)S"},
-   {"HaveStoredInteger", HaveStoredInteger, METH_VARARGS, "Game.base+00237190 (Hgamecache;SS)B"},
-   {"HaveStoredReal", HaveStoredReal, METH_VARARGS, "Game.base+002371E0 (Hgamecache;SS)B"},
-   {"HaveStoredBoolean", HaveStoredBoolean, METH_VARARGS, "Game.base+00237140 (Hgamecache;SS)B"},
-   {"HaveStoredUnit", HaveStoredUnit, METH_VARARGS, "Game.base+00237280 (Hgamecache;SS)B"},
-   {"HaveStoredString", HaveStoredString, METH_VARARGS, "Game.base+00237230 (Hgamecache;SS)B"},
-   {"FlushGameCache", FlushGameCache, METH_VARARGS, "Game.base+002309E0 (Hgamecache;)V"},
-   {"FlushStoredMission", FlushStoredMission, METH_VARARGS, "Game.base+00230B00 (Hgamecache;S)V"},
-   {"FlushStoredInteger", FlushStoredInteger, METH_VARARGS, "Game.base+00230AB0 (Hgamecache;SS)V"},
-   {"FlushStoredReal", FlushStoredReal, METH_VARARGS, "Game.base+00230B40 (Hgamecache;SS)V"},
-   {"FlushStoredBoolean", FlushStoredBoolean, METH_VARARGS, "Game.base+00230A60 (Hgamecache;SS)V"},
-   {"FlushStoredUnit", FlushStoredUnit, METH_VARARGS, "Game.base+00230BE0 (Hgamecache;SS)V"},
-   {"FlushStoredString", FlushStoredString, METH_VARARGS, "Game.base+00230B90 (Hgamecache;SS)V"},
-   {"InitHashtable", InitHashtable, METH_NOARGS, "Game.base+00237570 ()Hhashtable;"},
-   {"LoadInteger", LoadInteger, METH_VARARGS, "Game.base+002407B0 (Hhashtable;II)I;"},
-   {"LoadReal", LoadReal, METH_VARARGS, "Game.base+00240930 (Hhashtable;II)R;"},
-   {"LoadBoolean", LoadBoolean, METH_VARARGS, "Game.base+00240570 (Hhashtable;II)B;"},
-   {"LoadStr", LoadStr, METH_VARARGS, "Game.base+00240AD0 (Hhashtable;II)S;"},
-   {"LoadPlayerHandle", LoadPlayerHandle, METH_VARARGS, "Game.base+002408D0 (Hhashtable;II)Hplayer;"},
-   {"LoadWidgetHandle", LoadWidgetHandle, METH_VARARGS, "Game.base+00240C70 (Hhashtable;II)Hwidget;"},
-   {"LoadDestructableHandle", LoadDestructableHandle, METH_VARARGS, "Game.base+00240610 (Hhashtable;II)Hdestructable;"},
-   {"LoadItemHandle", LoadItemHandle, METH_VARARGS, "Game.base+002407F0 (Hhashtable;II)Hitem;"},
-   {"LoadUnitHandle", LoadUnitHandle, METH_VARARGS, "Game.base+00240C30 (Hhashtable;II)Hunit;"},
-   {"LoadAbilityHandle", LoadAbilityHandle, METH_VARARGS, "Game.base+00240550 (Hhashtable;II)Hability;"},
-   {"LoadTimerHandle", LoadTimerHandle, METH_VARARGS, "Game.base+00240B50 (Hhashtable;II)Htimer;"},
-   {"LoadRegionHandle", LoadRegionHandle, METH_VARARGS, "Game.base+00240990 (Hhashtable;II)Hregion;"},
-   {"LoadTriggerHandle", LoadTriggerHandle, METH_VARARGS, "Game.base+00240BF0 (Hhashtable;II)Htrigger;"},
-   {"LoadTriggerConditionHandle", LoadTriggerConditionHandle, METH_VARARGS, "Game.base+00240BB0 (Hhashtable;II)Htriggercondition;"},
-   {"LoadTriggerActionHandle", LoadTriggerActionHandle, METH_VARARGS, "Game.base+00240B90 (Hhashtable;II)Htriggeraction;"},
-   {"LoadTriggerEventHandle", LoadTriggerEventHandle, METH_VARARGS, "Game.base+00240BD0 (Hhashtable;II)Hevent;"},
-   {"LoadForceHandle", LoadForceHandle, METH_VARARGS, "Game.base+002406B0 (Hhashtable;II)Hforce;"},
-   {"LoadGroupHandle", LoadGroupHandle, METH_VARARGS, "Game.base+00240750 (Hhashtable;II)Hgroup;"},
-   {"LoadLocationHandle", LoadLocationHandle, METH_VARARGS, "Game.base+00240870 (Hhashtable;II)Hlocation;"},
-   {"LoadRectHandle", LoadRectHandle, METH_VARARGS, "Game.base+00240970 (Hhashtable;II)Hrect;"},
-   {"LoadBooleanExprHandle", LoadBooleanExprHandle, METH_VARARGS, "Game.base+002405B0 (Hhashtable;II)Hboolexpr;"},
-   {"LoadSoundHandle", LoadSoundHandle, METH_VARARGS, "Game.base+00240AB0 (Hhashtable;II)Hsound;"},
-   {"LoadEffectHandle", LoadEffectHandle, METH_VARARGS, "Game.base+00240650 (Hhashtable;II)Heffect;"},
-   {"LoadUnitPoolHandle", LoadUnitPoolHandle, METH_VARARGS, "Game.base+00240C50 (Hhashtable;II)Hunitpool;"},
-   {"LoadItemPoolHandle", LoadItemPoolHandle, METH_VARARGS, "Game.base+00240810 (Hhashtable;II)Hitempool;"},
-   {"LoadQuestHandle", LoadQuestHandle, METH_VARARGS, "Game.base+002408F0 (Hhashtable;II)Hquest;"},
-   {"LoadQuestItemHandle", LoadQuestItemHandle, METH_VARARGS, "Game.base+00240910 (Hhashtable;II)Hquestitem;"},
-   {"LoadDefeatConditionHandle", LoadDefeatConditionHandle, METH_VARARGS, "Game.base+002405F0 (Hhashtable;II)Hdefeatcondition;"},
-   {"LoadTimerDialogHandle", LoadTimerDialogHandle, METH_VARARGS, "Game.base+00240B30 (Hhashtable;II)Htimerdialog;"},
-   {"LoadLeaderboardHandle", LoadLeaderboardHandle, METH_VARARGS, "Game.base+00240830 (Hhashtable;II)Hleaderboard;"},
-   {"LoadMultiboardHandle", LoadMultiboardHandle, METH_VARARGS, "Game.base+00240890 (Hhashtable;II)Hmultiboard;"},
-   {"LoadMultiboardItemHandle", LoadMultiboardItemHandle, METH_VARARGS, "Game.base+002408B0 (Hhashtable;II)Hmultiboarditem;"},
-   {"LoadTrackableHandle", LoadTrackableHandle, METH_VARARGS, "Game.base+00240B70 (Hhashtable;II)Htrackable;"},
-   {"LoadDialogHandle", LoadDialogHandle, METH_VARARGS, "Game.base+00240630 (Hhashtable;II)Hdialog;"},
-   {"LoadButtonHandle", LoadButtonHandle, METH_VARARGS, "Game.base+002405D0 (Hhashtable;II)Hbutton;"},
-   {"LoadTextTagHandle", LoadTextTagHandle, METH_VARARGS, "Game.base+00240B10 (Hhashtable;II)Htexttag;"},
-   {"LoadLightningHandle", LoadLightningHandle, METH_VARARGS, "Game.base+00240850 (Hhashtable;II)Hlightning;"},
-   {"LoadImageHandle", LoadImageHandle, METH_VARARGS, "Game.base+00240790 (Hhashtable;II)Himage;"},
-   {"LoadUbersplatHandle", LoadUbersplatHandle, METH_VARARGS, "Game.base+00240C10 (Hhashtable;II)Hubersplat;"},
-   {"LoadFogStateHandle", LoadFogStateHandle, METH_VARARGS, "Game.base+00240690 (Hhashtable;II)Hfogstate;"},
-   {"LoadFogModifierHandle", LoadFogModifierHandle, METH_VARARGS, "Game.base+00240670 (Hhashtable;II)Hfogmodifier;"},
-   {"LoadHashtableHandle", LoadHashtableHandle, METH_VARARGS, "Game.base+00240770 (Hhashtable;II)Hhashtable;"},
-   {"HaveSavedInteger", HaveSavedInteger, METH_VARARGS, "Game.base+00237080 (Hhashtable;II)B"},
-   {"HaveSavedReal", HaveSavedReal, METH_VARARGS, "Game.base+002370C0 (Hhashtable;II)B"},
-   {"HaveSavedBoolean", HaveSavedBoolean, METH_VARARGS, "Game.base+00237000 (Hhashtable;II)B"},
-   {"HaveSavedString", HaveSavedString, METH_VARARGS, "Game.base+00237100 (Hhashtable;II)B"},
-   {"HaveSavedHandle", HaveSavedHandle, METH_VARARGS, "Game.base+00237040 (Hhashtable;II)B"},
-   {"RemoveSavedInteger", RemoveSavedInteger, METH_VARARGS, "Game.base+00243090 (Hhashtable;II)V"},
-   {"RemoveSavedReal", RemoveSavedReal, METH_VARARGS, "Game.base+002430C0 (Hhashtable;II)V"},
-   {"RemoveSavedBoolean", RemoveSavedBoolean, METH_VARARGS, "Game.base+00243030 (Hhashtable;II)V"},
-   {"RemoveSavedString", RemoveSavedString, METH_VARARGS, "Game.base+002430F0 (Hhashtable;II)V"},
-   {"RemoveSavedHandle", RemoveSavedHandle, METH_VARARGS, "Game.base+00243060 (Hhashtable;II)V"},
-   {"FlushParentHashtable", FlushParentHashtable, METH_VARARGS, "Game.base+00230A20 (Hhashtable;)V"},
-   {"FlushChildHashtable", FlushChildHashtable, METH_VARARGS, "Game.base+002309B0 (Hhashtable;I)V"},
-   {"GetRandomInt", GetRandomInt, METH_VARARGS, "Game.base+00234480 (II)I"},
-   {"GetRandomReal", GetRandomReal, METH_VARARGS, "Game.base+002344C0 (RR)R"},
-   {"CreateUnitPool", CreateUnitPool, METH_NOARGS, "Game.base+0022F0C0 ()Hunitpool;"},
-   {"DestroyUnitPool", DestroyUnitPool, METH_VARARGS, "Game.base+0022F8D0 (Hunitpool;)V"},
-   {"UnitPoolAddUnitType", UnitPoolAddUnitType, METH_VARARGS, "Game.base+0024B210 (Hunitpool;IR)V"},
-   {"UnitPoolRemoveUnitType", UnitPoolRemoveUnitType, METH_VARARGS, "Game.base+0024B230 (Hunitpool;I)V"},
-   {"PlaceRandomUnit", PlaceRandomUnit, METH_VARARGS, "Game.base+00241D80 (Hunitpool;Hplayer;RRR)Hunit;"},
-   {"CreateItemPool", CreateItemPool, METH_NOARGS, "Game.base+0022E2F0 ()Hitempool;"},
-   {"DestroyItemPool", DestroyItemPool, METH_VARARGS, "Game.base+0022F740 (Hitempool;)V"},
-   {"ItemPoolAddItemType", ItemPoolAddItemType, METH_VARARGS, "Game.base+00239A10 (Hitempool;IR)V"},
-   {"ItemPoolRemoveItemType", ItemPoolRemoveItemType, METH_VARARGS, "Game.base+00239A30 (Hitempool;I)V"},
-   {"PlaceRandomItem", PlaceRandomItem, METH_VARARGS, "Game.base+00241D40 (Hitempool;RR)Hitem;"},
-   {"ChooseRandomCreep", ChooseRandomCreep, METH_VARARGS, "Game.base+0022B160 (I)I"},
-   {"ChooseRandomNPBuilding", ChooseRandomNPBuilding, METH_NOARGS, "Game.base+0022B1C0 ()I"},
-   {"ChooseRandomItem", ChooseRandomItem, METH_VARARGS, "Game.base+0022B180 (I)I"},
-   {"ChooseRandomItemEx", ChooseRandomItemEx, METH_VARARGS, "Game.base+0022B1A0 (Hitemtype;I)I"},
-   {"SetRandomSeed", SetRandomSeed, METH_VARARGS, "Game.base+00246650 (I)V"},
-   {"DisplayTextToPlayer", DisplayTextToPlayer, METH_VARARGS, "Game.base+0022FDA0 (Hplayer;RRS)V"},
-   {"DisplayTimedTextToPlayer", DisplayTimedTextToPlayer, METH_VARARGS, "Game.base+0022FF30 (Hplayer;RRRS)V"},
-   {"DisplayTimedTextFromPlayer", DisplayTimedTextFromPlayer, METH_VARARGS, "Game.base+0022FE50 (Hplayer;RRRS)V"},
-   {"ClearTextMessages", ClearTextMessages, METH_NOARGS, "Game.base+0022B5E0 ()V"},
-   {"EnableUserControl", EnableUserControl, METH_VARARGS, "Game.base+002300F0 (B)V"},
-   {"EnableUserUI", EnableUserUI, METH_VARARGS, "Game.base+00230120 (B)V"},
-   {"DisableRestartMission", DisableRestartMission, METH_VARARGS, "Game.base+0022FCF0 (B)V"},
-   {"ForceUIKey", ForceUIKey, METH_VARARGS, "Game.base+00230FC0 (S)V"},
-   {"ForceUICancel", ForceUICancel, METH_NOARGS, "Game.base+00230F40 ()V"},
-   {"DisplayLoadDialog", DisplayLoadDialog, METH_NOARGS, "Game.base+0022FD80 ()V"},
-   {"SetTerrainFog", SetTerrainFog, METH_VARARGS, "Game.base+00246D40 (RRRRR)V"},
-   {"SetUnitFog", SetUnitFog, METH_VARARGS, "Game.base+00247820 (RRRRR)V"},
-   {"SetTerrainFogEx", SetTerrainFogEx, METH_VARARGS, "Game.base+00246D50 (IRRRRRR)V"},
-   {"ResetTerrainFog", ResetTerrainFog, METH_NOARGS, "Game.base+00243290 ()V"},
-   {"SetDayNightModels", SetDayNightModels, METH_VARARGS, "Game.base+00244AE0 (SS)V"},
-   {"SetSkyModel", SetSkyModel, METH_VARARGS, "Game.base+002467F0 (S)V"},
-   {"SuspendTimeOfDay", SuspendTimeOfDay, METH_VARARGS, "Game.base+00248A10 (B)V"},
-   {"SetTimeOfDayScale", SetTimeOfDayScale, METH_VARARGS, "Game.base+00247200 (R)V"},
-   {"GetTimeOfDayScale", GetTimeOfDayScale, METH_NOARGS, "Game.base+00235AF0 ()R"},
-   {"ShowInterface", ShowInterface, METH_VARARGS, "Game.base+00247FC0 (BR)V"},
-   {"PauseGame", PauseGame, METH_VARARGS, "Game.base+00241B50 (B)V"},
-   {"PingMinimap", PingMinimap, METH_VARARGS, "Game.base+00241C50 (RRR)V"},
-   {"PingMinimapEx", PingMinimapEx, METH_VARARGS, "Game.base+00241CB0 (RRRIIIB)V"},
-   {"SetIntroShotText", SetIntroShotText, METH_VARARGS, "Game.base+00245CC0 (S)V"},
-   {"SetIntroShotModel", SetIntroShotModel, METH_VARARGS, "Game.base+00245CA0 (S)V"},
-   {"EnableOcclusion", EnableOcclusion, METH_VARARGS, "Game.base+00230060 (B)V"},
-   {"EnableWorldFogBoundary", EnableWorldFogBoundary, METH_VARARGS, "Game.base+00230160 (B)V"},
-   {"PlayModelCinematic", PlayModelCinematic, METH_VARARGS, "Game.base+00241E30 (S)V"},
-   {"PlayCinematic", PlayCinematic, METH_VARARGS, "Game.base+00241E10 (S)V"},
-   {"SetAltMinimapIcon", SetAltMinimapIcon, METH_VARARGS, "Game.base+00244050 (S)V"},
-   {"CreateTextTag", CreateTextTag, METH_NOARGS, "Game.base+0022EB50 ()Htexttag;"},
-   {"DestroyTextTag", DestroyTextTag, METH_VARARGS, "Game.base+0022F820 (Htexttag;)V"},
-   {"SetTextTagText", SetTextTagText, METH_VARARGS, "Game.base+00247110 (Htexttag;SR)V"},
-   {"SetTextTagPos", SetTextTagPos, METH_VARARGS, "Game.base+00246FD0 (Htexttag;RRR)V"},
-   {"SetTextTagPosUnit", SetTextTagPosUnit, METH_VARARGS, "Game.base+00247070 (Htexttag;Hunit;R)V"},
-   {"SetTextTagColor", SetTextTagColor, METH_VARARGS, "Game.base+00246ED0 (Htexttag;IIII)V"},
-   {"SetTextTagVelocity", SetTextTagVelocity, METH_VARARGS, "Game.base+00247160 (Htexttag;RR)V"},
-   {"SetTextTagVisibility", SetTextTagVisibility, METH_VARARGS, "Game.base+002471C0 (Htexttag;B)V"},
-   {"SetTextTagSuspended", SetTextTagSuspended, METH_VARARGS, "Game.base+002470E0 (Htexttag;B)V"},
-   {"SetTextTagPermanent", SetTextTagPermanent, METH_VARARGS, "Game.base+00246FA0 (Htexttag;B)V"},
-   {"SetTextTagAge", SetTextTagAge, METH_VARARGS, "Game.base+00246E90 (Htexttag;R)V"},
-   {"SetTextTagLifespan", SetTextTagLifespan, METH_VARARGS, "Game.base+00246F60 (Htexttag;R)V"},
-   {"SetTextTagFadepoint", SetTextTagFadepoint, METH_VARARGS, "Game.base+00246F20 (Htexttag;R)V"},
-   {"SetReservedLocalHeroButtons", SetReservedLocalHeroButtons, METH_VARARGS, "Game.base+00246760 (I)V"},
-   {"GetAllyColorFilterState", GetAllyColorFilterState, METH_NOARGS, "Game.base+00231740 ()I"},
-   {"SetAllyColorFilterState", SetAllyColorFilterState, METH_VARARGS, "Game.base+00244020 (I)V"},
-   {"GetCreepCampFilterState", GetCreepCampFilterState, METH_NOARGS, "Game.base+00231F30 ()B"},
-   {"SetCreepCampFilterState", SetCreepCampFilterState, METH_VARARGS, "Game.base+00244A80 (B)V"},
-   {"EnableMinimapFilterButtons", EnableMinimapFilterButtons, METH_VARARGS, "Game.base+00230020 (BB)V"},
-   {"EnableDragSelect", EnableDragSelect, METH_VARARGS, "Game.base+00230000 (BB)V"},
-   {"EnablePreSelect", EnablePreSelect, METH_VARARGS, "Game.base+00230090 (BB)V"},
-   {"EnableSelect", EnableSelect, METH_VARARGS, "Game.base+002300B0 (BB)V"},
-   {"CreateTrackable", CreateTrackable, METH_VARARGS, "Game.base+0022ED50 (SRRR)Htrackable;"},
-   {"TriggerRegisterTrackableHitEvent", TriggerRegisterTrackableHitEvent, METH_VARARGS, "Game.base+0024A080 (Htrigger;Htrackable;)Hevent;"},
-   {"TriggerRegisterTrackableTrackEvent", TriggerRegisterTrackableTrackEvent, METH_VARARGS, "Game.base+0024A140 (Htrigger;Htrackable;)Hevent;"},
-   {"GetTriggeringTrackable", GetTriggeringTrackable, METH_NOARGS, "Game.base+00235F30 ()Htrackable;"},
-   {"CreateQuest", CreateQuest, METH_NOARGS, "Game.base+0022E6B0 ()Hquest;"},
-   {"DestroyQuest", DestroyQuest, METH_VARARGS, "Game.base+0022F7D0 (Hquest;)V"},
-   {"QuestSetTitle", QuestSetTitle, METH_VARARGS, "Game.base+00242840 (Hquest;S)V"},
-   {"QuestSetDescription", QuestSetDescription, METH_VARARGS, "Game.base+00242720 (Hquest;S)V"},
-   {"QuestSetIconPath", QuestSetIconPath, METH_VARARGS, "Game.base+002427E0 (Hquest;S)V"},
-   {"QuestSetRequired", QuestSetRequired, METH_VARARGS, "Game.base+00242810 (Hquest;B)V"},
-   {"QuestSetCompleted", QuestSetCompleted, METH_VARARGS, "Game.base+002426F0 (Hquest;B)V"},
-   {"QuestSetDiscovered", QuestSetDiscovered, METH_VARARGS, "Game.base+00242750 (Hquest;B)V"},
-   {"QuestSetFailed", QuestSetFailed, METH_VARARGS, "Game.base+002427B0 (Hquest;B)V"},
-   {"QuestSetEnabled", QuestSetEnabled, METH_VARARGS, "Game.base+00242780 (Hquest;B)V"},
-   {"IsQuestRequired", IsQuestRequired, METH_VARARGS, "Game.base+002383C0 (Hquest;)B"},
-   {"IsQuestCompleted", IsQuestCompleted, METH_VARARGS, "Game.base+00238320 (Hquest;)B"},
-   {"IsQuestDiscovered", IsQuestDiscovered, METH_VARARGS, "Game.base+00238340 (Hquest;)B"},
-   {"IsQuestFailed", IsQuestFailed, METH_VARARGS, "Game.base+00238380 (Hquest;)B"},
-   {"IsQuestEnabled", IsQuestEnabled, METH_VARARGS, "Game.base+00238360 (Hquest;)B"},
-   {"QuestCreateItem", QuestCreateItem, METH_VARARGS, "Game.base+002425C0 (Hquest;)Hquestitem;"},
-   {"QuestItemSetDescription", QuestItemSetDescription, METH_VARARGS, "Game.base+002426A0 (Hquestitem;S)V"},
-   {"QuestItemSetCompleted", QuestItemSetCompleted, METH_VARARGS, "Game.base+00242670 (Hquestitem;B)V"},
-   {"IsQuestItemCompleted", IsQuestItemCompleted, METH_VARARGS, "Game.base+002383A0 (Hquestitem;)B"},
-   {"CreateDefeatCondition", CreateDefeatCondition, METH_NOARGS, "Game.base+0022DCC0 ()Hdefeatcondition;"},
-   {"DestroyDefeatCondition", DestroyDefeatCondition, METH_VARARGS, "Game.base+0022F620 (Hdefeatcondition;)V"},
-   {"DefeatConditionSetDescription", DefeatConditionSetDescription, METH_VARARGS, "Game.base+0022F390 (Hdefeatcondition;S)V"},
-   {"FlashQuestDialogButton", FlashQuestDialogButton, METH_NOARGS, "Game.base+00230960 ()V"},
-   {"ForceQuestDialogUpdate", ForceQuestDialogUpdate, METH_NOARGS, "Game.base+00230EE0 ()V"},
-   {"CreateTimerDialog", CreateTimerDialog, METH_VARARGS, "Game.base+0022EC50 (Htimer;)Htimerdialog;"},
-   {"DestroyTimerDialog", DestroyTimerDialog, METH_VARARGS, "Game.base+0022F870 (Htimerdialog;)V"},
-   {"TimerDialogSetTitle", TimerDialogSetTitle, METH_VARARGS, "Game.base+00249060 (Htimerdialog;S)V"},
-   {"TimerDialogSetTitleColor", TimerDialogSetTitleColor, METH_VARARGS, "Game.base+00249090 (Htimerdialog;IIII)V"},
-   {"TimerDialogSetTimeColor", TimerDialogSetTimeColor, METH_VARARGS, "Game.base+00249000 (Htimerdialog;IIII)V"},
-   {"TimerDialogSetSpeed", TimerDialogSetSpeed, METH_VARARGS, "Game.base+00248FD0 (Htimerdialog;R)V"},
-   {"TimerDialogDisplay", TimerDialogDisplay, METH_VARARGS, "Game.base+00248F80 (Htimerdialog;B)V"},
-   {"IsTimerDialogDisplayed", IsTimerDialogDisplayed, METH_VARARGS, "Game.base+00238500 (Htimerdialog;)B"},
-   {"TimerDialogSetRealTimeRemaining", TimerDialogSetRealTimeRemaining, METH_VARARGS, "Game.base+00248FA0 (Htimerdialog;R)V"},
-   {"CreateLeaderboard", CreateLeaderboard, METH_NOARGS, "Game.base+0022E3D0 ()Hleaderboard;"},
-   {"DestroyLeaderboard", DestroyLeaderboard, METH_VARARGS, "Game.base+0022F760 (Hleaderboard;)V"},
-   {"LeaderboardGetItemCount", LeaderboardGetItemCount, METH_VARARGS, "Game.base+0023FE60 (Hleaderboard;)I"},
-   {"LeaderboardSetSizeByItemCount", LeaderboardSetSizeByItemCount, METH_VARARGS, "Game.base+00240200 (Hleaderboard;I)V"},
-   {"LeaderboardAddItem", LeaderboardAddItem, METH_VARARGS, "Game.base+0023FD90 (Hleaderboard;SIHplayer;)V"},
-   {"LeaderboardRemoveItem", LeaderboardRemoveItem, METH_VARARGS, "Game.base+0023FF80 (Hleaderboard;I)V"},
-   {"LeaderboardRemovePlayerItem", LeaderboardRemovePlayerItem, METH_VARARGS, "Game.base+0023FFB0 (Hleaderboard;Hplayer;)V"},
-   {"LeaderboardSortItemsByValue", LeaderboardSortItemsByValue, METH_VARARGS, "Game.base+00240340 (Hleaderboard;B)V"},
-   {"LeaderboardSortItemsByPlayer", LeaderboardSortItemsByPlayer, METH_VARARGS, "Game.base+00240310 (Hleaderboard;B)V"},
-   {"LeaderboardSortItemsByLabel", LeaderboardSortItemsByLabel, METH_VARARGS, "Game.base+002402E0 (Hleaderboard;B)V"},
-   {"LeaderboardClear", LeaderboardClear, METH_VARARGS, "Game.base+0023FDE0 (Hleaderboard;)V"},
-   {"LeaderboardDisplay", LeaderboardDisplay, METH_VARARGS, "Game.base+0023FE10 (Hleaderboard;B)V"},
-   {"IsLeaderboardDisplayed", IsLeaderboardDisplayed, METH_VARARGS, "Game.base+00237D80 (Hleaderboard;)B"},
-   {"LeaderboardGetLabelText", LeaderboardGetLabelText, METH_VARARGS, "Game.base+0023FE90 (Hleaderboard;)S"},
-   {"PlayerSetLeaderboard", PlayerSetLeaderboard, METH_VARARGS, "Game.base+00241F80 (Hplayer;Hleaderboard;)V"},
-   {"PlayerGetLeaderboard", PlayerGetLeaderboard, METH_VARARGS, "Game.base+00241F20 (Hplayer;)Hleaderboard;"},
-   {"LeaderboardHasPlayerItem", LeaderboardHasPlayerItem, METH_VARARGS, "Game.base+0023FF30 (Hleaderboard;Hplayer;)B"},
-   {"LeaderboardGetPlayerIndex", LeaderboardGetPlayerIndex, METH_VARARGS, "Game.base+0023FEE0 (Hleaderboard;Hplayer;)I"},
-   {"LeaderboardSetLabel", LeaderboardSetLabel, METH_VARARGS, "Game.base+00240170 (Hleaderboard;S)V"},
-   {"LeaderboardSetLabelColor", LeaderboardSetLabelColor, METH_VARARGS, "Game.base+002401A0 (Hleaderboard;IIII)V"},
-   {"LeaderboardSetValueColor", LeaderboardSetValueColor, METH_VARARGS, "Game.base+00240280 (Hleaderboard;IIII)V"},
-   {"LeaderboardSetStyle", LeaderboardSetStyle, METH_VARARGS, "Game.base+00240230 (Hleaderboard;BBBB)V"},
-   {"LeaderboardSetItemValue", LeaderboardSetItemValue, METH_VARARGS, "Game.base+002400E0 (Hleaderboard;II)V"},
-   {"LeaderboardSetItemLabel", LeaderboardSetItemLabel, METH_VARARGS, "Game.base+0023FFF0 (Hleaderboard;IS)V"},
-   {"LeaderboardSetItemStyle", LeaderboardSetItemStyle, METH_VARARGS, "Game.base+00240090 (Hleaderboard;IBBB)V"},
-   {"LeaderboardSetItemLabelColor", LeaderboardSetItemLabelColor, METH_VARARGS, "Game.base+00240030 (Hleaderboard;IIIII)V"},
-   {"LeaderboardSetItemValueColor", LeaderboardSetItemValueColor, METH_VARARGS, "Game.base+00240110 (Hleaderboard;IIIII)V"},
-   {"CreateMultiboard", CreateMultiboard, METH_NOARGS, "Game.base+0022E5C0 ()Hmultiboard;"},
-   {"DestroyMultiboard", DestroyMultiboard, METH_VARARGS, "Game.base+0022F7B0 (Hmultiboard;)V"},
-   {"MultiboardDisplay", MultiboardDisplay, METH_VARARGS, "Game.base+002410E0 (Hmultiboard;B)V"},
-   {"MultiboardMinimize", MultiboardMinimize, METH_VARARGS, "Game.base+00241220 (Hmultiboard;B)V"},
-   {"IsMultiboardDisplayed", IsMultiboardDisplayed, METH_VARARGS, "Game.base+00238000 (Hmultiboard;)B"},
-   {"IsMultiboardMinimized", IsMultiboardMinimized, METH_VARARGS, "Game.base+00238020 (Hmultiboard;)B"},
-   {"MultiboardClear", MultiboardClear, METH_VARARGS, "Game.base+002410B0 (Hmultiboard;)V"},
-   {"MultiboardSetTitleText", MultiboardSetTitleText, METH_VARARGS, "Game.base+002414D0 (Hmultiboard;S)V"},
-   {"MultiboardGetTitleText", MultiboardGetTitleText, METH_VARARGS, "Game.base+00241200 (Hmultiboard;)S"},
-   {"MultiboardSetTitleTextColor", MultiboardSetTitleTextColor, METH_VARARGS, "Game.base+00241500 (Hmultiboard;IIII)V"},
-   {"MultiboardGetRowCount", MultiboardGetRowCount, METH_VARARGS, "Game.base+002411E0 (Hmultiboard;)I"},
-   {"MultiboardGetColumnCount", MultiboardGetColumnCount, METH_VARARGS, "Game.base+00241100 (Hmultiboard;)I"},
-   {"MultiboardSetColumnCount", MultiboardSetColumnCount, METH_VARARGS, "Game.base+00241260 (Hmultiboard;I)V"},
-   {"MultiboardSetRowCount", MultiboardSetRowCount, METH_VARARGS, "Game.base+002414B0 (Hmultiboard;I)V"},
-   {"MultiboardSetItemsStyle", MultiboardSetItemsStyle, METH_VARARGS, "Game.base+002413B0 (Hmultiboard;BB)V"},
-   {"MultiboardSetItemsValueColor", MultiboardSetItemsValueColor, METH_VARARGS, "Game.base+00241420 (Hmultiboard;IIII)V"},
-   {"MultiboardSetItemsValue", MultiboardSetItemsValue, METH_VARARGS, "Game.base+002413F0 (Hmultiboard;S)V"},
-   {"MultiboardSetItemsWidth", MultiboardSetItemsWidth, METH_VARARGS, "Game.base+00241480 (Hmultiboard;R)V"},
-   {"MultiboardSetItemsIcon", MultiboardSetItemsIcon, METH_VARARGS, "Game.base+00241380 (Hmultiboard;S)V"},
-   {"MultiboardGetItem", MultiboardGetItem, METH_VARARGS, "Game.base+00241120 (Hmultiboard;II)Hmultiboarditem;"},
-   {"MultiboardReleaseItem", MultiboardReleaseItem, METH_VARARGS, "Game.base+00241240 (Hmultiboarditem;)V"},
-   {"MultiboardSetItemStyle", MultiboardSetItemStyle, METH_VARARGS, "Game.base+002412B0 (Hmultiboarditem;BB)V"},
-   {"MultiboardSetItemValue", MultiboardSetItemValue, METH_VARARGS, "Game.base+002412D0 (Hmultiboarditem;S)V"},
-   {"MultiboardSetItemValueColor", MultiboardSetItemValueColor, METH_VARARGS, "Game.base+00241300 (Hmultiboarditem;IIII)V"},
-   {"MultiboardSetItemWidth", MultiboardSetItemWidth, METH_VARARGS, "Game.base+00241350 (Hmultiboarditem;R)V"},
-   {"MultiboardSetItemIcon", MultiboardSetItemIcon, METH_VARARGS, "Game.base+00241280 (Hmultiboarditem;S)V"},
-   {"MultiboardSuppressDisplay", MultiboardSuppressDisplay, METH_VARARGS, "Game.base+00241550 (B)V"},
-   {"SetCameraBounds", SetCameraBounds, METH_VARARGS, "Game.base+00244230 (RRRRRRRR)V"},
-   {"SetCameraPosition", SetCameraPosition, METH_VARARGS, "Game.base+002443A0 (RR)V"},
-   {"SetCameraQuickPosition", SetCameraQuickPosition, METH_VARARGS, "Game.base+002443F0 (RR)V"},
-   {"ResetToGameCamera", ResetToGameCamera, METH_VARARGS, "Game.base+002432B0 (R)V"},
-   {"StopCamera", StopCamera, METH_NOARGS, "Game.base+00248370 ()V"},
-   {"PanCameraTo", PanCameraTo, METH_VARARGS, "Game.base+002419D0 (RR)V"},
-   {"PanCameraToTimed", PanCameraToTimed, METH_VARARGS, "Game.base+00241A20 (RRR)V"},
-   {"PanCameraToWithZ", PanCameraToWithZ, METH_VARARGS, "Game.base+00241AE0 (RRR)V"},
-   {"PanCameraToTimedWithZ", PanCameraToTimedWithZ, METH_VARARGS, "Game.base+00241A80 (RRRR)V"},
-   {"SetCinematicCamera", SetCinematicCamera, METH_VARARGS, "Game.base+002449C0 (S)V"},
-   {"SetCameraField", SetCameraField, METH_VARARGS, "Game.base+00244310 (Hcamerafield;RR)V"},
-   {"AdjustCameraField", AdjustCameraField, METH_VARARGS, "Game.base+0022A780 (Hcamerafield;RR)V"},
-   {"SetCameraTargetController", SetCameraTargetController, METH_VARARGS, "Game.base+00244490 (Hunit;RRB)V"},
-   {"SetCameraOrientController", SetCameraOrientController, METH_VARARGS, "Game.base+00244350 (Hunit;RR)V"},
-   {"SetCameraRotateMode", SetCameraRotateMode, METH_VARARGS, "Game.base+00244430 (RRRR)V"},
-   {"CreateCameraSetup", CreateCameraSetup, METH_NOARGS, "Game.base+0022DA80 ()Hcamerasetup;"},
-   {"CameraSetupSetField", CameraSetupSetField, METH_VARARGS, "Game.base+0022AFE0 (Hcamerasetup;Hcamerafield;RR)V"},
-   {"CameraSetupGetField", CameraSetupGetField, METH_VARARGS, "Game.base+0022AF50 (Hcamerasetup;Hcamerafield;)R"},
-   {"CameraSetupSetDestPosition", CameraSetupSetDestPosition, METH_VARARGS, "Game.base+0022AF90 (Hcamerasetup;RRR)V"},
-   {"CameraSetupGetDestPositionLoc", CameraSetupGetDestPositionLoc, METH_VARARGS, "Game.base+0022AEB0 (Hcamerasetup;)Hlocation;"},
-   {"CameraSetupGetDestPositionX", CameraSetupGetDestPositionX, METH_VARARGS, "Game.base+0022AF00 (Hcamerasetup;)R"},
-   {"CameraSetupGetDestPositionY", CameraSetupGetDestPositionY, METH_VARARGS, "Game.base+0022AF30 (Hcamerasetup;)R"},
-   {"CameraSetupApply", CameraSetupApply, METH_VARARGS, "Game.base+0022ADF0 (Hcamerasetup;BB)V"},
-   {"CameraSetupApplyWithZ", CameraSetupApplyWithZ, METH_VARARGS, "Game.base+0022AE80 (Hcamerasetup;R)V"},
-   {"CameraSetupApplyForceDuration", CameraSetupApplyForceDuration, METH_VARARGS, "Game.base+0022AE20 (Hcamerasetup;BR)V"},
-   {"CameraSetupApplyForceDurationWithZ", CameraSetupApplyForceDurationWithZ, METH_VARARGS, "Game.base+0022AE50 (Hcamerasetup;RR)V"},
-   {"CameraSetTargetNoise", CameraSetTargetNoise, METH_VARARGS, "Game.base+0022AC90 (RR)V"},
-   {"CameraSetSourceNoise", CameraSetSourceNoise, METH_VARARGS, "Game.base+0022AB50 (RR)V"},
-   {"CameraSetTargetNoiseEx", CameraSetTargetNoiseEx, METH_VARARGS, "Game.base+0022AD40 (RRB)V"},
-   {"CameraSetSourceNoiseEx", CameraSetSourceNoiseEx, METH_VARARGS, "Game.base+0022ABF0 (RRB)V"},
-   {"CameraSetSmoothingFactor", CameraSetSmoothingFactor, METH_VARARGS, "Game.base+0022AB20 (R)V"},
-   {"GetCameraMargin", GetCameraMargin, METH_VARARGS, "Game.base+00231AE0 (I)R"},
-   {"GetCameraBoundMinX", GetCameraBoundMinX, METH_NOARGS, "Game.base+00231930 ()R"},
-   {"GetCameraBoundMinY", GetCameraBoundMinY, METH_NOARGS, "Game.base+00231960 ()R"},
-   {"GetCameraBoundMaxX", GetCameraBoundMaxX, METH_NOARGS, "Game.base+002318D0 ()R"},
-   {"GetCameraBoundMaxY", GetCameraBoundMaxY, METH_NOARGS, "Game.base+00231900 ()R"},
-   {"GetCameraField", GetCameraField, METH_VARARGS, "Game.base+00231AB0 (Hcamerafield;)R"},
-   {"GetCameraTargetPositionX", GetCameraTargetPositionX, METH_NOARGS, "Game.base+00231BA0 ()R"},
-   {"GetCameraTargetPositionY", GetCameraTargetPositionY, METH_NOARGS, "Game.base+00231BE0 ()R"},
-   {"GetCameraTargetPositionZ", GetCameraTargetPositionZ, METH_NOARGS, "Game.base+00231C20 ()R"},
-   {"GetCameraTargetPositionLoc", GetCameraTargetPositionLoc, METH_NOARGS, "Game.base+00231B50 ()Hlocation;"},
-   {"GetCameraEyePositionX", GetCameraEyePositionX, METH_NOARGS, "Game.base+002319F0 ()R"},
-   {"GetCameraEyePositionY", GetCameraEyePositionY, METH_NOARGS, "Game.base+00231A30 ()R"},
-   {"GetCameraEyePositionZ", GetCameraEyePositionZ, METH_NOARGS, "Game.base+00231A70 ()R"},
-   {"GetCameraEyePositionLoc", GetCameraEyePositionLoc, METH_NOARGS, "Game.base+002319A0 ()Hlocation;"},
-   {"SetCineFilterTexture", SetCineFilterTexture, METH_VARARGS, "Game.base+00244990 (S)V"},
-   {"SetCineFilterBlendMode", SetCineFilterBlendMode, METH_VARARGS, "Game.base+00244570 (Hblendmode;)V"},
-   {"SetCineFilterTexMapFlags", SetCineFilterTexMapFlags, METH_VARARGS, "Game.base+00244950 (Htexmapflags;)V"},
-   {"SetCineFilterStartUV", SetCineFilterStartUV, METH_VARARGS, "Game.base+002448C0 (RRRR)V"},
-   {"SetCineFilterEndUV", SetCineFilterEndUV, METH_VARARGS, "Game.base+00244730 (RRRR)V"},
-   {"SetCineFilterStartColor", SetCineFilterStartColor, METH_VARARGS, "Game.base+002447C0 (IIII)V"},
-   {"SetCineFilterEndColor", SetCineFilterEndColor, METH_VARARGS, "Game.base+00244630 (IIII)V"},
-   {"SetCineFilterDuration", SetCineFilterDuration, METH_VARARGS, "Game.base+00244610 (R)V"},
-   {"DisplayCineFilter", DisplayCineFilter, METH_VARARGS, "Game.base+0022FD50 (B)V"},
-   {"IsCineFilterDisplayed", IsCineFilterDisplayed, METH_NOARGS, "Game.base+002378B0 ()B"},
-   {"SetCinematicScene", SetCinematicScene, METH_VARARGS, "Game.base+00244A00 (IHplayercolor;SSRR)V"},
-   {"EndCinematicScene", EndCinematicScene, METH_NOARGS, "Game.base+002301A0 ()V"},
-   {"ForceCinematicSubtitles", ForceCinematicSubtitles, METH_VARARGS, "Game.base+00230D90 (B)V"},
-   {"NewSoundEnvironment", NewSoundEnvironment, METH_VARARGS, "Game.base+00241630 (S)V"},
-   {"CreateSound", CreateSound, METH_VARARGS, "Game.base+0022E800 (SBBBIIS)Hsound;"},
-   {"CreateSoundFilenameWithLabel", CreateSoundFilenameWithLabel, METH_VARARGS, "Game.base+0022E920 (SBBBIIS)Hsound;"},
-   {"CreateSoundFromLabel", CreateSoundFromLabel, METH_VARARGS, "Game.base+0022EA40 (SBBBII)Hsound;"},
-   {"CreateMIDISound", CreateMIDISound, METH_VARARGS, "Game.base+0022E4C0 (SII)Hsound;"},
-   {"SetStackedSound", SetStackedSound, METH_VARARGS, "Game.base+00246B00 (SRR)V"},
-   {"ClearStackedSound", ClearStackedSound, METH_VARARGS, "Game.base+0022B460 (SRR)V"},
-   {"SetStackedSoundRect", SetStackedSoundRect, METH_VARARGS, "Game.base+00246B60 (SHrect;)V"},
-   {"ClearStackedSoundRect", ClearStackedSoundRect, METH_VARARGS, "Game.base+0022B4B0 (SHrect;)V"},
-   {"SetSoundParamsFromLabel", SetSoundParamsFromLabel, METH_VARARGS, "Game.base+002469A0 (Hsound;S)V"},
-   {"SetSoundChannel", SetSoundChannel, METH_VARARGS, "Game.base+00246830 (Hsound;I)V"},
-   {"SetSoundVolume", SetSoundVolume, METH_VARARGS, "Game.base+00246AE0 (Hsound;I)V"},
-   {"SetSoundPitch", SetSoundPitch, METH_VARARGS, "Game.base+002469D0 (Hsound;R)V"},
-   {"SetSoundPlayPosition", SetSoundPlayPosition, METH_VARARGS, "Game.base+00246A00 (Hsound;I)V"},
-   {"SetSoundDistances", SetSoundDistances, METH_VARARGS, "Game.base+00246930 (Hsound;RR)V"},
-   {"SetSoundDistanceCutoff", SetSoundDistanceCutoff, METH_VARARGS, "Game.base+00246900 (Hsound;R)V"},
-   {"SetSoundConeAngles", SetSoundConeAngles, METH_VARARGS, "Game.base+00246850 (Hsound;RRI)V"},
-   {"SetSoundConeOrientation", SetSoundConeOrientation, METH_VARARGS, "Game.base+002468A0 (Hsound;RRR)V"},
-   {"SetSoundPosition", SetSoundPosition, METH_VARARGS, "Game.base+00246A20 (Hsound;RRR)V"},
-   {"SetSoundVelocity", SetSoundVelocity, METH_VARARGS, "Game.base+00246A80 (Hsound;RRR)V"},
-   {"AttachSoundToUnit", AttachSoundToUnit, METH_VARARGS, "Game.base+0022A9B0 (Hsound;Hunit;)V"},
-   {"StartSound", StartSound, METH_VARARGS, "Game.base+00248320 (Hsound;)V"},
-   {"StopSound", StopSound, METH_VARARGS, "Game.base+002483A0 (Hsound;BB)V"},
-   {"KillSoundWhenDone", KillSoundWhenDone, METH_VARARGS, "Game.base+0023FD50 (Hsound;)V"},
-   {"SetMapMusic", SetMapMusic, METH_VARARGS, "Game.base+00246090 (SBI)V"},
-   {"ClearMapMusic", ClearMapMusic, METH_NOARGS, "Game.base+0022B2E0 ()V"},
-   {"PlayMusic", PlayMusic, METH_VARARGS, "Game.base+00241E50 (S)V"},
-   {"PlayMusicEx", PlayMusicEx, METH_VARARGS, "Game.base+00241E80 (SII)V"},
-   {"StopMusic", StopMusic, METH_VARARGS, "Game.base+00248390 (B)V"},
-   {"ResumeMusic", ResumeMusic, METH_NOARGS, "Game.base+00243470 ()V"},
-   {"PlayThematicMusic", PlayThematicMusic, METH_VARARGS, "Game.base+00241EB0 (S)V"},
-   {"PlayThematicMusicEx", PlayThematicMusicEx, METH_VARARGS, "Game.base+00241ED0 (SI)V"},
-   {"EndThematicMusic", EndThematicMusic, METH_NOARGS, "Game.base+002301F0 ()V"},
-   {"SetMusicVolume", SetMusicVolume, METH_VARARGS, "Game.base+00246130 (I)V"},
-   {"SetMusicPlayPosition", SetMusicPlayPosition, METH_VARARGS, "Game.base+00246120 (I)V"},
-   {"SetThematicMusicPlayPosition", SetThematicMusicPlayPosition, METH_VARARGS, "Game.base+002471F0 (I)V"},
-   {"SetSoundDuration", SetSoundDuration, METH_VARARGS, "Game.base+00246970 (Hsound;I)V"},
-   {"GetSoundDuration", GetSoundDuration, METH_VARARGS, "Game.base+00234C80 (Hsound;)I"},
-   {"GetSoundFileDuration", GetSoundFileDuration, METH_VARARGS, "Game.base+00234CA0 (S)I"},
-   {"VolumeGroupSetVolume", VolumeGroupSetVolume, METH_VARARGS, "Game.base+0024B8A0 (Hvolumegroup;R)V"},
-   {"VolumeGroupReset", VolumeGroupReset, METH_NOARGS, "Game.base+0024B890 ()V"},
-   {"GetSoundIsPlaying", GetSoundIsPlaying, METH_VARARGS, "Game.base+00234CE0 (Hsound;)B"},
-   {"GetSoundIsLoading", GetSoundIsLoading, METH_VARARGS, "Game.base+00234CC0 (Hsound;)B"},
-   {"RegisterStackedSound", RegisterStackedSound, METH_VARARGS, "Game.base+00242D80 (Hsound;BRR)V"},
-   {"UnregisterStackedSound", UnregisterStackedSound, METH_VARARGS, "Game.base+0024B820 (Hsound;BRR)V"},
-   {"AddWeatherEffect", AddWeatherEffect, METH_VARARGS, "Game.base+0022A710 (Hrect;I)Hweathereffect;"},
-   {"RemoveWeatherEffect", RemoveWeatherEffect, METH_VARARGS, "Game.base+002431A0 (Hweathereffect;)V"},
-   {"EnableWeatherEffect", EnableWeatherEffect, METH_VARARGS, "Game.base+00230150 (Hweathereffect;B)V"},
-   {"TerrainDeformCrater", TerrainDeformCrater, METH_VARARGS, "Game.base+00248CA0 (RRRRIB)Hterraindeformation;"},
-   {"TerrainDeformRipple", TerrainDeformRipple, METH_VARARGS, "Game.base+00248D60 (RRRRIIRRRB)Hterraindeformation;"},
-   {"TerrainDeformWave", TerrainDeformWave, METH_VARARGS, "Game.base+00248E00 (RRRRRRRRII)Hterraindeformation;"},
-   {"TerrainDeformRandom", TerrainDeformRandom, METH_VARARGS, "Game.base+00248D00 (RRRRRII)Hterraindeformation;"},
-   {"TerrainDeformStop", TerrainDeformStop, METH_VARARGS, "Game.base+00248DE0 (Hterraindeformation;I)V"},
-   {"TerrainDeformStopAll", TerrainDeformStopAll, METH_NOARGS, "Game.base+00248DF0 ()V"},
-   {"DestroyEffect", DestroyEffect, METH_VARARGS, "Game.base+0022F670 (Heffect;)V"},
-   {"AddSpecialEffect", AddSpecialEffect, METH_VARARGS, "Game.base+0022A300 (SRR)Heffect;"},
-   {"AddSpecialEffectLoc", AddSpecialEffectLoc, METH_VARARGS, "Game.base+0022A320 (SHlocation;)Heffect;"},
-   {"AddSpecialEffectTarget", AddSpecialEffectTarget, METH_VARARGS, "Game.base+0022A360 (SHwidget;S)Heffect;"},
-   {"AddSpellEffect", AddSpellEffect, METH_VARARGS, "Game.base+0022A390 (SHeffecttype;RR)Heffect;"},
-   {"AddSpellEffectLoc", AddSpellEffectLoc, METH_VARARGS, "Game.base+0022A420 (SHeffecttype;Hlocation;)Heffect;"},
-   {"AddSpellEffectById", AddSpellEffectById, METH_VARARGS, "Game.base+0022A3B0 (IHeffecttype;RR)Heffect;"},
-   {"AddSpellEffectByIdLoc", AddSpellEffectByIdLoc, METH_VARARGS, "Game.base+0022A3E0 (IHeffecttype;Hlocation;)Heffect;"},
-   {"AddSpellEffectTarget", AddSpellEffectTarget, METH_VARARGS, "Game.base+0022A480 (SHeffecttype;Hwidget;S)Heffect;"},
-   {"AddSpellEffectTargetById", AddSpellEffectTargetById, METH_VARARGS, "Game.base+0022A4A0 (IHeffecttype;Hwidget;S)Heffect;"},
-   {"AddLightning", AddLightning, METH_VARARGS, "Game.base+0022A0D0 (SBRRRR)Hlightning;"},
-   {"AddLightningEx", AddLightningEx, METH_VARARGS, "Game.base+0022A150 (SBRRRRRR)Hlightning;"},
-   {"DestroyLightning", DestroyLightning, METH_VARARGS, "Game.base+0022F790 (Hlightning;)B"},
-   {"GetLightningColorA", GetLightningColorA, METH_VARARGS, "Game.base+00233050 (Hlightning;)R"},
-   {"GetLightningColorR", GetLightningColorR, METH_VARARGS, "Game.base+00233140 (Hlightning;)R"},
-   {"GetLightningColorG", GetLightningColorG, METH_VARARGS, "Game.base+002330F0 (Hlightning;)R"},
-   {"GetLightningColorB", GetLightningColorB, METH_VARARGS, "Game.base+002330A0 (Hlightning;)R"},
-   {"MoveLightning", MoveLightning, METH_VARARGS, "Game.base+00240DE0 (Hlightning;BRRRR)B"},
-   {"MoveLightningEx", MoveLightningEx, METH_VARARGS, "Game.base+00240E60 (Hlightning;BRRRRRR)B"},
-   {"SetLightningColor", SetLightningColor, METH_VARARGS, "Game.base+00245FA0 (Hlightning;RRRR)B"},
-   {"GetAbilityEffect", GetAbilityEffect, METH_VARARGS, "Game.base+00231660 (SHeffecttype;I)S"},
-   {"GetAbilityEffectById", GetAbilityEffectById, METH_VARARGS, "Game.base+00231690 (IHeffecttype;I)S"},
-   {"GetAbilitySound", GetAbilitySound, METH_VARARGS, "Game.base+002316B0 (SHsoundtype;)S"},
-   {"GetAbilitySoundById", GetAbilitySoundById, METH_VARARGS, "Game.base+002316F0 (IHsoundtype;)S"},
-   {"GetTerrainCliffLevel", GetTerrainCliffLevel, METH_VARARGS, "Game.base+002359C0 (RR)I"},
-   {"SetWaterBaseColor", SetWaterBaseColor, METH_VARARGS, "Game.base+00247F00 (IIII)V"},
-   {"SetWaterDeforms", SetWaterDeforms, METH_VARARGS, "Game.base+00247F40 (B)V"},
-   {"GetTerrainType", GetTerrainType, METH_VARARGS, "Game.base+00235A60 (RR)I"},
-   {"GetTerrainVariance", GetTerrainVariance, METH_VARARGS, "Game.base+00235AB0 (RR)I"},
-   {"SetTerrainType", SetTerrainType, METH_VARARGS, "Game.base+00246E30 (RRIIII)V"},
-   {"IsTerrainPathable", IsTerrainPathable, METH_VARARGS, "Game.base+002384D0 (RRHpathingtype;)B"},
-   {"SetTerrainPathable", SetTerrainPathable, METH_VARARGS, "Game.base+00246E00 (RRHpathingtype;B)V"},
-   {"CreateImage", CreateImage, METH_VARARGS, "Game.base+0022E220 (SRRRRRRRRRI)Himage;"},
-   {"DestroyImage", DestroyImage, METH_VARARGS, "Game.base+0022F720 (Himage;)V"},
-   {"ShowImage", ShowImage, METH_VARARGS, "Game.base+00247FA0 (Himage;B)V"},
-   {"SetImageConstantHeight", SetImageConstantHeight, METH_VARARGS, "Game.base+00245B90 (Himage;BR)V"},
-   {"SetImagePosition", SetImagePosition, METH_VARARGS, "Game.base+00245BC0 (Himage;RRR)V"},
-   {"SetImageColor", SetImageColor, METH_VARARGS, "Game.base+00245B50 (Himage;IIII)V"},
-   {"SetImageRender", SetImageRender, METH_VARARGS, "Game.base+00245C00 (Himage;B)V"},
-   {"SetImageRenderAlways", SetImageRenderAlways, METH_VARARGS, "Game.base+00245C20 (Himage;B)V"},
-   {"SetImageAboveWater", SetImageAboveWater, METH_VARARGS, "Game.base+00245B30 (Himage;BB)V"},
-   {"SetImageType", SetImageType, METH_VARARGS, "Game.base+00245C40 (Himage;I)V"},
-   {"CreateUbersplat", CreateUbersplat, METH_VARARGS, "Game.base+0022EF40 (RRSIIIIBB)Hubersplat;"},
-   {"DestroyUbersplat", DestroyUbersplat, METH_VARARGS, "Game.base+0022F8B0 (Hubersplat;)V"},
-   {"ResetUbersplat", ResetUbersplat, METH_VARARGS, "Game.base+00243300 (Hubersplat;)V"},
-   {"FinishUbersplat", FinishUbersplat, METH_VARARGS, "Game.base+002308F0 (Hubersplat;)V"},
-   {"ShowUbersplat", ShowUbersplat, METH_VARARGS, "Game.base+00247FF0 (Hubersplat;B)V"},
-   {"SetUbersplatRender", SetUbersplatRender, METH_VARARGS, "Game.base+002472A0 (Hubersplat;B)V"},
-   {"SetUbersplatRenderAlways", SetUbersplatRenderAlways, METH_VARARGS, "Game.base+002472C0 (Hubersplat;B)V"},
-   {"SetBlight", SetBlight, METH_VARARGS, "Game.base+002440C0 (Hplayer;RRRB)V"},
-   {"SetBlightLoc", SetBlightLoc, METH_VARARGS, "Game.base+00244120 (Hplayer;Hlocation;RB)V"},
-   {"SetBlightRect", SetBlightRect, METH_VARARGS, "Game.base+002441D0 (Hplayer;Hrect;B)V"},
-   {"SetBlightPoint", SetBlightPoint, METH_VARARGS, "Game.base+00244180 (Hplayer;RRB)V"},
-   {"CreateBlightedGoldmine", CreateBlightedGoldmine, METH_VARARGS, "Game.base+0022D9C0 (Hplayer;RRR)Hunit;"},
-   {"IsPointBlighted", IsPointBlighted, METH_VARARGS, "Game.base+002382E0 (RR)B"},
-   {"SetDoodadAnimation", SetDoodadAnimation, METH_VARARGS, "Game.base+00244D80 (RRRIBSB)V"},
-   {"SetDoodadAnimationRect", SetDoodadAnimationRect, METH_VARARGS, "Game.base+00244DE0 (Hrect;ISB)V"},
-   {"StartMeleeAI", StartMeleeAI, METH_VARARGS, "Game.base+002482F0 (Hplayer;S)V"},
-   {"StartCampaignAI", StartCampaignAI, METH_VARARGS, "Game.base+002482A0 (Hplayer;S)V"},
-   {"CommandAI", CommandAI, METH_VARARGS, "Game.base+0022B610 (Hplayer;II)V"},
-   {"PauseCompAI", PauseCompAI, METH_VARARGS, "Game.base+00241B30 (Hplayer;B)V"},
-   {"GetAIDifficulty", GetAIDifficulty, METH_VARARGS, "Game.base+002315C0 (Hplayer;)Haidifficulty;"},
-   {"RemoveGuardPosition", RemoveGuardPosition, METH_VARARGS, "Game.base+00242E80 (Hunit;)V"},
-   {"RecycleGuardPosition", RecycleGuardPosition, METH_VARARGS, "Game.base+00242B20 (Hunit;)V"},
-   {"RemoveAllGuardPositions", RemoveAllGuardPositions, METH_VARARGS, "Game.base+00242E20 (Hplayer;)V"},
-   {"ExecuteFunc", ExecuteFunc, METH_VARARGS, "Game.base+00230710 (S)V"},
-   {"Cheat", Cheat, METH_VARARGS, "Game.base+0022B0A0 (S)V"},
-   {"IsNoVictoryCheat", IsNoVictoryCheat, METH_NOARGS, "Game.base+00238070 ()B"},
-   {"IsNoDefeatCheat", IsNoDefeatCheat, METH_NOARGS, "Game.base+00238040 ()B"},
-   {"Preload", Preload, METH_VARARGS, "Game.base+002420B0 (S)V"},
-   {"PreloadEnd", PreloadEnd, METH_VARARGS, "Game.base+002420E0 (R)V"},
-   {"PreloadStart", PreloadStart, METH_NOARGS, "Game.base+00242200 ()V"},
-   {"PreloadRefresh", PreloadRefresh, METH_NOARGS, "Game.base+002421F0 ()V"},
-   {"PreloadEndEx", PreloadEndEx, METH_NOARGS, "Game.base+00242130 ()V"},
-   {"PreloadGenStart", PreloadGenStart, METH_NOARGS, "Game.base+002421D0 ()V"},
-   {"PreloadGenClear", PreloadGenClear, METH_NOARGS, "Game.base+00242180 ()V"},
-   {"PreloadGenEnd", PreloadGenEnd, METH_VARARGS, "Game.base+002421A0 (S)V"},
-   {"Preloader", Preloader, METH_VARARGS, "Game.base+00242220 (S)V"},
-   {"DebugS", DebugS, METH_VARARGS, "Game.base+0096E340 (S)V"},
-   {"DebugFI", DebugFI, METH_VARARGS, "Game.base+0096E330 (SI)V"},
-   {"DebugUnitID", DebugUnitID, METH_VARARGS, "Game.base+0096E350 (SI)V"},
-   {"DisplayText", DisplayText, METH_VARARGS, "Game.base+0096E4F0 (IS)V"},
-   {"DisplayTextI", DisplayTextI, METH_VARARGS, "Game.base+0096E500 (ISI)V"},
-   {"DisplayTextII", DisplayTextII, METH_VARARGS, "Game.base+0096E510 (ISII)V"},
-   {"DisplayTextIII", DisplayTextIII, METH_VARARGS, "Game.base+0096E520 (ISIII)V"},
-   {"SuicideUnit", SuicideUnit, METH_VARARGS, "Game.base+00975070 (II)V"},
-   {"SuicideUnitEx", SuicideUnitEx, METH_VARARGS, "Game.base+009750C0 (III)V"},
-   {"Sleep", Sleep, METH_VARARGS, "Game.base+00974D70 (R)V"},
-   {"StartThread", StartThread, METH_VARARGS, "Game.base+00974E30 (C)V"},
-   {"GetAiPlayer", GetAiPlayer, METH_NOARGS, "Game.base+0096EFF0 ()I"},
-   {"DoAiScriptDebug", DoAiScriptDebug, METH_NOARGS, "Game.base+0096E530 ()B"},
-   {"GetHeroId", GetHeroId, METH_NOARGS, "Game.base+0096FB40 ()I"},
-   {"GetHeroLevelAI", GetHeroLevelAI, METH_NOARGS, "Game.base+0096FBC0 ()I"},
-   {"SetHeroLevels", SetHeroLevels, METH_VARARGS, "Game.base+009743E0 (C)V"},
-   {"SetNewHeroes", SetNewHeroes, METH_VARARGS, "Game.base+00974600 (B)V"},
-   {"GetUnitCount", GetUnitCount, METH_VARARGS, "Game.base+009704C0 (I)I"},
-   {"GetPlayerUnitTypeCount", GetPlayerUnitTypeCount, METH_VARARGS, "Game.base+00970340 (Hplayer;I)I"},
-   {"GetTownUnitCount", GetTownUnitCount, METH_VARARGS, "Game.base+009703F0 (IIB)I"},
-   {"GetUnitCountDone", GetUnitCountDone, METH_VARARGS, "Game.base+00970530 (I)I"},
-   {"GetUpgradeLevel", GetUpgradeLevel, METH_VARARGS, "Game.base+00970650 (I)I"},
-   {"GetUnitGoldCost", GetUnitGoldCost, METH_VARARGS, "Game.base+00970570 (I)I"},
-   {"GetUnitWoodCost", GetUnitWoodCost, METH_VARARGS, "Game.base+009705D0 (I)I"},
-   {"GetUnitBuildTime", GetUnitBuildTime, METH_VARARGS, "Game.base+00970470 (I)I"},
-   {"GetUpgradeGoldCost", GetUpgradeGoldCost, METH_VARARGS, "Game.base+00970630 (I)I"},
-   {"GetUpgradeWoodCost", GetUpgradeWoodCost, METH_VARARGS, "Game.base+009706B0 (I)I"},
-   {"GetEnemyPower", GetEnemyPower, METH_NOARGS, "Game.base+0096F900 ()I"},
-   {"GetMinesOwned", GetMinesOwned, METH_NOARGS, "Game.base+0096FE00 ()I"},
-   {"GetGoldOwned", GetGoldOwned, METH_NOARGS, "Game.base+0096FB10 ()I"},
-   {"TownWithMine", TownWithMine, METH_NOARGS, "Game.base+009754E0 ()I"},
-   {"TownHasMine", TownHasMine, METH_VARARGS, "Game.base+00975450 (I)B"},
-   {"TownHasHall", TownHasHall, METH_VARARGS, "Game.base+00975410 (I)B"},
-   {"GetNextExpansion", GetNextExpansion, METH_NOARGS, "Game.base+0096FE50 ()I"},
-   {"GetExpansionPeon", GetExpansionPeon, METH_NOARGS, "Game.base+0096F9C0 ()Hunit;"},
-   {"GetEnemyExpansion", GetEnemyExpansion, METH_NOARGS, "Game.base+0096F8C0 ()Hunit;"},
-   {"SetExpansion", SetExpansion, METH_VARARGS, "Game.base+00974150 (Hunit;I)B"},
-   {"GetBuilding", GetBuilding, METH_VARARGS, "Game.base+0096F190 (Hplayer;)Hunit;"},
-   {"SetAllianceTarget", SetAllianceTarget, METH_VARARGS, "Game.base+00973EC0 (Hunit;)V"},
-   {"GetAllianceTarget", GetAllianceTarget, METH_NOARGS, "Game.base+0096F020 ()Hunit;"},
-   {"SetProduce", SetProduce, METH_VARARGS, "Game.base+009746D0 (III)B"},
-   {"MergeUnits", MergeUnits, METH_VARARGS, "Game.base+00971C90 (IIII)B"},
-   {"ConvertUnits", ConvertUnits, METH_VARARGS, "Game.base+0096E0C0 (II)B"},
-   {"SetUpgrade", SetUpgrade, METH_VARARGS, "Game.base+00974A50 (I)B"},
-   {"Unsummon", Unsummon, METH_VARARGS, "Game.base+009758A0 (Hunit;)V"},
-   {"ClearHarvestAI", ClearHarvestAI, METH_NOARGS, "Game.base+0096DB50 ()V"},
-   {"HarvestGold", HarvestGold, METH_VARARGS, "Game.base+00970A20 (II)V"},
-   {"HarvestWood", HarvestWood, METH_VARARGS, "Game.base+00970A90 (II)V"},
-   {"StopGathering", StopGathering, METH_NOARGS, "Game.base+00974F20 ()V"},
-   {"AddGuardPost", AddGuardPost, METH_VARARGS, "Game.base+0096C8B0 (IRR)V"},
-   {"FillGuardPosts", FillGuardPosts, METH_NOARGS, "Game.base+0096E7C0 ()V"},
-   {"ReturnGuardPosts", ReturnGuardPosts, METH_NOARGS, "Game.base+00973B20 ()V"},
-   {"CreateCaptains", CreateCaptains, METH_NOARGS, "Game.base+0096E2A0 ()V"},
-   {"SetCaptainHome", SetCaptainHome, METH_VARARGS, "Game.base+00974090 (IRR)V"},
-   {"ResetCaptainLocs", ResetCaptainLocs, METH_NOARGS, "Game.base+00973AE0 ()V"},
-   {"ShiftTownSpot", ShiftTownSpot, METH_VARARGS, "Game.base+00974D30 (RR)V"},
-   {"SetCaptainChanges", SetCaptainChanges, METH_VARARGS, "Game.base+00974020 (B)V"},
-   {"TeleportCaptain", TeleportCaptain, METH_VARARGS, "Game.base+00975110 (RR)V"},
-   {"ClearCaptainTargets", ClearCaptainTargets, METH_NOARGS, "Game.base+0096DAF0 ()V"},
-   {"CaptainVsUnits", CaptainVsUnits, METH_VARARGS, "Game.base+0096D890 (Hplayer;)V"},
-   {"CaptainVsPlayer", CaptainVsPlayer, METH_VARARGS, "Game.base+0096D800 (Hplayer;)V"},
-   {"CaptainAttack", CaptainAttack, METH_VARARGS, "Game.base+0096D560 (RR)V"},
-   {"GroupTimedLife", GroupTimedLife, METH_VARARGS, "Game.base+00970800 (B)V"},
-   {"CaptainGoHome", CaptainGoHome, METH_NOARGS, "Game.base+0096D5A0 ()V"},
-   {"CaptainIsHome", CaptainIsHome, METH_NOARGS, "Game.base+0096D6D0 ()B"},
-   {"CaptainRetreating", CaptainRetreating, METH_NOARGS, "Game.base+0096D7C0 ()B"},
-   {"CaptainIsFull", CaptainIsFull, METH_NOARGS, "Game.base+0096D690 ()B"},
-   {"CaptainIsEmpty", CaptainIsEmpty, METH_NOARGS, "Game.base+0096D650 ()B"},
-   {"CaptainGroupSize", CaptainGroupSize, METH_NOARGS, "Game.base+0096D5D0 ()I"},
-   {"CaptainReadiness", CaptainReadiness, METH_NOARGS, "Game.base+0096D700 ()I"},
-   {"CaptainReadinessHP", CaptainReadinessHP, METH_NOARGS, "Game.base+0096D740 ()I"},
-   {"CaptainReadinessMa", CaptainReadinessMa, METH_NOARGS, "Game.base+0096D780 ()I"},
-   {"CaptainInCombat", CaptainInCombat, METH_VARARGS, "Game.base+0096D610 (B)B"},
-   {"TownThreatened", TownThreatened, METH_NOARGS, "Game.base+00975490 ()B"},
-   {"CaptainAtGoal", CaptainAtGoal, METH_NOARGS, "Game.base+0096D530 ()B"},
-   {"CreepsOnMap", CreepsOnMap, METH_NOARGS, "Game.base+0096E2F0 ()B"},
-   {"RemoveInjuries", RemoveInjuries, METH_NOARGS, "Game.base+00973600 ()V"},
-   {"RemoveSiege", RemoveSiege, METH_NOARGS, "Game.base+009736E0 ()V"},
-   {"IsTowered", IsTowered, METH_VARARGS, "Game.base+00971050 (Hunit;)B"},
-   {"DisablePathing", DisablePathing, METH_NOARGS, "Game.base+0096E4A0 ()V"},
-   {"SetAmphibious", SetAmphibious, METH_NOARGS, "Game.base+00973F80 ()V"},
-   {"InitAssault", InitAssault, METH_NOARGS, "Game.base+00970D60 ()V"},
-   {"AddAssault", AddAssault, METH_VARARGS, "Game.base+0096C620 (II)B"},
-   {"AddDefenders", AddDefenders, METH_VARARGS, "Game.base+0096C840 (II)B"},
-   {"GetCreepCamp", GetCreepCamp, METH_VARARGS, "Game.base+0096F840 (IIB)Hunit;"},
-   {"StartGetEnemyBase", StartGetEnemyBase, METH_NOARGS, "Game.base+00974E00 ()V"},
-   {"WaitGetEnemyBase", WaitGetEnemyBase, METH_NOARGS, "Game.base+00975960 ()B"},
-   {"GetMegaTarget", GetMegaTarget, METH_NOARGS, "Game.base+0096FDC0 ()Hunit;"},
-   {"GetEnemyBase", GetEnemyBase, METH_NOARGS, "Game.base+0096F880 ()Hunit;"},
-   {"GetExpansionFoe", GetExpansionFoe, METH_NOARGS, "Game.base+0096F910 ()Hunit;"},
-   {"GetExpansionX", GetExpansionX, METH_NOARGS, "Game.base+0096FA00 ()I"},
-   {"GetExpansionY", GetExpansionY, METH_NOARGS, "Game.base+0096FA80 ()I"},
-   {"SetStagePoint", SetStagePoint, METH_VARARGS, "Game.base+00974890 (RR)V"},
-   {"AttackMoveKill", AttackMoveKill, METH_VARARGS, "Game.base+0096CC80 (Hunit;)V"},
-   {"AttackMoveXY", AttackMoveXY, METH_VARARGS, "Game.base+0096CD50 (II)V"},
-   {"LoadZepWave", LoadZepWave, METH_VARARGS, "Game.base+00971530 (II)V"},
-   {"SuicidePlayer", SuicidePlayer, METH_VARARGS, "Game.base+00974F50 (Hplayer;B)B"},
-   {"SuicidePlayerUnits", SuicidePlayerUnits, METH_VARARGS, "Game.base+00974FE0 (Hplayer;B)B"},
-   {"UnitAlive", UnitAlive, METH_VARARGS, "Game.base+00975650 (Hunit;)B"},
-   {"UnitInvis", UnitInvis, METH_VARARGS, "Game.base+009756B0 (Hunit;)B"},
-   {"IgnoredUnits", IgnoredUnits, METH_VARARGS, "Game.base+00970D20 (I)I"},
-   {"CommandsWaiting", CommandsWaiting, METH_NOARGS, "Game.base+0096DE70 ()I"},
-   {"GetLastCommand", GetLastCommand, METH_NOARGS, "Game.base+0096FC30 ()I"},
-   {"GetLastData", GetLastData, METH_NOARGS, "Game.base+0096FC70 ()I"},
-   {"PopLastCommand", PopLastCommand, METH_NOARGS, "Game.base+00972610 ()V"},
-   {"SetCampaignAI", SetCampaignAI, METH_NOARGS, "Game.base+00973FE0 ()V"},
-   {"SetMeleeAI", SetMeleeAI, METH_NOARGS, "Game.base+009745D0 ()V"},
-   {"SetTargetHeroes", SetTargetHeroes, METH_VARARGS, "Game.base+009748D0 (B)V"},
-   {"SetHeroesFlee", SetHeroesFlee, METH_VARARGS, "Game.base+00974490 (B)V"},
-   {"SetHeroesBuyItems", SetHeroesBuyItems, METH_VARARGS, "Game.base+00974450 (B)V"},
-   {"SetIgnoreInjured", SetIgnoreInjured, METH_VARARGS, "Game.base+00974560 (B)V"},
-   {"SetPeonsRepair", SetPeonsRepair, METH_VARARGS, "Game.base+00974660 (B)V"},
-   {"SetRandomPaths", SetRandomPaths, METH_VARARGS, "Game.base+00974730 (B)V"},
-   {"SetDefendPlayer", SetDefendPlayer, METH_VARARGS, "Game.base+009740E0 (B)V"},
-   {"SetHeroesTakeItems", SetHeroesTakeItems, METH_VARARGS, "Game.base+00974520 (B)V"},
-   {"SetUnitsFlee", SetUnitsFlee, METH_VARARGS, "Game.base+009749F0 (B)V"},
-   {"SetGroupsFlee", SetGroupsFlee, METH_VARARGS, "Game.base+00974290 (B)V"},
-   {"SetSlowChopping", SetSlowChopping, METH_VARARGS, "Game.base+009747F0 (B)V"},
-   {"SetSmartArtillery", SetSmartArtillery, METH_VARARGS, "Game.base+00974850 (B)V"},
-   {"SetWatchMegaTargets", SetWatchMegaTargets, METH_VARARGS, "Game.base+00974A90 (B)V"},
-   {"SetReplacementCount", SetReplacementCount, METH_VARARGS, "Game.base+009747B0 (I)V"},
-   {"PurchaseZeppelin", PurchaseZeppelin, METH_NOARGS, "Game.base+009726A0 ()V"},
-   {"MeleeDifficulty", MeleeDifficulty, METH_NOARGS, "Game.base+00971BE0 ()I"},
-   {"DebugBreak", DebugBreak, METH_VARARGS, "Game.base+0096E320 (I)V"},
+   {"Deg2Rad", Deg2Rad, METH_VARARGS, "Game.base+0022F5B0 (R)R"},
+   {"Rad2Deg", Rad2Deg, METH_VARARGS, "Game.base+00242B00 (R)R"},
+   {"Sin", Sin, METH_VARARGS, "Game.base+00248380 (R)R"},
+   {"Cos", Cos, METH_VARARGS, "Game.base+0022BD90 (R)R"},
+   {"Tan", Tan, METH_VARARGS, "Game.base+00248DD0 (R)R"},
+   {"Asin", Asin, METH_VARARGS, "Game.base+0022AA60 (R)R"},
+   {"Acos", Acos, METH_VARARGS, "Game.base+00229DE0 (R)R"},
+   {"Atan", Atan, METH_VARARGS, "Game.base+0022AB20 (R)R"},
+   {"Atan2", Atan2, METH_VARARGS, "Game.base+0022AAA0 (RR)R"},
+   {"SquareRoot", SquareRoot, METH_VARARGS, "Game.base+002483B0 (R)R"},
+   {"Pow", Pow, METH_VARARGS, "Game.base+00242180 (RR)R"},
+   {"I2R", I2R, METH_VARARGS, "Game.base+00237460 (I)R"},
+   {"R2I", R2I, METH_VARARGS, "Game.base+00242A20 (R)I"},
+   {"I2S", I2S, METH_VARARGS, "Game.base+00237480 (I)S"},
+   {"R2S", R2S, METH_VARARGS, "Game.base+00242A30 (R)S"},
+   {"R2SW", R2SW, METH_VARARGS, "Game.base+00242A70 (RII)S"},
+   {"S2I", S2I, METH_VARARGS, "Game.base+002436D0 (S)I"},
+   {"S2R", S2R, METH_VARARGS, "Game.base+00243700 (S)R"},
+   {"GetHandleId", GetHandleId, METH_VARARGS, "Game.base+002329D0 (Hhandle;)I"},
+   {"SubString", SubString, METH_VARARGS, "Game.base+00248A80 (SII)S"},
+   {"StringLength", StringLength, METH_VARARGS, "Game.base+002487A0 (S)I"},
+   {"StringCase", StringCase, METH_VARARGS, "Game.base+002486F0 (SB)S"},
+   {"StringHash", StringHash, METH_VARARGS, "Game.base+00248780 (S)I"},
+   {"GetLocalizedString", GetLocalizedString, METH_VARARGS, "Game.base+00233400 (S)S"},
+   {"GetLocalizedHotkey", GetLocalizedHotkey, METH_VARARGS, "Game.base+002333D0 (S)I"},
+   {"ConvertRace", ConvertRace, METH_VARARGS, "Game.base+0022BB10 (I)Hrace;"},
+   {"ConvertAllianceType", ConvertAllianceType, METH_VARARGS, "Game.base+0022B930 (I)Halliancetype;"},
+   {"ConvertRacePref", ConvertRacePref, METH_VARARGS, "Game.base+0022BB20 (I)Hracepreference;"},
+   {"ConvertIGameState", ConvertIGameState, METH_VARARGS, "Game.base+0022BA00 (I)Higamestate;"},
+   {"ConvertFGameState", ConvertFGameState, METH_VARARGS, "Game.base+0022B9A0 (I)Hfgamestate;"},
+   {"ConvertPlayerState", ConvertPlayerState, METH_VARARGS, "Game.base+0022BAF0 (I)Hplayerstate;"},
+   {"ConvertPlayerScore", ConvertPlayerScore, METH_VARARGS, "Game.base+0022BAD0 (I)Hplayerscore;"},
+   {"ConvertStartLocPrio", ConvertStartLocPrio, METH_VARARGS, "Game.base+0022BB60 (I)Hstartlocprio;"},
+   {"ConvertPlayerGameResult", ConvertPlayerGameResult, METH_VARARGS, "Game.base+0022BAC0 (I)Hplayergameresult;"},
+   {"ConvertUnitState", ConvertUnitState, METH_VARARGS, "Game.base+0022BBE0 (I)Hunitstate;"},
+   {"ConvertAIDifficulty", ConvertAIDifficulty, METH_VARARGS, "Game.base+0022B920 (I)Haidifficulty;"},
+   {"ConvertGameEvent", ConvertGameEvent, METH_VARARGS, "Game.base+0022B9D0 (I)Hgameevent;"},
+   {"ConvertPlayerEvent", ConvertPlayerEvent, METH_VARARGS, "Game.base+0022BAB0 (I)Hplayerevent;"},
+   {"ConvertPlayerUnitEvent", ConvertPlayerUnitEvent, METH_VARARGS, "Game.base+0022BB00 (I)Hplayerunitevent;"},
+   {"ConvertUnitEvent", ConvertUnitEvent, METH_VARARGS, "Game.base+0022BBD0 (I)Hunitevent;"},
+   {"ConvertWidgetEvent", ConvertWidgetEvent, METH_VARARGS, "Game.base+0022BC30 (I)Hwidgetevent;"},
+   {"ConvertDialogEvent", ConvertDialogEvent, METH_VARARGS, "Game.base+0022B980 (I)Hdialogevent;"},
+   {"ConvertLimitOp", ConvertLimitOp, METH_VARARGS, "Game.base+0022BA20 (I)Hlimitop;"},
+   {"ConvertUnitType", ConvertUnitType, METH_VARARGS, "Game.base+0022BBF0 (I)Hunittype;"},
+   {"ConvertGameSpeed", ConvertGameSpeed, METH_VARARGS, "Game.base+0022B9E0 (I)Hgamespeed;"},
+   {"ConvertPlacement", ConvertPlacement, METH_VARARGS, "Game.base+0022BA90 (I)Hplacement;"},
+   {"ConvertGameDifficulty", ConvertGameDifficulty, METH_VARARGS, "Game.base+0022B9C0 (I)Hgamedifficulty;"},
+   {"ConvertGameType", ConvertGameType, METH_VARARGS, "Game.base+0022B9F0 (I)Hgametype;"},
+   {"ConvertMapFlag", ConvertMapFlag, METH_VARARGS, "Game.base+0022BA50 (I)Hmapflag;"},
+   {"ConvertMapVisibility", ConvertMapVisibility, METH_VARARGS, "Game.base+0022BA70 (I)Hmapvisibility;"},
+   {"ConvertMapSetting", ConvertMapSetting, METH_VARARGS, "Game.base+0022BA60 (I)Hmapsetting;"},
+   {"ConvertMapDensity", ConvertMapDensity, METH_VARARGS, "Game.base+0022BA40 (I)Hmapdensity;"},
+   {"ConvertMapControl", ConvertMapControl, METH_VARARGS, "Game.base+0022BA30 (I)Hmapcontrol;"},
+   {"ConvertPlayerColor", ConvertPlayerColor, METH_VARARGS, "Game.base+0022BAA0 (I)Hplayercolor;"},
+   {"ConvertPlayerSlotState", ConvertPlayerSlotState, METH_VARARGS, "Game.base+0022BAE0 (I)Hplayerslotstate;"},
+   {"ConvertVolumeGroup", ConvertVolumeGroup, METH_VARARGS, "Game.base+0022BC10 (I)Hvolumegroup;"},
+   {"ConvertCameraField", ConvertCameraField, METH_VARARGS, "Game.base+0022B960 (I)Hcamerafield;"},
+   {"ConvertBlendMode", ConvertBlendMode, METH_VARARGS, "Game.base+0022B950 (I)Hblendmode;"},
+   {"ConvertRarityControl", ConvertRarityControl, METH_VARARGS, "Game.base+0022BB40 (I)Hraritycontrol;"},
+   {"ConvertTexMapFlags", ConvertTexMapFlags, METH_VARARGS, "Game.base+0022BB70 (I)Htexmapflags;"},
+   {"ConvertFogState", ConvertFogState, METH_VARARGS, "Game.base+0022B9B0 (I)Hfogstate;"},
+   {"ConvertEffectType", ConvertEffectType, METH_VARARGS, "Game.base+0022B990 (I)Heffecttype;"},
+   {"ConvertVersion", ConvertVersion, METH_VARARGS, "Game.base+0022BC00 (I)Hversion;"},
+   {"ConvertItemType", ConvertItemType, METH_VARARGS, "Game.base+0022BA10 (I)Hitemtype;"},
+   {"ConvertAttackType", ConvertAttackType, METH_VARARGS, "Game.base+0022B940 (I)Hattacktype;"},
+   {"ConvertDamageType", ConvertDamageType, METH_VARARGS, "Game.base+0022B970 (I)Hdamagetype;"},
+   {"ConvertWeaponType", ConvertWeaponType, METH_VARARGS, "Game.base+0022BC20 (I)Hweapontype;"},
+   {"ConvertSoundType", ConvertSoundType, METH_VARARGS, "Game.base+0022BB50 (I)Hsoundtype;"},
+   {"ConvertPathingType", ConvertPathingType, METH_VARARGS, "Game.base+0022BA80 (I)Hpathingtype;"},
+   {"SetMapName", SetMapName, METH_VARARGS, "Game.base+00246230 (S)V"},
+   {"SetMapDescription", SetMapDescription, METH_VARARGS, "Game.base+002461A0 (S)V"},
+   {"SetTeams", SetTeams, METH_VARARGS, "Game.base+00246E80 (I)V"},
+   {"SetPlayers", SetPlayers, METH_VARARGS, "Game.base+002467B0 (I)V"},
+   {"SetGameTypeSupported", SetGameTypeSupported, METH_VARARGS, "Game.base+002459F0 (Hgametype;B)V"},
+   {"SetMapFlag", SetMapFlag, METH_VARARGS, "Game.base+002461D0 (Hmapflag;B)V"},
+   {"SetGameSpeed", SetGameSpeed, METH_VARARGS, "Game.base+002459D0 (Hgamespeed;)V"},
+   {"SetGamePlacement", SetGamePlacement, METH_VARARGS, "Game.base+002459B0 (Hplacement;)V"},
+   {"SetGameDifficulty", SetGameDifficulty, METH_VARARGS, "Game.base+00245990 (Hgamedifficulty;)V"},
+   {"SetResourceDensity", SetResourceDensity, METH_VARARGS, "Game.base+00246940 (Hmapdensity;)V"},
+   {"SetCreatureDensity", SetCreatureDensity, METH_VARARGS, "Game.base+00244BD0 (Hmapdensity;)V"},
+   {"DefineStartLocation", DefineStartLocation, METH_VARARGS, "Game.base+0022F550 (IRR)V"},
+   {"DefineStartLocationLoc", DefineStartLocationLoc, METH_VARARGS, "Game.base+0022F570 (IHlocation;)V"},
+   {"SetStartLocPrioCount", SetStartLocPrioCount, METH_VARARGS, "Game.base+00246E50 (II)V"},
+   {"SetStartLocPrio", SetStartLocPrio, METH_VARARGS, "Game.base+00246E10 (IIIHstartlocprio;)V"},
+   {"GetStartLocPrioSlot", GetStartLocPrioSlot, METH_VARARGS, "Game.base+00235800 (II)I"},
+   {"GetStartLocPrio", GetStartLocPrio, METH_VARARGS, "Game.base+002357D0 (II)Hstartlocprio;"},
+   {"GetTeams", GetTeams, METH_NOARGS, "Game.base+00235B40 ()I"},
+   {"GetPlayers", GetPlayers, METH_NOARGS, "Game.base+00234580 ()I"},
+   {"IsGameTypeSupported", IsGameTypeSupported, METH_VARARGS, "Game.base+00237CC0 (Hgametype;)B"},
+   {"IsMapFlagSet", IsMapFlagSet, METH_VARARGS, "Game.base+00238070 (Hmapflag;)B"},
+   {"GetGameTypeSelected", GetGameTypeSelected, METH_NOARGS, "Game.base+002329C0 ()Hgametype;"},
+   {"GetGamePlacement", GetGamePlacement, METH_NOARGS, "Game.base+002329A0 ()Hplacement;"},
+   {"GetGameSpeed", GetGameSpeed, METH_NOARGS, "Game.base+002329B0 ()Hgamespeed;"},
+   {"GetGameDifficulty", GetGameDifficulty, METH_NOARGS, "Game.base+00232990 ()Hgamedifficulty;"},
+   {"GetResourceDensity", GetResourceDensity, METH_NOARGS, "Game.base+00234A30 ()Hmapdensity;"},
+   {"GetCreatureDensity", GetCreatureDensity, METH_NOARGS, "Game.base+002320B0 ()Hmapdensity;"},
+   {"GetStartLocationX", GetStartLocationX, METH_VARARGS, "Game.base+00235880 (I)R"},
+   {"GetStartLocationY", GetStartLocationY, METH_VARARGS, "Game.base+002358A0 (I)R"},
+   {"GetStartLocationLoc", GetStartLocationLoc, METH_VARARGS, "Game.base+00235830 (I)Hlocation;"},
+   {"SetPlayerTeam", SetPlayerTeam, METH_VARARGS, "Game.base+002466F0 (Hplayer;I)V"},
+   {"SetPlayerStartLocation", SetPlayerStartLocation, METH_VARARGS, "Game.base+00246610 (Hplayer;I)V"},
+   {"ForcePlayerStartLocation", ForcePlayerStartLocation, METH_VARARGS, "Game.base+00231040 (Hplayer;I)V"},
+   {"SetPlayerAlliance", SetPlayerAlliance, METH_VARARGS, "Game.base+00246340 (Hplayer;Hplayer;Halliancetype;B)V"},
+   {"SetPlayerTaxRate", SetPlayerTaxRate, METH_VARARGS, "Game.base+00246690 (Hplayer;Hplayer;Hplayerstate;I)V"},
+   {"SetPlayerRacePreference", SetPlayerRacePreference, METH_VARARGS, "Game.base+002465B0 (Hplayer;Hracepreference;)V"},
+   {"SetPlayerRaceSelectable", SetPlayerRaceSelectable, METH_VARARGS, "Game.base+002465E0 (Hplayer;B)V"},
+   {"SetPlayerController", SetPlayerController, METH_VARARGS, "Game.base+00246400 (Hplayer;Hmapcontrol;)V"},
+   {"SetPlayerColor", SetPlayerColor, METH_VARARGS, "Game.base+002463E0 (Hplayer;Hplayercolor;)V"},
+   {"SetPlayerOnScoreScreen", SetPlayerOnScoreScreen, METH_VARARGS, "Game.base+00246590 (Hplayer;B)V"},
+   {"SetPlayerName", SetPlayerName, METH_VARARGS, "Game.base+00246550 (Hplayer;S)V"},
+   {"GetPlayerTeam", GetPlayerTeam, METH_VARARGS, "Game.base+00234390 (Hplayer;)I"},
+   {"GetPlayerName", GetPlayerName, METH_VARARGS, "Game.base+00233F70 (Hplayer;)S"},
+   {"GetPlayerStartLocation", GetPlayerStartLocation, METH_VARARGS, "Game.base+00234230 (Hplayer;)I"},
+   {"GetPlayerStartLocationX", GetPlayerStartLocationX, METH_VARARGS, "Game.base+00234250 (Hplayer;)R"},
+   {"GetPlayerStartLocationY", GetPlayerStartLocationY, METH_VARARGS, "Game.base+00234280 (Hplayer;)R"},
+   {"GetPlayerColor", GetPlayerColor, METH_VARARGS, "Game.base+00233ED0 (Hplayer;)Hplayercolor;"},
+   {"GetPlayerSelectable", GetPlayerSelectable, METH_VARARGS, "Game.base+002341F0 (Hplayer;)B"},
+   {"GetPlayerController", GetPlayerController, METH_VARARGS, "Game.base+00233EF0 (Hplayer;)Hmapcontrol;"},
+   {"GetPlayerSlotState", GetPlayerSlotState, METH_VARARGS, "Game.base+00234210 (Hplayer;)Hplayerslotstate;"},
+   {"GetPlayerTaxRate", GetPlayerTaxRate, METH_VARARGS, "Game.base+00234340 (Hplayer;Hplayer;Hplayerstate;)I"},
+   {"IsPlayerRacePrefSet", IsPlayerRacePrefSet, METH_VARARGS, "Game.base+002383B0 (Hplayer;Hracepreference;)B"},
+   {"Location", Location, METH_VARARGS, "Game.base+00240E20 (RR)Hlocation;"},
+   {"RemoveLocation", RemoveLocation, METH_VARARGS, "Game.base+00243090 (Hlocation;)V"},
+   {"MoveLocation", MoveLocation, METH_VARARGS, "Game.base+002410D0 (Hlocation;RR)V"},
+   {"GetLocationX", GetLocationX, METH_VARARGS, "Game.base+00233470 (Hlocation;)R"},
+   {"GetLocationY", GetLocationY, METH_VARARGS, "Game.base+00233490 (Hlocation;)R"},
+   {"GetLocationZ", GetLocationZ, METH_VARARGS, "Game.base+002334B0 (Hlocation;)R"},
+   {"CreateTimer", CreateTimer, METH_NOARGS, "Game.base+0022ED00 ()Htimer;"},
+   {"DestroyTimer", DestroyTimer, METH_VARARGS, "Game.base+0022F9E0 (Htimer;)V"},
+   {"TimerStart", TimerStart, METH_VARARGS, "Game.base+002492F0 (Htimer;RBC)V"},
+   {"TimerGetTimeout", TimerGetTimeout, METH_VARARGS, "Game.base+002492C0 (Htimer;)R"},
+   {"TimerGetElapsed", TimerGetElapsed, METH_VARARGS, "Game.base+00249260 (Htimer;)R"},
+   {"TimerGetRemaining", TimerGetRemaining, METH_VARARGS, "Game.base+00249290 (Htimer;)R"},
+   {"PauseTimer", PauseTimer, METH_VARARGS, "Game.base+00241D10 (Htimer;)V"},
+   {"ResumeTimer", ResumeTimer, METH_VARARGS, "Game.base+002435F0 (Htimer;)V"},
+   {"GetExpiredTimer", GetExpiredTimer, METH_NOARGS, "Game.base+00232660 ()Htimer;"},
+   {"Condition", Condition, METH_VARARGS, "Game.base+0022B810 (C)Hconditionfunc;"},
+   {"DestroyCondition", DestroyCondition, METH_VARARGS, "Game.base+0022F780 (Hconditionfunc;)V"},
+   {"Filter", Filter, METH_VARARGS, "Game.base+00230970 (C)Hfilterfunc;"},
+   {"DestroyFilter", DestroyFilter, METH_VARARGS, "Game.base+0022F820 (Hfilterfunc;)V"},
+   {"DestroyBoolExpr", DestroyBoolExpr, METH_VARARGS, "Game.base+0022F760 (Hboolexpr;)V"},
+   {"And", And, METH_VARARGS, "Game.base+0022A950 (Hboolexpr;Hboolexpr;)Hboolexpr;"},
+   {"Or", Or, METH_VARARGS, "Game.base+002419B0 (Hboolexpr;Hboolexpr;)Hboolexpr;"},
+   {"Not", Not, METH_VARARGS, "Game.base+00241810 (Hboolexpr;)Hboolexpr;"},
+   {"CreateRegion", CreateRegion, METH_NOARGS, "Game.base+0022E8B0 ()Hregion;"},
+   {"RemoveRegion", RemoveRegion, METH_VARARGS, "Game.base+00243100 (Hregion;)V"},
+   {"RegionAddRect", RegionAddRect, METH_VARARGS, "Game.base+00242D10 (Hregion;Hrect;)V"},
+   {"RegionClearRect", RegionClearRect, METH_VARARGS, "Game.base+00242DC0 (Hregion;Hrect;)V"},
+   {"RegionAddCell", RegionAddCell, METH_VARARGS, "Game.base+00242CB0 (Hregion;RR)V"},
+   {"RegionAddCellAtLoc", RegionAddCellAtLoc, METH_VARARGS, "Game.base+00242CD0 (Hregion;Hlocation;)V"},
+   {"RegionClearCell", RegionClearCell, METH_VARARGS, "Game.base+00242D60 (Hregion;RR)V"},
+   {"RegionClearCellAtLoc", RegionClearCellAtLoc, METH_VARARGS, "Game.base+00242D80 (Hregion;Hlocation;)V"},
+   {"IsUnitInRegion", IsUnitInRegion, METH_VARARGS, "Game.base+00238C50 (Hregion;Hunit;)B"},
+   {"IsPointInRegion", IsPointInRegion, METH_VARARGS, "Game.base+00238490 (Hregion;RR)B"},
+   {"IsLocationInRegion", IsLocationInRegion, METH_VARARGS, "Game.base+00237F80 (Hregion;Hlocation;)B"},
+   {"Rect", Rect, METH_VARARGS, "Game.base+0023F7C0 (RRRR)Hrect;"},
+   {"RectFromLoc", RectFromLoc, METH_VARARGS, "Game.base+00242B30 (Hlocation;Hlocation;)Hrect;"},
+   {"RemoveRect", RemoveRect, METH_VARARGS, "Game.base+002430E0 (Hrect;)V"},
+   {"SetRect", SetRect, METH_VARARGS, "Game.base+0023F980 (Hrect;RRRR)V"},
+   {"SetRectFromLoc", SetRectFromLoc, METH_VARARGS, "Game.base+002467F0 (Hrect;Hlocation;Hlocation;)V"},
+   {"GetRectCenterX", GetRectCenterX, METH_VARARGS, "Game.base+00234700 (Hrect;)R"},
+   {"GetRectCenterY", GetRectCenterY, METH_VARARGS, "Game.base+00234760 (Hrect;)R"},
+   {"MoveRectTo", MoveRectTo, METH_VARARGS, "Game.base+00241100 (Hrect;RR)V"},
+   {"MoveRectToLoc", MoveRectToLoc, METH_VARARGS, "Game.base+00241130 (Hrect;Hlocation;)V"},
+   {"GetRectMinX", GetRectMinX, METH_VARARGS, "Game.base+00234800 (Hrect;)R"},
+   {"GetRectMinY", GetRectMinY, METH_VARARGS, "Game.base+00234820 (Hrect;)R"},
+   {"GetRectMaxX", GetRectMaxX, METH_VARARGS, "Game.base+002347C0 (Hrect;)R"},
+   {"GetRectMaxY", GetRectMaxY, METH_VARARGS, "Game.base+002347E0 (Hrect;)R"},
+   {"GetWorldBounds", GetWorldBounds, METH_NOARGS, "Game.base+00236A40 ()Hrect;"},
+   {"SetFogStateRect", SetFogStateRect, METH_VARARGS, "Game.base+002458B0 (Hplayer;Hfogstate;Hrect;B)V"},
+   {"SetFogStateRadius", SetFogStateRadius, METH_VARARGS, "Game.base+002457E0 (Hplayer;Hfogstate;RRRB)V"},
+   {"SetFogStateRadiusLoc", SetFogStateRadiusLoc, METH_VARARGS, "Game.base+00245840 (Hplayer;Hfogstate;Hlocation;RB)V"},
+   {"FogMaskEnable", FogMaskEnable, METH_VARARGS, "Game.base+00230DF0 (B)V"},
+   {"IsFogMaskEnabled", IsFogMaskEnabled, METH_NOARGS, "Game.base+00237B90 ()B"},
+   {"FogEnable", FogEnable, METH_VARARGS, "Game.base+00230DC0 (B)V"},
+   {"IsFogEnabled", IsFogEnabled, METH_NOARGS, "Game.base+00237B80 ()B"},
+   {"CreateFogModifierRect", CreateFogModifierRect, METH_VARARGS, "Game.base+0022E100 (Hplayer;Hfogstate;Hrect;BB)Hfogmodifier;"},
+   {"CreateFogModifierRadius", CreateFogModifierRadius, METH_VARARGS, "Game.base+0022DF40 (Hplayer;Hfogstate;RRRBB)Hfogmodifier;"},
+   {"CreateFogModifierRadiusLoc", CreateFogModifierRadiusLoc, METH_VARARGS, "Game.base+0022E020 (Hplayer;Hfogstate;Hlocation;RBB)Hfogmodifier;"},
+   {"DestroyFogModifier", DestroyFogModifier, METH_VARARGS, "Game.base+0022F850 (Hfogmodifier;)V"},
+   {"FogModifierStart", FogModifierStart, METH_VARARGS, "Game.base+00230E10 (Hfogmodifier;)V"},
+   {"FogModifierStop", FogModifierStop, METH_VARARGS, "Game.base+00230E30 (Hfogmodifier;)V"},
+   {"CreateTrigger", CreateTrigger, METH_NOARGS, "Game.base+0022EFF0 ()Htrigger;"},
+   {"DestroyTrigger", DestroyTrigger, METH_VARARGS, "Game.base+0022FA20 (Htrigger;)V"},
+   {"ResetTrigger", ResetTrigger, METH_VARARGS, "Game.base+00243450 (Htrigger;)V"},
+   {"EnableTrigger", EnableTrigger, METH_VARARGS, "Game.base+00230260 (Htrigger;)V"},
+   {"DisableTrigger", DisableTrigger, METH_VARARGS, "Game.base+0022FEA0 (Htrigger;)V"},
+   {"IsTriggerEnabled", IsTriggerEnabled, METH_VARARGS, "Game.base+002386D0 (Htrigger;)B"},
+   {"TriggerWaitOnSleeps", TriggerWaitOnSleeps, METH_VARARGS, "Game.base+0024A800 (Htrigger;B)V"},
+   {"IsTriggerWaitOnSleeps", IsTriggerWaitOnSleeps, METH_VARARGS, "Game.base+002386F0 (Htrigger;)B"},
+   {"TriggerRegisterVariableEvent", TriggerRegisterVariableEvent, METH_VARARGS, "Game.base+0024A660 (Htrigger;SHlimitop;R)Hevent;"},
+   {"TriggerRegisterTimerEvent", TriggerRegisterTimerEvent, METH_VARARGS, "Game.base+0024A070 (Htrigger;RB)Hevent;"},
+   {"TriggerRegisterTimerExpireEvent", TriggerRegisterTimerExpireEvent, METH_VARARGS, "Game.base+0024A130 (Htrigger;Htimer;)Hevent;"},
+   {"TriggerRegisterGameStateEvent", TriggerRegisterGameStateEvent, METH_VARARGS, "Game.base+00249960 (Htrigger;Hgamestate;Hlimitop;R)Hevent;"},
+   {"GetEventGameState", GetEventGameState, METH_NOARGS, "Game.base+00232500 ()Hgamestate;"},
+   {"TriggerRegisterDialogEvent", TriggerRegisterDialogEvent, METH_VARARGS, "Game.base+002495E0 (Htrigger;Hdialog;)Hevent;"},
+   {"TriggerRegisterDialogButtonEvent", TriggerRegisterDialogButtonEvent, METH_VARARGS, "Game.base+00249520 (Htrigger;Hbutton;)Hevent;"},
+   {"GetClickedButton", GetClickedButton, METH_NOARGS, "Game.base+00231F20 ()Hbutton;"},
+   {"GetClickedDialog", GetClickedDialog, METH_NOARGS, "Game.base+00231F70 ()Hdialog;"},
+   {"GetTournamentFinishSoonTimeRemaining", GetTournamentFinishSoonTimeRemaining, METH_NOARGS, "Game.base+00235D40 ()R;"},
+   {"GetTournamentFinishNowRule", GetTournamentFinishNowRule, METH_NOARGS, "Game.base+00235D10 ()I;"},
+   {"GetTournamentFinishNowPlayer", GetTournamentFinishNowPlayer, METH_NOARGS, "Game.base+00235CB0 ()Hplayer;"},
+   {"GetTournamentScore", GetTournamentScore, METH_VARARGS, "Game.base+00235D70 (Hplayer;)I"},
+   {"GetSaveBasicFilename", GetSaveBasicFilename, METH_NOARGS, "Game.base+00234B50 ()S"},
+   {"TriggerRegisterGameEvent", TriggerRegisterGameEvent, METH_VARARGS, "Game.base+00249880 (Htrigger;Hgameevent;)Hevent;"},
+   {"GetWinningPlayer", GetWinningPlayer, METH_NOARGS, "Game.base+00236A10 ()Hplayer;"},
+   {"TriggerRegisterPlayerStateEvent", TriggerRegisterPlayerStateEvent, METH_VARARGS, "Game.base+00249E50 (Htrigger;Hplayer;Hplayerstate;Hlimitop;R)Hevent;"},
+   {"GetEventPlayerState", GetEventPlayerState, METH_NOARGS, "Game.base+002325A0 ()Hplayerstate;"},
+   {"TriggerRegisterPlayerEvent", TriggerRegisterPlayerEvent, METH_VARARGS, "Game.base+00249D30 (Htrigger;Hplayer;Hplayerevent;)Hevent;"},
+   {"TriggerRegisterPlayerUnitEvent", TriggerRegisterPlayerUnitEvent, METH_VARARGS, "Game.base+00249F70 (Htrigger;Hplayer;Hplayerunitevent;Hboolexpr;)Hevent;"},
+   {"GetAttacker", GetAttacker, METH_NOARGS, "Game.base+00231900 ()Hunit;"},
+   {"GetRescuer", GetRescuer, METH_NOARGS, "Game.base+00234860 ()Hunit;"},
+   {"GetDyingUnit", GetDyingUnit, METH_NOARGS, "Game.base+00232360 ()Hunit;"},
+   {"GetKillingUnit", GetKillingUnit, METH_NOARGS, "Game.base+00232FF0 ()Hunit;"},
+   {"GetDecayingUnit", GetDecayingUnit, METH_NOARGS, "Game.base+00232120 ()Hunit;"},
+   {"GetConstructingStructure", GetConstructingStructure, METH_NOARGS, "Game.base+00232000 ()Hunit;"},
+   {"GetCancelledStructure", GetCancelledStructure, METH_NOARGS, "Game.base+00231DF0 ()Hunit;"},
+   {"GetConstructedStructure", GetConstructedStructure, METH_NOARGS, "Game.base+00231FE0 ()Hunit;"},
+   {"GetTrainedUnitType", GetTrainedUnitType, METH_NOARGS, "Game.base+00235E20 ()I"},
+   {"GetResearchingUnit", GetResearchingUnit, METH_NOARGS, "Game.base+00234980 ()Hunit;"},
+   {"GetResearched", GetResearched, METH_NOARGS, "Game.base+002348E0 ()I"},
+   {"GetTrainedUnit", GetTrainedUnit, METH_NOARGS, "Game.base+00235DA0 ()Hunit;"},
+   {"GetSellingUnit", GetSellingUnit, METH_NOARGS, "Game.base+00234BE0 ()Hunit;"},
+   {"GetSoldUnit", GetSoldUnit, METH_NOARGS, "Game.base+00234D90 ()Hunit;"},
+   {"GetBuyingUnit", GetBuyingUnit, METH_NOARGS, "Game.base+00231980 ()Hunit;"},
+   {"GetSoldItem", GetSoldItem, METH_NOARGS, "Game.base+00234D00 ()Hitem;"},
+   {"GetChangingUnit", GetChangingUnit, METH_NOARGS, "Game.base+00231E10 ()Hunit;"},
+   {"GetChangingUnitPrevOwner", GetChangingUnitPrevOwner, METH_NOARGS, "Game.base+00231E90 ()Hplayer;"},
+   {"GetDetectedUnit", GetDetectedUnit, METH_NOARGS, "Game.base+00232320 ()Hunit;"},
+   {"GetOrderedUnit", GetOrderedUnit, METH_NOARGS, "Game.base+00233D50 ()Hunit;"},
+   {"OrderId", OrderId, METH_VARARGS, "Game.base+00241AE0 (S)I"},
+   {"OrderId2String", OrderId2String, METH_VARARGS, "Game.base+00241AB0 (I)S"},
+   {"AbilityId", AbilityId, METH_VARARGS, "Game.base+00229DB0 (S)I"},
+   {"AbilityId2String", AbilityId2String, METH_VARARGS, "Game.base+00229D80 (I)S"},
+   {"UnitId", UnitId, METH_VARARGS, "Game.base+0024B120 (S)I"},
+   {"UnitId2String", UnitId2String, METH_VARARGS, "Game.base+0024B0F0 (I)S"},
+   {"GetObjectName", GetObjectName, METH_VARARGS, "Game.base+002336D0 (I)S"},
+   {"GetIssuedOrderId", GetIssuedOrderId, METH_NOARGS, "Game.base+00232D90 ()I"},
+   {"GetOrderPointX", GetOrderPointX, METH_NOARGS, "Game.base+002337F0 ()R"},
+   {"GetOrderPointY", GetOrderPointY, METH_NOARGS, "Game.base+00233840 ()R"},
+   {"GetOrderPointLoc", GetOrderPointLoc, METH_NOARGS, "Game.base+00233750 ()Hlocation;"},
+   {"GetOrderTarget", GetOrderTarget, METH_NOARGS, "Game.base+00233890 ()Hwidget;"},
+   {"GetOrderTargetDestructable", GetOrderTargetDestructable, METH_NOARGS, "Game.base+002339F0 ()Hdestructable;"},
+   {"GetOrderTargetItem", GetOrderTargetItem, METH_NOARGS, "Game.base+00233B10 ()Hitem;"},
+   {"GetOrderTargetUnit", GetOrderTargetUnit, METH_NOARGS, "Game.base+00233C30 ()Hunit;"},
+   {"GetSpellAbilityUnit", GetSpellAbilityUnit, METH_NOARGS, "Game.base+00235070 ()Hunit;"},
+   {"GetSpellAbilityId", GetSpellAbilityId, METH_NOARGS, "Game.base+00235000 ()I"},
+   {"GetSpellAbility", GetSpellAbility, METH_NOARGS, "Game.base+00234EB0 ()Hability;"},
+   {"GetSpellTargetLoc", GetSpellTargetLoc, METH_NOARGS, "Game.base+002353F0 ()Hlocation;"},
+   {"GetSpellTargetX", GetSpellTargetX, METH_NOARGS, "Game.base+00235610 ()R"},
+   {"GetSpellTargetY", GetSpellTargetY, METH_NOARGS, "Game.base+002356F0 ()R"},
+   {"GetSpellTargetDestructable", GetSpellTargetDestructable, METH_NOARGS, "Game.base+00235190 ()Hdestructable;"},
+   {"GetSpellTargetItem", GetSpellTargetItem, METH_NOARGS, "Game.base+002352C0 ()Hitem;"},
+   {"GetSpellTargetUnit", GetSpellTargetUnit, METH_NOARGS, "Game.base+002354E0 ()Hunit;"},
+   {"GetLevelingUnit", GetLevelingUnit, METH_NOARGS, "Game.base+00233180 ()Hunit;"},
+   {"GetLearningUnit", GetLearningUnit, METH_NOARGS, "Game.base+002330E0 ()Hunit;"},
+   {"GetLearnedSkill", GetLearnedSkill, METH_NOARGS, "Game.base+00233060 ()I"},
+   {"GetLearnedSkillLevel", GetLearnedSkillLevel, METH_NOARGS, "Game.base+002330A0 ()I"},
+   {"GetRevivableUnit", GetRevivableUnit, METH_NOARGS, "Game.base+00234A40 ()Hunit;"},
+   {"GetRevivingUnit", GetRevivingUnit, METH_NOARGS, "Game.base+00234AA0 ()Hunit;"},
+   {"GetSummoningUnit", GetSummoningUnit, METH_NOARGS, "Game.base+00235AD0 ()Hunit;"},
+   {"GetSummonedUnit", GetSummonedUnit, METH_NOARGS, "Game.base+00235A50 ()Hunit;"},
+   {"GetTransportUnit", GetTransportUnit, METH_NOARGS, "Game.base+00235EE0 ()Hunit;"},
+   {"GetLoadedUnit", GetLoadedUnit, METH_NOARGS, "Game.base+00233320 ()Hunit;"},
+   {"GetManipulatingUnit", GetManipulatingUnit, METH_NOARGS, "Game.base+002335B0 ()Hunit;"},
+   {"GetManipulatedItem", GetManipulatedItem, METH_NOARGS, "Game.base+00233510 ()Hitem;"},
+   {"TriggerRegisterPlayerAllianceChange", TriggerRegisterPlayerAllianceChange, METH_VARARGS, "Game.base+00249B90 (Htrigger;Hplayer;Halliancetype;)Hevent;"},
+   {"TriggerRegisterPlayerChatEvent", TriggerRegisterPlayerChatEvent, METH_VARARGS, "Game.base+00249C60 (Htrigger;Hplayer;SB)Hevent;"},
+   {"GetEventPlayerChatString", GetEventPlayerChatString, METH_NOARGS, "Game.base+00232530 ()S"},
+   {"GetEventPlayerChatStringMatched", GetEventPlayerChatStringMatched, METH_NOARGS, "Game.base+00232570 ()S"},
+   {"TriggerRegisterUnitStateEvent", TriggerRegisterUnitStateEvent, METH_VARARGS, "Game.base+0024A570 (Htrigger;Hunit;Hunitstate;Hlimitop;R)Hevent;"},
+   {"GetEventUnitState", GetEventUnitState, METH_NOARGS, "Game.base+00232620 ()Hunitstate;"},
+   {"TriggerRegisterDeathEvent", TriggerRegisterDeathEvent, METH_VARARGS, "Game.base+00249450 (Htrigger;Hwidget;)Hevent;"},
+   {"TriggerRegisterUnitEvent", TriggerRegisterUnitEvent, METH_VARARGS, "Game.base+0024A370 (Htrigger;Hunit;Hunitevent;)Hevent;"},
+   {"GetEventDamage", GetEventDamage, METH_NOARGS, "Game.base+00232420 ()R"},
+   {"GetEventDamageSource", GetEventDamageSource, METH_NOARGS, "Game.base+00232440 ()Hunit;"},
+   {"GetEventDetectingPlayer", GetEventDetectingPlayer, METH_NOARGS, "Game.base+002324B0 ()Hplayer;"},
+   {"GetEventTargetUnit", GetEventTargetUnit, METH_NOARGS, "Game.base+002325D0 ()Hunit;"},
+   {"TriggerRegisterFilterUnitEvent", TriggerRegisterFilterUnitEvent, METH_VARARGS, "Game.base+00249780 (Htrigger;Hunit;Hunitevent;Hboolexpr;)Hevent;"},
+   {"TriggerRegisterUnitInRange", TriggerRegisterUnitInRange, METH_VARARGS, "Game.base+0024A480 (Htrigger;Hunit;RHboolexpr;)Hevent;"},
+   {"TriggerRegisterEnterRegion", TriggerRegisterEnterRegion, METH_VARARGS, "Game.base+002496A0 (Htrigger;Hregion;Hboolexpr;)Hevent;"},
+   {"TriggerRegisterLeaveRegion", TriggerRegisterLeaveRegion, METH_VARARGS, "Game.base+00249AB0 (Htrigger;Hregion;Hboolexpr;)Hevent;"},
+   {"GetTriggeringRegion", GetTriggeringRegion, METH_NOARGS, "Game.base+00236080 ()Hregion;"},
+   {"GetEnteringUnit", GetEnteringUnit, METH_NOARGS, "Game.base+00232380 ()Hunit;"},
+   {"GetLeavingUnit", GetLeavingUnit, METH_NOARGS, "Game.base+00233140 ()Hunit;"},
+   {"TriggerAddCondition", TriggerAddCondition, METH_VARARGS, "Game.base+00249360 (Htrigger;Hboolexpr;)Htriggercondition;"},
+   {"TriggerRemoveCondition", TriggerRemoveCondition, METH_VARARGS, "Game.base+0024A760 (Htrigger;Htriggercondition;)V"},
+   {"TriggerClearConditions", TriggerClearConditions, METH_VARARGS, "Game.base+002493D0 (Htrigger;)V"},
+   {"TriggerAddAction", TriggerAddAction, METH_VARARGS, "Game.base+00249320 (Htrigger;C)Htriggeraction;"},
+   {"TriggerRemoveAction", TriggerRemoveAction, METH_VARARGS, "Game.base+0024A730 (Htrigger;Htriggeraction;)V"},
+   {"TriggerClearActions", TriggerClearActions, METH_VARARGS, "Game.base+002493B0 (Htrigger;)V"},
+   {"TriggerSleepAction", TriggerSleepAction, METH_VARARGS, "Game.base+0024A790 (R)V"},
+   {"TriggerWaitForSound", TriggerWaitForSound, METH_VARARGS, "Game.base+0024A7E0 (Hsound;R)V"},
+   {"TriggerExecute", TriggerExecute, METH_VARARGS, "Game.base+00249410 (Htrigger;)V"},
+   {"TriggerExecuteWait", TriggerExecuteWait, METH_VARARGS, "Game.base+00249430 (Htrigger;)V"},
+   {"TriggerEvaluate", TriggerEvaluate, METH_VARARGS, "Game.base+002493F0 (Htrigger;)B"},
+   {"TriggerSyncStart", TriggerSyncStart, METH_NOARGS, "Game.base+0024A7D0 ()V"},
+   {"TriggerSyncReady", TriggerSyncReady, METH_NOARGS, "Game.base+0024A7A0 ()V"},
+   {"GetTriggerWidget", GetTriggerWidget, METH_NOARGS, "Game.base+00236060 ()Hwidget;"},
+   {"GetTriggerDestructable", GetTriggerDestructable, METH_NOARGS, "Game.base+00235F60 ()Hdestructable;"},
+   {"GetTriggerUnit", GetTriggerUnit, METH_NOARGS, "Game.base+00236040 ()Hunit;"},
+   {"GetTriggerPlayer", GetTriggerPlayer, METH_NOARGS, "Game.base+00236020 ()Hplayer;"},
+   {"GetTriggeringTrigger", GetTriggeringTrigger, METH_NOARGS, "Game.base+00236100 ()Htrigger;"},
+   {"GetTriggerEventId", GetTriggerEventId, METH_NOARGS, "Game.base+00235FC0 ()Heventid;"},
+   {"GetTriggerEvalCount", GetTriggerEvalCount, METH_VARARGS, "Game.base+00235F80 (Htrigger;)I"},
+   {"GetTriggerExecCount", GetTriggerExecCount, METH_VARARGS, "Game.base+00236000 (Htrigger;)I"},
+   {"GetFilterUnit", GetFilterUnit, METH_NOARGS, "Game.base+00232720 ()Hunit;"},
+   {"GetEnumUnit", GetEnumUnit, METH_NOARGS, "Game.base+00232400 ()Hunit;"},
+   {"GetEnumPlayer", GetEnumPlayer, METH_NOARGS, "Game.base+002323E0 ()Hplayer;"},
+   {"GetFilterPlayer", GetFilterPlayer, METH_NOARGS, "Game.base+00232700 ()Hplayer;"},
+   {"GetFilterDestructable", GetFilterDestructable, METH_NOARGS, "Game.base+002326C0 ()Hdestructable;"},
+   {"GetEnumDestructable", GetEnumDestructable, METH_NOARGS, "Game.base+002323A0 ()Hdestructable;"},
+   {"GetFilterItem", GetFilterItem, METH_NOARGS, "Game.base+002326E0 ()Hitem;"},
+   {"GetEnumItem", GetEnumItem, METH_NOARGS, "Game.base+002323C0 ()Hitem;"},
+   {"CreateGroup", CreateGroup, METH_NOARGS, "Game.base+0022E2D0 ()Hgroup;"},
+   {"DestroyGroup", DestroyGroup, METH_VARARGS, "Game.base+0022F890 (Hgroup;)V"},
+   {"GroupAddUnit", GroupAddUnit, METH_VARARGS, "Game.base+00236B40 (Hgroup;Hunit;)V"},
+   {"GroupRemoveUnit", GroupRemoveUnit, METH_VARARGS, "Game.base+00237060 (Hgroup;Hunit;)V"},
+   {"GroupClear", GroupClear, METH_VARARGS, "Game.base+00236B70 (Hgroup;)V"},
+   {"GroupEnumUnitsOfType", GroupEnumUnitsOfType, METH_VARARGS, "Game.base+00236D80 (Hgroup;SHboolexpr;)V"},
+   {"GroupEnumUnitsOfTypeCounted", GroupEnumUnitsOfTypeCounted, METH_VARARGS, "Game.base+00236DD0 (Hgroup;SHboolexpr;I)V"},
+   {"GroupEnumUnitsInRect", GroupEnumUnitsInRect, METH_VARARGS, "Game.base+00236C80 (Hgroup;Hrect;Hboolexpr;)V"},
+   {"GroupEnumUnitsInRectCounted", GroupEnumUnitsInRectCounted, METH_VARARGS, "Game.base+00236CE0 (Hgroup;Hrect;Hboolexpr;I)V"},
+   {"GroupEnumUnitsOfPlayer", GroupEnumUnitsOfPlayer, METH_VARARGS, "Game.base+00236D40 (Hgroup;Hplayer;Hboolexpr;)V"},
+   {"GroupEnumUnitsInRange", GroupEnumUnitsInRange, METH_VARARGS, "Game.base+00236B90 (Hgroup;RRRHboolexpr;)V"},
+   {"GroupEnumUnitsInRangeOfLoc", GroupEnumUnitsInRangeOfLoc, METH_VARARGS, "Game.base+00236C00 (Hgroup;Hlocation;RHboolexpr;)V"},
+   {"GroupEnumUnitsInRangeCounted", GroupEnumUnitsInRangeCounted, METH_VARARGS, "Game.base+00236BC0 (Hgroup;RRRHboolexpr;I)V"},
+   {"GroupEnumUnitsInRangeOfLocCounted", GroupEnumUnitsInRangeOfLocCounted, METH_VARARGS, "Game.base+00236C40 (Hgroup;Hlocation;RHboolexpr;I)V"},
+   {"GroupEnumUnitsSelected", GroupEnumUnitsSelected, METH_VARARGS, "Game.base+00236E20 (Hgroup;Hplayer;Hboolexpr;)V"},
+   {"GroupImmediateOrder", GroupImmediateOrder, METH_VARARGS, "Game.base+00236F70 (Hgroup;S)B"},
+   {"GroupImmediateOrderById", GroupImmediateOrderById, METH_VARARGS, "Game.base+00236F90 (Hgroup;I)B"},
+   {"GroupPointOrder", GroupPointOrder, METH_VARARGS, "Game.base+00236FB0 (Hgroup;SRR)B"},
+   {"GroupPointOrderLoc", GroupPointOrderLoc, METH_VARARGS, "Game.base+00237040 (Hgroup;SHlocation;)B"},
+   {"GroupPointOrderById", GroupPointOrderById, METH_VARARGS, "Game.base+00236FD0 (Hgroup;IRR)B"},
+   {"GroupPointOrderByIdLoc", GroupPointOrderByIdLoc, METH_VARARGS, "Game.base+00237000 (Hgroup;IHlocation;)B"},
+   {"GroupTargetOrder", GroupTargetOrder, METH_VARARGS, "Game.base+00237090 (Hgroup;SHwidget;)B"},
+   {"GroupTargetOrderById", GroupTargetOrderById, METH_VARARGS, "Game.base+002370B0 (Hgroup;IHwidget;)B"},
+   {"ForGroup", ForGroup, METH_VARARGS, "Game.base+00230EA0 (Hgroup;C)V"},
+   {"FirstOfGroup", FirstOfGroup, METH_VARARGS, "Game.base+00230AA0 (Hgroup;)Hunit;"},
+   {"CreateForce", CreateForce, METH_NOARGS, "Game.base+0022E1F0 ()Hforce;"},
+   {"DestroyForce", DestroyForce, METH_VARARGS, "Game.base+0022F870 (Hforce;)V"},
+   {"ForceAddPlayer", ForceAddPlayer, METH_VARARGS, "Game.base+00230EC0 (Hforce;Hplayer;)V"},
+   {"ForceRemovePlayer", ForceRemovePlayer, METH_VARARGS, "Game.base+002310A0 (Hforce;Hplayer;)V"},
+   {"ForceClear", ForceClear, METH_VARARGS, "Game.base+00230F40 (Hforce;)V"},
+   {"ForceEnumPlayers", ForceEnumPlayers, METH_VARARGS, "Game.base+00230FE0 (Hforce;Hboolexpr;)V"},
+   {"ForceEnumPlayersCounted", ForceEnumPlayersCounted, METH_VARARGS, "Game.base+00231010 (Hforce;Hboolexpr;I)V"},
+   {"ForceEnumAllies", ForceEnumAllies, METH_VARARGS, "Game.base+00230F60 (Hforce;Hplayer;Hboolexpr;)V"},
+   {"ForceEnumEnemies", ForceEnumEnemies, METH_VARARGS, "Game.base+00230FA0 (Hforce;Hplayer;Hboolexpr;)V"},
+   {"ForForce", ForForce, METH_VARARGS, "Game.base+00230E80 (Hforce;C)V"},
+   {"GetWidgetLife", GetWidgetLife, METH_VARARGS, "Game.base+00236960 (Hwidget;)R"},
+   {"SetWidgetLife", SetWidgetLife, METH_VARARGS, "Game.base+002480C0 (Hwidget;R)V"},
+   {"GetWidgetX", GetWidgetX, METH_VARARGS, "Game.base+00236990 (Hwidget;)R"},
+   {"GetWidgetY", GetWidgetY, METH_VARARGS, "Game.base+002369D0 (Hwidget;)R"},
+   {"CreateDestructable", CreateDestructable, METH_VARARGS, "Game.base+0022DEA0 (IRRRRI)Hdestructable;"},
+   {"CreateDestructableZ", CreateDestructableZ, METH_VARARGS, "Game.base+0022DEF0 (IRRRRRI)Hdestructable;"},
+   {"CreateDeadDestructable", CreateDeadDestructable, METH_VARARGS, "Game.base+0022DDB0 (IRRRRI)Hdestructable;"},
+   {"CreateDeadDestructableZ", CreateDeadDestructableZ, METH_VARARGS, "Game.base+0022DE00 (IRRRRRI)Hdestructable;"},
+   {"RemoveDestructable", RemoveDestructable, METH_VARARGS, "Game.base+00242FD0 (Hdestructable;)V"},
+   {"KillDestructable", KillDestructable, METH_VARARGS, "Game.base+0023FEC0 (Hdestructable;)V"},
+   {"SetDestructableInvulnerable", SetDestructableInvulnerable, METH_VARARGS, "Game.base+00244E10 (Hdestructable;B)V"},
+   {"IsDestructableInvulnerable", IsDestructableInvulnerable, METH_VARARGS, "Game.base+00237A90 (Hdestructable;)B"},
+   {"EnumDestructablesInRect", EnumDestructablesInRect, METH_VARARGS, "Game.base+00230390 (Hrect;Hboolexpr;C)V"},
+   {"GetDestructableTypeId", GetDestructableTypeId, METH_VARARGS, "Game.base+00232280 (Hdestructable;)I"},
+   {"GetDestructableX", GetDestructableX, METH_VARARGS, "Game.base+002322A0 (Hdestructable;)R"},
+   {"GetDestructableY", GetDestructableY, METH_VARARGS, "Game.base+002322E0 (Hdestructable;)R"},
+   {"SetDestructableLife", SetDestructableLife, METH_VARARGS, "Game.base+00244E30 (Hdestructable;R)V"},
+   {"GetDestructableLife", GetDestructableLife, METH_VARARGS, "Game.base+002321C0 (Hdestructable;)R"},
+   {"SetDestructableMaxLife", SetDestructableMaxLife, METH_VARARGS, "Game.base+00244E50 (Hdestructable;R)V"},
+   {"GetDestructableMaxLife", GetDestructableMaxLife, METH_VARARGS, "Game.base+00232200 (Hdestructable;)R"},
+   {"DestructableRestoreLife", DestructableRestoreLife, METH_VARARGS, "Game.base+0022FBD0 (Hdestructable;RB)V"},
+   {"QueueDestructableAnimation", QueueDestructableAnimation, METH_VARARGS, "Game.base+002429E0 (Hdestructable;S)V"},
+   {"SetDestructableAnimation", SetDestructableAnimation, METH_VARARGS, "Game.base+00244D20 (Hdestructable;S)V"},
+   {"SetDestructableAnimationSpeed", SetDestructableAnimationSpeed, METH_VARARGS, "Game.base+00244DE0 (Hdestructable;R)V"},
+   {"ShowDestructable", ShowDestructable, METH_VARARGS, "Game.base+002480E0 (Hdestructable;B)V"},
+   {"GetDestructableOccluderHeight", GetDestructableOccluderHeight, METH_VARARGS, "Game.base+00232260 (Hdestructable;)R"},
+   {"SetDestructableOccluderHeight", SetDestructableOccluderHeight, METH_VARARGS, "Game.base+00244EA0 (Hdestructable;R)V"},
+   {"GetDestructableName", GetDestructableName, METH_VARARGS, "Game.base+00232230 (Hdestructable;)S"},
+   {"CreateUnit", CreateUnit, METH_VARARGS, "Game.base+0022F140 (Hplayer;IRRR)Hunit;"},
+   {"CreateUnitByName", CreateUnitByName, METH_VARARGS, "Game.base+0022F220 (Hplayer;SRRR)Hunit;"},
+   {"CreateUnitAtLoc", CreateUnitAtLoc, METH_VARARGS, "Game.base+0022F1A0 (Hplayer;IHlocation;R)Hunit;"},
+   {"CreateUnitAtLocByName", CreateUnitAtLocByName, METH_VARARGS, "Game.base+0022F1F0 (Hplayer;SHlocation;R)Hunit;"},
+   {"CreateCorpse", CreateCorpse, METH_VARARGS, "Game.base+0022DD00 (Hplayer;IRRR)Hunit;"},
+   {"GetUnitState", GetUnitState, METH_VARARGS, "Game.base+00236830 (Hunit;Hunitstate;)R"},
+   {"GetUnitFoodUsed", GetUnitFoodUsed, METH_VARARGS, "Game.base+00236410 (Hunit;)I"},
+   {"GetUnitFoodMade", GetUnitFoodMade, METH_VARARGS, "Game.base+002363F0 (Hunit;)I"},
+   {"GetFoodMade", GetFoodMade, METH_VARARGS, "Game.base+002327B0 (I)I"},
+   {"GetFoodUsed", GetFoodUsed, METH_VARARGS, "Game.base+002327C0 (I)I"},
+   {"SetUnitUseFood", SetUnitUseFood, METH_VARARGS, "Game.base+00247E50 (Hunit;B)V"},
+   {"GetUnitX", GetUnitX, METH_VARARGS, "Game.base+002368E0 (Hunit;)R"},
+   {"GetUnitY", GetUnitY, METH_VARARGS, "Game.base+00236920 (Hunit;)R"},
+   {"GetUnitLoc", GetUnitLoc, METH_VARARGS, "Game.base+002364B0 (Hunit;)Hlocation;"},
+   {"GetUnitRallyPoint", GetUnitRallyPoint, METH_VARARGS, "Game.base+002366F0 (Hunit;)Hlocation;"},
+   {"GetUnitRallyUnit", GetUnitRallyUnit, METH_VARARGS, "Game.base+00236760 (Hunit;)Hunit;"},
+   {"GetUnitRallyDestructable", GetUnitRallyDestructable, METH_VARARGS, "Game.base+00236620 (Hunit;)Hdestructable;"},
+   {"GetUnitFacing", GetUnitFacing, METH_VARARGS, "Game.base+00236360 (Hunit;)R"},
+   {"GetUnitMoveSpeed", GetUnitMoveSpeed, METH_VARARGS, "Game.base+00236510 (Hunit;)R"},
+   {"GetUnitDefaultMoveSpeed", GetUnitDefaultMoveSpeed, METH_VARARGS, "Game.base+00236270 (Hunit;)R"},
+   {"GetUnitTypeId", GetUnitTypeId, METH_VARARGS, "Game.base+002368A0 (Hunit;)I"},
+   {"GetUnitRace", GetUnitRace, METH_VARARGS, "Game.base+00236600 (Hunit;)Hrace;"},
+   {"GetUnitName", GetUnitName, METH_VARARGS, "Game.base+00236570 (Hunit;)S"},
+   {"GetUnitPointValue", GetUnitPointValue, METH_VARARGS, "Game.base+002365A0 (Hunit;)I"},
+   {"GetUnitPointValueByType", GetUnitPointValueByType, METH_VARARGS, "Game.base+002365C0 (I)I"},
+   {"SetUnitX", SetUnitX, METH_VARARGS, "Game.base+00247F80 (Hunit;R)V"},
+   {"SetUnitY", SetUnitY, METH_VARARGS, "Game.base+00247FE0 (Hunit;R)V"},
+   {"SetUnitPosition", SetUnitPosition, METH_VARARGS, "Game.base+00247C40 (Hunit;RR)V"},
+   {"SetUnitPositionLoc", SetUnitPositionLoc, METH_VARARGS, "Game.base+00247CA0 (Hunit;Hlocation;)V"},
+   {"SetUnitFacing", SetUnitFacing, METH_VARARGS, "Game.base+002477F0 (Hunit;R)V"},
+   {"SetUnitFacingTimed", SetUnitFacingTimed, METH_VARARGS, "Game.base+00247830 (Hunit;RR)V"},
+   {"SetUnitFlyHeight", SetUnitFlyHeight, METH_VARARGS, "Game.base+00247940 (Hunit;RR)V"},
+   {"SetUnitMoveSpeed", SetUnitMoveSpeed, METH_VARARGS, "Game.base+00247B60 (Hunit;R)V"},
+   {"SetUnitTurnSpeed", SetUnitTurnSpeed, METH_VARARGS, "Game.base+00247DF0 (Hunit;R)V"},
+   {"SetUnitPropWindow", SetUnitPropWindow, METH_VARARGS, "Game.base+00247CE0 (Hunit;R)V"},
+   {"SetUnitCreepGuard", SetUnitCreepGuard, METH_VARARGS, "Game.base+00247760 (Hunit;B)V"},
+   {"GetUnitAcquireRange", GetUnitAcquireRange, METH_VARARGS, "Game.base+00236180 (Hunit;)R"},
+   {"GetUnitTurnSpeed", GetUnitTurnSpeed, METH_VARARGS, "Game.base+00236870 (Hunit;)R"},
+   {"GetUnitPropWindow", GetUnitPropWindow, METH_VARARGS, "Game.base+002365D0 (Hunit;)R"},
+   {"GetUnitFlyHeight", GetUnitFlyHeight, METH_VARARGS, "Game.base+002363D0 (Hunit;)R"},
+   {"GetUnitDefaultAcquireRange", GetUnitDefaultAcquireRange, METH_VARARGS, "Game.base+00236210 (Hunit;)R"},
+   {"GetUnitDefaultTurnSpeed", GetUnitDefaultTurnSpeed, METH_VARARGS, "Game.base+00236330 (Hunit;)R"},
+   {"GetUnitDefaultPropWindow", GetUnitDefaultPropWindow, METH_VARARGS, "Game.base+00236300 (Hunit;)R"},
+   {"GetUnitDefaultFlyHeight", GetUnitDefaultFlyHeight, METH_VARARGS, "Game.base+00236240 (Hunit;)R"},
+   {"SetUnitAcquireRange", SetUnitAcquireRange, METH_VARARGS, "Game.base+00247520 (Hunit;R)V"},
+   {"SetUnitState", SetUnitState, METH_VARARGS, "Game.base+00247D90 (Hunit;Hunitstate;R)V"},
+   {"SetUnitOwner", SetUnitOwner, METH_VARARGS, "Game.base+00247B80 (Hunit;Hplayer;B)V"},
+   {"SetUnitRescuable", SetUnitRescuable, METH_VARARGS, "Game.base+00247D00 (Hunit;Hplayer;B)V"},
+   {"SetUnitRescueRange", SetUnitRescueRange, METH_VARARGS, "Game.base+00247D30 (Hunit;R)V"},
+   {"SetUnitColor", SetUnitColor, METH_VARARGS, "Game.base+00247720 (Hunit;Hplayercolor;)V"},
+   {"QueueUnitAnimation", QueueUnitAnimation, METH_VARARGS, "Game.base+00242A00 (Hunit;S)V"},
+   {"SetUnitAnimation", SetUnitAnimation, METH_VARARGS, "Game.base+00247540 (Hunit;S)V"},
+   {"SetUnitAnimationWithRarity", SetUnitAnimationWithRarity, METH_VARARGS, "Game.base+002476D0 (Hunit;SHraritycontrol;)V"},
+   {"SetUnitAnimationByIndex", SetUnitAnimationByIndex, METH_VARARGS, "Game.base+00247560 (Hunit;I)V"},
+   {"AddUnitAnimationProperties", AddUnitAnimationProperties, METH_VARARGS, "Game.base+0022A790 (Hunit;SB)V"},
+   {"SetUnitScale", SetUnitScale, METH_VARARGS, "Game.base+00247D50 (Hunit;RRR)V"},
+   {"SetUnitTimeScale", SetUnitTimeScale, METH_VARARGS, "Game.base+00247DC0 (Hunit;R)V"},
+   {"SetUnitBlendTime", SetUnitBlendTime, METH_VARARGS, "Game.base+002476F0 (Hunit;R)V"},
+   {"SetUnitVertexColor", SetUnitVertexColor, METH_VARARGS, "Game.base+00247EE0 (Hunit;IIII)V"},
+   {"SetUnitLookAt", SetUnitLookAt, METH_VARARGS, "Game.base+002479F0 (Hunit;SHunit;RRR)V"},
+   {"SetUnitPathing", SetUnitPathing, METH_VARARGS, "Game.base+00247BC0 (Hunit;B)V"},
+   {"ResetUnitLookAt", ResetUnitLookAt, METH_VARARGS, "Game.base+00243490 (Hunit;)V"},
+   {"SetHeroStr", SetHeroStr, METH_VARARGS, "Game.base+00245BA0 (Hunit;IB)V"},
+   {"SetHeroAgi", SetHeroAgi, METH_VARARGS, "Game.base+00245A30 (Hunit;IB)V"},
+   {"SetHeroInt", SetHeroInt, METH_VARARGS, "Game.base+00245A90 (Hunit;IB)V"},
+   {"GetHeroStr", GetHeroStr, METH_VARARGS, "Game.base+00232C00 (Hunit;B)I"},
+   {"GetHeroAgi", GetHeroAgi, METH_VARARGS, "Game.base+002329E0 (Hunit;B)I"},
+   {"GetHeroInt", GetHeroInt, METH_VARARGS, "Game.base+00232A40 (Hunit;B)I"},
+   {"GetHeroSkillPoints", GetHeroSkillPoints, METH_VARARGS, "Game.base+00232BA0 (Hunit;)I"},
+   {"UnitStripHeroLevel", UnitStripHeroLevel, METH_VARARGS, "Game.base+0024B680 (Hunit;I)B"},
+   {"UnitModifySkillPoints", UnitModifySkillPoints, METH_VARARGS, "Game.base+0024B300 (Hunit;I)B"},
+   {"GetHeroXP", GetHeroXP, METH_VARARGS, "Game.base+00232C60 (Hunit;)I"},
+   {"SetHeroXP", SetHeroXP, METH_VARARGS, "Game.base+00245C00 (Hunit;IB)V"},
+   {"AddHeroXP", AddHeroXP, METH_VARARGS, "Game.base+00229FF0 (Hunit;IB)V"},
+   {"SetHeroLevel", SetHeroLevel, METH_VARARGS, "Game.base+00245AF0 (Hunit;IB)V"},
+   {"GetHeroLevel", GetHeroLevel, METH_VARARGS, "Game.base+00232AA0 (Hunit;)I"},
+   {"GetUnitLevel", GetUnitLevel, METH_VARARGS, "Game.base+00236440 (Hunit;)I"},
+   {"GetHeroProperName", GetHeroProperName, METH_VARARGS, "Game.base+00232B00 (Hunit;)S"},
+   {"SuspendHeroXP", SuspendHeroXP, METH_VARARGS, "Game.base+00248B20 (Hunit;B)V"},
+   {"IsSuspendedXP", IsSuspendedXP, METH_VARARGS, "Game.base+00238600 (Hunit;)B"},
+   {"SelectHeroSkill", SelectHeroSkill, METH_VARARGS, "Game.base+00243FC0 (Hunit;I)V"},
+   {"GetUnitAbilityLevel", GetUnitAbilityLevel, METH_VARARGS, "Game.base+00236120 (Hunit;I)I"},
+   {"ReviveHero", ReviveHero, METH_VARARGS, "Game.base+00243610 (Hunit;RRB)B"},
+   {"ReviveHeroLoc", ReviveHeroLoc, METH_VARARGS, "Game.base+00243690 (Hunit;Hlocation;B)B"},
+   {"SetUnitExploded", SetUnitExploded, METH_VARARGS, "Game.base+00247790 (Hunit;B)V"},
+   {"SetUnitInvulnerable", SetUnitInvulnerable, METH_VARARGS, "Game.base+002479A0 (Hunit;B)V"},
+   {"PauseUnit", PauseUnit, METH_VARARGS, "Game.base+00241D30 (Hunit;B)V"},
+   {"IsUnitPaused", IsUnitPaused, METH_VARARGS, "Game.base+00238DE0 (Hunit;)B"},
+   {"UnitAddItem", UnitAddItem, METH_VARARGS, "Game.base+0024A920 (Hunit;Hitem;)B"},
+   {"UnitAddItemById", UnitAddItemById, METH_VARARGS, "Game.base+0024AA10 (Hunit;I)Hitem;"},
+   {"UnitAddItemToSlotById", UnitAddItemToSlotById, METH_VARARGS, "Game.base+0024AAC0 (Hunit;II)B"},
+   {"UnitRemoveItem", UnitRemoveItem, METH_VARARGS, "Game.base+0024B480 (Hunit;Hitem;)V"},
+   {"UnitRemoveItemFromSlot", UnitRemoveItemFromSlot, METH_VARARGS, "Game.base+0024B4C0 (Hunit;I)Hitem;"},
+   {"UnitHasItem", UnitHasItem, METH_VARARGS, "Game.base+0024B0A0 (Hunit;Hitem;)B"},
+   {"UnitItemInSlot", UnitItemInSlot, METH_VARARGS, "Game.base+0024B260 (Hunit;I)Hitem;"},
+   {"UnitInventorySize", UnitInventorySize, METH_VARARGS, "Game.base+0024B1F0 (Hunit;)I"},
+   {"UnitDropItemPoint", UnitDropItemPoint, METH_VARARGS, "Game.base+0024AF30 (Hunit;Hitem;RR)B"},
+   {"UnitDropItemSlot", UnitDropItemSlot, METH_VARARGS, "Game.base+0024AF90 (Hunit;Hitem;I)B"},
+   {"UnitDropItemTarget", UnitDropItemTarget, METH_VARARGS, "Game.base+0024B000 (Hunit;Hitem;Hwidget;)B"},
+   {"UnitUseItem", UnitUseItem, METH_VARARGS, "Game.base+0024B740 (Hunit;Hitem;)B"},
+   {"UnitUseItemPoint", UnitUseItemPoint, METH_VARARGS, "Game.base+0024B7B0 (Hunit;Hitem;RR)B"},
+   {"UnitUseItemTarget", UnitUseItemTarget, METH_VARARGS, "Game.base+0024B820 (Hunit;Hitem;Hwidget;)B"},
+   {"GetUnitCurrentOrder", GetUnitCurrentOrder, METH_VARARGS, "Game.base+002361B0 (Hunit;)I"},
+   {"SetResourceAmount", SetResourceAmount, METH_VARARGS, "Game.base+002468F0 (Hunit;I)V"},
+   {"AddResourceAmount", AddResourceAmount, METH_VARARGS, "Game.base+0022A440 (Hunit;I)V"},
+   {"GetResourceAmount", GetResourceAmount, METH_VARARGS, "Game.base+002349E0 (Hunit;)I"},
+   {"SelectUnit", SelectUnit, METH_VARARGS, "Game.base+00244020 (Hunit;B)V"},
+   {"ClearSelection", ClearSelection, METH_NOARGS, "Game.base+0022B560 ()V"},
+   {"UnitAddIndicator", UnitAddIndicator, METH_VARARGS, "Game.base+0024A890 (Hunit;IIII)V"},
+   {"AddIndicator", AddIndicator, METH_VARARGS, "Game.base+0022A060 (Hwidget;IIII)V"},
+   {"KillUnit", KillUnit, METH_VARARGS, "Game.base+0023FF00 (Hunit;)V"},
+   {"RemoveUnit", RemoveUnit, METH_VARARGS, "Game.base+00243290 (Hunit;)V"},
+   {"ShowUnit", ShowUnit, METH_VARARGS, "Game.base+00248180 (Hunit;B)V"},
+   {"IsUnitInForce", IsUnitInForce, METH_VARARGS, "Game.base+00238B00 (Hunit;Hforce;)B"},
+   {"IsUnitInGroup", IsUnitInGroup, METH_VARARGS, "Game.base+00238B40 (Hunit;Hgroup;)B"},
+   {"IsUnitOwnedByPlayer", IsUnitOwnedByPlayer, METH_VARARGS, "Game.base+00238DA0 (Hunit;Hplayer;)B"},
+   {"IsUnitAlly", IsUnitAlly, METH_VARARGS, "Game.base+00238740 (Hunit;Hplayer;)B"},
+   {"IsUnitEnemy", IsUnitEnemy, METH_VARARGS, "Game.base+002387E0 (Hunit;Hplayer;)B"},
+   {"IsUnitVisible", IsUnitVisible, METH_VARARGS, "Game.base+002390A0 (Hunit;Hplayer;)B"},
+   {"IsUnitDetected", IsUnitDetected, METH_VARARGS, "Game.base+002387A0 (Hunit;Hplayer;)B"},
+   {"IsUnitInvisible", IsUnitInvisible, METH_VARARGS, "Game.base+00238CC0 (Hunit;Hplayer;)B"},
+   {"IsUnitFogged", IsUnitFogged, METH_VARARGS, "Game.base+00238860 (Hunit;Hplayer;)B"},
+   {"IsUnitMasked", IsUnitMasked, METH_VARARGS, "Game.base+00238D20 (Hunit;Hplayer;)B"},
+   {"IsUnitSelected", IsUnitSelected, METH_VARARGS, "Game.base+00238E60 (Hunit;Hplayer;)B"},
+   {"IsUnitRace", IsUnitRace, METH_VARARGS, "Game.base+00238E30 (Hunit;Hrace;)B"},
+   {"IsUnitType", IsUnitType, METH_VARARGS, "Game.base+00238EE0 (Hunit;Hunittype;)B"},
+   {"IsUnit", IsUnit, METH_VARARGS, "Game.base+00238710 (Hunit;Hunit;)B"},
+   {"IsUnitInRange", IsUnitInRange, METH_VARARGS, "Game.base+00238B70 (Hunit;Hunit;R)B"},
+   {"IsUnitInRangeXY", IsUnitInRangeXY, METH_VARARGS, "Game.base+00238C00 (Hunit;RRR)B"},
+   {"IsUnitInRangeLoc", IsUnitInRangeLoc, METH_VARARGS, "Game.base+00238BC0 (Hunit;Hlocation;R)B"},
+   {"IsUnitHidden", IsUnitHidden, METH_VARARGS, "Game.base+002388E0 (Hunit;)B"},
+   {"IsUnitIllusion", IsUnitIllusion, METH_VARARGS, "Game.base+00238AE0 (Hunit;)B"},
+   {"IsUnitInTransport", IsUnitInTransport, METH_VARARGS, "Game.base+00238C90 (Hunit;Hunit;)B"},
+   {"IsUnitLoaded", IsUnitLoaded, METH_VARARGS, "Game.base+00238D00 (Hunit;)B"},
+   {"IsHeroUnitId", IsHeroUnitId, METH_VARARGS, "Game.base+00237D70 (I)B"},
+   {"IsUnitIdType", IsUnitIdType, METH_VARARGS, "Game.base+00238900 (IHunittype;)B"},
+   {"GetOwningPlayer", GetOwningPlayer, METH_VARARGS, "Game.base+00233DD0 (Hunit;)Hplayer;"},
+   {"UnitShareVision", UnitShareVision, METH_VARARGS, "Game.base+0024B650 (Hunit;Hplayer;B)V"},
+   {"UnitSuspendDecay", UnitSuspendDecay, METH_VARARGS, "Game.base+0024B6E0 (Hunit;B)V"},
+   {"UnitAddType", UnitAddType, METH_VARARGS, "Game.base+0024AC00 (Hunit;Hunittype;)B"},
+   {"UnitRemoveType", UnitRemoveType, METH_VARARGS, "Game.base+0024B520 (Hunit;Hunittype;)B"},
+   {"UnitAddAbility", UnitAddAbility, METH_VARARGS, "Game.base+0024A820 (Hunit;I)B"},
+   {"UnitRemoveAbility", UnitRemoveAbility, METH_VARARGS, "Game.base+0024B3C0 (Hunit;I)B"},
+   {"UnitMakeAbilityPermanent", UnitMakeAbilityPermanent, METH_VARARGS, "Game.base+0024B2B0 (Hunit;BI)B"},
+   {"UnitHasBuffsEx", UnitHasBuffsEx, METH_VARARGS, "Game.base+0024B060 (Hunit;BBBBBBB)B"},
+   {"UnitCountBuffsEx", UnitCountBuffsEx, METH_VARARGS, "Game.base+0024AD50 (Hunit;BBBBBBB)I"},
+   {"UnitRemoveBuffs", UnitRemoveBuffs, METH_VARARGS, "Game.base+0024B410 (Hunit;BB)V"},
+   {"UnitRemoveBuffsEx", UnitRemoveBuffsEx, METH_VARARGS, "Game.base+0024B440 (Hunit;BBBBBBB)V"},
+   {"UnitAddSleep", UnitAddSleep, METH_VARARGS, "Game.base+0024AB60 (Hunit;B)V"},
+   {"UnitCanSleep", UnitCanSleep, METH_VARARGS, "Game.base+0024ACD0 (Hunit;)B"},
+   {"UnitAddSleepPerm", UnitAddSleepPerm, METH_VARARGS, "Game.base+0024ABB0 (Hunit;B)V"},
+   {"UnitCanSleepPerm", UnitCanSleepPerm, METH_VARARGS, "Game.base+0024AD10 (Hunit;)B"},
+   {"UnitIsSleeping", UnitIsSleeping, METH_VARARGS, "Game.base+0024B220 (Hunit;)B"},
+   {"UnitWakeUp", UnitWakeUp, METH_VARARGS, "Game.base+0024B8A0 (Hunit;)V"},
+   {"UnitApplyTimedLife", UnitApplyTimedLife, METH_VARARGS, "Game.base+0024AC60 (Hunit;IR)V"},
+   {"UnitIgnoreAlarm", UnitIgnoreAlarm, METH_VARARGS, "Game.base+0024B150 (Hunit;B)B"},
+   {"UnitIgnoreAlarmToggled", UnitIgnoreAlarmToggled, METH_VARARGS, "Game.base+0024B1B0 (Hunit;)B"},
+   {"UnitDamagePoint", UnitDamagePoint, METH_VARARGS, "Game.base+0024AD90 (Hunit;RRRRRBBHattacktype;Hdamagetype;Hweapontype;)B"},
+   {"UnitDamageTarget", UnitDamageTarget, METH_VARARGS, "Game.base+0024AE80 (Hunit;Hwidget;RBBHattacktype;Hdamagetype;Hweapontype;)B"},
+   {"DecUnitAbilityLevel", DecUnitAbilityLevel, METH_VARARGS, "Game.base+0022F400 (Hunit;I)I"},
+   {"IncUnitAbilityLevel", IncUnitAbilityLevel, METH_VARARGS, "Game.base+00237570 (Hunit;I)I"},
+   {"SetUnitAbilityLevel", SetUnitAbilityLevel, METH_VARARGS, "Game.base+00247450 (Hunit;II)I"},
+   {"UnitResetCooldown", UnitResetCooldown, METH_VARARGS, "Game.base+0024B580 (Hunit;)V"},
+   {"UnitSetConstructionProgress", UnitSetConstructionProgress, METH_VARARGS, "Game.base+0024B5A0 (Hunit;I)V"},
+   {"UnitSetUpgradeProgress", UnitSetUpgradeProgress, METH_VARARGS, "Game.base+0024B5E0 (Hunit;I)V"},
+   {"UnitPauseTimedLife", UnitPauseTimedLife, METH_VARARGS, "Game.base+0024B360 (Hunit;B)V"},
+   {"UnitSetUsesAltIcon", UnitSetUsesAltIcon, METH_VARARGS, "Game.base+0024B620 (Hunit;B)V"},
+   {"IssueImmediateOrderById", IssueImmediateOrderById, METH_VARARGS, "Game.base+002392C0 (Hunit;I)B"},
+   {"IssuePointOrderById", IssuePointOrderById, METH_VARARGS, "Game.base+00239690 (Hunit;IRR)B"},
+   {"IssuePointOrderByIdLoc", IssuePointOrderByIdLoc, METH_VARARGS, "Game.base+00239830 (Hunit;IHlocation;)B"},
+   {"IssueTargetOrderById", IssueTargetOrderById, METH_VARARGS, "Game.base+002398E0 (Hunit;IHwidget;)B"},
+   {"IssueInstantPointOrderById", IssueInstantPointOrderById, METH_VARARGS, "Game.base+00239360 (Hunit;IRRHwidget;)B"},
+   {"IssueInstantTargetOrderById", IssueInstantTargetOrderById, METH_VARARGS, "Game.base+00239410 (Hunit;IHwidget;Hwidget;)B"},
+   {"IssueBuildOrderById", IssueBuildOrderById, METH_VARARGS, "Game.base+002391F0 (Hunit;IRR)B"},
+   {"IssueNeutralImmediateOrderById", IssueNeutralImmediateOrderById, METH_VARARGS, "Game.base+00239550 (Hplayer;Hunit;I)B"},
+   {"IssueNeutralPointOrderById", IssueNeutralPointOrderById, METH_VARARGS, "Game.base+002395B0 (Hplayer;Hunit;IRR)B"},
+   {"IssueNeutralTargetOrderById", IssueNeutralTargetOrderById, METH_VARARGS, "Game.base+00239620 (Hplayer;Hunit;IHwidget;)B"},
+   {"IssueImmediateOrder", IssueImmediateOrder, METH_VARARGS, "Game.base+002392A0 (Hunit;S)B"},
+   {"IssuePointOrder", IssuePointOrder, METH_VARARGS, "Game.base+00239670 (Hunit;SRR)B"},
+   {"IssuePointOrderLoc", IssuePointOrderLoc, METH_VARARGS, "Game.base+00239870 (Hunit;SHlocation;)B"},
+   {"IssueTargetOrder", IssueTargetOrder, METH_VARARGS, "Game.base+002398C0 (Hunit;SHwidget;)B"},
+   {"IssueInstantPointOrder", IssueInstantPointOrder, METH_VARARGS, "Game.base+00239340 (Hunit;SRRHwidget;)B"},
+   {"IssueInstantTargetOrder", IssueInstantTargetOrder, METH_VARARGS, "Game.base+002393F0 (Hunit;SHwidget;Hwidget;)B"},
+   {"IssueBuildOrder", IssueBuildOrder, METH_VARARGS, "Game.base+002391D0 (Hunit;SRR)B"},
+   {"IssueNeutralImmediateOrder", IssueNeutralImmediateOrder, METH_VARARGS, "Game.base+00239530 (Hplayer;Hunit;S)B"},
+   {"IssueNeutralPointOrder", IssueNeutralPointOrder, METH_VARARGS, "Game.base+00239590 (Hplayer;Hunit;SRR)B"},
+   {"IssueNeutralTargetOrder", IssueNeutralTargetOrder, METH_VARARGS, "Game.base+00239600 (Hplayer;Hunit;SHwidget;)B"},
+   {"WaygateGetDestinationX", WaygateGetDestinationX, METH_VARARGS, "Game.base+0024BAA0 (Hunit;)R"},
+   {"WaygateGetDestinationY", WaygateGetDestinationY, METH_VARARGS, "Game.base+0024BAF0 (Hunit;)R"},
+   {"WaygateSetDestination", WaygateSetDestination, METH_VARARGS, "Game.base+0024BB80 (Hunit;RR)V"},
+   {"WaygateActivate", WaygateActivate, METH_VARARGS, "Game.base+0024BA60 (Hunit;B)V"},
+   {"WaygateIsActive", WaygateIsActive, METH_VARARGS, "Game.base+0024BB40 (Hunit;)B"},
+   {"AddItemToAllStock", AddItemToAllStock, METH_VARARGS, "Game.base+0022A200 (III)V"},
+   {"AddItemToStock", AddItemToStock, METH_VARARGS, "Game.base+0022A220 (Hunit;III)V"},
+   {"AddUnitToAllStock", AddUnitToAllStock, METH_VARARGS, "Game.base+0022A840 (III)V"},
+   {"AddUnitToStock", AddUnitToStock, METH_VARARGS, "Game.base+0022A860 (Hunit;III)V"},
+   {"RemoveItemFromAllStock", RemoveItemFromAllStock, METH_VARARGS, "Game.base+00243040 (I)V"},
+   {"RemoveItemFromStock", RemoveItemFromStock, METH_VARARGS, "Game.base+00243050 (Hunit;I)V"},
+   {"RemoveUnitFromAllStock", RemoveUnitFromAllStock, METH_VARARGS, "Game.base+002432C0 (I)V"},
+   {"RemoveUnitFromStock", RemoveUnitFromStock, METH_VARARGS, "Game.base+002432D0 (Hunit;I)V"},
+   {"SetAllItemTypeSlots", SetAllItemTypeSlots, METH_VARARGS, "Game.base+00244170 (I)V"},
+   {"SetAllUnitTypeSlots", SetAllUnitTypeSlots, METH_VARARGS, "Game.base+00244180 (I)V"},
+   {"SetItemTypeSlots", SetItemTypeSlots, METH_VARARGS, "Game.base+00246040 (Hunit;I)V"},
+   {"SetUnitTypeSlots", SetUnitTypeSlots, METH_VARARGS, "Game.base+00247E10 (Hunit;I)V"},
+   {"GetUnitUserData", GetUnitUserData, METH_VARARGS, "Game.base+002368C0 (Hunit;)I"},
+   {"SetUnitUserData", SetUnitUserData, METH_VARARGS, "Game.base+00247EC0 (Hunit;I)V"},
+   {"CreateItem", CreateItem, METH_VARARGS, "Game.base+0022E450 (IRR)Hitem;"},
+   {"RemoveItem", RemoveItem, METH_VARARGS, "Game.base+00243010 (Hitem;)V"},
+   {"GetItemPlayer", GetItemPlayer, METH_VARARGS, "Game.base+00232E80 (Hitem;)Hplayer;"},
+   {"GetItemTypeId", GetItemTypeId, METH_VARARGS, "Game.base+00232EF0 (Hitem;)I"},
+   {"GetItemX", GetItemX, METH_VARARGS, "Game.base+00232F30 (Hitem;)R"},
+   {"GetItemY", GetItemY, METH_VARARGS, "Game.base+00232F70 (Hitem;)R"},
+   {"SetItemPosition", SetItemPosition, METH_VARARGS, "Game.base+00245FC0 (Hitem;RR)V"},
+   {"SetItemDropOnDeath", SetItemDropOnDeath, METH_VARARGS, "Game.base+00245EE0 (Hitem;B)V"},
+   {"SetItemDroppable", SetItemDroppable, METH_VARARGS, "Game.base+00245F10 (Hitem;B)V"},
+   {"SetItemPawnable", SetItemPawnable, METH_VARARGS, "Game.base+00245F60 (Hitem;B)V"},
+   {"SetItemPlayer", SetItemPlayer, METH_VARARGS, "Game.base+00245F90 (Hitem;Hplayer;B)V"},
+   {"SetItemInvulnerable", SetItemInvulnerable, METH_VARARGS, "Game.base+00245F40 (Hitem;B)V"},
+   {"IsItemInvulnerable", IsItemInvulnerable, METH_VARARGS, "Game.base+00237E30 (Hitem;)B"},
+   {"GetItemLevel", GetItemLevel, METH_VARARGS, "Game.base+00232E30 (Hitem;)I"},
+   {"GetItemType", GetItemType, METH_VARARGS, "Game.base+00232ED0 (Hitem;)Hitemtype;"},
+   {"SetItemVisible", SetItemVisible, METH_VARARGS, "Game.base+002460A0 (Hitem;B)V"},
+   {"IsItemVisible", IsItemVisible, METH_VARARGS, "Game.base+00237EF0 (Hitem;)B"},
+   {"EnumItemsInRect", EnumItemsInRect, METH_VARARGS, "Game.base+00230480 (Hrect;Hboolexpr;C)V"},
+   {"IsItemOwned", IsItemOwned, METH_VARARGS, "Game.base+00237E50 (Hitem;)B"},
+   {"IsItemPowerup", IsItemPowerup, METH_VARARGS, "Game.base+00237EB0 (Hitem;)B"},
+   {"IsItemSellable", IsItemSellable, METH_VARARGS, "Game.base+00237ED0 (Hitem;)B"},
+   {"IsItemPawnable", IsItemPawnable, METH_VARARGS, "Game.base+00237E90 (Hitem;)B"},
+   {"IsItemIdPowerup", IsItemIdPowerup, METH_VARARGS, "Game.base+00237E10 (I)B"},
+   {"IsItemIdSellable", IsItemIdSellable, METH_VARARGS, "Game.base+00237E20 (I)B"},
+   {"IsItemIdPawnable", IsItemIdPawnable, METH_VARARGS, "Game.base+00237E00 (I)B"},
+   {"SetItemDropID", SetItemDropID, METH_VARARGS, "Game.base+00245EC0 (Hitem;I)V"},
+   {"GetItemName", GetItemName, METH_VARARGS, "Game.base+00232E50 (Hitem;)S"},
+   {"GetItemCharges", GetItemCharges, METH_VARARGS, "Game.base+00232E10 (Hitem;)I"},
+   {"SetItemCharges", SetItemCharges, METH_VARARGS, "Game.base+00245E60 (Hitem;I)V"},
+   {"GetItemUserData", GetItemUserData, METH_VARARGS, "Game.base+00232F10 (Hitem;)I"},
+   {"SetItemUserData", SetItemUserData, METH_VARARGS, "Game.base+00246080 (Hitem;I)V"},
+   {"Player", Player, METH_VARARGS, "Game.base+00242080 (I)Hplayer;"},
+   {"GetLocalPlayer", GetLocalPlayer, METH_NOARGS, "Game.base+00233380 ()Hplayer;"},
+   {"IsPlayerAlly", IsPlayerAlly, METH_VARARGS, "Game.base+00238260 (Hplayer;Hplayer;)B"},
+   {"IsPlayerEnemy", IsPlayerEnemy, METH_VARARGS, "Game.base+002382B0 (Hplayer;Hplayer;)B"},
+   {"IsPlayerInForce", IsPlayerInForce, METH_VARARGS, "Game.base+00238360 (Hplayer;Hforce;)B"},
+   {"IsPlayerObserver", IsPlayerObserver, METH_VARARGS, "Game.base+00238390 (Hplayer;)B"},
+   {"GetPlayerRace", GetPlayerRace, METH_VARARGS, "Game.base+00233FA0 (Hplayer;)Hrace;"},
+   {"GetPlayerId", GetPlayerId, METH_VARARGS, "Game.base+00233F50 (Hplayer;)I"},
+   {"SetPlayerTechMaxAllowed", SetPlayerTechMaxAllowed, METH_VARARGS, "Game.base+00246720 (Hplayer;II)V"},
+   {"GetPlayerTechMaxAllowed", GetPlayerTechMaxAllowed, METH_VARARGS, "Game.base+002343F0 (Hplayer;I)I"},
+   {"AddPlayerTechResearched", AddPlayerTechResearched, METH_VARARGS, "Game.base+0022A3E0 (Hplayer;II)V"},
+   {"SetPlayerTechResearched", SetPlayerTechResearched, METH_VARARGS, "Game.base+00246750 (Hplayer;II)V"},
+   {"GetPlayerTechResearched", GetPlayerTechResearched, METH_VARARGS, "Game.base+00234430 (Hplayer;IB)B"},
+   {"GetPlayerTechCount", GetPlayerTechCount, METH_VARARGS, "Game.base+002343C0 (Hplayer;IB)I"},
+   {"SetPlayerAbilityAvailable", SetPlayerAbilityAvailable, METH_VARARGS, "Game.base+00246310 (Hplayer;IB)V"},
+   {"GetPlayerUnitCount", GetPlayerUnitCount, METH_VARARGS, "Game.base+002344D0 (Hplayer;B)I"},
+   {"GetPlayerTypedUnitCount", GetPlayerTypedUnitCount, METH_VARARGS, "Game.base+00234460 (Hplayer;SBB)I"},
+   {"GetPlayerStructureCount", GetPlayerStructureCount, METH_VARARGS, "Game.base+00234310 (Hplayer;B)I"},
+   {"IsVisibleToPlayer", IsVisibleToPlayer, METH_VARARGS, "Game.base+00239170 (RRHplayer;)B"},
+   {"IsLocationVisibleToPlayer", IsLocationVisibleToPlayer, METH_VARARGS, "Game.base+00238000 (Hlocation;Hplayer;)B"},
+   {"IsFoggedToPlayer", IsFoggedToPlayer, METH_VARARGS, "Game.base+00237C30 (RRHplayer;)B"},
+   {"IsLocationFoggedToPlayer", IsLocationFoggedToPlayer, METH_VARARGS, "Game.base+00237F40 (Hlocation;Hplayer;)B"},
+   {"IsMaskedToPlayer", IsMaskedToPlayer, METH_VARARGS, "Game.base+00238110 (RRHplayer;)B"},
+   {"IsLocationMaskedToPlayer", IsLocationMaskedToPlayer, METH_VARARGS, "Game.base+00237FC0 (Hlocation;Hplayer;)B"},
+   {"SetPlayerState", SetPlayerState, METH_VARARGS, "Game.base+00246630 (Hplayer;Hplayerstate;I)V"},
+   {"GetPlayerState", GetPlayerState, METH_VARARGS, "Game.base+002342B0 (Hplayer;Hplayerstate;)I"},
+   {"GetPlayerScore", GetPlayerScore, METH_VARARGS, "Game.base+00233FC0 (Hplayer;Hplayerscore;)I"},
+   {"GetPlayerAlliance", GetPlayerAlliance, METH_VARARGS, "Game.base+00233E80 (Hplayer;Hplayer;Halliancetype;)B"},
+   {"RemovePlayer", RemovePlayer, METH_VARARGS, "Game.base+002430C0 (Hplayer;Hplayergameresult;)V"},
+   {"CachePlayerHeroData", CachePlayerHeroData, METH_VARARGS, "Game.base+0022ABC0 (Hplayer;)V"},
+   {"GetPlayerHandicap", GetPlayerHandicap, METH_VARARGS, "Game.base+00233F10 (Hplayer;)R"},
+   {"SetPlayerHandicap", SetPlayerHandicap, METH_VARARGS, "Game.base+00246430 (Hplayer;R)V"},
+   {"GetPlayerHandicapXP", GetPlayerHandicapXP, METH_VARARGS, "Game.base+00233F30 (Hplayer;)R"},
+   {"SetPlayerHandicapXP", SetPlayerHandicapXP, METH_VARARGS, "Game.base+002464F0 (Hplayer;R)V"},
+   {"SetPlayerUnitsOwner", SetPlayerUnitsOwner, METH_VARARGS, "Game.base+00246790 (Hplayer;I)V"},
+   {"CripplePlayer", CripplePlayer, METH_VARARGS, "Game.base+0022F350 (Hplayer;Hforce;B)V"},
+   {"VersionGet", VersionGet, METH_NOARGS, "Game.base+0024B9E0 ()Hversion;"},
+   {"VersionCompatible", VersionCompatible, METH_VARARGS, "Game.base+0024B9D0 (Hversion;)B"},
+   {"VersionSupported", VersionSupported, METH_VARARGS, "Game.base+0024B9F0 (Hversion;)B"},
+   {"EndGame", EndGame, METH_VARARGS, "Game.base+00230350 (B)V"},
+   {"ChangeLevel", ChangeLevel, METH_VARARGS, "Game.base+0022B1F0 (SB)V"},
+   {"RestartGame", RestartGame, METH_VARARGS, "Game.base+002434F0 (B)V"},
+   {"ReloadGame", ReloadGame, METH_NOARGS, "Game.base+00242F30 ()V"},
+   {"LoadGame", LoadGame, METH_VARARGS, "Game.base+00240860 (SB)V"},
+   {"SaveGame", SaveGame, METH_VARARGS, "Game.base+002439E0 (S)V"},
+   {"RenameSaveDirectory", RenameSaveDirectory, METH_VARARGS, "Game.base+00243320 (SS)B"},
+   {"RemoveSaveDirectory", RemoveSaveDirectory, METH_VARARGS, "Game.base+00243120 (S)B"},
+   {"CopySaveGame", CopySaveGame, METH_VARARGS, "Game.base+0022BC40 (SS)B"},
+   {"SaveGameExists", SaveGameExists, METH_VARARGS, "Game.base+00243AD0 (S)B"},
+   {"SetFloatGameState", SetFloatGameState, METH_VARARGS, "Game.base+002450B0 (Hfgamestate;R)V"},
+   {"GetFloatGameState", GetFloatGameState, METH_VARARGS, "Game.base+00232750 (Hfgamestate;)R"},
+   {"SetIntegerGameState", SetIntegerGameState, METH_VARARGS, "Game.base+00245DD0 (Higamestate;I)V"},
+   {"GetIntegerGameState", GetIntegerGameState, METH_VARARGS, "Game.base+00232D60 (Higamestate;)I"},
+   {"SyncSelections", SyncSelections, METH_NOARGS, "Game.base+00248BB0 ()V"},
+   {"DialogCreate", DialogCreate, METH_NOARGS, "Game.base+0022FCB0 ()Hdialog;"},
+   {"DialogDestroy", DialogDestroy, METH_VARARGS, "Game.base+0022FDA0 (Hdialog;)V"},
+   {"DialogSetAsync", DialogSetAsync, METH_VARARGS, "Game.base+0022FE10 (Hdialog;)V"},
+   {"DialogClear", DialogClear, METH_VARARGS, "Game.base+0022FC90 (Hdialog;)V"},
+   {"DialogSetMessage", DialogSetMessage, METH_VARARGS, "Game.base+0022FE30 (Hdialog;S)V"},
+   {"DialogAddButton", DialogAddButton, METH_VARARGS, "Game.base+0022FBF0 (Hdialog;SI)Hbutton;"},
+   {"DialogAddQuitButton", DialogAddQuitButton, METH_VARARGS, "Game.base+0022FC40 (Hdialog;BSI)Hbutton;"},
+   {"DialogDisplay", DialogDisplay, METH_VARARGS, "Game.base+0022FDC0 (Hplayer;Hdialog;B)V"},
+   {"SetMissionAvailable", SetMissionAvailable, METH_VARARGS, "Game.base+00246260 (IIB)V"},
+   {"SetCampaignAvailable", SetCampaignAvailable, METH_VARARGS, "Game.base+00244660 (IB)V"},
+   {"SetCampaignMenuRace", SetCampaignMenuRace, METH_VARARGS, "Game.base+00244690 (Hrace;)V"},
+   {"SetCampaignMenuRaceEx", SetCampaignMenuRaceEx, METH_VARARGS, "Game.base+002446C0 (I)V"},
+   {"ForceCampaignSelectScreen", ForceCampaignSelectScreen, METH_NOARGS, "Game.base+00230EF0 ()V"},
+   {"SetOpCinematicAvailable", SetOpCinematicAvailable, METH_VARARGS, "Game.base+002462E0 (IB)V"},
+   {"SetEdCinematicAvailable", SetEdCinematicAvailable, METH_VARARGS, "Game.base+00244FF0 (IB)V"},
+   {"SetTutorialCleared", SetTutorialCleared, METH_VARARGS, "Game.base+002473E0 (B)V"},
+   {"GetDefaultDifficulty", GetDefaultDifficulty, METH_NOARGS, "Game.base+00232160 ()Hgamedifficulty;"},
+   {"SetDefaultDifficulty", SetDefaultDifficulty, METH_VARARGS, "Game.base+00244C90 (Hgamedifficulty;)V"},
+   {"ReloadGameCachesFromDisk", ReloadGameCachesFromDisk, METH_NOARGS, "Game.base+00242F50 ()B"},
+   {"SetCustomCampaignButtonVisible", SetCustomCampaignButtonVisible, METH_VARARGS, "Game.base+00244C30 (IB)V"},
+   {"GetCustomCampaignButtonVisible", GetCustomCampaignButtonVisible, METH_VARARGS, "Game.base+002320F0 (I)B"},
+   {"DoNotSaveReplay", DoNotSaveReplay, METH_NOARGS, "Game.base+00230130 ()V"},
+   {"InitGameCache", InitGameCache, METH_VARARGS, "Game.base+002375F0 (S)Hgamecache;"},
+   {"SaveGameCache", SaveGameCache, METH_VARARGS, "Game.base+00243AA0 (Hgamecache;)B"},
+   {"StoreInteger", StoreInteger, METH_VARARGS, "Game.base+00248590 (Hgamecache;SSI)V"},
+   {"StoreReal", StoreReal, METH_VARARGS, "Game.base+002485E0 (Hgamecache;SSR)V"},
+   {"StoreBoolean", StoreBoolean, METH_VARARGS, "Game.base+00248530 (Hgamecache;SSB)V"},
+   {"StoreUnit", StoreUnit, METH_VARARGS, "Game.base+00248690 (Hgamecache;SSHunit;)B"},
+   {"StoreString", StoreString, METH_VARARGS, "Game.base+00248630 (Hgamecache;SSS)B"},
+   {"SaveInteger", SaveInteger, METH_VARARGS, "Game.base+00243BA0 (Hhashtable;III)V"},
+   {"SaveReal", SaveReal, METH_VARARGS, "Game.base+00243D20 (Hhashtable;IIR)V"},
+   {"SaveBoolean", SaveBoolean, METH_VARARGS, "Game.base+00243880 (Hhashtable;IIB)V"},
+   {"SaveStr", SaveStr, METH_VARARGS, "Game.base+00243E00 (Hhashtable;IIS)B"},
+   {"SavePlayerHandle", SavePlayerHandle, METH_VARARGS, "Game.base+00243CC0 (Hhashtable;IIHplayer;)B"},
+   {"SaveWidgetHandle", SaveWidgetHandle, METH_VARARGS, "Game.base+00243FA0 (Hhashtable;IIHwidget;)B"},
+   {"SaveDestructableHandle", SaveDestructableHandle, METH_VARARGS, "Game.base+00243920 (Hhashtable;IIHdestructable;)B"},
+   {"SaveItemHandle", SaveItemHandle, METH_VARARGS, "Game.base+00243BE0 (Hhashtable;IIHitem;)B"},
+   {"SaveUnitHandle", SaveUnitHandle, METH_VARARGS, "Game.base+00243F60 (Hhashtable;IIHunit;)B"},
+   {"SaveAbilityHandle", SaveAbilityHandle, METH_VARARGS, "Game.base+00243840 (Hhashtable;IIHability;)B"},
+   {"SaveTimerHandle", SaveTimerHandle, METH_VARARGS, "Game.base+00243E80 (Hhashtable;IIHtimer;)B"},
+   {"SaveRegionHandle", SaveRegionHandle, METH_VARARGS, "Game.base+00243D80 (Hhashtable;IIHregion;)B"},
+   {"SaveTriggerHandle", SaveTriggerHandle, METH_VARARGS, "Game.base+00243F20 (Hhashtable;IIHtrigger;)B"},
+   {"SaveTriggerConditionHandle", SaveTriggerConditionHandle, METH_VARARGS, "Game.base+00243EE0 (Hhashtable;IIHtriggercondition;)B"},
+   {"SaveTriggerActionHandle", SaveTriggerActionHandle, METH_VARARGS, "Game.base+00243EC0 (Hhashtable;IIHtriggeraction;)B"},
+   {"SaveTriggerEventHandle", SaveTriggerEventHandle, METH_VARARGS, "Game.base+00243F00 (Hhashtable;IIHevent;)B"},
+   {"SaveForceHandle", SaveForceHandle, METH_VARARGS, "Game.base+002439C0 (Hhashtable;IIHforce;)B"},
+   {"SaveGroupHandle", SaveGroupHandle, METH_VARARGS, "Game.base+00243B40 (Hhashtable;IIHgroup;)B"},
+   {"SaveLocationHandle", SaveLocationHandle, METH_VARARGS, "Game.base+00243C60 (Hhashtable;IIHlocation;)B"},
+   {"SaveRectHandle", SaveRectHandle, METH_VARARGS, "Game.base+00243D60 (Hhashtable;IIHrect;)B"},
+   {"SaveBooleanExprHandle", SaveBooleanExprHandle, METH_VARARGS, "Game.base+002438C0 (Hhashtable;IIHboolexpr;)B"},
+   {"SaveSoundHandle", SaveSoundHandle, METH_VARARGS, "Game.base+00243DE0 (Hhashtable;IIHsound;)B"},
+   {"SaveEffectHandle", SaveEffectHandle, METH_VARARGS, "Game.base+00243960 (Hhashtable;IIHeffect;)B"},
+   {"SaveUnitPoolHandle", SaveUnitPoolHandle, METH_VARARGS, "Game.base+00243F80 (Hhashtable;IIHunitpool;)B"},
+   {"SaveItemPoolHandle", SaveItemPoolHandle, METH_VARARGS, "Game.base+00243C00 (Hhashtable;IIHitempool;)B"},
+   {"SaveQuestHandle", SaveQuestHandle, METH_VARARGS, "Game.base+00243CE0 (Hhashtable;IIHquest;)B"},
+   {"SaveQuestItemHandle", SaveQuestItemHandle, METH_VARARGS, "Game.base+00243D00 (Hhashtable;IIHquestitem;)B"},
+   {"SaveDefeatConditionHandle", SaveDefeatConditionHandle, METH_VARARGS, "Game.base+00243900 (Hhashtable;IIHdefeatcondition;)B"},
+   {"SaveTimerDialogHandle", SaveTimerDialogHandle, METH_VARARGS, "Game.base+00243E60 (Hhashtable;IIHtimerdialog;)B"},
+   {"SaveLeaderboardHandle", SaveLeaderboardHandle, METH_VARARGS, "Game.base+00243C20 (Hhashtable;IIHleaderboard;)B"},
+   {"SaveMultiboardHandle", SaveMultiboardHandle, METH_VARARGS, "Game.base+00243C80 (Hhashtable;IIHmultiboard;)B"},
+   {"SaveMultiboardItemHandle", SaveMultiboardItemHandle, METH_VARARGS, "Game.base+00243CA0 (Hhashtable;IIHmultiboarditem;)B"},
+   {"SaveTrackableHandle", SaveTrackableHandle, METH_VARARGS, "Game.base+00243EA0 (Hhashtable;IIHtrackable;)B"},
+   {"SaveDialogHandle", SaveDialogHandle, METH_VARARGS, "Game.base+00243940 (Hhashtable;IIHdialog;)B"},
+   {"SaveButtonHandle", SaveButtonHandle, METH_VARARGS, "Game.base+002438E0 (Hhashtable;IIHbutton;)B"},
+   {"SaveTextTagHandle", SaveTextTagHandle, METH_VARARGS, "Game.base+00243E40 (Hhashtable;IIHtexttag;)B"},
+   {"SaveLightningHandle", SaveLightningHandle, METH_VARARGS, "Game.base+00243C40 (Hhashtable;IIHlightning;)B"},
+   {"SaveImageHandle", SaveImageHandle, METH_VARARGS, "Game.base+00243B80 (Hhashtable;IIHimage;)B"},
+   {"SaveUbersplatHandle", SaveUbersplatHandle, METH_VARARGS, "Game.base+00243F40 (Hhashtable;IIHubersplat;)B"},
+   {"SaveFogStateHandle", SaveFogStateHandle, METH_VARARGS, "Game.base+002439A0 (Hhashtable;IIHfogstate;)B"},
+   {"SaveFogModifierHandle", SaveFogModifierHandle, METH_VARARGS, "Game.base+00243980 (Hhashtable;IIHfogmodifier;)B"},
+   {"SaveAgentHandle", SaveAgentHandle, METH_VARARGS, "Game.base+00243860 (Hhashtable;IIHagent;)B"},
+   {"SaveHashtableHandle", SaveHashtableHandle, METH_VARARGS, "Game.base+00243B60 (Hhashtable;IIHhashtable;)B"},
+   {"SyncStoredInteger", SyncStoredInteger, METH_VARARGS, "Game.base+00248C50 (Hgamecache;SS)V"},
+   {"SyncStoredReal", SyncStoredReal, METH_VARARGS, "Game.base+00248CB0 (Hgamecache;SS)V"},
+   {"SyncStoredBoolean", SyncStoredBoolean, METH_VARARGS, "Game.base+00248BF0 (Hgamecache;SS)V"},
+   {"SyncStoredUnit", SyncStoredUnit, METH_VARARGS, "Game.base+00248D70 (Hgamecache;SS)V"},
+   {"SyncStoredString", SyncStoredString, METH_VARARGS, "Game.base+00248D10 (Hgamecache;SS)V"},
+   {"GetStoredInteger", GetStoredInteger, METH_VARARGS, "Game.base+00235940 (Hgamecache;SS)I"},
+   {"GetStoredReal", GetStoredReal, METH_VARARGS, "Game.base+00235990 (Hgamecache;SS)R"},
+   {"GetStoredBoolean", GetStoredBoolean, METH_VARARGS, "Game.base+002358F0 (Hgamecache;SS)B"},
+   {"RestoreUnit", RestoreUnit, METH_VARARGS, "Game.base+00243520 (Hgamecache;SSHplayer;RRR)Hunit;"},
+   {"GetStoredString", GetStoredString, METH_VARARGS, "Game.base+002359F0 (Hgamecache;SS)S"},
+   {"HaveStoredInteger", HaveStoredInteger, METH_VARARGS, "Game.base+00237320 (Hgamecache;SS)B"},
+   {"HaveStoredReal", HaveStoredReal, METH_VARARGS, "Game.base+00237370 (Hgamecache;SS)B"},
+   {"HaveStoredBoolean", HaveStoredBoolean, METH_VARARGS, "Game.base+002372D0 (Hgamecache;SS)B"},
+   {"HaveStoredUnit", HaveStoredUnit, METH_VARARGS, "Game.base+00237410 (Hgamecache;SS)B"},
+   {"HaveStoredString", HaveStoredString, METH_VARARGS, "Game.base+002373C0 (Hgamecache;SS)B"},
+   {"FlushGameCache", FlushGameCache, METH_VARARGS, "Game.base+00230B70 (Hgamecache;)V"},
+   {"FlushStoredMission", FlushStoredMission, METH_VARARGS, "Game.base+00230C90 (Hgamecache;S)V"},
+   {"FlushStoredInteger", FlushStoredInteger, METH_VARARGS, "Game.base+00230C40 (Hgamecache;SS)V"},
+   {"FlushStoredReal", FlushStoredReal, METH_VARARGS, "Game.base+00230CD0 (Hgamecache;SS)V"},
+   {"FlushStoredBoolean", FlushStoredBoolean, METH_VARARGS, "Game.base+00230BF0 (Hgamecache;SS)V"},
+   {"FlushStoredUnit", FlushStoredUnit, METH_VARARGS, "Game.base+00230D70 (Hgamecache;SS)V"},
+   {"FlushStoredString", FlushStoredString, METH_VARARGS, "Game.base+00230D20 (Hgamecache;SS)V"},
+   {"InitHashtable", InitHashtable, METH_NOARGS, "Game.base+00237700 ()Hhashtable;"},
+   {"LoadInteger", LoadInteger, METH_VARARGS, "Game.base+00240940 (Hhashtable;II)I;"},
+   {"LoadReal", LoadReal, METH_VARARGS, "Game.base+00240AC0 (Hhashtable;II)R;"},
+   {"LoadBoolean", LoadBoolean, METH_VARARGS, "Game.base+00240700 (Hhashtable;II)B;"},
+   {"LoadStr", LoadStr, METH_VARARGS, "Game.base+00240C60 (Hhashtable;II)S;"},
+   {"LoadPlayerHandle", LoadPlayerHandle, METH_VARARGS, "Game.base+00240A60 (Hhashtable;II)Hplayer;"},
+   {"LoadWidgetHandle", LoadWidgetHandle, METH_VARARGS, "Game.base+00240E00 (Hhashtable;II)Hwidget;"},
+   {"LoadDestructableHandle", LoadDestructableHandle, METH_VARARGS, "Game.base+002407A0 (Hhashtable;II)Hdestructable;"},
+   {"LoadItemHandle", LoadItemHandle, METH_VARARGS, "Game.base+00240980 (Hhashtable;II)Hitem;"},
+   {"LoadUnitHandle", LoadUnitHandle, METH_VARARGS, "Game.base+00240DC0 (Hhashtable;II)Hunit;"},
+   {"LoadAbilityHandle", LoadAbilityHandle, METH_VARARGS, "Game.base+002406E0 (Hhashtable;II)Hability;"},
+   {"LoadTimerHandle", LoadTimerHandle, METH_VARARGS, "Game.base+00240CE0 (Hhashtable;II)Htimer;"},
+   {"LoadRegionHandle", LoadRegionHandle, METH_VARARGS, "Game.base+00240B20 (Hhashtable;II)Hregion;"},
+   {"LoadTriggerHandle", LoadTriggerHandle, METH_VARARGS, "Game.base+00240D80 (Hhashtable;II)Htrigger;"},
+   {"LoadTriggerConditionHandle", LoadTriggerConditionHandle, METH_VARARGS, "Game.base+00240D40 (Hhashtable;II)Htriggercondition;"},
+   {"LoadTriggerActionHandle", LoadTriggerActionHandle, METH_VARARGS, "Game.base+00240D20 (Hhashtable;II)Htriggeraction;"},
+   {"LoadTriggerEventHandle", LoadTriggerEventHandle, METH_VARARGS, "Game.base+00240D60 (Hhashtable;II)Hevent;"},
+   {"LoadForceHandle", LoadForceHandle, METH_VARARGS, "Game.base+00240840 (Hhashtable;II)Hforce;"},
+   {"LoadGroupHandle", LoadGroupHandle, METH_VARARGS, "Game.base+002408E0 (Hhashtable;II)Hgroup;"},
+   {"LoadLocationHandle", LoadLocationHandle, METH_VARARGS, "Game.base+00240A00 (Hhashtable;II)Hlocation;"},
+   {"LoadRectHandle", LoadRectHandle, METH_VARARGS, "Game.base+00240B00 (Hhashtable;II)Hrect;"},
+   {"LoadBooleanExprHandle", LoadBooleanExprHandle, METH_VARARGS, "Game.base+00240740 (Hhashtable;II)Hboolexpr;"},
+   {"LoadSoundHandle", LoadSoundHandle, METH_VARARGS, "Game.base+00240C40 (Hhashtable;II)Hsound;"},
+   {"LoadEffectHandle", LoadEffectHandle, METH_VARARGS, "Game.base+002407E0 (Hhashtable;II)Heffect;"},
+   {"LoadUnitPoolHandle", LoadUnitPoolHandle, METH_VARARGS, "Game.base+00240DE0 (Hhashtable;II)Hunitpool;"},
+   {"LoadItemPoolHandle", LoadItemPoolHandle, METH_VARARGS, "Game.base+002409A0 (Hhashtable;II)Hitempool;"},
+   {"LoadQuestHandle", LoadQuestHandle, METH_VARARGS, "Game.base+00240A80 (Hhashtable;II)Hquest;"},
+   {"LoadQuestItemHandle", LoadQuestItemHandle, METH_VARARGS, "Game.base+00240AA0 (Hhashtable;II)Hquestitem;"},
+   {"LoadDefeatConditionHandle", LoadDefeatConditionHandle, METH_VARARGS, "Game.base+00240780 (Hhashtable;II)Hdefeatcondition;"},
+   {"LoadTimerDialogHandle", LoadTimerDialogHandle, METH_VARARGS, "Game.base+00240CC0 (Hhashtable;II)Htimerdialog;"},
+   {"LoadLeaderboardHandle", LoadLeaderboardHandle, METH_VARARGS, "Game.base+002409C0 (Hhashtable;II)Hleaderboard;"},
+   {"LoadMultiboardHandle", LoadMultiboardHandle, METH_VARARGS, "Game.base+00240A20 (Hhashtable;II)Hmultiboard;"},
+   {"LoadMultiboardItemHandle", LoadMultiboardItemHandle, METH_VARARGS, "Game.base+00240A40 (Hhashtable;II)Hmultiboarditem;"},
+   {"LoadTrackableHandle", LoadTrackableHandle, METH_VARARGS, "Game.base+00240D00 (Hhashtable;II)Htrackable;"},
+   {"LoadDialogHandle", LoadDialogHandle, METH_VARARGS, "Game.base+002407C0 (Hhashtable;II)Hdialog;"},
+   {"LoadButtonHandle", LoadButtonHandle, METH_VARARGS, "Game.base+00240760 (Hhashtable;II)Hbutton;"},
+   {"LoadTextTagHandle", LoadTextTagHandle, METH_VARARGS, "Game.base+00240CA0 (Hhashtable;II)Htexttag;"},
+   {"LoadLightningHandle", LoadLightningHandle, METH_VARARGS, "Game.base+002409E0 (Hhashtable;II)Hlightning;"},
+   {"LoadImageHandle", LoadImageHandle, METH_VARARGS, "Game.base+00240920 (Hhashtable;II)Himage;"},
+   {"LoadUbersplatHandle", LoadUbersplatHandle, METH_VARARGS, "Game.base+00240DA0 (Hhashtable;II)Hubersplat;"},
+   {"LoadFogStateHandle", LoadFogStateHandle, METH_VARARGS, "Game.base+00240820 (Hhashtable;II)Hfogstate;"},
+   {"LoadFogModifierHandle", LoadFogModifierHandle, METH_VARARGS, "Game.base+00240800 (Hhashtable;II)Hfogmodifier;"},
+   {"LoadHashtableHandle", LoadHashtableHandle, METH_VARARGS, "Game.base+00240900 (Hhashtable;II)Hhashtable;"},
+   {"HaveSavedInteger", HaveSavedInteger, METH_VARARGS, "Game.base+00237210 (Hhashtable;II)B"},
+   {"HaveSavedReal", HaveSavedReal, METH_VARARGS, "Game.base+00237250 (Hhashtable;II)B"},
+   {"HaveSavedBoolean", HaveSavedBoolean, METH_VARARGS, "Game.base+00237190 (Hhashtable;II)B"},
+   {"HaveSavedString", HaveSavedString, METH_VARARGS, "Game.base+00237290 (Hhashtable;II)B"},
+   {"HaveSavedHandle", HaveSavedHandle, METH_VARARGS, "Game.base+002371D0 (Hhashtable;II)B"},
+   {"RemoveSavedInteger", RemoveSavedInteger, METH_VARARGS, "Game.base+00243200 (Hhashtable;II)V"},
+   {"RemoveSavedReal", RemoveSavedReal, METH_VARARGS, "Game.base+00243230 (Hhashtable;II)V"},
+   {"RemoveSavedBoolean", RemoveSavedBoolean, METH_VARARGS, "Game.base+002431A0 (Hhashtable;II)V"},
+   {"RemoveSavedString", RemoveSavedString, METH_VARARGS, "Game.base+00243260 (Hhashtable;II)V"},
+   {"RemoveSavedHandle", RemoveSavedHandle, METH_VARARGS, "Game.base+002431D0 (Hhashtable;II)V"},
+   {"FlushParentHashtable", FlushParentHashtable, METH_VARARGS, "Game.base+00230BB0 (Hhashtable;)V"},
+   {"FlushChildHashtable", FlushChildHashtable, METH_VARARGS, "Game.base+00230B40 (Hhashtable;I)V"},
+   {"GetRandomInt", GetRandomInt, METH_VARARGS, "Game.base+00234610 (II)I"},
+   {"GetRandomReal", GetRandomReal, METH_VARARGS, "Game.base+00234650 (RR)R"},
+   {"CreateUnitPool", CreateUnitPool, METH_NOARGS, "Game.base+0022F250 ()Hunitpool;"},
+   {"DestroyUnitPool", DestroyUnitPool, METH_VARARGS, "Game.base+0022FA60 (Hunitpool;)V"},
+   {"UnitPoolAddUnitType", UnitPoolAddUnitType, METH_VARARGS, "Game.base+0024B380 (Hunitpool;IR)V"},
+   {"UnitPoolRemoveUnitType", UnitPoolRemoveUnitType, METH_VARARGS, "Game.base+0024B3A0 (Hunitpool;I)V"},
+   {"PlaceRandomUnit", PlaceRandomUnit, METH_VARARGS, "Game.base+00241F10 (Hunitpool;Hplayer;RRR)Hunit;"},
+   {"CreateItemPool", CreateItemPool, METH_NOARGS, "Game.base+0022E480 ()Hitempool;"},
+   {"DestroyItemPool", DestroyItemPool, METH_VARARGS, "Game.base+0022F8D0 (Hitempool;)V"},
+   {"ItemPoolAddItemType", ItemPoolAddItemType, METH_VARARGS, "Game.base+00239BA0 (Hitempool;IR)V"},
+   {"ItemPoolRemoveItemType", ItemPoolRemoveItemType, METH_VARARGS, "Game.base+00239BC0 (Hitempool;I)V"},
+   {"PlaceRandomItem", PlaceRandomItem, METH_VARARGS, "Game.base+00241ED0 (Hitempool;RR)Hitem;"},
+   {"ChooseRandomCreep", ChooseRandomCreep, METH_VARARGS, "Game.base+0022B2F0 (I)I"},
+   {"ChooseRandomNPBuilding", ChooseRandomNPBuilding, METH_NOARGS, "Game.base+0022B350 ()I"},
+   {"ChooseRandomItem", ChooseRandomItem, METH_VARARGS, "Game.base+0022B310 (I)I"},
+   {"ChooseRandomItemEx", ChooseRandomItemEx, METH_VARARGS, "Game.base+0022B330 (Hitemtype;I)I"},
+   {"SetRandomSeed", SetRandomSeed, METH_VARARGS, "Game.base+002467C0 (I)V"},
+   {"DisplayTextToPlayer", DisplayTextToPlayer, METH_VARARGS, "Game.base+0022FF30 (Hplayer;RRS)V"},
+   {"DisplayTimedTextToPlayer", DisplayTimedTextToPlayer, METH_VARARGS, "Game.base+002300C0 (Hplayer;RRRS)V"},
+   {"DisplayTimedTextFromPlayer", DisplayTimedTextFromPlayer, METH_VARARGS, "Game.base+0022FFE0 (Hplayer;RRRS)V"},
+   {"ClearTextMessages", ClearTextMessages, METH_NOARGS, "Game.base+0022B770 ()V"},
+   {"EnableUserControl", EnableUserControl, METH_VARARGS, "Game.base+00230280 (B)V"},
+   {"EnableUserUI", EnableUserUI, METH_VARARGS, "Game.base+002302B0 (B)V"},
+   {"DisableRestartMission", DisableRestartMission, METH_VARARGS, "Game.base+0022FE80 (B)V"},
+   {"ForceUIKey", ForceUIKey, METH_VARARGS, "Game.base+00231150 (S)V"},
+   {"ForceUICancel", ForceUICancel, METH_NOARGS, "Game.base+002310D0 ()V"},
+   {"DisplayLoadDialog", DisplayLoadDialog, METH_NOARGS, "Game.base+0022FF10 ()V"},
+   {"SetTerrainFog", SetTerrainFog, METH_VARARGS, "Game.base+00246EB0 (RRRRR)V"},
+   {"SetUnitFog", SetUnitFog, METH_VARARGS, "Game.base+00247990 (RRRRR)V"},
+   {"SetTerrainFogEx", SetTerrainFogEx, METH_VARARGS, "Game.base+00246EC0 (IRRRRRR)V"},
+   {"ResetTerrainFog", ResetTerrainFog, METH_NOARGS, "Game.base+00243400 ()V"},
+   {"SetDayNightModels", SetDayNightModels, METH_VARARGS, "Game.base+00244C50 (SS)V"},
+   {"SetSkyModel", SetSkyModel, METH_VARARGS, "Game.base+00246960 (S)V"},
+   {"SuspendTimeOfDay", SuspendTimeOfDay, METH_VARARGS, "Game.base+00248B80 (B)V"},
+   {"SetTimeOfDayScale", SetTimeOfDayScale, METH_VARARGS, "Game.base+00247370 (R)V"},
+   {"GetTimeOfDayScale", GetTimeOfDayScale, METH_NOARGS, "Game.base+00235C80 ()R"},
+   {"ShowInterface", ShowInterface, METH_VARARGS, "Game.base+00248130 (BR)V"},
+   {"PauseGame", PauseGame, METH_VARARGS, "Game.base+00241CE0 (B)V"},
+   {"PingMinimap", PingMinimap, METH_VARARGS, "Game.base+00241DE0 (RRR)V"},
+   {"PingMinimapEx", PingMinimapEx, METH_VARARGS, "Game.base+00241E40 (RRRIIIB)V"},
+   {"SetIntroShotText", SetIntroShotText, METH_VARARGS, "Game.base+00245E30 (S)V"},
+   {"SetIntroShotModel", SetIntroShotModel, METH_VARARGS, "Game.base+00245E10 (S)V"},
+   {"EnableOcclusion", EnableOcclusion, METH_VARARGS, "Game.base+002301F0 (B)V"},
+   {"EnableWorldFogBoundary", EnableWorldFogBoundary, METH_VARARGS, "Game.base+002302F0 (B)V"},
+   {"PlayModelCinematic", PlayModelCinematic, METH_VARARGS, "Game.base+00241FC0 (S)V"},
+   {"PlayCinematic", PlayCinematic, METH_VARARGS, "Game.base+00241FA0 (S)V"},
+   {"SetAltMinimapIcon", SetAltMinimapIcon, METH_VARARGS, "Game.base+002441C0 (S)V"},
+   {"CreateTextTag", CreateTextTag, METH_NOARGS, "Game.base+0022ECE0 ()Htexttag;"},
+   {"DestroyTextTag", DestroyTextTag, METH_VARARGS, "Game.base+0022F9B0 (Htexttag;)V"},
+   {"SetTextTagText", SetTextTagText, METH_VARARGS, "Game.base+00247280 (Htexttag;SR)V"},
+   {"SetTextTagPos", SetTextTagPos, METH_VARARGS, "Game.base+00247140 (Htexttag;RRR)V"},
+   {"SetTextTagPosUnit", SetTextTagPosUnit, METH_VARARGS, "Game.base+002471E0 (Htexttag;Hunit;R)V"},
+   {"SetTextTagColor", SetTextTagColor, METH_VARARGS, "Game.base+00247040 (Htexttag;IIII)V"},
+   {"SetTextTagVelocity", SetTextTagVelocity, METH_VARARGS, "Game.base+002472D0 (Htexttag;RR)V"},
+   {"SetTextTagVisibility", SetTextTagVisibility, METH_VARARGS, "Game.base+00247330 (Htexttag;B)V"},
+   {"SetTextTagSuspended", SetTextTagSuspended, METH_VARARGS, "Game.base+00247250 (Htexttag;B)V"},
+   {"SetTextTagPermanent", SetTextTagPermanent, METH_VARARGS, "Game.base+00247110 (Htexttag;B)V"},
+   {"SetTextTagAge", SetTextTagAge, METH_VARARGS, "Game.base+00247000 (Htexttag;R)V"},
+   {"SetTextTagLifespan", SetTextTagLifespan, METH_VARARGS, "Game.base+002470D0 (Htexttag;R)V"},
+   {"SetTextTagFadepoint", SetTextTagFadepoint, METH_VARARGS, "Game.base+00247090 (Htexttag;R)V"},
+   {"SetReservedLocalHeroButtons", SetReservedLocalHeroButtons, METH_VARARGS, "Game.base+002468D0 (I)V"},
+   {"GetAllyColorFilterState", GetAllyColorFilterState, METH_NOARGS, "Game.base+002318D0 ()I"},
+   {"SetAllyColorFilterState", SetAllyColorFilterState, METH_VARARGS, "Game.base+00244190 (I)V"},
+   {"GetCreepCampFilterState", GetCreepCampFilterState, METH_NOARGS, "Game.base+002320C0 ()B"},
+   {"SetCreepCampFilterState", SetCreepCampFilterState, METH_VARARGS, "Game.base+00244BF0 (B)V"},
+   {"EnableMinimapFilterButtons", EnableMinimapFilterButtons, METH_VARARGS, "Game.base+002301B0 (BB)V"},
+   {"EnableDragSelect", EnableDragSelect, METH_VARARGS, "Game.base+00230190 (BB)V"},
+   {"EnablePreSelect", EnablePreSelect, METH_VARARGS, "Game.base+00230220 (BB)V"},
+   {"EnableSelect", EnableSelect, METH_VARARGS, "Game.base+00230240 (BB)V"},
+   {"CreateTrackable", CreateTrackable, METH_VARARGS, "Game.base+0022EEE0 (SRRR)Htrackable;"},
+   {"TriggerRegisterTrackableHitEvent", TriggerRegisterTrackableHitEvent, METH_VARARGS, "Game.base+0024A1F0 (Htrigger;Htrackable;)Hevent;"},
+   {"TriggerRegisterTrackableTrackEvent", TriggerRegisterTrackableTrackEvent, METH_VARARGS, "Game.base+0024A2B0 (Htrigger;Htrackable;)Hevent;"},
+   {"GetTriggeringTrackable", GetTriggeringTrackable, METH_NOARGS, "Game.base+002360C0 ()Htrackable;"},
+   {"CreateQuest", CreateQuest, METH_NOARGS, "Game.base+0022E840 ()Hquest;"},
+   {"DestroyQuest", DestroyQuest, METH_VARARGS, "Game.base+0022F960 (Hquest;)V"},
+   {"QuestSetTitle", QuestSetTitle, METH_VARARGS, "Game.base+002429B0 (Hquest;S)V"},
+   {"QuestSetDescription", QuestSetDescription, METH_VARARGS, "Game.base+00242890 (Hquest;S)V"},
+   {"QuestSetIconPath", QuestSetIconPath, METH_VARARGS, "Game.base+00242950 (Hquest;S)V"},
+   {"QuestSetRequired", QuestSetRequired, METH_VARARGS, "Game.base+00242980 (Hquest;B)V"},
+   {"QuestSetCompleted", QuestSetCompleted, METH_VARARGS, "Game.base+00242860 (Hquest;B)V"},
+   {"QuestSetDiscovered", QuestSetDiscovered, METH_VARARGS, "Game.base+002428C0 (Hquest;B)V"},
+   {"QuestSetFailed", QuestSetFailed, METH_VARARGS, "Game.base+00242920 (Hquest;B)V"},
+   {"QuestSetEnabled", QuestSetEnabled, METH_VARARGS, "Game.base+002428F0 (Hquest;B)V"},
+   {"IsQuestRequired", IsQuestRequired, METH_VARARGS, "Game.base+00238550 (Hquest;)B"},
+   {"IsQuestCompleted", IsQuestCompleted, METH_VARARGS, "Game.base+002384B0 (Hquest;)B"},
+   {"IsQuestDiscovered", IsQuestDiscovered, METH_VARARGS, "Game.base+002384D0 (Hquest;)B"},
+   {"IsQuestFailed", IsQuestFailed, METH_VARARGS, "Game.base+00238510 (Hquest;)B"},
+   {"IsQuestEnabled", IsQuestEnabled, METH_VARARGS, "Game.base+002384F0 (Hquest;)B"},
+   {"QuestCreateItem", QuestCreateItem, METH_VARARGS, "Game.base+00242730 (Hquest;)Hquestitem;"},
+   {"QuestItemSetDescription", QuestItemSetDescription, METH_VARARGS, "Game.base+00242810 (Hquestitem;S)V"},
+   {"QuestItemSetCompleted", QuestItemSetCompleted, METH_VARARGS, "Game.base+002427E0 (Hquestitem;B)V"},
+   {"IsQuestItemCompleted", IsQuestItemCompleted, METH_VARARGS, "Game.base+00238530 (Hquestitem;)B"},
+   {"CreateDefeatCondition", CreateDefeatCondition, METH_NOARGS, "Game.base+0022DE50 ()Hdefeatcondition;"},
+   {"DestroyDefeatCondition", DestroyDefeatCondition, METH_VARARGS, "Game.base+0022F7B0 (Hdefeatcondition;)V"},
+   {"DefeatConditionSetDescription", DefeatConditionSetDescription, METH_VARARGS, "Game.base+0022F520 (Hdefeatcondition;S)V"},
+   {"FlashQuestDialogButton", FlashQuestDialogButton, METH_NOARGS, "Game.base+00230AF0 ()V"},
+   {"ForceQuestDialogUpdate", ForceQuestDialogUpdate, METH_NOARGS, "Game.base+00231070 ()V"},
+   {"CreateTimerDialog", CreateTimerDialog, METH_VARARGS, "Game.base+0022EDE0 (Htimer;)Htimerdialog;"},
+   {"DestroyTimerDialog", DestroyTimerDialog, METH_VARARGS, "Game.base+0022FA00 (Htimerdialog;)V"},
+   {"TimerDialogSetTitle", TimerDialogSetTitle, METH_VARARGS, "Game.base+002491D0 (Htimerdialog;S)V"},
+   {"TimerDialogSetTitleColor", TimerDialogSetTitleColor, METH_VARARGS, "Game.base+00249200 (Htimerdialog;IIII)V"},
+   {"TimerDialogSetTimeColor", TimerDialogSetTimeColor, METH_VARARGS, "Game.base+00249170 (Htimerdialog;IIII)V"},
+   {"TimerDialogSetSpeed", TimerDialogSetSpeed, METH_VARARGS, "Game.base+00249140 (Htimerdialog;R)V"},
+   {"TimerDialogDisplay", TimerDialogDisplay, METH_VARARGS, "Game.base+002490F0 (Htimerdialog;B)V"},
+   {"IsTimerDialogDisplayed", IsTimerDialogDisplayed, METH_VARARGS, "Game.base+00238690 (Htimerdialog;)B"},
+   {"TimerDialogSetRealTimeRemaining", TimerDialogSetRealTimeRemaining, METH_VARARGS, "Game.base+00249110 (Htimerdialog;R)V"},
+   {"CreateLeaderboard", CreateLeaderboard, METH_NOARGS, "Game.base+0022E560 ()Hleaderboard;"},
+   {"DestroyLeaderboard", DestroyLeaderboard, METH_VARARGS, "Game.base+0022F8F0 (Hleaderboard;)V"},
+   {"LeaderboardGetItemCount", LeaderboardGetItemCount, METH_VARARGS, "Game.base+0023FFF0 (Hleaderboard;)I"},
+   {"LeaderboardSetSizeByItemCount", LeaderboardSetSizeByItemCount, METH_VARARGS, "Game.base+00240390 (Hleaderboard;I)V"},
+   {"LeaderboardAddItem", LeaderboardAddItem, METH_VARARGS, "Game.base+0023FF20 (Hleaderboard;SIHplayer;)V"},
+   {"LeaderboardRemoveItem", LeaderboardRemoveItem, METH_VARARGS, "Game.base+00240110 (Hleaderboard;I)V"},
+   {"LeaderboardRemovePlayerItem", LeaderboardRemovePlayerItem, METH_VARARGS, "Game.base+00240140 (Hleaderboard;Hplayer;)V"},
+   {"LeaderboardSortItemsByValue", LeaderboardSortItemsByValue, METH_VARARGS, "Game.base+002404D0 (Hleaderboard;B)V"},
+   {"LeaderboardSortItemsByPlayer", LeaderboardSortItemsByPlayer, METH_VARARGS, "Game.base+002404A0 (Hleaderboard;B)V"},
+   {"LeaderboardSortItemsByLabel", LeaderboardSortItemsByLabel, METH_VARARGS, "Game.base+00240470 (Hleaderboard;B)V"},
+   {"LeaderboardClear", LeaderboardClear, METH_VARARGS, "Game.base+0023FF70 (Hleaderboard;)V"},
+   {"LeaderboardDisplay", LeaderboardDisplay, METH_VARARGS, "Game.base+0023FFA0 (Hleaderboard;B)V"},
+   {"IsLeaderboardDisplayed", IsLeaderboardDisplayed, METH_VARARGS, "Game.base+00237F10 (Hleaderboard;)B"},
+   {"LeaderboardGetLabelText", LeaderboardGetLabelText, METH_VARARGS, "Game.base+00240020 (Hleaderboard;)S"},
+   {"PlayerSetLeaderboard", PlayerSetLeaderboard, METH_VARARGS, "Game.base+00242110 (Hplayer;Hleaderboard;)V"},
+   {"PlayerGetLeaderboard", PlayerGetLeaderboard, METH_VARARGS, "Game.base+002420B0 (Hplayer;)Hleaderboard;"},
+   {"LeaderboardHasPlayerItem", LeaderboardHasPlayerItem, METH_VARARGS, "Game.base+002400C0 (Hleaderboard;Hplayer;)B"},
+   {"LeaderboardGetPlayerIndex", LeaderboardGetPlayerIndex, METH_VARARGS, "Game.base+00240070 (Hleaderboard;Hplayer;)I"},
+   {"LeaderboardSetLabel", LeaderboardSetLabel, METH_VARARGS, "Game.base+00240300 (Hleaderboard;S)V"},
+   {"LeaderboardSetLabelColor", LeaderboardSetLabelColor, METH_VARARGS, "Game.base+00240330 (Hleaderboard;IIII)V"},
+   {"LeaderboardSetValueColor", LeaderboardSetValueColor, METH_VARARGS, "Game.base+00240410 (Hleaderboard;IIII)V"},
+   {"LeaderboardSetStyle", LeaderboardSetStyle, METH_VARARGS, "Game.base+002403C0 (Hleaderboard;BBBB)V"},
+   {"LeaderboardSetItemValue", LeaderboardSetItemValue, METH_VARARGS, "Game.base+00240270 (Hleaderboard;II)V"},
+   {"LeaderboardSetItemLabel", LeaderboardSetItemLabel, METH_VARARGS, "Game.base+00240180 (Hleaderboard;IS)V"},
+   {"LeaderboardSetItemStyle", LeaderboardSetItemStyle, METH_VARARGS, "Game.base+00240220 (Hleaderboard;IBBB)V"},
+   {"LeaderboardSetItemLabelColor", LeaderboardSetItemLabelColor, METH_VARARGS, "Game.base+002401C0 (Hleaderboard;IIIII)V"},
+   {"LeaderboardSetItemValueColor", LeaderboardSetItemValueColor, METH_VARARGS, "Game.base+002402A0 (Hleaderboard;IIIII)V"},
+   {"CreateMultiboard", CreateMultiboard, METH_NOARGS, "Game.base+0022E750 ()Hmultiboard;"},
+   {"DestroyMultiboard", DestroyMultiboard, METH_VARARGS, "Game.base+0022F940 (Hmultiboard;)V"},
+   {"MultiboardDisplay", MultiboardDisplay, METH_VARARGS, "Game.base+00241270 (Hmultiboard;B)V"},
+   {"MultiboardMinimize", MultiboardMinimize, METH_VARARGS, "Game.base+002413B0 (Hmultiboard;B)V"},
+   {"IsMultiboardDisplayed", IsMultiboardDisplayed, METH_VARARGS, "Game.base+00238190 (Hmultiboard;)B"},
+   {"IsMultiboardMinimized", IsMultiboardMinimized, METH_VARARGS, "Game.base+002381B0 (Hmultiboard;)B"},
+   {"MultiboardClear", MultiboardClear, METH_VARARGS, "Game.base+00241240 (Hmultiboard;)V"},
+   {"MultiboardSetTitleText", MultiboardSetTitleText, METH_VARARGS, "Game.base+00241660 (Hmultiboard;S)V"},
+   {"MultiboardGetTitleText", MultiboardGetTitleText, METH_VARARGS, "Game.base+00241390 (Hmultiboard;)S"},
+   {"MultiboardSetTitleTextColor", MultiboardSetTitleTextColor, METH_VARARGS, "Game.base+00241690 (Hmultiboard;IIII)V"},
+   {"MultiboardGetRowCount", MultiboardGetRowCount, METH_VARARGS, "Game.base+00241370 (Hmultiboard;)I"},
+   {"MultiboardGetColumnCount", MultiboardGetColumnCount, METH_VARARGS, "Game.base+00241290 (Hmultiboard;)I"},
+   {"MultiboardSetColumnCount", MultiboardSetColumnCount, METH_VARARGS, "Game.base+002413F0 (Hmultiboard;I)V"},
+   {"MultiboardSetRowCount", MultiboardSetRowCount, METH_VARARGS, "Game.base+00241640 (Hmultiboard;I)V"},
+   {"MultiboardSetItemsStyle", MultiboardSetItemsStyle, METH_VARARGS, "Game.base+00241540 (Hmultiboard;BB)V"},
+   {"MultiboardSetItemsValueColor", MultiboardSetItemsValueColor, METH_VARARGS, "Game.base+002415B0 (Hmultiboard;IIII)V"},
+   {"MultiboardSetItemsValue", MultiboardSetItemsValue, METH_VARARGS, "Game.base+00241580 (Hmultiboard;S)V"},
+   {"MultiboardSetItemsWidth", MultiboardSetItemsWidth, METH_VARARGS, "Game.base+00241610 (Hmultiboard;R)V"},
+   {"MultiboardSetItemsIcon", MultiboardSetItemsIcon, METH_VARARGS, "Game.base+00241510 (Hmultiboard;S)V"},
+   {"MultiboardGetItem", MultiboardGetItem, METH_VARARGS, "Game.base+002412B0 (Hmultiboard;II)Hmultiboarditem;"},
+   {"MultiboardReleaseItem", MultiboardReleaseItem, METH_VARARGS, "Game.base+002413D0 (Hmultiboarditem;)V"},
+   {"MultiboardSetItemStyle", MultiboardSetItemStyle, METH_VARARGS, "Game.base+00241440 (Hmultiboarditem;BB)V"},
+   {"MultiboardSetItemValue", MultiboardSetItemValue, METH_VARARGS, "Game.base+00241460 (Hmultiboarditem;S)V"},
+   {"MultiboardSetItemValueColor", MultiboardSetItemValueColor, METH_VARARGS, "Game.base+00241490 (Hmultiboarditem;IIII)V"},
+   {"MultiboardSetItemWidth", MultiboardSetItemWidth, METH_VARARGS, "Game.base+002414E0 (Hmultiboarditem;R)V"},
+   {"MultiboardSetItemIcon", MultiboardSetItemIcon, METH_VARARGS, "Game.base+00241410 (Hmultiboarditem;S)V"},
+   {"MultiboardSuppressDisplay", MultiboardSuppressDisplay, METH_VARARGS, "Game.base+002416E0 (B)V"},
+   {"SetCameraBounds", SetCameraBounds, METH_VARARGS, "Game.base+002443A0 (RRRRRRRR)V"},
+   {"SetCameraPosition", SetCameraPosition, METH_VARARGS, "Game.base+00244510 (RR)V"},
+   {"SetCameraQuickPosition", SetCameraQuickPosition, METH_VARARGS, "Game.base+00244560 (RR)V"},
+   {"ResetToGameCamera", ResetToGameCamera, METH_VARARGS, "Game.base+00243420 (R)V"},
+   {"StopCamera", StopCamera, METH_NOARGS, "Game.base+002484E0 ()V"},
+   {"PanCameraTo", PanCameraTo, METH_VARARGS, "Game.base+00241B60 (RR)V"},
+   {"PanCameraToTimed", PanCameraToTimed, METH_VARARGS, "Game.base+00241BB0 (RRR)V"},
+   {"PanCameraToWithZ", PanCameraToWithZ, METH_VARARGS, "Game.base+00241C70 (RRR)V"},
+   {"PanCameraToTimedWithZ", PanCameraToTimedWithZ, METH_VARARGS, "Game.base+00241C10 (RRRR)V"},
+   {"SetCinematicCamera", SetCinematicCamera, METH_VARARGS, "Game.base+00244B30 (S)V"},
+   {"SetCameraField", SetCameraField, METH_VARARGS, "Game.base+00244480 (Hcamerafield;RR)V"},
+   {"AdjustCameraField", AdjustCameraField, METH_VARARGS, "Game.base+0022A910 (Hcamerafield;RR)V"},
+   {"SetCameraTargetController", SetCameraTargetController, METH_VARARGS, "Game.base+00244600 (Hunit;RRB)V"},
+   {"SetCameraOrientController", SetCameraOrientController, METH_VARARGS, "Game.base+002444C0 (Hunit;RR)V"},
+   {"SetCameraRotateMode", SetCameraRotateMode, METH_VARARGS, "Game.base+002445A0 (RRRR)V"},
+   {"CreateCameraSetup", CreateCameraSetup, METH_NOARGS, "Game.base+0022DC10 ()Hcamerasetup;"},
+   {"CameraSetupSetField", CameraSetupSetField, METH_VARARGS, "Game.base+0022B170 (Hcamerasetup;Hcamerafield;RR)V"},
+   {"CameraSetupGetField", CameraSetupGetField, METH_VARARGS, "Game.base+0022B0E0 (Hcamerasetup;Hcamerafield;)R"},
+   {"CameraSetupSetDestPosition", CameraSetupSetDestPosition, METH_VARARGS, "Game.base+0022B120 (Hcamerasetup;RRR)V"},
+   {"CameraSetupGetDestPositionLoc", CameraSetupGetDestPositionLoc, METH_VARARGS, "Game.base+0022B040 (Hcamerasetup;)Hlocation;"},
+   {"CameraSetupGetDestPositionX", CameraSetupGetDestPositionX, METH_VARARGS, "Game.base+0022B090 (Hcamerasetup;)R"},
+   {"CameraSetupGetDestPositionY", CameraSetupGetDestPositionY, METH_VARARGS, "Game.base+0022B0C0 (Hcamerasetup;)R"},
+   {"CameraSetupApply", CameraSetupApply, METH_VARARGS, "Game.base+0022AF80 (Hcamerasetup;BB)V"},
+   {"CameraSetupApplyWithZ", CameraSetupApplyWithZ, METH_VARARGS, "Game.base+0022B010 (Hcamerasetup;R)V"},
+   {"CameraSetupApplyForceDuration", CameraSetupApplyForceDuration, METH_VARARGS, "Game.base+0022AFB0 (Hcamerasetup;BR)V"},
+   {"CameraSetupApplyForceDurationWithZ", CameraSetupApplyForceDurationWithZ, METH_VARARGS, "Game.base+0022AFE0 (Hcamerasetup;RR)V"},
+   {"CameraSetTargetNoise", CameraSetTargetNoise, METH_VARARGS, "Game.base+0022AE20 (RR)V"},
+   {"CameraSetSourceNoise", CameraSetSourceNoise, METH_VARARGS, "Game.base+0022ACE0 (RR)V"},
+   {"CameraSetTargetNoiseEx", CameraSetTargetNoiseEx, METH_VARARGS, "Game.base+0022AED0 (RRB)V"},
+   {"CameraSetSourceNoiseEx", CameraSetSourceNoiseEx, METH_VARARGS, "Game.base+0022AD80 (RRB)V"},
+   {"CameraSetSmoothingFactor", CameraSetSmoothingFactor, METH_VARARGS, "Game.base+0022ACB0 (R)V"},
+   {"GetCameraMargin", GetCameraMargin, METH_VARARGS, "Game.base+00231C70 (I)R"},
+   {"GetCameraBoundMinX", GetCameraBoundMinX, METH_NOARGS, "Game.base+00231AC0 ()R"},
+   {"GetCameraBoundMinY", GetCameraBoundMinY, METH_NOARGS, "Game.base+00231AF0 ()R"},
+   {"GetCameraBoundMaxX", GetCameraBoundMaxX, METH_NOARGS, "Game.base+00231A60 ()R"},
+   {"GetCameraBoundMaxY", GetCameraBoundMaxY, METH_NOARGS, "Game.base+00231A90 ()R"},
+   {"GetCameraField", GetCameraField, METH_VARARGS, "Game.base+00231C40 (Hcamerafield;)R"},
+   {"GetCameraTargetPositionX", GetCameraTargetPositionX, METH_NOARGS, "Game.base+00231D30 ()R"},
+   {"GetCameraTargetPositionY", GetCameraTargetPositionY, METH_NOARGS, "Game.base+00231D70 ()R"},
+   {"GetCameraTargetPositionZ", GetCameraTargetPositionZ, METH_NOARGS, "Game.base+00231DB0 ()R"},
+   {"GetCameraTargetPositionLoc", GetCameraTargetPositionLoc, METH_NOARGS, "Game.base+00231CE0 ()Hlocation;"},
+   {"GetCameraEyePositionX", GetCameraEyePositionX, METH_NOARGS, "Game.base+00231B80 ()R"},
+   {"GetCameraEyePositionY", GetCameraEyePositionY, METH_NOARGS, "Game.base+00231BC0 ()R"},
+   {"GetCameraEyePositionZ", GetCameraEyePositionZ, METH_NOARGS, "Game.base+00231C00 ()R"},
+   {"GetCameraEyePositionLoc", GetCameraEyePositionLoc, METH_NOARGS, "Game.base+00231B30 ()Hlocation;"},
+   {"SetCineFilterTexture", SetCineFilterTexture, METH_VARARGS, "Game.base+00244B00 (S)V"},
+   {"SetCineFilterBlendMode", SetCineFilterBlendMode, METH_VARARGS, "Game.base+002446E0 (Hblendmode;)V"},
+   {"SetCineFilterTexMapFlags", SetCineFilterTexMapFlags, METH_VARARGS, "Game.base+00244AC0 (Htexmapflags;)V"},
+   {"SetCineFilterStartUV", SetCineFilterStartUV, METH_VARARGS, "Game.base+00244A30 (RRRR)V"},
+   {"SetCineFilterEndUV", SetCineFilterEndUV, METH_VARARGS, "Game.base+002448A0 (RRRR)V"},
+   {"SetCineFilterStartColor", SetCineFilterStartColor, METH_VARARGS, "Game.base+00244930 (IIII)V"},
+   {"SetCineFilterEndColor", SetCineFilterEndColor, METH_VARARGS, "Game.base+002447A0 (IIII)V"},
+   {"SetCineFilterDuration", SetCineFilterDuration, METH_VARARGS, "Game.base+00244780 (R)V"},
+   {"DisplayCineFilter", DisplayCineFilter, METH_VARARGS, "Game.base+0022FEE0 (B)V"},
+   {"IsCineFilterDisplayed", IsCineFilterDisplayed, METH_NOARGS, "Game.base+00237A40 ()B"},
+   {"SetCinematicScene", SetCinematicScene, METH_VARARGS, "Game.base+00244B70 (IHplayercolor;SSRR)V"},
+   {"EndCinematicScene", EndCinematicScene, METH_NOARGS, "Game.base+00230330 ()V"},
+   {"ForceCinematicSubtitles", ForceCinematicSubtitles, METH_VARARGS, "Game.base+00230F20 (B)V"},
+   {"NewSoundEnvironment", NewSoundEnvironment, METH_VARARGS, "Game.base+002417C0 (S)V"},
+   {"CreateSound", CreateSound, METH_VARARGS, "Game.base+0022E990 (SBBBIIS)Hsound;"},
+   {"CreateSoundFilenameWithLabel", CreateSoundFilenameWithLabel, METH_VARARGS, "Game.base+0022EAB0 (SBBBIIS)Hsound;"},
+   {"CreateSoundFromLabel", CreateSoundFromLabel, METH_VARARGS, "Game.base+0022EBD0 (SBBBII)Hsound;"},
+   {"CreateMIDISound", CreateMIDISound, METH_VARARGS, "Game.base+0022E650 (SII)Hsound;"},
+   {"SetStackedSound", SetStackedSound, METH_VARARGS, "Game.base+00246C70 (SRR)V"},
+   {"ClearStackedSound", ClearStackedSound, METH_VARARGS, "Game.base+0022B5F0 (SRR)V"},
+   {"SetStackedSoundRect", SetStackedSoundRect, METH_VARARGS, "Game.base+00246CD0 (SHrect;)V"},
+   {"ClearStackedSoundRect", ClearStackedSoundRect, METH_VARARGS, "Game.base+0022B640 (SHrect;)V"},
+   {"SetSoundParamsFromLabel", SetSoundParamsFromLabel, METH_VARARGS, "Game.base+00246B10 (Hsound;S)V"},
+   {"SetSoundChannel", SetSoundChannel, METH_VARARGS, "Game.base+002469A0 (Hsound;I)V"},
+   {"SetSoundVolume", SetSoundVolume, METH_VARARGS, "Game.base+00246C50 (Hsound;I)V"},
+   {"SetSoundPitch", SetSoundPitch, METH_VARARGS, "Game.base+00246B40 (Hsound;R)V"},
+   {"SetSoundPlayPosition", SetSoundPlayPosition, METH_VARARGS, "Game.base+00246B70 (Hsound;I)V"},
+   {"SetSoundDistances", SetSoundDistances, METH_VARARGS, "Game.base+00246AA0 (Hsound;RR)V"},
+   {"SetSoundDistanceCutoff", SetSoundDistanceCutoff, METH_VARARGS, "Game.base+00246A70 (Hsound;R)V"},
+   {"SetSoundConeAngles", SetSoundConeAngles, METH_VARARGS, "Game.base+002469C0 (Hsound;RRI)V"},
+   {"SetSoundConeOrientation", SetSoundConeOrientation, METH_VARARGS, "Game.base+00246A10 (Hsound;RRR)V"},
+   {"SetSoundPosition", SetSoundPosition, METH_VARARGS, "Game.base+00246B90 (Hsound;RRR)V"},
+   {"SetSoundVelocity", SetSoundVelocity, METH_VARARGS, "Game.base+00246BF0 (Hsound;RRR)V"},
+   {"AttachSoundToUnit", AttachSoundToUnit, METH_VARARGS, "Game.base+0022AB40 (Hsound;Hunit;)V"},
+   {"StartSound", StartSound, METH_VARARGS, "Game.base+00248490 (Hsound;)V"},
+   {"StopSound", StopSound, METH_VARARGS, "Game.base+00248510 (Hsound;BB)V"},
+   {"KillSoundWhenDone", KillSoundWhenDone, METH_VARARGS, "Game.base+0023FEE0 (Hsound;)V"},
+   {"SetMapMusic", SetMapMusic, METH_VARARGS, "Game.base+00246200 (SBI)V"},
+   {"ClearMapMusic", ClearMapMusic, METH_NOARGS, "Game.base+0022B470 ()V"},
+   {"PlayMusic", PlayMusic, METH_VARARGS, "Game.base+00241FE0 (S)V"},
+   {"PlayMusicEx", PlayMusicEx, METH_VARARGS, "Game.base+00242010 (SII)V"},
+   {"StopMusic", StopMusic, METH_VARARGS, "Game.base+00248500 (B)V"},
+   {"ResumeMusic", ResumeMusic, METH_NOARGS, "Game.base+002435E0 ()V"},
+   {"PlayThematicMusic", PlayThematicMusic, METH_VARARGS, "Game.base+00242040 (S)V"},
+   {"PlayThematicMusicEx", PlayThematicMusicEx, METH_VARARGS, "Game.base+00242060 (SI)V"},
+   {"EndThematicMusic", EndThematicMusic, METH_NOARGS, "Game.base+00230380 ()V"},
+   {"SetMusicVolume", SetMusicVolume, METH_VARARGS, "Game.base+002462A0 (I)V"},
+   {"SetMusicPlayPosition", SetMusicPlayPosition, METH_VARARGS, "Game.base+00246290 (I)V"},
+   {"SetThematicMusicPlayPosition", SetThematicMusicPlayPosition, METH_VARARGS, "Game.base+00247360 (I)V"},
+   {"SetSoundDuration", SetSoundDuration, METH_VARARGS, "Game.base+00246AE0 (Hsound;I)V"},
+   {"GetSoundDuration", GetSoundDuration, METH_VARARGS, "Game.base+00234E10 (Hsound;)I"},
+   {"GetSoundFileDuration", GetSoundFileDuration, METH_VARARGS, "Game.base+00234E30 (S)I"},
+   {"VolumeGroupSetVolume", VolumeGroupSetVolume, METH_VARARGS, "Game.base+0024BA10 (Hvolumegroup;R)V"},
+   {"VolumeGroupReset", VolumeGroupReset, METH_NOARGS, "Game.base+0024BA00 ()V"},
+   {"GetSoundIsPlaying", GetSoundIsPlaying, METH_VARARGS, "Game.base+00234E70 (Hsound;)B"},
+   {"GetSoundIsLoading", GetSoundIsLoading, METH_VARARGS, "Game.base+00234E50 (Hsound;)B"},
+   {"RegisterStackedSound", RegisterStackedSound, METH_VARARGS, "Game.base+00242EF0 (Hsound;BRR)V"},
+   {"UnregisterStackedSound", UnregisterStackedSound, METH_VARARGS, "Game.base+0024B990 (Hsound;BRR)V"},
+   {"AddWeatherEffect", AddWeatherEffect, METH_VARARGS, "Game.base+0022A8A0 (Hrect;I)Hweathereffect;"},
+   {"RemoveWeatherEffect", RemoveWeatherEffect, METH_VARARGS, "Game.base+00243310 (Hweathereffect;)V"},
+   {"EnableWeatherEffect", EnableWeatherEffect, METH_VARARGS, "Game.base+002302E0 (Hweathereffect;B)V"},
+   {"TerrainDeformCrater", TerrainDeformCrater, METH_VARARGS, "Game.base+00248E10 (RRRRIB)Hterraindeformation;"},
+   {"TerrainDeformRipple", TerrainDeformRipple, METH_VARARGS, "Game.base+00248ED0 (RRRRIIRRRB)Hterraindeformation;"},
+   {"TerrainDeformWave", TerrainDeformWave, METH_VARARGS, "Game.base+00248F70 (RRRRRRRRII)Hterraindeformation;"},
+   {"TerrainDeformRandom", TerrainDeformRandom, METH_VARARGS, "Game.base+00248E70 (RRRRRII)Hterraindeformation;"},
+   {"TerrainDeformStop", TerrainDeformStop, METH_VARARGS, "Game.base+00248F50 (Hterraindeformation;I)V"},
+   {"TerrainDeformStopAll", TerrainDeformStopAll, METH_NOARGS, "Game.base+00248F60 ()V"},
+   {"DestroyEffect", DestroyEffect, METH_VARARGS, "Game.base+0022F800 (Heffect;)V"},
+   {"AddSpecialEffect", AddSpecialEffect, METH_VARARGS, "Game.base+0022A490 (SRR)Heffect;"},
+   {"AddSpecialEffectLoc", AddSpecialEffectLoc, METH_VARARGS, "Game.base+0022A4B0 (SHlocation;)Heffect;"},
+   {"AddSpecialEffectTarget", AddSpecialEffectTarget, METH_VARARGS, "Game.base+0022A4F0 (SHwidget;S)Heffect;"},
+   {"AddSpellEffect", AddSpellEffect, METH_VARARGS, "Game.base+0022A520 (SHeffecttype;RR)Heffect;"},
+   {"AddSpellEffectLoc", AddSpellEffectLoc, METH_VARARGS, "Game.base+0022A5B0 (SHeffecttype;Hlocation;)Heffect;"},
+   {"AddSpellEffectById", AddSpellEffectById, METH_VARARGS, "Game.base+0022A540 (IHeffecttype;RR)Heffect;"},
+   {"AddSpellEffectByIdLoc", AddSpellEffectByIdLoc, METH_VARARGS, "Game.base+0022A570 (IHeffecttype;Hlocation;)Heffect;"},
+   {"AddSpellEffectTarget", AddSpellEffectTarget, METH_VARARGS, "Game.base+0022A610 (SHeffecttype;Hwidget;S)Heffect;"},
+   {"AddSpellEffectTargetById", AddSpellEffectTargetById, METH_VARARGS, "Game.base+0022A630 (IHeffecttype;Hwidget;S)Heffect;"},
+   {"AddLightning", AddLightning, METH_VARARGS, "Game.base+0022A260 (SBRRRR)Hlightning;"},
+   {"AddLightningEx", AddLightningEx, METH_VARARGS, "Game.base+0022A2E0 (SBRRRRRR)Hlightning;"},
+   {"DestroyLightning", DestroyLightning, METH_VARARGS, "Game.base+0022F920 (Hlightning;)B"},
+   {"GetLightningColorA", GetLightningColorA, METH_VARARGS, "Game.base+002331E0 (Hlightning;)R"},
+   {"GetLightningColorR", GetLightningColorR, METH_VARARGS, "Game.base+002332D0 (Hlightning;)R"},
+   {"GetLightningColorG", GetLightningColorG, METH_VARARGS, "Game.base+00233280 (Hlightning;)R"},
+   {"GetLightningColorB", GetLightningColorB, METH_VARARGS, "Game.base+00233230 (Hlightning;)R"},
+   {"MoveLightning", MoveLightning, METH_VARARGS, "Game.base+00240F70 (Hlightning;BRRRR)B"},
+   {"MoveLightningEx", MoveLightningEx, METH_VARARGS, "Game.base+00240FF0 (Hlightning;BRRRRRR)B"},
+   {"SetLightningColor", SetLightningColor, METH_VARARGS, "Game.base+00246110 (Hlightning;RRRR)B"},
+   {"GetAbilityEffect", GetAbilityEffect, METH_VARARGS, "Game.base+002317F0 (SHeffecttype;I)S"},
+   {"GetAbilityEffectById", GetAbilityEffectById, METH_VARARGS, "Game.base+00231820 (IHeffecttype;I)S"},
+   {"GetAbilitySound", GetAbilitySound, METH_VARARGS, "Game.base+00231840 (SHsoundtype;)S"},
+   {"GetAbilitySoundById", GetAbilitySoundById, METH_VARARGS, "Game.base+00231880 (IHsoundtype;)S"},
+   {"GetTerrainCliffLevel", GetTerrainCliffLevel, METH_VARARGS, "Game.base+00235B50 (RR)I"},
+   {"SetWaterBaseColor", SetWaterBaseColor, METH_VARARGS, "Game.base+00248070 (IIII)V"},
+   {"SetWaterDeforms", SetWaterDeforms, METH_VARARGS, "Game.base+002480B0 (B)V"},
+   {"GetTerrainType", GetTerrainType, METH_VARARGS, "Game.base+00235BF0 (RR)I"},
+   {"GetTerrainVariance", GetTerrainVariance, METH_VARARGS, "Game.base+00235C40 (RR)I"},
+   {"SetTerrainType", SetTerrainType, METH_VARARGS, "Game.base+00246FA0 (RRIIII)V"},
+   {"IsTerrainPathable", IsTerrainPathable, METH_VARARGS, "Game.base+00238660 (RRHpathingtype;)B"},
+   {"SetTerrainPathable", SetTerrainPathable, METH_VARARGS, "Game.base+00246F70 (RRHpathingtype;B)V"},
+   {"CreateImage", CreateImage, METH_VARARGS, "Game.base+0022E3B0 (SRRRRRRRRRI)Himage;"},
+   {"DestroyImage", DestroyImage, METH_VARARGS, "Game.base+0022F8B0 (Himage;)V"},
+   {"ShowImage", ShowImage, METH_VARARGS, "Game.base+00248110 (Himage;B)V"},
+   {"SetImageConstantHeight", SetImageConstantHeight, METH_VARARGS, "Game.base+00245D00 (Himage;BR)V"},
+   {"SetImagePosition", SetImagePosition, METH_VARARGS, "Game.base+00245D30 (Himage;RRR)V"},
+   {"SetImageColor", SetImageColor, METH_VARARGS, "Game.base+00245CC0 (Himage;IIII)V"},
+   {"SetImageRender", SetImageRender, METH_VARARGS, "Game.base+00245D70 (Himage;B)V"},
+   {"SetImageRenderAlways", SetImageRenderAlways, METH_VARARGS, "Game.base+00245D90 (Himage;B)V"},
+   {"SetImageAboveWater", SetImageAboveWater, METH_VARARGS, "Game.base+00245CA0 (Himage;BB)V"},
+   {"SetImageType", SetImageType, METH_VARARGS, "Game.base+00245DB0 (Himage;I)V"},
+   {"CreateUbersplat", CreateUbersplat, METH_VARARGS, "Game.base+0022F0D0 (RRSIIIIBB)Hubersplat;"},
+   {"DestroyUbersplat", DestroyUbersplat, METH_VARARGS, "Game.base+0022FA40 (Hubersplat;)V"},
+   {"ResetUbersplat", ResetUbersplat, METH_VARARGS, "Game.base+00243470 (Hubersplat;)V"},
+   {"FinishUbersplat", FinishUbersplat, METH_VARARGS, "Game.base+00230A80 (Hubersplat;)V"},
+   {"ShowUbersplat", ShowUbersplat, METH_VARARGS, "Game.base+00248160 (Hubersplat;B)V"},
+   {"SetUbersplatRender", SetUbersplatRender, METH_VARARGS, "Game.base+00247410 (Hubersplat;B)V"},
+   {"SetUbersplatRenderAlways", SetUbersplatRenderAlways, METH_VARARGS, "Game.base+00247430 (Hubersplat;B)V"},
+   {"SetBlight", SetBlight, METH_VARARGS, "Game.base+00244230 (Hplayer;RRRB)V"},
+   {"SetBlightLoc", SetBlightLoc, METH_VARARGS, "Game.base+00244290 (Hplayer;Hlocation;RB)V"},
+   {"SetBlightRect", SetBlightRect, METH_VARARGS, "Game.base+00244340 (Hplayer;Hrect;B)V"},
+   {"SetBlightPoint", SetBlightPoint, METH_VARARGS, "Game.base+002442F0 (Hplayer;RRB)V"},
+   {"CreateBlightedGoldmine", CreateBlightedGoldmine, METH_VARARGS, "Game.base+0022DB50 (Hplayer;RRR)Hunit;"},
+   {"IsPointBlighted", IsPointBlighted, METH_VARARGS, "Game.base+00238470 (RR)B"},
+   {"SetDoodadAnimation", SetDoodadAnimation, METH_VARARGS, "Game.base+00244EF0 (RRRIBSB)V"},
+   {"SetDoodadAnimationRect", SetDoodadAnimationRect, METH_VARARGS, "Game.base+00244F50 (Hrect;ISB)V"},
+   {"StartMeleeAI", StartMeleeAI, METH_VARARGS, "Game.base+00248460 (Hplayer;S)V"},
+   {"StartCampaignAI", StartCampaignAI, METH_VARARGS, "Game.base+00248410 (Hplayer;S)V"},
+   {"CommandAI", CommandAI, METH_VARARGS, "Game.base+0022B7A0 (Hplayer;II)V"},
+   {"PauseCompAI", PauseCompAI, METH_VARARGS, "Game.base+00241CC0 (Hplayer;B)V"},
+   {"GetAIDifficulty", GetAIDifficulty, METH_VARARGS, "Game.base+00231750 (Hplayer;)Haidifficulty;"},
+   {"RemoveGuardPosition", RemoveGuardPosition, METH_VARARGS, "Game.base+00242FF0 (Hunit;)V"},
+   {"RecycleGuardPosition", RecycleGuardPosition, METH_VARARGS, "Game.base+00242C90 (Hunit;)V"},
+   {"RemoveAllGuardPositions", RemoveAllGuardPositions, METH_VARARGS, "Game.base+00242F90 (Hplayer;)V"},
+   {"ExecuteFunc", ExecuteFunc, METH_VARARGS, "Game.base+002308A0 (S)V"},
+   {"Cheat", Cheat, METH_VARARGS, "Game.base+0022B230 (S)V"},
+   {"IsNoVictoryCheat", IsNoVictoryCheat, METH_NOARGS, "Game.base+00238200 ()B"},
+   {"IsNoDefeatCheat", IsNoDefeatCheat, METH_NOARGS, "Game.base+002381D0 ()B"},
+   {"Preload", Preload, METH_VARARGS, "Game.base+00242230 (S)V"},
+   {"PreloadEnd", PreloadEnd, METH_VARARGS, "Game.base+00242260 (R)V"},
+   {"PreloadStart", PreloadStart, METH_NOARGS, "Game.base+00242380 ()V"},
+   {"PreloadRefresh", PreloadRefresh, METH_NOARGS, "Game.base+00242370 ()V"},
+   {"PreloadEndEx", PreloadEndEx, METH_NOARGS, "Game.base+002422B0 ()V"},
+   {"PreloadGenStart", PreloadGenStart, METH_NOARGS, "Game.base+00242350 ()V"},
+   {"PreloadGenClear", PreloadGenClear, METH_NOARGS, "Game.base+00242300 ()V"},
+   {"PreloadGenEnd", PreloadGenEnd, METH_VARARGS, "Game.base+00242320 (S)V"},
+   {"Preloader", Preloader, METH_VARARGS, "Game.base+002423A0 (S)V"},
+   {"DebugS", DebugS, METH_VARARGS, "Game.base+0096E660 (S)V"},
+   {"DebugFI", DebugFI, METH_VARARGS, "Game.base+0096E650 (SI)V"},
+   {"DebugUnitID", DebugUnitID, METH_VARARGS, "Game.base+0096E670 (SI)V"},
+   {"DisplayText", DisplayText, METH_VARARGS, "Game.base+0096E810 (IS)V"},
+   {"DisplayTextI", DisplayTextI, METH_VARARGS, "Game.base+0096E820 (ISI)V"},
+   {"DisplayTextII", DisplayTextII, METH_VARARGS, "Game.base+0096E830 (ISII)V"},
+   {"DisplayTextIII", DisplayTextIII, METH_VARARGS, "Game.base+0096E840 (ISIII)V"},
+   {"SuicideUnit", SuicideUnit, METH_VARARGS, "Game.base+00975390 (II)V"},
+   {"SuicideUnitEx", SuicideUnitEx, METH_VARARGS, "Game.base+009753E0 (III)V"},
+   {"Sleep", Sleep, METH_VARARGS, "Game.base+00975090 (R)V"},
+   {"StartThread", StartThread, METH_VARARGS, "Game.base+00975150 (C)V"},
+   {"GetAiPlayer", GetAiPlayer, METH_NOARGS, "Game.base+0096F310 ()I"},
+   {"DoAiScriptDebug", DoAiScriptDebug, METH_NOARGS, "Game.base+0096E850 ()B"},
+   {"GetHeroId", GetHeroId, METH_NOARGS, "Game.base+0096FE60 ()I"},
+   {"GetHeroLevelAI", GetHeroLevelAI, METH_NOARGS, "Game.base+0096FEE0 ()I"},
+   {"SetHeroLevels", SetHeroLevels, METH_VARARGS, "Game.base+00974700 (C)V"},
+   {"SetNewHeroes", SetNewHeroes, METH_VARARGS, "Game.base+00974920 (B)V"},
+   {"GetUnitCount", GetUnitCount, METH_VARARGS, "Game.base+009707E0 (I)I"},
+   {"GetPlayerUnitTypeCount", GetPlayerUnitTypeCount, METH_VARARGS, "Game.base+00970660 (Hplayer;I)I"},
+   {"GetTownUnitCount", GetTownUnitCount, METH_VARARGS, "Game.base+00970710 (IIB)I"},
+   {"GetUnitCountDone", GetUnitCountDone, METH_VARARGS, "Game.base+00970850 (I)I"},
+   {"GetUpgradeLevel", GetUpgradeLevel, METH_VARARGS, "Game.base+00970970 (I)I"},
+   {"GetUnitGoldCost", GetUnitGoldCost, METH_VARARGS, "Game.base+00970890 (I)I"},
+   {"GetUnitWoodCost", GetUnitWoodCost, METH_VARARGS, "Game.base+009708F0 (I)I"},
+   {"GetUnitBuildTime", GetUnitBuildTime, METH_VARARGS, "Game.base+00970790 (I)I"},
+   {"GetUpgradeGoldCost", GetUpgradeGoldCost, METH_VARARGS, "Game.base+00970950 (I)I"},
+   {"GetUpgradeWoodCost", GetUpgradeWoodCost, METH_VARARGS, "Game.base+009709D0 (I)I"},
+   {"GetEnemyPower", GetEnemyPower, METH_NOARGS, "Game.base+0096FC20 ()I"},
+   {"GetMinesOwned", GetMinesOwned, METH_NOARGS, "Game.base+00970120 ()I"},
+   {"GetGoldOwned", GetGoldOwned, METH_NOARGS, "Game.base+0096FE30 ()I"},
+   {"TownWithMine", TownWithMine, METH_NOARGS, "Game.base+00975800 ()I"},
+   {"TownHasMine", TownHasMine, METH_VARARGS, "Game.base+00975770 (I)B"},
+   {"TownHasHall", TownHasHall, METH_VARARGS, "Game.base+00975730 (I)B"},
+   {"GetNextExpansion", GetNextExpansion, METH_NOARGS, "Game.base+00970170 ()I"},
+   {"GetExpansionPeon", GetExpansionPeon, METH_NOARGS, "Game.base+0096FCE0 ()Hunit;"},
+   {"GetEnemyExpansion", GetEnemyExpansion, METH_NOARGS, "Game.base+0096FBE0 ()Hunit;"},
+   {"SetExpansion", SetExpansion, METH_VARARGS, "Game.base+00974470 (Hunit;I)B"},
+   {"GetBuilding", GetBuilding, METH_VARARGS, "Game.base+0096F4B0 (Hplayer;)Hunit;"},
+   {"SetAllianceTarget", SetAllianceTarget, METH_VARARGS, "Game.base+009741E0 (Hunit;)V"},
+   {"GetAllianceTarget", GetAllianceTarget, METH_NOARGS, "Game.base+0096F340 ()Hunit;"},
+   {"SetProduce", SetProduce, METH_VARARGS, "Game.base+009749F0 (III)B"},
+   {"MergeUnits", MergeUnits, METH_VARARGS, "Game.base+00971FB0 (IIII)B"},
+   {"ConvertUnits", ConvertUnits, METH_VARARGS, "Game.base+0096E3E0 (II)B"},
+   {"SetUpgrade", SetUpgrade, METH_VARARGS, "Game.base+00974D70 (I)B"},
+   {"Unsummon", Unsummon, METH_VARARGS, "Game.base+00975BC0 (Hunit;)V"},
+   {"ClearHarvestAI", ClearHarvestAI, METH_NOARGS, "Game.base+0096DE70 ()V"},
+   {"HarvestGold", HarvestGold, METH_VARARGS, "Game.base+00970D40 (II)V"},
+   {"HarvestWood", HarvestWood, METH_VARARGS, "Game.base+00970DB0 (II)V"},
+   {"StopGathering", StopGathering, METH_NOARGS, "Game.base+00975240 ()V"},
+   {"AddGuardPost", AddGuardPost, METH_VARARGS, "Game.base+0096CBC0 (IRR)V"},
+   {"FillGuardPosts", FillGuardPosts, METH_NOARGS, "Game.base+0096EAE0 ()V"},
+   {"ReturnGuardPosts", ReturnGuardPosts, METH_NOARGS, "Game.base+00973E40 ()V"},
+   {"CreateCaptains", CreateCaptains, METH_NOARGS, "Game.base+0096E5C0 ()V"},
+   {"SetCaptainHome", SetCaptainHome, METH_VARARGS, "Game.base+009743B0 (IRR)V"},
+   {"ResetCaptainLocs", ResetCaptainLocs, METH_NOARGS, "Game.base+00973E00 ()V"},
+   {"ShiftTownSpot", ShiftTownSpot, METH_VARARGS, "Game.base+00975050 (RR)V"},
+   {"SetCaptainChanges", SetCaptainChanges, METH_VARARGS, "Game.base+00974340 (B)V"},
+   {"TeleportCaptain", TeleportCaptain, METH_VARARGS, "Game.base+00975430 (RR)V"},
+   {"ClearCaptainTargets", ClearCaptainTargets, METH_NOARGS, "Game.base+0096DE10 ()V"},
+   {"CaptainVsUnits", CaptainVsUnits, METH_VARARGS, "Game.base+0096DBB0 (Hplayer;)V"},
+   {"CaptainVsPlayer", CaptainVsPlayer, METH_VARARGS, "Game.base+0096DB20 (Hplayer;)V"},
+   {"CaptainAttack", CaptainAttack, METH_VARARGS, "Game.base+0096D880 (RR)V"},
+   {"GroupTimedLife", GroupTimedLife, METH_VARARGS, "Game.base+00970B20 (B)V"},
+   {"CaptainGoHome", CaptainGoHome, METH_NOARGS, "Game.base+0096D8C0 ()V"},
+   {"CaptainIsHome", CaptainIsHome, METH_NOARGS, "Game.base+0096D9F0 ()B"},
+   {"CaptainRetreating", CaptainRetreating, METH_NOARGS, "Game.base+0096DAE0 ()B"},
+   {"CaptainIsFull", CaptainIsFull, METH_NOARGS, "Game.base+0096D9B0 ()B"},
+   {"CaptainIsEmpty", CaptainIsEmpty, METH_NOARGS, "Game.base+0096D970 ()B"},
+   {"CaptainGroupSize", CaptainGroupSize, METH_NOARGS, "Game.base+0096D8F0 ()I"},
+   {"CaptainReadiness", CaptainReadiness, METH_NOARGS, "Game.base+0096DA20 ()I"},
+   {"CaptainReadinessHP", CaptainReadinessHP, METH_NOARGS, "Game.base+0096DA60 ()I"},
+   {"CaptainReadinessMa", CaptainReadinessMa, METH_NOARGS, "Game.base+0096DAA0 ()I"},
+   {"CaptainInCombat", CaptainInCombat, METH_VARARGS, "Game.base+0096D930 (B)B"},
+   {"TownThreatened", TownThreatened, METH_NOARGS, "Game.base+009757B0 ()B"},
+   {"CaptainAtGoal", CaptainAtGoal, METH_NOARGS, "Game.base+0096D850 ()B"},
+   {"CreepsOnMap", CreepsOnMap, METH_NOARGS, "Game.base+0096E610 ()B"},
+   {"RemoveInjuries", RemoveInjuries, METH_NOARGS, "Game.base+00973920 ()V"},
+   {"RemoveSiege", RemoveSiege, METH_NOARGS, "Game.base+00973A00 ()V"},
+   {"IsTowered", IsTowered, METH_VARARGS, "Game.base+00971370 (Hunit;)B"},
+   {"DisablePathing", DisablePathing, METH_NOARGS, "Game.base+0096E7C0 ()V"},
+   {"SetAmphibious", SetAmphibious, METH_NOARGS, "Game.base+009742A0 ()V"},
+   {"InitAssault", InitAssault, METH_NOARGS, "Game.base+00971080 ()V"},
+   {"AddAssault", AddAssault, METH_VARARGS, "Game.base+0096C930 (II)B"},
+   {"AddDefenders", AddDefenders, METH_VARARGS, "Game.base+0096CB50 (II)B"},
+   {"GetCreepCamp", GetCreepCamp, METH_VARARGS, "Game.base+0096FB60 (IIB)Hunit;"},
+   {"StartGetEnemyBase", StartGetEnemyBase, METH_NOARGS, "Game.base+00975120 ()V"},
+   {"WaitGetEnemyBase", WaitGetEnemyBase, METH_NOARGS, "Game.base+00975C80 ()B"},
+   {"GetMegaTarget", GetMegaTarget, METH_NOARGS, "Game.base+009700E0 ()Hunit;"},
+   {"GetEnemyBase", GetEnemyBase, METH_NOARGS, "Game.base+0096FBA0 ()Hunit;"},
+   {"GetExpansionFoe", GetExpansionFoe, METH_NOARGS, "Game.base+0096FC30 ()Hunit;"},
+   {"GetExpansionX", GetExpansionX, METH_NOARGS, "Game.base+0096FD20 ()I"},
+   {"GetExpansionY", GetExpansionY, METH_NOARGS, "Game.base+0096FDA0 ()I"},
+   {"SetStagePoint", SetStagePoint, METH_VARARGS, "Game.base+00974BB0 (RR)V"},
+   {"AttackMoveKill", AttackMoveKill, METH_VARARGS, "Game.base+0096CFA0 (Hunit;)V"},
+   {"AttackMoveXY", AttackMoveXY, METH_VARARGS, "Game.base+0096D070 (II)V"},
+   {"LoadZepWave", LoadZepWave, METH_VARARGS, "Game.base+00971850 (II)V"},
+   {"SuicidePlayer", SuicidePlayer, METH_VARARGS, "Game.base+00975270 (Hplayer;B)B"},
+   {"SuicidePlayerUnits", SuicidePlayerUnits, METH_VARARGS, "Game.base+00975300 (Hplayer;B)B"},
+   {"UnitAlive", UnitAlive, METH_VARARGS, "Game.base+00975970 (Hunit;)B"},
+   {"UnitInvis", UnitInvis, METH_VARARGS, "Game.base+009759D0 (Hunit;)B"},
+   {"IgnoredUnits", IgnoredUnits, METH_VARARGS, "Game.base+00971040 (I)I"},
+   {"CommandsWaiting", CommandsWaiting, METH_NOARGS, "Game.base+0096E190 ()I"},
+   {"GetLastCommand", GetLastCommand, METH_NOARGS, "Game.base+0096FF50 ()I"},
+   {"GetLastData", GetLastData, METH_NOARGS, "Game.base+0096FF90 ()I"},
+   {"PopLastCommand", PopLastCommand, METH_NOARGS, "Game.base+00972930 ()V"},
+   {"SetCampaignAI", SetCampaignAI, METH_NOARGS, "Game.base+00974300 ()V"},
+   {"SetMeleeAI", SetMeleeAI, METH_NOARGS, "Game.base+009748F0 ()V"},
+   {"SetTargetHeroes", SetTargetHeroes, METH_VARARGS, "Game.base+00974BF0 (B)V"},
+   {"SetHeroesFlee", SetHeroesFlee, METH_VARARGS, "Game.base+009747B0 (B)V"},
+   {"SetHeroesBuyItems", SetHeroesBuyItems, METH_VARARGS, "Game.base+00974770 (B)V"},
+   {"SetIgnoreInjured", SetIgnoreInjured, METH_VARARGS, "Game.base+00974880 (B)V"},
+   {"SetPeonsRepair", SetPeonsRepair, METH_VARARGS, "Game.base+00974980 (B)V"},
+   {"SetRandomPaths", SetRandomPaths, METH_VARARGS, "Game.base+00974A50 (B)V"},
+   {"SetDefendPlayer", SetDefendPlayer, METH_VARARGS, "Game.base+00974400 (B)V"},
+   {"SetHeroesTakeItems", SetHeroesTakeItems, METH_VARARGS, "Game.base+00974840 (B)V"},
+   {"SetUnitsFlee", SetUnitsFlee, METH_VARARGS, "Game.base+00974D10 (B)V"},
+   {"SetGroupsFlee", SetGroupsFlee, METH_VARARGS, "Game.base+009745B0 (B)V"},
+   {"SetSlowChopping", SetSlowChopping, METH_VARARGS, "Game.base+00974B10 (B)V"},
+   {"SetSmartArtillery", SetSmartArtillery, METH_VARARGS, "Game.base+00974B70 (B)V"},
+   {"SetWatchMegaTargets", SetWatchMegaTargets, METH_VARARGS, "Game.base+00974DB0 (B)V"},
+   {"SetReplacementCount", SetReplacementCount, METH_VARARGS, "Game.base+00974AD0 (I)V"},
+   {"PurchaseZeppelin", PurchaseZeppelin, METH_NOARGS, "Game.base+009729C0 ()V"},
+   {"MeleeDifficulty", MeleeDifficulty, METH_NOARGS, "Game.base+00971F00 ()I"},
+   {"DebugBreak", DebugBreak, METH_VARARGS, "Game.base+0096E640 (I)V"},
    {NULL, NULL, 0, NULL}
 };

@@ -3,6 +3,7 @@ import winappdbg
 OFFSET = 0x9177D0 # 1.28.1
 OFFSET = 0x917950 # 1.28.2
 OFFSET = 0x8c1d40 # 1.28.4
+OFFSET = 0x8c2070 # 1.28.5
 
 methods = []
 
